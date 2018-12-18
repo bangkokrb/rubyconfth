@@ -1,0 +1,7 @@
+#!/bin/bash
+
+# Build the Jekyll site
+sh ./bin/build
+
+# Deploy the site to S3
+bundle exec s3_website push --config-dir config/

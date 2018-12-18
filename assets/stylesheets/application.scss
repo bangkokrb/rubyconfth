@@ -1,0 +1,21 @@
+---
+# this ensures Jekyll reads the file to be transformed into CSS later
+# only Main files contain this front matter, not partials.
+---
+
+// Vendor
+@import '../vendor/stylesheets/normalize';
+
+// Application
+@import 'variables';
+
+@import 'functions/asset-url';
+@import 'functions/image-url';
+
+//@import 'mixins/mixin-name';
+
+@import 'base/typography';
+
+@import 'layouts/default';
+
+@import 'components/icon';

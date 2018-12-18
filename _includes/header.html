@@ -1,0 +1,23 @@
+<header class="app-header">
+  {% include logo.html %}
+
+  <nav class='app-navigation'>
+    <ul class="app-navigation__list">
+    {% for section in site.data.menu.header %}
+      <li class="app-navigation__list-item{% if section_url == page.url %} app-navigation__list-item--active{% endif %}">
+        <a href="{{ section.permalink }}">{{ section.title }}</a>
+        {% if section.sub_pages %}
+        <ul class="app-navigation__sub-list">
+        {% for sub_page in section.sub_pages %}
+          {% assign sub_page_url = section.permalink | append: sub_page.permalink %}
+          <li class="app-navigation__sub-list-item{% if sub_page_url == page.url %} app-navigation__sub-list-item--active{% endif %}">
+            <a href="{{ sub_page_url }}">{{ sub_page.title }}</a>
+          </li>
+        {% endfor %}
+        </ul>
+        {% endif %}
+      </li>
+    {% endfor %}
+    </ul>
+  </nav>
+</header>

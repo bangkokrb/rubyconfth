@@ -1,0 +1,14 @@
+{
+  "env": {
+    "browser": 1
+  },
+  "extends": [
+    "@nimbl3/eslint-config-nimbl3",
+    "plugin:vue/recommended"
+  ],
+  "rules": {
+    "no-new": "off"
+  },
+  "globals": {
+  }
+}

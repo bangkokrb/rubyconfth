@@ -1,0 +1,59 @@
+---
+url: https://rubyconfth.com
+name: Ruby Conference Thailand 2019
+permalink: pretty
+relative_permalinks: false
+timezone: Asia/Bangkok
+
+# Required to use local plugins
+safe: false
+
+lsi: false
+markdown: kramdown
+
+sass:
+  style: compressed
+
+kramdown:
+  # All config options: https://jekyllrb.com/docs/configuration/markdown/
+  input: GFM
+  parse_block_html: true
+  auto_ids: false
+
+collections:
+  pages:
+    output: true
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: default
+      seo:
+        description: "Join us for the first ever Ruby conference in Thailand"
+        image: "/public/images/social/og-icon.jpg"
+
+includes:
+  - assets
+
+exclude:
+  - .github/
+  - .idea/
+  - _js/
+  - bin/
+  - config/
+  - lib/
+  - node_modules/
+  - resources/
+  - vendor/
+  - Dockerfile
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE
+  - package.json
+  - package-lock.json
+  - Procfile.dev
+  - README.md
+  - Rakefile

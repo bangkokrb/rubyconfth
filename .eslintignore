@@ -1,0 +1,7 @@
+/_site/**
+/assets/**
+/config/**
+/coverage/**
+/node_modules/**
+/public/**
+/vendor/**

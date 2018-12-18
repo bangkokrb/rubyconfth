@@ -1,0 +1,7 @@
+#!/bin/bash
+
+docker rm rubyconfth || true
+
+docker build ./ -t rubyconfth
+
+docker create -v $(pwd):/rubyconfth --name rubyconfth -it -p 4000:4000 rubyconfth

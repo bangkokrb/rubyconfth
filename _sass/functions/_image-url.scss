@@ -1,0 +1,7 @@
+// Generate urls for an image file
+//
+// @param {String} $file - The path to the image
+// @return {String} - The url property value
+@function image-url($file_path) {
+  @return url("/assets/images/#{$file_path}");
+}

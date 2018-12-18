@@ -1,0 +1,7 @@
+// Generate urls for an asset file
+//
+// @param {String} $file - The path to the file
+// @return {String} - The url property value
+@function asset-url($file_path) {
+  @return url("/assets/#{$file_path}");
+}

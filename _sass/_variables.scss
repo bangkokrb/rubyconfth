@@ -1,0 +1,13 @@
+// Base
+
+$color-gray: (
+  primary: #ededed,
+  dark: #b3b3b3,
+  darkest: #8f8f8f
+);
+
+// Typography
+$base-font-size: 1rem;
+$base-font-family: 'Open Sans', -apple-system, 'Segoe UI', sans-serif;
+$base-line-height: 1.7;
+$base-font-color: map-get($color-gray, 'darkest');

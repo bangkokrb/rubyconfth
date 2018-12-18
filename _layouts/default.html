@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en" class="layout-default">
+<head>
+  <meta charset='utf-8'>
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  {% include head.html %}
+</head>
+{% capture body_page_class %}{{ page.id | replace: '/', '' | replace: ' ', '-' }}{% endcapture %}
+{% if page.parent %}
+{% capture body_section_class_suffix %}{{ page.parent | downcase | replace: ' ', '-' }}{% endcapture %}
+{% capture body_section_class %}{{ body_section_class_suffix | append: '-' | append: body_page_class | prepend: ' ' }}{% endcapture %}
+{% endif %}
+<body class="{{ body_page_class | append: body_section_class }}">
+{% include svg-sprite.html %}
+
+{% include header.html %}
+
+<main class="app-content">
+  {{ content }}
+</main>
+
+{% include footer.html %}
+
+<script src="/assets/javascript/vendor.js"></script>
+<script src="/assets/javascript/application.js"></script>
+</body>
+</html>

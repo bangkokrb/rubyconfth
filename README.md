@@ -2,6 +2,10 @@
    Website for the <strong>Ruby Conference Thailand</strong>
 </p>
 
+<p align="center">
+    <a href='https://semaphoreci.com/nimble/rubyconfth'> <img src='https://semaphoreci.com/api/v1/nimble/rubyconfth/branches/master/badge.svg' alt='Build Status'></a>
+</p>
+
 ---
 
 ## Get Started

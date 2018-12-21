@@ -1,2 +1,2 @@
-jekyll: jekyll server --incremental --config ./config/jekyll.yml --host 0.0.0.0 --port $PORT --force_polling
+jekyll: jekyll server --incremental --config ./_config.yml --host 0.0.0.0 --port $PORT --force_polling
 webpack: npm run start

@@ -47,7 +47,7 @@ npm install
 * Use Jekyll to serve the website locally (by default, at `http://localhost:5000`):
 
 ```shell
-$ bundle exec jekyll serve --config ./config/jekyll.yml [--incremental]
+$ bundle exec jekyll serve --config ./_config.yml [--incremental]
 $ open http://localhost:5000/
 ```
 

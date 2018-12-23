@@ -1,6 +1,6 @@
 .layout-default body {
   display: grid;
-  grid-template-rows: rem(92px) 1fr rem(60px);
+  grid-template-rows: rem(92px) 1fr rem(30px);
 
   min-height: 100vh;
 }
@@ -19,4 +19,8 @@
 .layout-default .app-header {
   padding-top: rem(30px);
   padding-bottom: rem(30px);
+}
+
+.layout-default .app-footer {
+  line-height: rem(30px);
 }

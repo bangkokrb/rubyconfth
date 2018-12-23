@@ -55,7 +55,45 @@ body.home .announcement__logistic {
 }
 
 body.home .announcement__lead {
+  position: relative;
   padding: rem(26px) 0;
+
+  &:after {
+    content: '';
+
+    position: absolute;
+    top: rem(76px);
+    left: rem(164px);
+    z-index: map-get($zIndex, 'behind');
+
+    width: rem(70px);
+    height: rem(70px);
+
+    background: {
+      image: image-url('shared/ruby.svg');
+      repeat: no-repeat;
+      size: contain;
+    };
+
+    @include media-breakpoint-up('sm') {
+      top: rem(116px);
+      left: rem(310px);
+
+      width: rem(125px);
+      height: rem(125px);
+    }
+
+    @include media-breakpoint-up('lg') {
+      // Full size image
+      width: rem(408px);
+      height: rem(333px);
+
+      top: rem(135px);
+      right: 0;
+      left: initial;
+      transform: rotate(15deg);
+    }
+  }
 
   .announcement__title {
     height: rem(47px);

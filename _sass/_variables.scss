@@ -49,3 +49,9 @@ $primary: map-get($color-brand, 'primary');
 $secondary: map-get($color-gray, 'light');
 
 $body-color: $base-font-color;
+
+// Buttons
+
+$btn-border-radius: 0;
+$btn-border-radius-lg: 0;
+$btn-border-radius-sm: 0;

@@ -29,4 +29,6 @@ Venue: <strong>Some place magical in Bangkok</strong>
 
 We know you want to be part of the very first Ruby conference in Thailand. We are still mining the raw gems.
 
+<a class="announcement__btn btn btn-primary btn-lg" href="mailto:rubyconfth@gmail.com?subject=Mailing List Subcription&body=Hi friendly organizers,%0D%0A%0D%0AMy name is <INSERT NAME> and I am from <INSERT CITY, COUNTRY>.%0D%0A%0D%0ACount me in for the conference in Thailand!%0D%0A%0D%0AThanks 🙌">Keep Me Updated</a>
+
 </section>

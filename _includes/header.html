@@ -1,23 +1,18 @@
 <header class="app-header">
-  {% include logo.html %}
+  <div class="app-header__organizer">
+    <a href="https://www.meetup.com/bangkok-rb/" target="_blank" class="app-header__link">Bangkok.rb</a>
+  </div>
 
-  <nav class='app-navigation'>
-    <ul class="app-navigation__list">
-    {% for section in site.data.menu.header %}
-      <li class="app-navigation__list-item{% if section_url == page.url %} app-navigation__list-item--active{% endif %}">
-        <a href="{{ section.permalink }}">{{ section.title }}</a>
-        {% if section.sub_pages %}
-        <ul class="app-navigation__sub-list">
-        {% for sub_page in section.sub_pages %}
-          {% assign sub_page_url = section.permalink | append: sub_page.permalink %}
-          <li class="app-navigation__sub-list-item{% if sub_page_url == page.url %} app-navigation__sub-list-item--active{% endif %}">
-            <a href="{{ sub_page_url }}">{{ sub_page.title }}</a>
-          </li>
-        {% endfor %}
-        </ul>
-        {% endif %}
-      </li>
+  <ul class="list-social-plaftorm list--unstyled">
+    {% for social_platform in site.data.social_platforms %}
+    <li class="list-social-plaftorm__item">
+      <a href="{{ social_platform.url }}" target="_blank" class="list-social-plaftorm__link app-header__link">
+        {% capture socialIcon %}{{ social_platform.icon | prepend: 'icon-' }}{% endcapture %}
+        {% capture className %}{{ social_platform.icon | prepend: 'list-social-plaftorm__icon--' | prepend: ' ' | prepend: 'list-social-plaftorm__icon' | append: ' ' | append: 'icon--xs' }}{% endcapture %}
+        {% include icon.svg icon=socialIcon class=className %}
+        <span class="sr-only">{{ social_platform.name }}</span>
+      </a>
+    </li>
     {% endfor %}
-    </ul>
-  </nav>
+  </ul>
 </header>

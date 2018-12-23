@@ -1,0 +1,23 @@
+.app-header {
+  display: flex;
+  justify-content: space-between;
+
+  &__organizer {
+    line-height: 2rem;
+    font-size: rem(23px);
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+
+  &__link {
+    @include transition(color $base-animation-duration);
+
+    color: $base-font-color;
+
+    &:hover,
+    &:active {
+      color: map-get($color-gray, 'light');
+      text-decoration: none;
+    }
+  }
+}

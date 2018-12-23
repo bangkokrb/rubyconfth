@@ -1,21 +1,39 @@
+body.home .app-content {
+  padding-top: rem(30px);
+
+  @include media-breakpoint-up('sm') {
+    display: flex;
+    align-items: center;
+
+    padding: 0;
+  }
+}
+
 body.home .announcement {
   @include make-container-max-widths();
 
   margin: 0 auto;
-  padding-top: rem(30px);
-
-  @include media-breakpoint-up('sm') {
-    padding-top: rem(100px);
-  }
 
   // Main text shown below the lead text
   > p {
+    margin-bottom: 0;
+
     @include media-breakpoint-up('sm') {
       font-size: map-get($font-sizes, 'xl');
     }
 
     @include media-breakpoint-up('lg') {
       width: 62%;
+    }
+  }
+
+  // Mailing list subscription
+  &__btn {
+    margin-top: rem(30px);
+
+    @include media-breakpoint-up('lg') {
+      margin-top: rem(40px);
+      padding: rem(30px) rem(52px);
     }
   }
 }

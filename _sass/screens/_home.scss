@@ -1,0 +1,94 @@
+body.home .announcement {
+  @include make-container-max-widths();
+
+  margin: 0 auto;
+  padding-top: rem(30px);
+
+  @include media-breakpoint-up('sm') {
+    padding-top: rem(100px);
+  }
+
+  // Main text shown below the lead text
+  > p {
+    @include media-breakpoint-up('sm') {
+      font-size: map-get($font-sizes, 'xl');
+    }
+
+    @include media-breakpoint-up('lg') {
+      width: 62%;
+    }
+  }
+}
+
+body.home .announcement__logistic {
+  font-size: map-get($font-sizes, 'sm');
+  text-transform: uppercase;
+
+  @include media-breakpoint-up('sm') {
+    display: flex;
+    font-size: map-get($font-sizes, 'lg');
+  }
+
+  p {
+    margin: 0;
+  }
+
+  .announcement__venue {
+    position: relative;
+
+    @include media-breakpoint-up('sm') {
+      margin-left: rem(40px);
+    }
+  }
+
+  .announcement__venue:before {
+    @include media-breakpoint-up('sm') {
+      content: '·';
+      position: absolute;
+      left: -24px;
+      top: 0;
+
+      line-height: rem(32px);
+      font-size: rem(40px);
+    }
+  }
+}
+
+body.home .announcement__lead {
+  padding: rem(26px) 0;
+
+  .announcement__title {
+    height: rem(47px);
+
+    background: {
+      image: image-url('shared/rubyconfth.svg');
+      repeat: no-repeat;
+      size: contain;
+    }
+
+    @include media-breakpoint-up('sm') {
+      height: rem(87px);
+    }
+  }
+
+  .announcement__year {
+    margin: rem(10px) 0 0;
+    height: rem(46px);
+
+    background: {
+      image: image-url('shared/2019.svg');
+      repeat: no-repeat;
+      size: contain;
+    }
+
+    @include media-breakpoint-up('sm') {
+      height: rem(88px);
+    }
+
+    @include media-breakpoint-up('lg') {
+      margin-top: rem(30px);
+
+      height: rem(105px);
+    }
+  }
+}

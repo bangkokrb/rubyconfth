@@ -1,13 +1,27 @@
 // Base
 
+$color-brand: (
+  primary: #f83548
+);
+
 $color-gray: (
-  primary: #ededed,
-  dark: #b3b3b3,
-  darkest: #8f8f8f
+  primary: #2c2d30,
+  dark: #211f21,
+  light: #f0f0f0
 );
 
 // Typography
+
 $base-font-size: 1rem;
-$base-font-family: 'Open Sans', -apple-system, 'Segoe UI', sans-serif;
+$base-font-family: 'Work Sans', -apple-system, 'Segoe UI', sans-serif;
 $base-line-height: 1.7;
-$base-font-color: map-get($color-gray, 'darkest');
+$base-font-color: map-get($color-gray, 'primary');
+
+/////////////////////////////
+// Bootstrap Customization //
+/////////////////////////////
+
+$primary: map-get($color-brand, 'primary');
+$secondary: map-get($color-gray, 'light');
+
+$body-color: $base-font-color;

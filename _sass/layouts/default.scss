@@ -1,8 +1,19 @@
 .layout-default body {
   display: grid;
-  grid-template-rows: rem(92px) 1fr rem(60px);
+  grid-template-rows: rem(92px) 1fr rem(40px);
 
   min-height: 100vh;
+
+  background: {
+    image: image-url('shared/bangkok-strip.svg');
+    repeat: no-repeat;
+    size: 250% auto;
+    position: center bottom;
+  }
+
+  @include media-breakpoint-up('sm') {
+    background-size: 100% auto;
+  }
 }
 
 .layout-default .app-header,

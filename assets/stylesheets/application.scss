@@ -3,19 +3,27 @@
 # only Main files contain this front matter, not partials.
 ---
 
+@import 'variables';
+
 // Vendor
-@import '../vendor/stylesheets/normalize';
+
+@import '../vendor/stylesheets/bootstrap/bootstrap';
 
 // Application
-@import 'variables';
 
 @import 'functions/asset-url';
 @import 'functions/image-url';
+@import 'functions/sizing';
 
-//@import 'mixins/mixin-name';
-
+@import 'base/root';
 @import 'base/typography';
 
 @import 'layouts/default';
 
+@import 'components/app-footer';
+@import 'components/app-header';
 @import 'components/icon';
+@import 'components/list';
+@import 'components/list-social-platform';
+
+@import 'screens/home';

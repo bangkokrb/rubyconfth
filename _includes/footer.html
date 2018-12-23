@@ -1,11 +1,3 @@
 <footer class="app-footer">
-  <nav class='secondary-navigation'>
-    <ul class="secondary-navigation__list">
-    {% for section in site.data.menu.footer %}
-      <li class="secondary-navigation__list-item{% if section_url == page.url %} secondary-navigation__list-item--active{% endif %}">
-        <a href="{{ section.permalink }}">{{ section.title }}</a>
-      </li>
-    {% endfor %}
-    </ul>
-  </nav>
+  <small>This work by <a href="https://nimblehq.co/" target="_blank">Nimble</a> is licenced under a Creative Commons Attribution 3.0 Unported Licence</small>
 </footer>

@@ -1,11 +1,33 @@
 .layout-default body {
   display: grid;
-  grid-template-rows: 8.5rem 1fr 5rem;
+  grid-template-rows: rem(92px) 1fr rem(40px);
 
   min-height: 100vh;
-  padding: 0 5vw;
+
+  background: {
+    image: image-url('shared/bangkok-strip.svg');
+    repeat: no-repeat;
+    size: 250% auto;
+    position: center bottom;
+  }
+
+  @include media-breakpoint-up('sm') {
+    background-size: 100% auto;
+  }
+}
+
+.layout-default .app-header,
+.layout-default .app-content,
+.layout-default .app-footer {
+  @include make-container();
+
+  @include media-breakpoint-up('lg') {
+    padding-right: $grid-gutter-width;
+    padding-left: $grid-gutter-width;
+  }
 }
 
 .layout-default .app-header {
-  width: 100%;
+  padding-top: rem(30px);
+  padding-bottom: rem(30px);
 }

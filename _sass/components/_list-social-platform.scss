@@ -1,0 +1,8 @@
+.list-social-plaftorm {
+  display: flex;
+  margin: 0;
+
+  &__item + &__item {
+    margin-left: $spacer;
+  }
+}

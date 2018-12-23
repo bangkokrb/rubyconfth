@@ -7,15 +7,36 @@ $color-brand: (
 $color-gray: (
   primary: #2c2d30,
   dark: #211f21,
-  light: #f0f0f0
+  light: #c0c0c0,
+  lightest: #f0f0f
 );
 
 // Typography
 
-$base-font-size: 1rem;
+$font-sizes: (
+  default: 1rem,
+);
+
+$base-font-size: map-get($font-sizes, 'default');
 $base-font-family: 'Work Sans', -apple-system, 'Segoe UI', sans-serif;
 $base-line-height: 1.7;
 $base-font-color: map-get($color-gray, 'primary');
+
+// Z-index
+
+$zIndex: (
+  default: 1,
+  behind: -1,
+  high: 5,
+  higher: 100,
+  highest: 1000,
+  sky: 10000
+);
+
+// Animations
+
+$base-animation-duration: 300ms;
+$base-animation-timing: linear;
 
 /////////////////////////////
 // Bootstrap Customization //

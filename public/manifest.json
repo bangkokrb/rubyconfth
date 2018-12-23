@@ -1,6 +1,6 @@
 {
-  "name": "Jekyll Template",
-  "short_name": "Jekyll",
+  "name": "Ruby Conference Thailand 2019",
+  "short_name": "RubyConfTH",
   "icons": [
     {
       "src": "/public/images/favicon/android-icon-36x36.png",
@@ -41,5 +41,5 @@
   ],
   "display": "standalone",
   "background_color": "#fff",
-  "theme_color": "#ea1017"
+  "theme_color": "#f83548"
 }

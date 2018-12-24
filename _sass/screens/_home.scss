@@ -5,6 +5,9 @@ body.home .app-content {
     display: flex;
     align-items: center;
 
+    // Compensate for the app-header to be the same height as the app-header
+    // to achieve visual centering
+    margin-top: rem(-52px);
     padding: 0;
   }
 }
@@ -30,6 +33,9 @@ body.home .announcement {
   // Mailing list subscription
   &__btn {
     margin-top: rem(30px);
+
+    font-weight: 600;
+    text-transform: uppercase;
 
     @include media-breakpoint-up('lg') {
       margin-top: rem(40px);

@@ -21,8 +21,7 @@ Here are some ways *you* can contribute:
 
 1. Push your code to a topic branch. We use the [standard git flow](https://guides.github.com/introduction/flow/) with 
 feature, chore and bug branches so name the branch accordingly.
-2. [Submit a pull request](https://help.github.com/articles/using-pull-requests/) by setting the `development` branch as 
-destination.
+2. [Submit a pull request](https://help.github.com/articles/using-pull-requests/) by setting the `development` branch as destination.
 3. Fill in the PR description following the [PR template](https://github.com/bangkokrb/rubyconfth/blob/master/.github/PULL_REQUEST_TEMPLATE.md) sections.
 4. Once submitted, the test suite will run for the branch automatically.
 4. Request for a code review from on the reviewer

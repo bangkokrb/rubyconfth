@@ -4,7 +4,7 @@ button,hr,input{overflow:visible}progress,sub,sup{vertical-align:baseline}[type=
 .layout-error {
   padding: 0 5%;
 
-  font-family: 'Open Sans', -apple-system, 'Segoe UI', sans-serif;
+  font-family: 'Work Sans', -apple-system, 'Segoe UI', sans-serif;
 }
 
 .error {
@@ -14,9 +14,9 @@ button,hr,input{overflow:visible}progress,sub,sup{vertical-align:baseline}[type=
 .error hr {
   width: 250px;
   height: 1px;
-  margin:35px 0;
+  margin: 35px 0;
 
-  border:none;
+  border: none;
 }
 
 .error__head-line {
@@ -51,7 +51,7 @@ button,hr,input{overflow:visible}progress,sub,sup{vertical-align:baseline}[type=
   text-decoration: none;
   color: #fff;
 
-  border: 2px solid hsl(0, 0%, 100%);
+  border: 2px solid #f83548;
   border-radius: 99px;
 }
 
@@ -66,11 +66,11 @@ button,hr,input{overflow:visible}progress,sub,sup{vertical-align:baseline}[type=
 }
 
 .btn {
-  background-color: hsl(213, 83%, 51%);
+  background-color: #2c2d30;
 }
 
 .btn.btn--outline {
-  color: hsl(213, 83%, 51%);
+  color: #f83548;
   background: transparent;
-  border-color: hsl(213, 83%, 51%);
+  border-color: #f83548;
 }

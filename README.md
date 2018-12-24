@@ -143,13 +143,11 @@ Run this locally or your CI / CD pipeline:
 bundle exec rake test:lint
 ```
 
-## Deployment
+## Deployment to S3 (optional)
 
 * Setup the Docker image locally: `./bin/setup`
 
 * Publish the latest changes to S3: `./bin/deploy`
-
-This script deploys both the public and internal sites.
 
 > .env.docker is used to load the environment variables from the local environment `docker run --rm --entrypoint '/bin/bash' --env-file .env.docker -it rubyconfth`
 
@@ -168,6 +166,10 @@ How to install multiple versions of Java on Mac:
 
 In most cases, the gem `s3_website` outputs this message when changes to the assets have been performed but not on the 
 markdown files. In this case, `s3_website push --force` will push all content.
+
+## Contributing
+
+Please see [CONTRIBUTING.md](/CONTRIBUTING.md).
 
 ## License
 

@@ -30,7 +30,8 @@ RUN apt-get update -qq && \
 RUN curl -sL https://deb.nodesource.com/setup_"$NODE_VERSION".x | bash -
 
 # Install general required core packages, Node JS related packages and Chrome (testing)
-RUN apt-get update -qq && \
+RUN mkdir -p /usr/share/man/man1 && \
+    apt-get update -qq && \
     apt-get install -y --no-install-recommends build-essential libpq-dev nodejs yarn && \
     apt-get install -y --no-install-recommends rsync locales chrpath pkg-config libfreetype6 libfontconfig1 openjdk-8-jre && \
     apt-get clean && \

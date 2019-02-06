@@ -12,7 +12,7 @@ permalink: /
 September <strong>6-7, 2019</strong>
 </div>
 <div class="announcement__venue">
-Venue: <strong>Some place magical in Bangkok</strong>
+Venue: <strong>Pullman Bangkok King Power</strong> (<a href="https://goo.gl/maps/3C1sUYkRjXt" target="_blank">map</a>)
 </div>
 </div>
 

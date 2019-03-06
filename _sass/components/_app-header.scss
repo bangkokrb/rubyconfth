@@ -1,23 +1,69 @@
 .app-header {
-  display: flex;
-  justify-content: space-between;
 
-  &__organizer {
-    line-height: 2rem;
-    font-size: rem(23px);
-    font-weight: bold;
-    text-transform: uppercase;
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
   }
 
-  &__link {
-    @include transition(color $base-animation-duration);
+  &__event {
+    display: flex;
+    flex-direction: column;
+  }
 
-    color: $base-font-color;
+  &__social {
+    display: none;
 
-    &:hover,
-    &:active {
-      color: map-get($color-gray, 'light');
-      text-decoration: none;
+    @include media-breakpoint-up('lg') {
+      display: initial;
+    }
+  }
+
+}
+
+.app-header__logistic {
+  margin-top: rem(20px);
+
+  font-size: map-get($font-sizes, 'sm');
+  text-transform: uppercase;
+
+  @include media-breakpoint-up('sm') {
+    display: flex;
+
+    margin-top: rem(6px);
+
+    font-size: map-get($font-sizes, 'lg');
+  }
+
+  @include media-breakpoint-up('sm') {
+
+  }
+
+  p {
+    margin: 0;
+  }
+
+  a {
+    color: inherit;
+  }
+
+  .app-header__venue {
+    position: relative;
+
+    @include media-breakpoint-up('sm') {
+      margin-left: rem(40px);
+    }
+  }
+
+  .app-header__venue:before {
+    @include media-breakpoint-up('sm') {
+      content: '·';
+      position: absolute;
+      left: -24px;
+      top: 0;
+
+      line-height: rem(32px);
+      font-size: rem(40px);
     }
   }
 }

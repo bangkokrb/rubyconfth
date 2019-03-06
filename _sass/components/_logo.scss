@@ -1,0 +1,19 @@
+.logo {
+  @include text-hide();
+
+  display: block;
+
+  background: {
+    repeat: no-repeat;
+    size: contain;
+  }
+
+  &--text {
+    width: rem(223px);
+    height: rem(26px);
+
+    background: {
+      image: image-url('shared/logo/logo-text.svg')
+    };
+  }
+}

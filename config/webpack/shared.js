@@ -1,4 +1,5 @@
 const path = require('path');
+const { sync } = require('glob');
 const WebpackShellPlugin = require('webpack-shell-plugin');
 const SVGSpritemapPlugin = require('svg-spritemap-webpack-plugin');
 
@@ -6,12 +7,19 @@ function resolve (dir) {
   return path.join(__dirname, '../../', dir)
 }
 
+const polyfills = [
+  'babel-polyfill',
+  ...sync(path.join(resolve('_js/polyfills/'), '*.js')).map(polyfill => {
+    return polyfill;
+  })
+];
+
 const shared = {
   context: resolve('/'),
 
   entry: {
     application: [
-      'babel-polyfill',
+      ...polyfills,
       resolve('_js/application.js')
     ]
   },

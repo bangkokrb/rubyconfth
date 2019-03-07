@@ -4,7 +4,8 @@ import { disableBodyScroll, enableBodyScroll } from 'body-scroll-lock';
 export const DEFAULT_SELECTOR = '.app-navigation';
 
 const SELECTOR = {
-  toggleButton: 'button.app-navigation__btn-toggle-menu'
+  toggleButton: 'button.app-navigation__btn-toggle-menu',
+  menuLink: '.app-navigation__menu-link'
 };
 
 const CLASS_NAME = {
@@ -23,7 +24,9 @@ class AppNavigation {
    * */
   constructor(elementRef) {
     this.elementRef = elementRef;
-    this.toggleButton = this.elementRef.querySelector(SELECTOR['toggleButton']);
+
+    this.toggleButton = this.elementRef.querySelector(SELECTOR.toggleButton);
+    this.menuLinks = document.querySelectorAll(SELECTOR.menuLink);
 
     this._bind();
     this._addEventListener();
@@ -39,6 +42,33 @@ class AppNavigation {
     this._toggleNavigationPage();
   }
 
+  /**
+   * Scroll handler of navLinks.
+   *  Finds the closest link clicked.
+   *    1) If the href is a hash url, enables smooth scroll.
+   *    2) Else allows the default browser action.
+   *
+   * @param {Event} event - scroll event on navLinks
+   * */
+  onClickMenuLink(event) {
+    let closestLink = event.target.closest('a');
+    let targetHref = closestLink.hash;
+
+    if ((closestLink.pathname !== window.location.pathname) || (targetHref.indexOf('#') === -1)) { return; }
+
+    event.preventDefault();
+
+    let scrollToEl = document.querySelector(targetHref);
+    let verticalScroll = scrollToEl.getBoundingClientRect().y ;
+
+    // Enable Smooth scroll
+    window.scrollBy({
+      top: verticalScroll,
+      left: 0,
+      behavior: 'smooth'
+    });
+  }
+
   // Private
 
   /**
@@ -46,6 +76,7 @@ class AppNavigation {
    * */
   _bind() {
     this.onToggleNavigationPane = this.onToggleNavigationPane.bind(this);
+    this.onClickMenuLink = this.onClickMenuLink.bind(this);
   }
 
   /**
@@ -53,6 +84,8 @@ class AppNavigation {
    * */
   _addEventListener() {
     this.toggleButton.addEventListener('click', this.onToggleNavigationPane);
+
+    this.menuLinks.forEach(navLink => navLink.addEventListener('click', this.onClickMenuLink));
   }
 
   /**
@@ -61,9 +94,9 @@ class AppNavigation {
   _togglePageScrollability() {
     const pageContainer = document.querySelector('html');
 
-    pageContainer.classList.toggle(CLASS_NAME['unscrollable']);
+    pageContainer.classList.toggle(CLASS_NAME.unscrollable);
 
-    if (pageContainer.classList.contains(CLASS_NAME['unscrollable'])) {
+    if (pageContainer.classList.contains(CLASS_NAME.unscrollable)) {
       disableBodyScroll(this.elementRef);
     } else {
       enableBodyScroll(this.elementRef);
@@ -74,7 +107,7 @@ class AppNavigation {
    * Add or remove the show class from navigation page.
    * */
   _toggleNavigationPage() {
-    this.elementRef.classList.toggle(STATES['show']);
+    this.elementRef.classList.toggle(STATES.show);
   }
 }
 

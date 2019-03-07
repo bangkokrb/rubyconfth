@@ -77,7 +77,7 @@ class AppNavigation {
   }
 
   /**
-   * Toggle the fixed position of the navigation menu
+   * Animate the navigation elements on scroll
    *
    * @param {Event} _event - Scroll event
    * */
@@ -133,7 +133,9 @@ class AppNavigation {
    * Change the position property of the navigation based on the scroll position
    * */
   _updatePanePosition() {
-    if (window.pageYOffset >= 30) {
+    const styleChangeThreshold = this.menuPaneRect.top - this.menuPane.offsetTop;
+
+    if (window.pageYOffset >= styleChangeThreshold) {
       this.elementRef.classList.add(STATES.sticky);
       this.menuPane.style.left = `${this.menuPaneRect.left}px`;
 

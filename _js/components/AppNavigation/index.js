@@ -33,11 +33,9 @@ class AppNavigation {
     this.menuPane = this.elementRef.querySelector(SELECTOR.menuPane);
     this.menuLinks = this.elementRef.querySelectorAll(SELECTOR.menuLink);
 
-    // Store current menu dimension and positioning
-    this.menuPaneRect = this.menuPane.getBoundingClientRect();
-
     this._bind();
     this._addEventListener();
+    this._setup();
   }
 
   // Event listeners
@@ -83,12 +81,26 @@ class AppNavigation {
   }
 
   /**
-   * Animate the navigation elements on scroll
+   * Animate the navigation elements on scroll.
    *
    * @param {Event} _event - Scroll event
    * */
   onScroll(_event) {
     this._updatePanePosition();
+  }
+
+  /**
+   * Reset the navigation elements on page resize to avoid any conflicting rules.
+   *
+   * @param {Event} _event - Resize event
+   * */
+  onResize(_event) {
+    // Scroll back to the top of the page
+    window.scrollTo( 0, 0);
+
+    this._deactivateCurrentSection();
+    this._resetPanePosition();
+    this._setMenuPaneRect();
   }
 
   // Private
@@ -100,6 +112,7 @@ class AppNavigation {
     this.onToggleNavigationPane = this.onToggleNavigationPane.bind(this);
     this.onClickMenuLink = this.onClickMenuLink.bind(this);
     this.onScroll = this.onScroll.bind(this);
+    this.onResize = this.onResize.bind(this);
   }
 
   /**
@@ -111,6 +124,14 @@ class AppNavigation {
     this.menuLinks.forEach(menuLink => menuLink.addEventListener('click', this.onClickMenuLink));
 
     window.addEventListener('scroll', this.onScroll);
+    window.addEventListener('resize', this.onResize);
+  }
+
+  /**
+   * Component bootstrapping actions.
+   * */
+  _setup() {
+    this._setMenuPaneRect();
   }
 
   /**
@@ -149,9 +170,16 @@ class AppNavigation {
   * @param {Element} currentLink - the element to highlight
   * */
   _activateCurrentSection(currentLink) {
-    this.menuLinks.forEach(menuLink => menuLink.classList.remove(CLASS_NAME.activeMenuLink));
+    this._deactivateCurrentSection();
 
     currentLink.classList.add(CLASS_NAME.activeMenuLink);
+  }
+
+  /**
+   * Visually de-highlight all section in the navigation menu.
+   * */
+  _deactivateCurrentSection() {
+    this.menuLinks.forEach(menuLink => menuLink.classList.remove(CLASS_NAME.activeMenuLink));
   }
 
   /**
@@ -168,9 +196,20 @@ class AppNavigation {
       this.elementRef.classList.add(STATES.sticky);
       this.menuPane.style.left = `${this.menuPaneRect.left}px`;
     } else {
-      this.elementRef.classList.remove(STATES.sticky);
-      this.menuPane.style.left = null;
+      this._resetPanePosition();
     }
+  }
+
+  /**
+   * Store dimensions and positioning of the navigation pane.
+   * */
+  _setMenuPaneRect() {
+    this.menuPaneRect = this.menuPane.getBoundingClientRect();
+  }
+
+  _resetPanePosition() {
+    this.elementRef.classList.remove(STATES.sticky);
+    this.menuPane.style.left = null;
   }
 
   /**

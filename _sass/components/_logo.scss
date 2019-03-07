@@ -8,6 +8,15 @@
     size: contain;
   }
 
+  &--icon {
+    width: rem(71px);
+    height: rem(50px);
+
+    background: {
+      image: image-url('shared/logo/logo-icon.svg')
+    };
+  }
+
   &--text {
     width: rem(223px);
     height: rem(26px);

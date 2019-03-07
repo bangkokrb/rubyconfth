@@ -8,16 +8,17 @@ $color-gray: (
   primary: #2c2d30,
   dark: #211f21,
   light: #c0c0c0,
-  lightest: #f0f0f
+  lightest: #f7f7f7
 );
 
 // Typography
 
 $font-sizes: (
-  default: 1rem,
-  sm: 0.875rem,
-  lg: 1.125rem,
-  xl: 1.375rem
+  default: 1rem, // 16px
+  xs: 0.75rem,   // 12 px
+  sm: 0.875rem,  // 14 px
+  lg: 1.125rem,  // 18 px
+  xl: 1.375rem   // 22 px
 );
 
 $base-font-size: map-get($font-sizes, 'default');

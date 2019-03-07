@@ -30,7 +30,7 @@
   }
 
   &__link {
-    font-size: map-get($font-sizes, 'lg');
+    font-size: map-get($font-sizes, 'sm');
 
     &, &:hover {
       color: $body-color;

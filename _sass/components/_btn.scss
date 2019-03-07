@@ -1,0 +1,25 @@
+.btn {
+  &--primary {
+    @extend .btn-primary;
+  }
+
+  &--secondary {
+    @extend .btn-secondary;
+  }
+
+  &--link {
+    @extend .btn-link;
+  }
+
+  &--sm {
+    @extend .btn-sm;
+  }
+
+  &--lg {
+    @extend .btn-lg;
+  }
+
+  &--block {
+    @extend .btn-block;
+  }
+}

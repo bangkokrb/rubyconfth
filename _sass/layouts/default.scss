@@ -8,10 +8,13 @@
 }
 
 .layout-default .app-header,
-.layout-default .app-content {
+.layout-default .app-content,
+.layout-default .app-footer {
   > .container {
+    position: relative;
+
     @include media-breakpoint-up('lg') {
-      padding-left: $app-navigation-lg-width;
+      padding-left: $app-navigation-lg-width + $grid-gutter-width;
     }
   }
 }
@@ -24,6 +27,10 @@
     padding-top: rem(30px);
     padding-bottom: rem(30px);
   }
+}
+
+.layout-default .app-content {
+  min-height: rem(400px);
 }
 
 

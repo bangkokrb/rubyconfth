@@ -20,6 +20,9 @@ const STATES = {
   sticky: 'app-navigation--sticky'
 };
 
+// Scroll position to trigger animation
+const NAVIGATION_PANE_ANIMATION_THRESHOLD = 30;
+
 class AppNavigation {
   /**
    * Initializer
@@ -96,7 +99,7 @@ class AppNavigation {
    * */
   onResize(_event) {
     // Scroll back to the top of the page
-    window.scrollTo( 0, 0);
+    window.scrollTo(0, 0);
 
     this._deactivateCurrentSection();
     this._resetPanePosition();
@@ -156,12 +159,11 @@ class AppNavigation {
     this.elementRef.classList.toggle(STATES.show);
   }
 
-
   /**
    * Manually trigger the toggle off the navigation pane.
    * */
   _manuallyToggleNavigationPane() {
-    this.toggleButton.dispatchEvent(new MouseEvent('click'))
+    this.toggleButton.dispatchEvent(new MouseEvent('click'));
   }
 
   /**
@@ -190,9 +192,7 @@ class AppNavigation {
       return;
     }
 
-    const styleChangeThreshold = this.menuPaneRect.top - this.menuPane.offsetTop;
-
-    if (window.pageYOffset >= styleChangeThreshold) {
+    if (window.pageYOffset >= NAVIGATION_PANE_ANIMATION_THRESHOLD) {
       this.elementRef.classList.add(STATES.sticky);
       this.menuPane.style.left = `${this.menuPaneRect.left}px`;
     } else {

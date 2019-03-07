@@ -18,11 +18,20 @@
   }
 
   &--text {
-    width: rem(223px);
+    width: rem(179px);
     height: rem(26px);
 
     background: {
       image: image-url('shared/logo/logo-text.svg')
+    };
+  }
+
+  &--text-icon {
+    width: rem(223px);
+    height: rem(26px);
+
+    background: {
+      image: image-url('shared/logo/logo-text-icon.svg')
     };
   }
 }

@@ -66,9 +66,12 @@ class AppNavigation {
     event.preventDefault();
 
     let scrollToEl = document.querySelector(targetHref);
-    let verticalScroll = scrollToEl.getBoundingClientRect().y ;
+    let verticalScroll = scrollToEl.getBoundingClientRect().y;
 
-    // Enable Smooth scroll
+    // Close the opened mobile navigation
+    this._isMobileNavigation() && this._manuallyToggleNavigationPane();
+
+    // Scroll to the selected section
     window.scrollBy({
       top: verticalScroll,
       left: 0,
@@ -129,8 +132,16 @@ class AppNavigation {
     this.elementRef.classList.toggle(STATES.show);
   }
 
+
   /**
-   * Change the position property of the navigation based on the scroll position
+   * Manually trigger the toggle off the navigation pane.
+   * */
+  _manuallyToggleNavigationPane() {
+    this.toggleButton.dispatchEvent(new MouseEvent('click'))
+  }
+
+  /**
+   * Change the position property of the navigation based on the scroll position.
    * */
   _updatePanePosition() {
     if (this._isMobileNavigation()) {
@@ -142,7 +153,6 @@ class AppNavigation {
     if (window.pageYOffset >= styleChangeThreshold) {
       this.elementRef.classList.add(STATES.sticky);
       this.menuPane.style.left = `${this.menuPaneRect.left}px`;
-
     } else {
       this.elementRef.classList.remove(STATES.sticky);
       this.menuPane.style.left = null;

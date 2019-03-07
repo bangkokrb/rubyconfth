@@ -135,7 +135,7 @@
       transform: rotate(45deg);
 
       opacity: 0;
-      transition: opacity $base-animation-duration/2 $base-animation-timing;
+      transition: opacity $base-animation-duration/2 ease-in-out;
 
       @include media-breakpoint-up('lg') {
         top: 17px;
@@ -151,6 +151,11 @@
 
     &--active::before {
       opacity: 1;
+    }
+
+    // Default class name from Scrollspy
+    &.active {
+      @extend .app-navigation__menu-link--active;
     }
   }
 }

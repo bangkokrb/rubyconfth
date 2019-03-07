@@ -37,6 +37,7 @@
   },
   "dependencies": {
     "body-scroll-lock": "2.6.1",
+    "bootstrap.native": "2.0.25",
     "smoothscroll-polyfill": "0.4.3",
     "vue": "2.5.21"
   }

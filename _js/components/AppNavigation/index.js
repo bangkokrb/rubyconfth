@@ -1,17 +1,17 @@
 import { disableBodyScroll, enableBodyScroll } from 'body-scroll-lock';
+import { ScrollSpy } from 'Vendor/bootstrap/';
 
 // Default component selector
 export const DEFAULT_SELECTOR = '.app-navigation';
 
 const SELECTOR = {
-  toggleButton: 'button.app-navigation__btn-toggle-menu',
-  menuPane: '.app-navigation__pane',
+  menu: '.app-navigation__menu',
   menuLink: '.app-navigation__link',
-  appContent: '.app-content'
+  menuPane: '.app-navigation__pane',
+  toggleButton: 'button.app-navigation__btn-toggle-menu'
 };
 
 const CLASS_NAME = {
-  activeMenuLink: 'app-navigation__menu-link--active',
   unscrollable: 'layout-website--unscrollable'
 };
 
@@ -28,13 +28,17 @@ class AppNavigation {
    * Initializer
    *
    * @param {Element} elementRef - HTML node to mount the component.
+   * @param {Object} options - Configuration option for the component.
    * */
-  constructor(elementRef) {
+  constructor(elementRef, options = {}) {
     this.elementRef = elementRef;
 
-    this.toggleButton = this.elementRef.querySelector(SELECTOR.toggleButton);
+    this.menu = this.elementRef.querySelector(SELECTOR.menu);
     this.menuPane = this.elementRef.querySelector(SELECTOR.menuPane);
     this.menuLinks = this.elementRef.querySelectorAll(SELECTOR.menuLink);
+    this.toggleButton = this.elementRef.querySelector(SELECTOR.toggleButton);
+
+    this.scrollContent = options.scrollContent || undefined;
 
     this._bind();
     this._addEventListener();
@@ -53,9 +57,9 @@ class AppNavigation {
 
   /**
    * Scroll handler of navLinks.
-   *  Finds the closest link clicked.
-   *    1) If the href is a hash url, enables smooth scroll.
-   *    2) Else allows the default browser action.
+   * Finds the closest link clicked.
+   * 1) If the href is a hash url, enables smooth scroll.
+   * 2) Else allows the default browser action.
    *
    * @param {Event} event - scroll event on navLinks
    * */
@@ -69,8 +73,6 @@ class AppNavigation {
 
     let scrollToEl = document.querySelector(targetHref);
     let verticalScroll = scrollToEl.getBoundingClientRect().y;
-
-    this._activateCurrentSection(closestLink);
 
     // Close the opened mobile navigation
     this._isMobileNavigation() && this._manuallyToggleNavigationPane();
@@ -101,7 +103,6 @@ class AppNavigation {
     // Scroll back to the top of the page
     window.scrollTo(0, 0);
 
-    this._deactivateCurrentSection();
     this._resetPanePosition();
     this._setMenuPaneRect();
   }
@@ -135,6 +136,7 @@ class AppNavigation {
    * */
   _setup() {
     this._setMenuPaneRect();
+    this._setupScrollspy();
   }
 
   /**
@@ -167,24 +169,6 @@ class AppNavigation {
   }
 
   /**
-  * Visually highlight current scrolled-to section.
-  *
-  * @param {Element} currentLink - the element to highlight
-  * */
-  _activateCurrentSection(currentLink) {
-    this._deactivateCurrentSection();
-
-    currentLink.classList.add(CLASS_NAME.activeMenuLink);
-  }
-
-  /**
-   * Visually de-highlight all section in the navigation menu.
-   * */
-  _deactivateCurrentSection() {
-    this.menuLinks.forEach(menuLink => menuLink.classList.remove(CLASS_NAME.activeMenuLink));
-  }
-
-  /**
    * Change the position property of the navigation based on the scroll position.
    * */
   _updatePanePosition() {
@@ -210,6 +194,21 @@ class AppNavigation {
   _resetPanePosition() {
     this.elementRef.classList.remove(STATES.sticky);
     this.menuPane.style.left = null;
+  }
+
+  /**
+   * Highlight current section on scroll.
+   * */
+  _setupScrollspy() {
+    if (!this.scrollContent) {
+      return;
+    }
+
+    new ScrollSpy(document.querySelector(this.scrollContent), {
+      target: this.menu,
+      // Top offset position of the sticky menu
+      offset: 220
+    });
   }
 
   /**

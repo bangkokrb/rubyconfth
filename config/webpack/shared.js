@@ -59,7 +59,8 @@ const shared = {
     extensions: ['*', '.js', '.json'],
 
     alias: {
-      'vue$': 'vue/dist/vue.esm.js'
+      'vue$': 'vue/dist/vue.esm.js',
+      'Vendor': resolve('vendor/javascript/')
     }
   },
 

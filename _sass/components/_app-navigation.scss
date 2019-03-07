@@ -48,6 +48,7 @@
     padding: 1rem 2rem;
 
     border: 2px solid #000;
+    transition: top $base-animation-duration $base-animation-duration;
   }
 
   hr {
@@ -56,6 +57,32 @@
     @include media-breakpoint-up('lg') {
       display: none;
     }
+  }
+}
+
+.app-navigation__event {
+  display: none;
+  position: absolute;
+  top: -100px;
+  left: 0;
+  z-index: map-get($zIndex, 'default');
+
+  width: inherit;
+
+  text-align: center;
+
+  opacity: 0;
+  transition: opacity $base-animation-duration/2 $base-animation-duration;
+
+  @include media-breakpoint-up('lg') {
+    display: initial;
+  }
+
+  .logo {
+    display: inline-block;
+
+    width: rem(80px);
+    height: rem(56px);
   }
 }
 
@@ -136,5 +163,15 @@
     pointer-events: auto;
 
     left: 0;
+  }
+}
+
+.app-navigation--sticky {
+  .app-navigation__event {
+    opacity: 1;
+  }
+
+  .app-navigation__pane {
+    position: fixed;
   }
 }

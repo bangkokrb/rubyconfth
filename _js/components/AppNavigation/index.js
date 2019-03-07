@@ -5,7 +5,9 @@ export const DEFAULT_SELECTOR = '.app-navigation';
 
 const SELECTOR = {
   toggleButton: 'button.app-navigation__btn-toggle-menu',
-  menuLink: '.app-navigation__menu-link'
+  menuPane: '.app-navigation__pane',
+  menuLink: '.app-navigation__link',
+  appContent: '.app-content'
 };
 
 const CLASS_NAME = {
@@ -13,7 +15,8 @@ const CLASS_NAME = {
 };
 
 const STATES = {
-  show: 'app-navigation--menu-open'
+  show: 'app-navigation--menu-open',
+  sticky: 'app-navigation--sticky'
 };
 
 class AppNavigation {
@@ -26,7 +29,11 @@ class AppNavigation {
     this.elementRef = elementRef;
 
     this.toggleButton = this.elementRef.querySelector(SELECTOR.toggleButton);
-    this.menuLinks = document.querySelectorAll(SELECTOR.menuLink);
+    this.menuPane = this.elementRef.querySelector(SELECTOR.menuPane);
+    this.menuLinks = this.elementRef.querySelectorAll(SELECTOR.menuLink);
+
+    // Store current menu dimension and positioning
+    this.menuPaneRect = this.menuPane.getBoundingClientRect();
 
     this._bind();
     this._addEventListener();
@@ -69,6 +76,15 @@ class AppNavigation {
     });
   }
 
+  /**
+   * Toggle the fixed position of the navigation menu
+   *
+   * @param {Event} _event - Scroll event
+   * */
+  onScroll(_event) {
+    this._updatePanePosition();
+  }
+
   // Private
 
   /**
@@ -77,6 +93,7 @@ class AppNavigation {
   _bind() {
     this.onToggleNavigationPane = this.onToggleNavigationPane.bind(this);
     this.onClickMenuLink = this.onClickMenuLink.bind(this);
+    this.onScroll = this.onScroll.bind(this);
   }
 
   /**
@@ -86,6 +103,8 @@ class AppNavigation {
     this.toggleButton.addEventListener('click', this.onToggleNavigationPane);
 
     this.menuLinks.forEach(navLink => navLink.addEventListener('click', this.onClickMenuLink));
+
+    window.addEventListener('scroll', this.onScroll);
   }
 
   /**
@@ -108,6 +127,20 @@ class AppNavigation {
    * */
   _toggleNavigationPage() {
     this.elementRef.classList.toggle(STATES.show);
+  }
+
+  /**
+   * Change the position property of the navigation based on the scroll position
+   * */
+  _updatePanePosition() {
+    if (window.pageYOffset >= 30) {
+      this.elementRef.classList.add(STATES.sticky);
+      this.menuPane.style.left = `${this.menuPaneRect.left}px`;
+
+    } else {
+      this.elementRef.classList.remove(STATES.sticky);
+      this.menuPane.style.left = null;
+    }
   }
 }
 

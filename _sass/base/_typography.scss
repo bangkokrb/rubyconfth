@@ -4,3 +4,8 @@ body {
   font-size: $base-font-size;
   line-height: $base-line-height;
 }
+
+hr {
+  margin: 2rem 0;
+  border: 2px dashed map-get($color-gray, 'lightest');
+}

@@ -30,7 +30,7 @@
   width: 100vw;
   height: 100vh;
 
-  padding: rem(70px) 3rem 2rem;
+  padding: rem(70px) #{$grid-gutter-width/2} 2rem;
 
   background: #fff;
 
@@ -49,9 +49,23 @@
 
     border: 2px solid #000;
   }
+
+  hr {
+    margin: 1.25rem 0 2.5rem;
+
+    @include media-breakpoint-up('lg') {
+      display: none;
+    }
+  }
 }
 
 .app-navigation__menu {
+  margin: 0 rem(30px);
+
+  @include media-breakpoint-up('lg') {
+    margin: 0;
+  }
+
   &-link {
     position: relative;
     display: block;
@@ -100,6 +114,14 @@
         opacity: 1;
       }
     }
+  }
+}
+
+.app-navigation .list-social-platform {
+  margin: 0 rem(30px);
+
+  @include media-breakpoint-up('lg') {
+    display: none;
   }
 }
 

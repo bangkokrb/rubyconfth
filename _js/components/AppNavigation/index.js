@@ -11,6 +11,7 @@ const SELECTOR = {
 };
 
 const CLASS_NAME = {
+  activeMenuLink: 'app-navigation__menu-link--active',
   unscrollable: 'layout-website--unscrollable'
 };
 
@@ -46,7 +47,7 @@ class AppNavigation {
    * */
   onToggleNavigationPane() {
     this._togglePageScrollability();
-    this._toggleNavigationPage();
+    this._toggleNavigationPane();
   }
 
   /**
@@ -67,6 +68,8 @@ class AppNavigation {
 
     let scrollToEl = document.querySelector(targetHref);
     let verticalScroll = scrollToEl.getBoundingClientRect().y;
+
+    this._activateCurrentSection(closestLink);
 
     // Close the opened mobile navigation
     this._isMobileNavigation() && this._manuallyToggleNavigationPane();
@@ -105,7 +108,7 @@ class AppNavigation {
   _addEventListener() {
     this.toggleButton.addEventListener('click', this.onToggleNavigationPane);
 
-    this.menuLinks.forEach(navLink => navLink.addEventListener('click', this.onClickMenuLink));
+    this.menuLinks.forEach(menuLink => menuLink.addEventListener('click', this.onClickMenuLink));
 
     window.addEventListener('scroll', this.onScroll);
   }
@@ -128,7 +131,7 @@ class AppNavigation {
   /**
    * Add or remove the show class from navigation page.
    * */
-  _toggleNavigationPage() {
+  _toggleNavigationPane() {
     this.elementRef.classList.toggle(STATES.show);
   }
 
@@ -138,6 +141,17 @@ class AppNavigation {
    * */
   _manuallyToggleNavigationPane() {
     this.toggleButton.dispatchEvent(new MouseEvent('click'))
+  }
+
+  /**
+  * Visually highlight current scrolled-to section.
+  *
+  * @param {Element} currentLink - the element to highlight
+  * */
+  _activateCurrentSection(currentLink) {
+    this.menuLinks.forEach(menuLink => menuLink.classList.remove(CLASS_NAME.activeMenuLink));
+
+    currentLink.classList.add(CLASS_NAME.activeMenuLink);
   }
 
   /**

@@ -133,6 +133,10 @@ class AppNavigation {
    * Change the position property of the navigation based on the scroll position
    * */
   _updatePanePosition() {
+    if (this._isMobileNavigation()) {
+      return;
+    }
+
     const styleChangeThreshold = this.menuPaneRect.top - this.menuPane.offsetTop;
 
     if (window.pageYOffset >= styleChangeThreshold) {
@@ -143,6 +147,13 @@ class AppNavigation {
       this.elementRef.classList.remove(STATES.sticky);
       this.menuPane.style.left = null;
     }
+  }
+
+  /**
+   * Check if the button to toggle the mobile menu is visible.
+   * */
+  _isMobileNavigation() {
+    return this.toggleButton.offsetWidth > 0 && this.toggleButton.offsetHeight > 0;
   }
 }
 

@@ -1,8 +1,8 @@
 .app-navigation {
   &__btn-toggle-menu {
-    position: absolute;
+    position: fixed;
     right: 10px;
-    top: -14px;
+    top: 8px;
     z-index: map-get($zIndex, 'sky');
 
     // Increase touch area
@@ -14,6 +14,9 @@
     line-height: 0;
 
     cursor: pointer;
+
+    background: $white;
+    border-radius: 50%;
 
     @include media-breakpoint-up('lg') {
       display: none;

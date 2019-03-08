@@ -61,7 +61,7 @@ class AppNavigation {
    * 1) If the href is a hash url, enables smooth scroll.
    * 2) Else allows the default browser action.
    *
-   * @param {Event} event - scroll event on navLinks
+   * @param {Event} event - click event on navLinks
    * */
   onClickMenuLink(event) {
     let closestLink = event.target.closest('a');

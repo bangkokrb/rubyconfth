@@ -59,3 +59,7 @@ $body-color: $base-font-color;
 
 $btn-border-radius: 0;
 $btn-border-radius-lg: 0;
+
+$btn-padding-y-lg: 2rem;
+$btn-font-size-lg: map-get($font-sizes, 'lg')
+

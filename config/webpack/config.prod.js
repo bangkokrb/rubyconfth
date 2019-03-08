@@ -8,7 +8,8 @@ const VueLoaderPlugin = require('vue-loader/lib/plugin');
 const GLOBALS = {
   'process.env': {
     'NODE_ENV': JSON.stringify('production'),
-    'BUILD_ENV': JSON.stringify(process.env.BUILD_ENV)
+    'BUILD_ENV': JSON.stringify(process.env.BUILD_ENV),
+    'GOOGLE_MAP_API_KEY': JSON.stringify(process.env.GOOGLE_MAP_API_KEY),
   }
 };
 

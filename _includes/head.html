@@ -1,5 +1,5 @@
 {% capture parent_page_title %}{% if page.parent %}{{ page.parent | capitalize }} | {% endif %}{% endcapture %}
-{% capture meta_title %}{{ site.name | append: ' | ' | append: parent_page_title | append: page.title }}{% endcapture %}
+{% capture meta_title %}{{ page.title | append: parent_page_title | append: ' | ' | append: site.name }}{% endcapture %}
 {% capture meta_description %}{% if page.seo.description %}{{ page.seo.description }}{% else %}{{ site.seo.description }}{% endif %}{% endcapture %}
 <title>{{ meta_title }}</title>
 <meta name="description" content="{{ meta_description }}" />
@@ -18,14 +18,14 @@
 <meta name="twitter:site" content="{{ site.url }}" />
 <meta name="twitter:title" content="{{ meta_title }}" />
 <meta name="twitter:description" content="{{ meta_description }}" />
-<meta name="twitter:image" content="/public/images/social/twitter-icon.png" />
+<meta name="twitter:image" content="/public/images/social/twitter.png" />
 
 <meta name="apple-mobile-web-app-title" content="{{ site.name }}"/>
 <meta name="mobile-web-app-capable" content="yes"/>
 <meta name="apple-touch-fullscreen" content="yes"/>
-<meta name="apple-mobile-web-app-status-bar-style" content="#1b79ea"/>
+<meta name="apple-mobile-web-app-status-bar-style" content="#f81c49"/>
 
-<meta name="theme-color" content="#f83548"/>
+<meta name="theme-color" content="#f81c49"/>
 
 <meta http-equiv="Page-Enter" content="RevealTrans(Duration=2.0,Transition=2)">
 <meta http-equiv="Page-Exit" content="RevealTrans(Duration=3.0,Transition=12)">

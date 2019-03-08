@@ -1,4 +1,3 @@
-{% capture content %}
 <div class="list-sponsor">
   {% for sponsor_level in site.data.sponsors %}
   <div class="list-sponsor__level">
@@ -15,6 +14,3 @@
   </div>
   {% endfor %}
 </div>
-{% endcapture %}
-{% comment %} Workaround to prevent Markdown to interpret the content as a code snippet {% endcomment %}
-{{ content | replace: '    ', ''}}

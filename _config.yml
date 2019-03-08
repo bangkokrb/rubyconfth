@@ -17,7 +17,7 @@ sass:
 kramdown:
   # All config options: https://jekyllrb.com/docs/configuration/markdown/
   input: GFM
-  parse_block_html: true
+  parse_block_html: false
   auto_ids: false
 
 collections:

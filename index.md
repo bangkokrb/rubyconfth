@@ -5,30 +5,30 @@ permalink: /
 ---
 
 <section id="about" class="home-hero">
-<div class="home-hero__brand">
-{% include icon.svg icon="icon-logo" class="home-hero__logo" %}
-</div>
-<div class="home-hero__text">
-<h1 class="home-hero__heading display-heading">Join us for the <strong>first</strong> Ruby Conference in Bangkok</h1>
-</div>
+    <div class="home-hero__brand">
+        {% include icon.svg icon="icon-logo" class="home-hero__logo" %}
+    </div>
+    <div class="home-hero__text">
+        <h1 class="home-hero__heading display-heading">Join us for the <strong>first</strong> Ruby Conference in Bangkok</h1>
+    </div>
 </section>
 
 <section id="speakers" class="home-speaker">
-<h2>Speakers</h2>
-{% include list-keynote-speaker.html %}
-<div class="call-to-action">
-<a href="https://www.papercall.io/rubyconfth" target="_blank" class="call-to-action__btn btn btn--primary btn--lg">Submit your talk</a>
-</div>
+    <h2>Speakers</h2>
+    {% include list-keynote-speaker.html %}
+    <div class="call-to-action">
+        <a href="https://www.papercall.io/rubyconfth" target="_blank" class="call-to-action__btn btn btn--primary btn--lg">Submit your talk</a>
+    </div>
 </section>
 
 <section id="venue" class="home-venue">
-<h2>Venue</h2>
-{% include map-venue.html %}
+    <h2>Venue</h2>
+    {% include map-venue.html %}
 </section>
 
 <section id="sponsors" class="home-sponsor">
-<h2>Sponsors</h2>
-<p>Our event is supported by amazing sponsors and partners.</p>
-{% include list-sponsor.html %}
-<p>If you are interested in supporting our event, reach out to our team: <a href="mailto:sponsor@rubyconfth.com">sponsor@rubyconfth.com</a>. <br />Our sponsors deck will be published soon.</p>
+    <h2>Sponsors</h2>
+    <p>Our event is supported by amazing sponsors and partners.</p>
+    {% include list-sponsor.html %}
+    <p>If you are interested in supporting our event, reach out to our team: <a href="mailto:sponsor@rubyconfth.com">sponsor@rubyconfth.com</a>. <br />Our sponsors deck will be published soon.</p>
 </section>

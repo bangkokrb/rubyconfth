@@ -1,0 +1,7 @@
+.link {
+  &--secondary {
+    &, &:hover {
+      color: $body-color;
+    }
+  }
+}

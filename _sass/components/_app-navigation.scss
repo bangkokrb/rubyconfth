@@ -74,6 +74,7 @@
 
   text-align: center;
 
+  pointer-events: none;
   opacity: 0;
   transition: opacity $base-animation-duration/2 ease-in-out;
 
@@ -176,15 +177,17 @@
   }
 
   .app-navigation__pane {
-    pointer-events: auto;
-
     left: 0;
+
+    pointer-events: auto;
   }
 }
 
 .app-navigation--sticky {
   .app-navigation__event {
     opacity: 1;
+
+    pointer-events: auto;
   }
 
   .app-navigation__pane {

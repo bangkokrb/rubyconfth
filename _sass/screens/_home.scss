@@ -1,3 +1,59 @@
-body.home section {
-  min-height: rem(600px);
+body.home .app-content {
+  @include media-breakpoint-up('lg') {
+    padding-top: rem(50px);
+  }
+
+  section {
+    padding: 2.5rem 0;
+    min-height: rem(400px);
+
+    &:not(:last-of-type) {
+      border-bottom: 2px dashed map-get($color-gray, 'lightest');
+    }
+  }
+}
+
+body.home .home-hero {
+  display: flex;
+  flex-direction: column;
+
+  @include media-breakpoint-up('lg') {
+    flex-direction: row;
+  }
+
+  &__text {
+    @include media-breakpoint-up('lg') {
+      @include make-col(7);
+
+      order: 1;
+    }
+  }
+
+  &__heading {
+    @include media-breakpoint-up('lg') {
+      @include font-size($display4-size);
+    }
+  }
+
+  &__brand {
+    @include media-breakpoint-up('lg') {
+      @include make-col(5);
+
+      order: 2;
+    }
+  }
+
+  &__logo {
+    width: 50%;
+    height: auto;
+
+    margin-top: rem(-20px);
+
+    @include media-breakpoint-up('lg') {
+      width: 100%;
+      padding-left: $grid-gutter-width;
+
+      margin-top: rem(-40px);
+    }
+  }
 }

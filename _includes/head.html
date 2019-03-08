@@ -1,5 +1,5 @@
 {% capture parent_page_title %}{% if page.parent %}{{ page.parent | capitalize }} | {% endif %}{% endcapture %}
-{% capture meta_title %}{{ site.name | append: ' | ' | append: parent_page_title | append: page.title }}{% endcapture %}
+{% capture meta_title %}{{ page.title | append: parent_page_title | append: ' | ' | append: site.name }}{% endcapture %}
 {% capture meta_description %}{% if page.seo.description %}{{ page.seo.description }}{% else %}{{ site.seo.description }}{% endif %}{% endcapture %}
 <title>{{ meta_title }}</title>
 <meta name="description" content="{{ meta_description }}" />

@@ -2,7 +2,7 @@
   {% for keynote_speaker in site.data.speakers.keynote %}
   <li class="list-keynote-speaker__item">
     <figure class="list-keynote-speaker__profile">
-      <img src="{{ keynote_speaker.photo_url }}" class="list-keynote-speaker__photo" />
+      <img src="{{ keynote_speaker.photo_url }}" alt="Photo of {{ keynote_speaker.first_name }} {{ keynote_speaker.last_name }}" class="list-keynote-speaker__photo" />
       <figcaption class="list-keynote-speaker__name text-branded">
         <span>{{ keynote_speaker.first_name }}</span> {{ keynote_speaker.last_name }}
       </figcaption>

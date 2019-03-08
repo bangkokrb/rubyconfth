@@ -1,13 +1,5 @@
 .map-venue {
   position: relative;
-
-  margin-top: 2rem;
-  margin-bottom: 2rem;
-
-  @include media-breakpoint-up('lg') {
-    margin-top: 3rem;
-    margin-bottom: 3rem;
-  }
 }
 
 .map-venue__map {

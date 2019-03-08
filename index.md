@@ -24,4 +24,8 @@ permalink: /
 </section>
 
 <section id="sponsors" class="home-sponsor">
+<h2>Sponsors</h2>
+<p>Our event is supported by amazing sponsors and partners.</p>
+{% include list-sponsor.html %}
+<p>If you are interested in supporting our event, reach out to our team: <a href="mailto:sponsor@rubyconfth.com">sponsor@rubyconfth.com</a>. <br />Our sponsors deck will be published soon.</p>
 </section>

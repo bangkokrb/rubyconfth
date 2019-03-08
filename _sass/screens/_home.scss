@@ -19,6 +19,17 @@ body.home .app-content {
       font-weight: bold;
     }
   }
+
+  .map-venue,
+  .list-keynote-speaker {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+
+    @include media-breakpoint-up('lg') {
+      margin-top: 3rem;
+      margin-bottom: 3rem;
+    }
+  }
 }
 
 body.home .home-hero {
@@ -64,6 +75,19 @@ body.home .home-hero {
       padding-left: $grid-gutter-width;
 
       margin-top: rem(-40px);
+    }
+  }
+}
+
+body.home .home-sponsor {
+  text-align: center;
+
+  .list-sponsor {
+    margin-top: 2rem;
+
+    @include media-breakpoint-up('lg') {
+      margin-top: 3rem;
+      margin-bottom: 3rem;
     }
   }
 }

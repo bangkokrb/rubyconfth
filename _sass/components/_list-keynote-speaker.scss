@@ -1,18 +1,12 @@
 .list-keynote-speaker {
   $gutter-width-lg: 80px;
 
-  margin-top: 2rem;
-  margin-bottom: 2rem;
-
   @include media-breakpoint-up('md') {
     @include make-row();
   }
 
   @include media-breakpoint-up('lg') {
     @include make-row($gutter-width-lg);
-
-    margin-top: 3rem;
-    margin-bottom: 3rem;
   }
 
   &__item {

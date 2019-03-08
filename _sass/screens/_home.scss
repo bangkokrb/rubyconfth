@@ -21,8 +21,7 @@ body.home .app-content {
   }
 
   .map-venue,
-  .list-keynote-speaker,
-  .list-sponsor {
+  .list-keynote-speaker {
     margin-top: 2rem;
     margin-bottom: 2rem;
 
@@ -82,4 +81,13 @@ body.home .home-hero {
 
 body.home .home-sponsor {
   text-align: center;
+
+  .list-sponsor {
+    margin-top: 2rem;
+
+    @include media-breakpoint-up('lg') {
+      margin-top: 3rem;
+      margin-bottom: 3rem;
+    }
+  }
 }

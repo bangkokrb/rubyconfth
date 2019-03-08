@@ -1,0 +1,16 @@
+{% capture content %}
+<div class="map-venue">
+  <div class="map-venue__direction">
+    <address class="map-venue__address">
+      <a href="https://www.pullmanbangkokkingpower.com/" class="map-venue__name url fn org" >Pullman Bangkok King Power</a>
+      <span class="street-address">8-2 Rang Nam Alley</span>
+      <span class="extended-address">Khwaeng Thanon Phaya Thai, Khet Ratchathewi,</span>
+      <span class="locality">Bangkok</span>
+      <span class="postal-code">10400</span>
+    </address>
+    <a href="https://goo.gl/maps/vnLpSxt1zzw" target="_blank" class="map-venue__btn btn btn--primary btn--lg">Get Location</a>
+  </div>
+</div>
+{% endcapture %}
+{% comment %} Workaround to prevent Markdown to interpret the content as a code snippet {% endcomment %}
+{{ content | replace: '    ', ''}}

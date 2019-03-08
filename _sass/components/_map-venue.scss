@@ -1,0 +1,47 @@
+.map-venue {
+
+}
+
+.map-venue__direction {
+  display: flex;
+  flex-direction: column;
+
+  padding: 10px;
+
+  background: $white;
+  border: 2px solid map-get($color-gray, 'primary');
+
+  @include media-breakpoint-up('lg') {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  p {
+    margin: 0;
+  }
+
+  .map-venue__address {
+    margin: 0 0 1rem;
+
+    @include media-breakpoint-up('lg') {
+      margin-bottom: 0;
+      padding: 0 1rem 0 0.5rem;
+    }
+  }
+
+  .map-venue__name {
+    @extend .link--secondary;
+
+    display: block;
+    font-size: map-get($font-sizes, 'lg');
+    font-weight: bold;
+  }
+
+  .map-venue__btn {
+    width: 100%;
+    @include media-breakpoint-up('lg') {
+      width: rem(225px);
+    }
+  }
+}

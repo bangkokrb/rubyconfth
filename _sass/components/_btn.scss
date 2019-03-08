@@ -1,6 +1,18 @@
 .btn {
   &--primary {
     @extend .btn-primary;
+
+    text-transform: uppercase;
+
+    &,
+    &:hover,
+    &:active,
+    &:focus,
+    &:not(:disabled):not(.disabled):active,
+    &:not(:disabled):not(.disabled):active:focus {
+      border: 2px solid map-get($color-gray, 'primary');
+      box-shadow: none;
+    }
   }
 
   &--secondary {

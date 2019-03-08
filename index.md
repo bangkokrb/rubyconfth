@@ -19,6 +19,8 @@ permalink: /
 </section>
 
 <section id="venue" class="home-venue">
+<h2>Venue</h2>
+{% include map-venue.html %}
 </section>
 
 <section id="sponsors" class="home-sponsor">

@@ -91,6 +91,10 @@ class AppNavigation {
    * @param {Event} _event - Scroll event
    * */
   onScroll(_event) {
+    if (this._isMobileNavigation()) {
+      return;
+    }
+
     this._updatePanePosition();
   }
 
@@ -100,6 +104,10 @@ class AppNavigation {
    * @param {Event} _event - Resize event
    * */
   onResize(_event) {
+    if (this._isMobileNavigation()) {
+      return;
+    }
+
     // Scroll back to the top of the page
     window.scrollTo(0, 0);
 

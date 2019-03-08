@@ -14,7 +14,7 @@
     position: relative;
 
     @include media-breakpoint-up('lg') {
-      padding-left: $app-navigation-lg-width + $grid-gutter-width;
+      padding-left: $app-navigation-lg-width + $grid-gutter-width * 1.5;
     }
   }
 }

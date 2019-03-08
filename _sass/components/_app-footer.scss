@@ -31,9 +31,5 @@
 
   &__link {
     font-size: map-get($font-sizes, 'sm');
-
-    &, &:hover {
-      color: $body-color;
-    }
   }
 }

@@ -7,8 +7,16 @@ body.home .app-content {
     padding: 2.5rem 0;
     min-height: rem(400px);
 
+    @include media-breakpoint-up('lg') {
+      padding: 3rem 0;
+    }
+
     &:not(:last-of-type) {
       border-bottom: 2px dashed map-get($color-gray, 'lightest');
+    }
+
+    h2 {
+      font-weight: bold;
     }
   }
 }
@@ -19,6 +27,8 @@ body.home .home-hero {
 
   @include media-breakpoint-up('lg') {
     flex-direction: row;
+    // Align first line of text with the sticky navigation
+    padding-top: 2.5rem!important;
   }
 
   &__text {

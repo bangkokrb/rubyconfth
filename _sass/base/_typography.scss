@@ -4,3 +4,28 @@ body {
   font-size: $base-font-size;
   line-height: $base-line-height;
 }
+
+hr {
+  margin: 2rem 0;
+  border: 2px dashed map-get($color-gray, 'lightest');
+}
+
+::-moz-selection {
+  color: $white;
+  background: map-get($color-brand, 'primary');
+}
+
+::selection {
+  color: $white;
+  background: map-get($color-brand, 'primary');
+}
+
+// Utility to replicate the logo for any text: Red-Text Black-Text
+// <span>Ruby<span>Conf
+.text-branded {
+  font-weight: bold;
+
+  > span {
+    color: map-get($color-brand, 'primary');
+  }
+}

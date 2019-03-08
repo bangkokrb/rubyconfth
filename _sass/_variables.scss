@@ -1,23 +1,24 @@
 // Base
 
 $color-brand: (
-  primary: #f83548
+  primary: #f81c49
 );
 
 $color-gray: (
-  primary: #2c2d30,
-  dark: #211f21,
-  light: #c0c0c0,
-  lightest: #f0f0f
+  primary: #000006,
+  light: #66666a,
+  lighter: #99999B,
+  lightest: #cccccd
 );
 
 // Typography
 
 $font-sizes: (
-  default: 1rem,
-  sm: 0.875rem,
-  lg: 1.125rem,
-  xl: 1.375rem
+  default: 1rem, // 16px
+  xs: 0.75rem,   // 12 px
+  sm: 0.875rem,  // 14 px
+  lg: 1.125rem,  // 18 px
+  xl: 1.375rem   // 22 px
 );
 
 $base-font-size: map-get($font-sizes, 'default');
@@ -41,6 +42,10 @@ $zIndex: (
 $base-animation-duration: 300ms;
 $base-animation-timing: linear;
 
+// Layout
+
+$app-navigation-lg-width: 154px;
+
 /////////////////////////////
 // Bootstrap Customization //
 /////////////////////////////
@@ -54,4 +59,7 @@ $body-color: $base-font-color;
 
 $btn-border-radius: 0;
 $btn-border-radius-lg: 0;
-$btn-border-radius-sm: 0;
+
+$btn-padding-y-lg: 2rem;
+$btn-font-size-lg: map-get($font-sizes, 'lg')
+

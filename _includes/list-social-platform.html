@@ -1,0 +1,12 @@
+<ul class="list-social-platform list--unstyled">
+  {% for social_platform in site.data.social_platforms %}
+  <li class="list-social-platform__item">
+    <a href="{{ social_platform.url }}" target="_blank" class="list-social-platform__link">
+      {% capture socialIcon %}{{ social_platform.icon | prepend: 'icon-' }}{% endcapture %}
+      {% capture className %}{{ social_platform.icon | prepend: 'list-social-platform__icon--' | prepend: ' ' | prepend: 'list-social-platform__icon' | append: ' ' | append: 'icon--xs' }}{% endcapture %}
+      {% include icon.svg icon=socialIcon class=className %}
+      <span class="sr-only">{{ social_platform.name }}</span>
+    </a>
+  </li>
+  {% endfor %}
+</ul>

@@ -1,6 +1,35 @@
 .app-footer {
-  display: flex;
-  align-items: center;
 
-  line-height: 1.2;
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    @include media-breakpoint-up('lg') {
+      justify-content: space-between;
+    }
+  }
+
+  &__brand {
+    display: flex;
+    align-items: center;
+  }
+
+  &__copy {
+    margin-left: 1.25rem;
+
+    font-size: map-get($font-sizes, 'sm');
+  }
+
+  &__list-link {
+    display: none;
+
+    @include media-breakpoint-up('lg') {
+      display: initial;
+    }
+  }
+
+  &__link {
+    font-size: map-get($font-sizes, 'sm');
+  }
 }

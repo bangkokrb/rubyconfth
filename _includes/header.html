@@ -1,18 +1,57 @@
-<header class="app-header">
-  <div class="app-header__organizer">
-    <a href="https://www.meetup.com/bangkok-rb/" target="_blank" class="app-header__link">Bangkok.rb</a>
-  </div>
-
-  <ul class="list-social-plaftorm list--unstyled">
-    {% for social_platform in site.data.social_platforms %}
-    <li class="list-social-plaftorm__item">
-      <a href="{{ social_platform.url }}" target="_blank" class="list-social-plaftorm__link app-header__link">
-        {% capture socialIcon %}{{ social_platform.icon | prepend: 'icon-' }}{% endcapture %}
-        {% capture className %}{{ social_platform.icon | prepend: 'list-social-plaftorm__icon--' | prepend: ' ' | prepend: 'list-social-plaftorm__icon' | append: ' ' | append: 'icon--xs' }}{% endcapture %}
-        {% include icon.svg icon=socialIcon class=className %}
-        <span class="sr-only">{{ social_platform.name }}</span>
+<header id="home" class="app-header">
+  <div class="container">
+    <div class="app-header__event">
+      <a href="/" class="app-header__logo logo logo--text-icon">
+        <span class="sr-only">RubyConf TH {💎}</span>
       </a>
-    </li>
-    {% endfor %}
-  </ul>
+
+      <div class="app-header__logistic">
+        <div class="app-header__date">
+          September <strong>6-7, 2019</strong>
+        </div>
+        <div class="app-header__venue">
+          Venue: <strong>Pullman Bangkok King Power</strong>
+        </div>
+      </div>
+    </div>
+
+    <nav class="app-navigation app-header__navigation">
+      <button type="button" class="app-navigation__btn-toggle-menu btn btn--link" data-target="app-navigation__pane">
+        <i class="icon-hamburger"></i>
+        <span class="sr-only">Toggle Menu</span>
+      </button>
+
+      <div class="app-navigation__pane">
+        <div class="app-navigation__event">
+          <a href="#home" class="app-navigation__logo app-navigation__link">
+            <div class="logo logo--icon"><span class="sr-only">{💎}</span></div>
+            <div class="logo logo--text"><span class="sr-only">RubyConf TH</span></div>
+          </a>
+        </div>
+
+        <ul class="app-navigation__menu list--unstyled">
+          <li class="app-navigation__menu-item">
+            <a href="#about" class="app-navigation__menu-link app-navigation__link">About</a>
+          </li>
+          <li class="app-navigation__menu-item">
+            <a href="#speakers" class="app-navigation__menu-link app-navigation__link">Speakers</a>
+          </li>
+          <li class="app-navigation__menu-item">
+            <a href="#venue" class="app-navigation__menu-link app-navigation__link">Venue</a>
+          </li>
+          <li class="app-navigation__menu-item">
+            <a href="#sponsors" class="app-navigation__menu-link app-navigation__link">Sponsors</a>
+          </li>
+        </ul>
+
+        <hr/>
+
+        {% include list-social-platform.html %}
+      </div>
+    </nav>
+
+    <div class="app-header__social">
+      {% include list-social-platform.html %}
+    </div>
+  </div>
 </header>

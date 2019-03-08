@@ -1,0 +1,20 @@
+{% capture content %}
+<div class="list-sponsor">
+  {% for sponsor_level in site.data.sponsors %}
+  <div class="list-sponsor__level">
+    <h5 class="list-sponsor__title">{{ sponsor_level.title }}</h5>
+    <ul class="list-sponsor__list-company list--unstyled">
+      {% for company in sponsor_level.companies %}
+        <li class="list-sponsor__company">
+          <a href="{{ company.url }}" title="{{ company.name }}" target="_blank">
+            <img src="{{ company.logo_url }}" alt="{{ company.name }}" />
+          </a>
+        </li>
+      {% endfor %}
+    </ul>
+  </div>
+  {% endfor %}
+</div>
+{% endcapture %}
+{% comment %} Workaround to prevent Markdown to interpret the content as a code snippet {% endcomment %}
+{{ content | replace: '    ', ''}}

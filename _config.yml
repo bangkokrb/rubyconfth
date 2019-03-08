@@ -33,7 +33,7 @@ defaults:
       layout: default
       seo:
         description: "Join us for the first ever Ruby conference in Thailand"
-        image: "/public/images/social/og-icon.jpg"
+        image: "/public/images/social/opengraph.png"
 
 includes:
   - assets

@@ -1,0 +1,196 @@
+.app-navigation {
+  &__btn-toggle-menu {
+    position: fixed;
+    right: 10px;
+    top: 8px;
+    z-index: map-get($zIndex, 'sky');
+
+    // Increase touch area
+    width: rem(50px);
+    height: rem(50px);
+
+    // Reset button
+    padding: 0;
+    line-height: 0;
+
+    cursor: pointer;
+
+    background: $white;
+    border-radius: 50%;
+
+    @include media-breakpoint-up('lg') {
+      display: none;
+    }
+  }
+}
+
+.app-navigation__pane {
+  position: fixed;
+  top: 0;
+  left: 100vw;
+  z-index: map-get($zIndex, 'high');
+
+  width: 100vw;
+  height: 100vh;
+
+  padding: rem(70px) #{$grid-gutter-width/2} 2rem;
+
+  background: #fff;
+
+  will-change: left;
+  transition: left $base-animation-duration $base-animation-duration;
+
+  @include media-breakpoint-up('lg') {
+    position: absolute;
+    left: 0;
+    top: 190px;
+    z-index: map-get($zIndex, 'default');
+
+    width: $app-navigation-lg-width;
+    height: auto;
+    padding: 1rem 2rem;
+
+    border: 2px solid #000;
+    transition: top $base-animation-duration ease;
+  }
+
+  hr {
+    margin: 1.25rem 0 2.5rem;
+
+    @include media-breakpoint-up('lg') {
+      display: none;
+    }
+  }
+}
+
+.app-navigation__event {
+  display: none;
+  position: absolute;
+  top: -100px;
+  left: 0;
+  z-index: map-get($zIndex, 'default');
+
+  width: inherit;
+
+  text-align: center;
+
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity $base-animation-duration/2 ease-in-out;
+
+  @include media-breakpoint-up('lg') {
+    display: initial;
+  }
+
+  .logo {
+    display: inline-block;
+  }
+
+  .logo--icon {
+    width: rem(80px);
+    height: rem(56px);
+  }
+
+  .logo--text {
+    // Deducting the border width of the navigation pane
+    width: calc(100% - 4px);
+  }
+}
+
+.app-navigation__menu {
+  margin: 0 rem(30px);
+
+  @include media-breakpoint-up('lg') {
+    margin: 0;
+  }
+
+  &-link {
+    position: relative;
+    display: block;
+
+    line-height: 3.25;
+    font-size: map-get($font-sizes, 'xl');
+
+    transition: font-weight $base-animation-duration/2 $base-animation-timing;
+
+    @include media-breakpoint-up('lg') {
+      line-height: 2.75rem;
+      font-size: map-get($font-sizes, 'lg');
+    }
+
+    &,
+    &:hover {
+      color: $body-color;
+    }
+
+    &::before {
+      content: '';
+      position: absolute;
+      top: 30px;
+      left: -28px;
+
+      width: 9px;
+      height: 9px;
+
+      background: map-get($color-brand, 'primary');
+      transform: rotate(45deg);
+
+      opacity: 0;
+      transition: opacity $base-animation-duration/2 ease-in-out;
+
+      @include media-breakpoint-up('lg') {
+        top: 17px;
+        left: -20px;
+      }
+    }
+
+    &:hover,
+    &--active {
+      font-weight: 700;
+      text-decoration: none;
+    }
+
+    &--active::before {
+      opacity: 1;
+    }
+
+    // Default class name from Scrollspy
+    &.active {
+      @extend .app-navigation__menu-link--active;
+    }
+  }
+}
+
+.app-navigation .list-social-platform {
+  margin: 0 rem(30px);
+
+  @include media-breakpoint-up('lg') {
+    display: none;
+  }
+}
+
+// Menu animation
+
+.app-navigation--menu-open {
+  .app-navigation__btn-toggle-menu .icon-hamburger {
+    @extend .icon-hamburger--active;
+  }
+
+  .app-navigation__pane {
+    left: 0;
+
+    pointer-events: auto;
+  }
+}
+
+.app-navigation--sticky {
+  .app-navigation__event {
+    opacity: 1;
+
+    pointer-events: auto;
+  }
+
+  .app-navigation__pane {
+    position: fixed;
+  }
+}

@@ -1,0 +1,10 @@
+- title: Official Sponsor and Partner
+  companies:
+    - name: Nimble
+      url: https://nimblehq.co/
+      logo_url: /assets/images/pages/home/sponsors/logo-nimble.jpg
+- title: Ticketing Partner
+  companies:
+    - name: Eventpop
+      url: https://www.eventpop.me/
+      logo_url: /assets/images/pages/home/sponsors/logo-eventpop.jpg

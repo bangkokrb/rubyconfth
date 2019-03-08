@@ -10,6 +10,9 @@ permalink: /
 </div>
 <div class="home-hero__text">
 <h1 class="home-hero__heading display-heading">Join us for the <strong>first</strong> Ruby Conference in Bangkok</h1>
+<div class="call-to-action">
+<a href="mailto:rubyconfth@gmail.com?subject=Mailing List Subscription&body=Hi friendly organizers,%0D%0A%0D%0AMy name is <INSERT NAME> and I am from <INSERT CITY, COUNTRY>.%0D%0A%0D%0ALet me know when ticket sales are available!%0D%0A%0D%0AThanks 🙌" target="_blank" class="call-to-action__btn btn btn--primary btn--lg">Keep Me Updated</a>
+</div>
 </div>
 </section>
 

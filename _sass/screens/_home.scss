@@ -44,7 +44,7 @@ body.home .app-content {
   }
 }
 
-body.home .home-speaker {
+body.home .home-speaker, body.home .home-hero {
   .call-to-action__btn {
     @include media-breakpoint-up('md') {
       width: rem(300px);

@@ -20,6 +20,18 @@ body.home .app-content {
     }
   }
 
+  .call-to-action {
+    text-align: center;
+
+    &__btn {
+      width: 100%;
+
+      @include media-breakpoint-up('md') {
+        width: auto;
+      }
+    }
+  }
+
   .map-venue,
   .list-keynote-speaker {
     margin-top: 2rem;
@@ -28,6 +40,14 @@ body.home .app-content {
     @include media-breakpoint-up('lg') {
       margin-top: 3rem;
       margin-bottom: 3rem;
+    }
+  }
+}
+
+body.home .home-speaker {
+  .call-to-action__btn {
+    @include media-breakpoint-up('md') {
+      width: rem(300px);
     }
   }
 }

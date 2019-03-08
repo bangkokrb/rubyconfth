@@ -1,0 +1,18 @@
+- first_name: Tim
+  last_name: Riley
+  twitter_handle: "@timriley"
+  photo_url: /assets/images/pages/home/speakers/tim-riley.png
+  bio: |
+    Tim is a partner at <a href="https://www.icelab.com.au/" target="_blank">Icelab</a>, an Australian design agency, and a committed open source software contributor. He’s a co-founder and core team member of <a href="https://dry-rb.org/" target="_blank">dry-rb</a>, core team member of <a href="https://rom-rb.org/" target="_blank">rom-rb</a>, and part of the team building <a href="https://hanamirb.org/" target="_blank">Hanami</a> version 2.
+- first_name: Richard
+  last_name: Schneeman
+  twitter_handle: "@schneems"
+  photo_url: /assets/images/pages/home/speakers/richard-schneeman.png
+  bio: |
+    Richards codes for Heroku & is married to Ruby, literally. He built <a href="https://www.codetriage.com/" target="_blank">CodeTriage.com</a>, the easiest way to get started contributing to Open Source. He also runs a quirky conf in Austin, Texas <a href="https://twitter.com/keeprubyweird" target="_blank">@keeprubyweird</a>.
+- first_name: Saron
+  last_name: Yitbarek
+  twitter_handle: "@saronyitbarek"
+  photo_url: /assets/images/pages/home/speakers/saron-yitbarek.png
+  bio: |
+    Saron is the CEO and founder of <a href="https://twitter.com/CodeNewbies" target="_blank">CodeNewbie</a>, the most supportive community of programmers and people learning to code. She's also a developer, speaker, and podcaster.

@@ -1,0 +1,16 @@
+<ul class="list-keynote-speaker list--unstyled">
+  {% for keynote_speaker in site.data.speakers.keynote %}
+  <li class="list-keynote-speaker__item">
+    <figure class="list-keynote-speaker__profile">
+      <img src="{{ keynote_speaker.photo_url }}" class="list-keynote-speaker__photo" />
+      <figcaption class="list-keynote-speaker__name text-branded">
+        <span>{{ keynote_speaker.first_name }}</span> {{ keynote_speaker.last_name }}
+      </figcaption>
+      <a href="https://twitter.com/{{ keynote_speaker.twitter_handle }}" class="list-keynote-speaker__link link link--secondary">{{ keynote_speaker.twitter_handle }}</a>
+      <p class="list-keynote-speaker__bio">
+        {{ keynote_speaker.bio }}
+      </p>
+    </figure>
+  </li>
+  {% endfor %}
+</ul>

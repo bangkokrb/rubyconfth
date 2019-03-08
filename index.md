@@ -13,11 +13,13 @@ permalink: /
 </div>
 </section>
 
-<section id="speakers">
+<section id="speakers" class="home-speaker">
+<h2>Speakers</h2>
+{% include list-keynote-speaker.html %}
 </section>
 
-<section id="venue">
+<section id="venue" class="home-venue">
 </section>
 
-<section id="sponsors">
+<section id="sponsors" class="home-sponsor">
 </section>

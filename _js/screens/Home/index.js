@@ -54,7 +54,6 @@ class HomeScreen {
   _addEventListener() {
     this.appHeaderEvent.querySelectorAll('a').forEach(appHeaderLink => appHeaderLink.addEventListener('click', this.onClickAppHeaderLink));
   }
-
 }
 
 if (document.body.classList.contains('home')) {

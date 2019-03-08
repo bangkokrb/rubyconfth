@@ -1,5 +1,31 @@
 .map-venue {
+  position: relative;
 
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+
+  @include media-breakpoint-up('lg') {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+  }
+}
+
+.map-venue__map {
+  height: 300px;
+
+  margin-bottom: 1rem;
+
+  background-size: 200%;
+
+  @include media-breakpoint-up('md') {
+    background-size: cover;
+  }
+
+  @include media-breakpoint-up('lg') {
+    height: 510px;
+
+    margin-bottom: 0;
+  }
 }
 
 .map-venue__direction {
@@ -15,6 +41,13 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+
+    position: absolute;
+    left: 30px;
+    bottom: 30px;
+    z-index: map-get($zIndex, 'high');
+
+    width: 75%;
   }
 
   p {

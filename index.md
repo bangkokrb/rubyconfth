@@ -16,6 +16,9 @@ permalink: /
 <section id="speakers" class="home-speaker">
 <h2>Speakers</h2>
 {% include list-keynote-speaker.html %}
+<div class="call-to-action">
+<a href="https://www.papercall.io/rubyconfth" target="_blank" class="call-to-action__btn btn btn--primary btn--lg">Submit your talk</a>
+</div>
 </section>
 
 <section id="venue" class="home-venue">

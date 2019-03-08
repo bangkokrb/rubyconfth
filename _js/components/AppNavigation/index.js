@@ -61,7 +61,7 @@ class AppNavigation {
    * 1) If the href is a hash url, enables smooth scroll.
    * 2) Else allows the default browser action.
    *
-   * @param {Event} event - scroll event on navLinks
+   * @param {Event} event - click event on navLinks
    * */
   onClickMenuLink(event) {
     let closestLink = event.target.closest('a');
@@ -91,6 +91,10 @@ class AppNavigation {
    * @param {Event} _event - Scroll event
    * */
   onScroll(_event) {
+    if (this._isMobileNavigation()) {
+      return;
+    }
+
     this._updatePanePosition();
   }
 
@@ -100,6 +104,10 @@ class AppNavigation {
    * @param {Event} _event - Resize event
    * */
   onResize(_event) {
+    if (this._isMobileNavigation()) {
+      return;
+    }
+
     // Scroll back to the top of the page
     window.scrollTo(0, 0);
 

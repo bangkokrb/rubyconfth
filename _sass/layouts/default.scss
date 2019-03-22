@@ -1,7 +1,7 @@
 .layout-default .app-header,
 .layout-default .app-content,
 .layout-default .app-footer {
-  > .container {
+  .container {
     @include make-container();
     @include make-container-max-widths();
   }
@@ -10,7 +10,7 @@
 .layout-default .app-header,
 .layout-default .app-content,
 .layout-default .app-footer {
-  > .container {
+  .container {
     position: relative;
 
     @include media-breakpoint-up('lg') {

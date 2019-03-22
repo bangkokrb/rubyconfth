@@ -1,5 +1,45 @@
 .app-footer {
+  &__mailing,
+  &__footnote {
+    padding-top: 2.5rem;
+  }
+}
 
+.app-footer .app-footer__mailing {
+  padding-bottom: 2rem;
+
+  color: #fff;
+  text-align: center;
+
+  background: map-get($color-gray, 'primary');
+
+  @include media-breakpoint-up('lg') {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+  }
+
+  h3 {
+    @include media-breakpoint-up('lg') {
+      font-size: $h1-font-size;
+    }
+  }
+
+  p {
+    @include media-breakpoint-up('lg') {
+      font-size: map-get($font-sizes, 'xl');
+      font-weight: 300;
+    }
+  }
+
+  .app-footer__form {
+    @include media-breakpoint-up('lg') {
+      width: 75%;
+      margin: 0 auto;
+    }
+  }
+}
+
+.app-footer .app-footer__footnote {
   .container {
     display: flex;
     justify-content: center;

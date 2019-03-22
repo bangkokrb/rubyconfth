@@ -24,12 +24,15 @@ body.home .app-content {
     text-align: center;
 
     &__btn {
+      display: inline-block;
       width: 100%;
+
+      margin-top: 2rem;
 
       @include media-breakpoint-up('md') {
         width: auto;
-        padding-left: 2rem;
         padding-right: 2rem;
+        padding-left: 2rem;
       }
     }
   }
@@ -59,6 +62,7 @@ body.home .home-hero {
   flex-direction: column;
 
   @include media-breakpoint-up('lg') {
+    align-items: center;
     flex-direction: row;
     // Align first line of text with the sticky navigation
     padding-top: 2.5rem!important;
@@ -69,6 +73,17 @@ body.home .home-hero {
       @include make-col(7);
 
       order: 1;
+    }
+  }
+
+  .call-to-action {
+    @include media-breakpoint-up('lg') {
+      text-align:left;
+    }
+
+    &__btn {
+      padding-right: 4rem;
+      padding-left: 4rem;
     }
   }
 
@@ -113,11 +128,7 @@ body.home .home-sponsor {
     }
   }
 
-  .call-to-action {
-    margin-top: 2rem;
-
-    @include media-breakpoint-up('lg') {
-      margin-top: 1.5rem;
-    }
+  .call-to-action__btn {
+    margin-top: 1rem;
   }
 }

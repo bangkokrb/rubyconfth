@@ -161,6 +161,36 @@
   }
 }
 
+.app-navigation__register {
+  padding: 1rem 1.875rem;
+
+  @include media-breakpoint-up('lg') {
+    display: none;
+    position: absolute;
+    bottom: -50px;
+    // Compensate for border-width
+    left: -2px;
+    z-index: map-get($zIndex, 'default');
+
+    width: inherit;
+    padding: 0;
+
+    pointer-events: none;
+    opacity: 0;
+    transition: opacity $base-animation-duration/2 ease-in-out;
+  }
+
+  .btn {
+    width: auto;
+    height: 50px;
+    padding: 0.75rem;
+
+    @include media-breakpoint-up('lg') {
+      width: 100%;
+    }
+  }
+}
+
 .app-navigation .list-social-platform {
   margin: 0 rem(30px);
 
@@ -184,9 +214,10 @@
 }
 
 .app-navigation--sticky {
-  .app-navigation__event {
+  .app-navigation__event,
+  .app-navigation__register {
+    display: initial;
     opacity: 1;
-
     pointer-events: auto;
   }
 

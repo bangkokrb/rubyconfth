@@ -42,14 +42,10 @@
     }
 
     &:focus {
-      background-color: $white;
-      border-color: map-get($color-gray, 'primary');
       outline: 0;
     }
 
-    &--filled,
-    &:disabled,
-    &[readonly] {
+    &:disabled {
       background-color: map-get($color-gray, 'light');
       border-color: map-get($color-gray, 'light');
       opacity: 1;

@@ -1,5 +1,45 @@
 .app-footer {
+  &__mailing,
+  &__footnote {
+    padding-top: 2.5rem;
+  }
+}
 
+.app-footer .app-footer__mailing {
+  padding-bottom: 2rem;
+
+  color: #fff;
+  text-align: center;
+
+  background: map-get($color-gray, 'primary');
+
+  @include media-breakpoint-up('lg') {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+  }
+
+  h3 {
+    @include media-breakpoint-up('lg') {
+      font-size: $h1-font-size;
+    }
+  }
+
+  p {
+    @include media-breakpoint-up('lg') {
+      font-size: map-get($font-sizes, 'xl');
+      font-weight: 300;
+    }
+  }
+
+  .app-footer__form {
+    @include media-breakpoint-up('lg') {
+      width: 75%;
+      margin: 0 auto;
+    }
+  }
+}
+
+.app-footer .app-footer__footnote {
   .container {
     display: flex;
     justify-content: center;
@@ -10,18 +50,18 @@
     }
   }
 
-  &__brand {
+  .app-footer__brand {
     display: flex;
     align-items: center;
   }
 
-  &__copy {
+  .app-footer__copy {
     margin-left: 1.25rem;
 
     font-size: map-get($font-sizes, 'sm');
   }
 
-  &__list-link {
+  .app-footer__list-link {
     display: none;
 
     @include media-breakpoint-up('lg') {
@@ -29,7 +69,7 @@
     }
   }
 
-  &__link {
+  .app-footer__link {
     font-size: map-get($font-sizes, 'sm');
   }
 }

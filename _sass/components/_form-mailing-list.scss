@@ -1,0 +1,16 @@
+.form-mailing-list {
+  position: relative;
+
+  .form__control {
+    padding-right: 155px;
+  }
+
+  .btn {
+    position: absolute;
+    top: 9px;
+    right: 9px;
+
+    height: rem(51px);
+    padding: 0.75rem 2rem;
+  }
+}

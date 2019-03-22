@@ -28,6 +28,8 @@ body.home .app-content {
 
       @include media-breakpoint-up('md') {
         width: auto;
+        padding-left: 2rem;
+        padding-right: 2rem;
       }
     }
   }
@@ -109,5 +111,9 @@ body.home .home-sponsor {
       margin-top: 3rem;
       margin-bottom: 3rem;
     }
+  }
+
+  .call-to-action {
+    margin-top: 2rem;
   }
 }

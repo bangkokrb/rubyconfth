@@ -30,5 +30,8 @@ permalink: /
     <h2>Sponsors</h2>
     <p>Our event is supported by amazing sponsors and partners.</p>
     {% include list-sponsor.html %}
-    <p>If you are interested in supporting our event, reach out to our team: <a href="mailto:sponsor@rubyconfth.com">sponsor@rubyconfth.com</a>. <br />Our sponsors deck will be published soon.</p>
+    <p>If you are interested in supporting our event, download our Sponsors Deck for more information.</p>
+    <div class="call-to-action">
+        <a href="http://rubyconfth.com/sponsorship" target="_blank" class="call-to-action__btn btn btn--primary btn--lg">I want to be a sponsor</a>
+    </div>
 </section>

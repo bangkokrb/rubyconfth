@@ -128,11 +128,7 @@ body.home .home-sponsor {
     }
   }
 
-  .call-to-action {
-    margin-top: 2rem;
-
-    @include media-breakpoint-up('lg') {
-      margin-top: 1.5rem;
-    }
+  .call-to-action__btn {
+    margin-top: 1rem;
   }
 }

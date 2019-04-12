@@ -24,6 +24,11 @@ permalink: /
     </div>
 </section>
 
+<section id="agenda" class="home-agenda">
+    <h2>Agenda</h2>
+    {% include schedule.html %}
+</section>
+
 <section id="venue" class="home-venue">
     <h2>Venue</h2>
     {% include map-venue.html %}

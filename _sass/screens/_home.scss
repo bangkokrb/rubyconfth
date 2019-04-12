@@ -37,6 +37,7 @@ body.home .app-content {
     }
   }
 
+  .schedule,
   .map-venue,
   .list-keynote-speaker {
     margin-top: 2rem;
@@ -58,21 +59,41 @@ body.home .home-speaker {
 }
 
 body.home .home-hero {
-  display: flex;
-  flex-direction: column;
-
-  @include media-breakpoint-up('lg') {
-    align-items: center;
-    flex-direction: row;
-    // Align first line of text with the sticky navigation
-    padding-top: 2.5rem!important;
+  background: {
+    image: image-url('pages/home/bangkok-illustration.svg');
+    repeat: no-repeat;
+    position: center top;
+    size: 100% auto
   }
 
-  &__text {
+  @include media-breakpoint-down('lg') {
+    padding-top: rem(250px)!important;
+  }
+
+  @include media-breakpoint-up('md') {
+    background-size: 50% auto;
+  }
+
+  @include media-breakpoint-up('lg') {
+    background: {
+      position: bottom right;
+      size: 54% auto
+    }
+  }
+
+  &__content {
     @include media-breakpoint-up('lg') {
       @include make-col(7);
+    }
+  }
 
-      order: 1;
+  &__heading {
+    text-align: center;
+
+    @include media-breakpoint-up('lg') {
+      @include font-size(3.25rem);
+
+      text-align: left;
     }
   }
 
@@ -84,34 +105,6 @@ body.home .home-hero {
     &__btn {
       padding-right: 4rem;
       padding-left: 4rem;
-    }
-  }
-
-  &__heading {
-    @include media-breakpoint-up('lg') {
-      @include font-size($display4-size);
-    }
-  }
-
-  &__brand {
-    @include media-breakpoint-up('lg') {
-      @include make-col(5);
-
-      order: 2;
-    }
-  }
-
-  &__logo {
-    width: 50%;
-    height: auto;
-
-    margin-top: rem(-20px);
-
-    @include media-breakpoint-up('lg') {
-      width: 100%;
-      padding-left: $grid-gutter-width;
-
-      margin-top: rem(-40px);
     }
   }
 }

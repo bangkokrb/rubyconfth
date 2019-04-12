@@ -5,13 +5,10 @@ permalink: /
 ---
 
 <section id="about" class="home-hero">
-    <div class="home-hero__brand">
-        {% include icon.svg icon="icon-logo" class="home-hero__logo" %}
-    </div>
-    <div class="home-hero__text">
+    <div class="home-hero__content">
         <h1 class="home-hero__heading display-heading">Join us for the <strong>first</strong> Ruby Conference in Bangkok</h1>
         <div class="call-to-action">
-            <a href="https://www.eventpop.me/e/5111-rubyconfth-2019" target="_blank" class="call-to-action__btn btn btn--primary btn--lg">Register Now</a>
+            <a href="https://www.eventpop.me/e/5111-rubyconfth-2019" target="_blank" class="call-to-action__btn btn btn--primary btn--lg">Buy Tickets</a>
         </div>
     </div>
 </section>
@@ -24,6 +21,11 @@ permalink: /
     </div>
 </section>
 
+<section id="agenda" class="home-agenda">
+    <h2>Agenda</h2>
+    {% include schedule.html %}
+</section>
+
 <section id="venue" class="home-venue">
     <h2>Venue</h2>
     {% include map-venue.html %}
@@ -33,7 +35,7 @@ permalink: /
     <h2>Sponsors</h2>
     <p>Our event is supported by amazing sponsors and partners.</p>
     {% include list-sponsor.html %}
-    <p>If you are interested in supporting our event, download our Sponsors Deck for more information.</p>
+    <p>If you are interested in supporting our event, download our Sponsors Deck for more information or <a href="mailto:sponsor@rubyconfth.com">Email Us!</a></p>
     <div class="call-to-action">
         <a href="http://rubyconfth.com/sponsorship" target="_blank" class="call-to-action__btn btn btn--primary btn--lg">I want to be a sponsor</a>
     </div>

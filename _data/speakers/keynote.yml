@@ -16,3 +16,9 @@
   photo_url: /assets/images/pages/home/speakers/saron-yitbarek.png
   bio: |
     Saron is the CEO and founder of <a href="https://twitter.com/CodeNewbies" target="_blank">CodeNewbie</a>, the most supportive community of programmers and people learning to code. She's also a developer, speaker, and podcaster.
+- first_name: Ajey
+  last_name: Gore
+  twitter_handle: "@AjeyGore"
+  photo_url: /assets/images/pages/home/speakers/ajey-gore.png
+  bio: |
+    Ajey is the Group CTO of Go-Jek. With 17 years of experience in building core technology strategy across diverse domains, Ajey has helped several businesses through technology transformations at ThoughtWorks and CodeIgnition.

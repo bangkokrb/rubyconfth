@@ -1,0 +1,105 @@
+.schedule {
+  @include media-breakpoint-up('md'){
+    @include make-row();
+  }
+
+  &__item {
+    display: flex;
+
+    @include media-breakpoint-up('md'){
+      @include make-col-ready();
+      @include make-col(6);
+    }
+  }
+}
+
+.schedule__date {
+  flex: 80px 0 0;
+
+  font-weight: bold;
+  text-transform: uppercase;
+
+  .schedule__month,
+  .schedule__day-of-week {
+    display: block;
+  }
+
+  .schedule__month {
+    font-size: rem(26px);
+  }
+
+  .schedule__day-of-week {
+    font-size: rem(80px);
+    line-height: 1;
+  }
+}
+
+.schedule__day {
+  position: relative;
+
+  @include media-breakpoint-up('md'){
+    margin-left: 20px;
+  }
+
+  // Thin gray line
+  &::before {
+    content: '';
+    position: absolute;
+    left: 0;
+
+    width: 1px;
+    height: 100%;
+
+    background: map-get($color-gray, 'lightest');
+  }
+
+  .schedule__title {
+    margin-bottom: 1rem;
+
+    font-weight: bold;
+    text-indent: 40px;
+  }
+}
+
+.schedule__list-event {
+  @include list-unstyled();
+
+  margin-bottom: 0;
+
+  .schedule__event {
+    position: relative;
+
+    padding: 0 0 20px 40px;
+
+    // Red dot on the thin gray line
+    &::before {
+      content: '';
+      position: absolute;
+      left: -3px;
+      top: 12px;
+
+      width: 7px;
+      height: 7px;
+
+      border-radius: 50%;
+      background: map-get($color-brand, 'primary');
+    }
+  }
+
+  .schedule__time-slot {
+    position: relative;
+    padding-right: 1rem;
+
+    font-weight: bold;
+
+    &::after {
+      content: '·';
+      position: absolute;
+      top: -8px;
+      right: 2px;
+
+      height: 20px;
+      font-size: map-get($font-sizes, 'xl');
+    }
+  }
+}

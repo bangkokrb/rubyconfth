@@ -5,10 +5,7 @@ permalink: /
 ---
 
 <section id="about" class="home-hero">
-    <div class="home-hero__brand">
-        {% include icon.svg icon="icon-logo" class="home-hero__logo" %}
-    </div>
-    <div class="home-hero__text">
+    <div class="home-hero__content">
         <h1 class="home-hero__heading display-heading">Join us for the <strong>first</strong> Ruby Conference in Bangkok</h1>
         <div class="call-to-action">
             <a href="https://www.eventpop.me/e/5111-rubyconfth-2019" target="_blank" class="call-to-action__btn btn btn--primary btn--lg">Register Now</a>

@@ -11,7 +11,7 @@ permalink: /
     <div class="home-hero__text">
         <h1 class="home-hero__heading display-heading">Join us for the <strong>first</strong> Ruby Conference in Bangkok</h1>
         <div class="call-to-action">
-            <a href="https://www.eventpop.me/e/5111-rubyconfth-2019" target="_blank" class="call-to-action__btn btn btn--primary btn--lg">Register Now</a>
+            <a href="https://www.eventpop.me/e/5111-rubyconfth-2019" target="_blank" class="call-to-action__btn btn btn--primary btn--lg">Buy Tickets</a>
         </div>
     </div>
 </section>

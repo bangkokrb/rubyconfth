@@ -3,6 +3,12 @@
     font-weight: 300;
   }
 
+  &__level {
+    @include media-breakpoint-up('lg') {
+      margin-top: 1rem;
+    }
+  }
+
   &__list-company {
     padding: rem(30px) 0;
   }

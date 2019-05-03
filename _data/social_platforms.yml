@@ -4,3 +4,6 @@
 - name: Twitter
   icon: twitter
   url: https://twitter.com/rubyconfth
+- name: Instagram
+  icon: instagram
+  url: https://www.instagram.com/rubyconfth

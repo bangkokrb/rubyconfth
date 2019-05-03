@@ -3,6 +3,11 @@
     - name: Nimble
       url: https://nimblehq.co/
       logo_url: /assets/images/pages/home/sponsors/logo-nimble.jpg
+- title: Gold Sponsors
+  companies:
+    - name: Rapid River Software
+      url: https://rrsoft.co/
+      logo_url: /assets/images/pages/home/sponsors/logo-rapid-river-software.png
 - title: Ticketing Partner
   companies:
     - name: Eventpop

@@ -4,7 +4,9 @@
   }
 
   &__level {
-    margin-top: 1rem;
+    @include media-breakpoint-up('lg') {
+      margin-top: 1rem;
+    }
   }
 
   &__list-company {

@@ -1,10 +1,10 @@
 const presets = [
   [
-    "@babel/env",
+    '@babel/env',
     {
-      targets: "> 0.25%, not dead",
+      targets: '> 0.25%, not dead',
       corejs: 2,
-      useBuiltIns: "entry"
+      useBuiltIns: 'entry'
     }
   ]
 ];

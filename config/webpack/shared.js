@@ -8,7 +8,6 @@ function resolve (dir) {
 }
 
 const polyfills = [
-  'babel-polyfill',
   ...sync(path.join(resolve('_js/polyfills/'), '*.js')).map(polyfill => {
     return polyfill;
   })

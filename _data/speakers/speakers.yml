@@ -1,0 +1,6 @@
+- first_name: Radoslav
+  last_name: Stankov
+  twitter_handle: '@rstankov'
+  photo_url: /assets/images/pages/home/speakers/radoslav-stankov.jpg
+  bio: |
+    Web developer with 17+ years of experience, currently is the head of engineering at Product Hunt (by Angel List). Lately, he is juggling between Ruby, Javascript projects, with the belief that it's equally important to work both on the frontend and on the backend. Organizer of  React.NotAConf  conference and React.Sofia meetup.

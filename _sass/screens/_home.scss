@@ -109,6 +109,12 @@ body.home .home-hero {
   }
 }
 
+body.home .home-speaker {
+  &__coming-soon {
+    text-align: center;
+  }
+}
+
 body.home .home-sponsor {
   text-align: center;
 

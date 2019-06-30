@@ -4,3 +4,9 @@
   photo_url: /assets/images/pages/home/speakers/radoslav-stankov.jpg
   bio: |
     Web developer with 17+ years of experience, currently is the head of engineering at Product Hunt (by Angel List). Lately, he is juggling between Ruby, Javascript projects, with the belief that it's equally important to work both on the frontend and on the backend. Organizer of  React.NotAConf  conference and React.Sofia meetup.
+- first_name: Piotr
+  last_name: Murach
+  twitter_handle: '@piotr_murach'
+  photo_url: /assets/images/pages/home/speakers/piotr-murach.png
+  bio: |
+    A software engineer with an interest in tooling, automation, and testing. A creator of over 50 Ruby gems including the TTY toolkit for building sleek command line apps. He writes his ruminations about software, technology and more on piotrmurach.com.

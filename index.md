@@ -27,6 +27,9 @@ permalink: /
 <section id="venue" class="home-venue">
     <h2>Venue</h2>
     {% include map-venue.html %}
+    <div class="call-to-action">
+        <a href="https://www.idem.events/r/rubyconf-th-2019-ce8885c5" target="_blank" class="call-to-action__btn btn btn--primary btn--lg">Book your room</a>
+    </div>
 </section>
 
 <section id="sponsors" class="home-sponsor">

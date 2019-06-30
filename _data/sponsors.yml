@@ -1,15 +1,39 @@
-- title: Official Sponsor and Partner
+- title: Ruby Sponsor
+  slug: ruby
+  companies:
+    - name: Go-jek
+      url: https://www.gojek.io/
+      logo_url: /assets/images/pages/home/sponsors/logo-gojek.jpg
+- title: Platinum Sponsor & Official Partner
+  slug: platinum
   companies:
     - name: Nimble
       url: https://nimblehq.co/
       logo_url: /assets/images/pages/home/sponsors/logo-nimble.jpg
 - title: Gold Sponsors
+  slug: gold
   companies:
     - name: Rapid River Software
       url: https://rrsoft.co/
-      logo_url: /assets/images/pages/home/sponsors/logo-rapid-river-software.png
-- title: Ticketing Partner
+      logo_url: /assets/images/pages/home/sponsors/logo-rapid-river.jpg
+    - name: Matestack
+      url: https://matestack.org/
+      logo_url: /assets/images/pages/home/sponsors/logo-matestack.jpg
+    - name: Nexmo
+      url: https://developer.nexmo.com/
+      logo_url: /assets/images/pages/home/sponsors/logo-nexmo.jpg
+- title: Partners
+  slug: partner
   companies:
     - name: Eventpop
       url: https://www.eventpop.me/
       logo_url: /assets/images/pages/home/sponsors/logo-eventpop.jpg
+    - name: Gummy Bear Recruitment
+      url: https://www.gummybear.tech/
+      logo_url: /assets/images/pages/home/sponsors/logo-gummy-bear.jpg
+    - name: Notion
+      url: https://www.notion.so/
+      logo_url: /assets/images/pages/home/sponsors/logo-notion.jpg
+    - name: Lemi
+      url: https://app.lemi.travel/
+      logo_url: /assets/images/pages/home/sponsors/logo-lemi.jpg

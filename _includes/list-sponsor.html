@@ -2,7 +2,7 @@
   {% for sponsor_level in site.data.sponsors %}
   <div class="list-sponsor__level">
     <h5 class="list-sponsor__title">{{ sponsor_level.title }}</h5>
-    <ul class="list-sponsor__list-company list--unstyled">
+    <ul class="list-sponsor__list-company list-sponsor__list-company--{{ sponsor_level.slug }} list--unstyled">
       {% for company in sponsor_level.companies %}
         <li class="list-sponsor__company">
           <a href="{{ company.url }}" title="{{ company.name }}" target="_blank">

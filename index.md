@@ -16,9 +16,7 @@ permalink: /
 <section id="speakers" class="home-speaker">
     <h2>Speakers</h2>
     {% include list-keynote-speaker.html %}
-    <div class="call-to-action">
-        <a href="https://www.papercall.io/rubyconfth" target="_blank" class="call-to-action__btn btn btn--primary btn--lg">Submit your talk</a>
-    </div>
+    <p class="home-speaker__coming-soon">Our CFP is now closed. The complete list of speakers is coming soon.</p>
 </section>
 
 <section id="agenda" class="home-agenda">
@@ -29,6 +27,9 @@ permalink: /
 <section id="venue" class="home-venue">
     <h2>Venue</h2>
     {% include map-venue.html %}
+    <div class="call-to-action">
+        <a href="https://www.idem.events/r/rubyconf-th-2019-ce8885c5" target="_blank" class="call-to-action__btn btn btn--primary btn--lg">Book your room</a>
+    </div>
 </section>
 
 <section id="sponsors" class="home-sponsor">

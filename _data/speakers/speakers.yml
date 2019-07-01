@@ -3,16 +3,16 @@
   twitter_handle: '@rstankov'
   photo_url: /assets/images/pages/home/speakers/radoslav-stankov.jpg
   bio: |
-    Web developer with 17+ years of experience, currently is the head of engineering at Product Hunt (by Angel List). Lately, he is juggling between Ruby, Javascript projects, with the belief that it's equally important to work both on the frontend and on the backend. Organizer of  React.NotAConf  conference and React.Sofia meetup.
+    Web developer with 17+ years of experience, currently is the head of engineering at Product Hunt (by Angel List). Lately, he is juggling between Ruby, Javascript projects, with the belief that it's equally important to work both on the frontend and on the backend. Organizer of <a href="http://react-not-a-conf.com/" target="_blank">React.NotAConf</a> conference and <a href="https://www.meetup.com/React-Sofia/" target="_blank">React.Sofia</a> meetup.
 - first_name: Piotr
   last_name: Murach
   twitter_handle: '@piotr_murach'
   photo_url: /assets/images/pages/home/speakers/piotr-murach.png
   bio: |
-    A software engineer with an interest in tooling, automation, and testing. A creator of over 50 Ruby gems including the TTY toolkit for building sleek command line apps. He writes his ruminations about software, technology and more on piotrmurach.com.
+    A software engineer with an interest in tooling, automation, and testing. A creator of over 50 Ruby gems including the <a href=" https://piotrmurach.github.io/tty/" target="_blank">TTY toolkit for building sleek command line apps. He writes his ruminations about software, technology and more on <a href="https://piotrmurach.com" target="_blank">piotrmurach.com</a>.
 - first_name: Giovanni
   last_name: Sakti
   twitter_handle: '@giosakti'
   photo_url: /assets/images/pages/home/speakers/giovanni-sakti.jpg
   bio: |
-    Gio comes from Jakarta where he works for GO-JEK as systems engineer. He organizes various meetups, including ruby.id and jakartajs.org. His interests include programming languages and developer automation.
+    Gio comes from Jakarta where he works for GO-JEK as systems engineer. He organizes various meetups, including <a href="https://ruby.id/">ruby.id</a> and <a href="https://www.jakartajs.org/" target="_blank">jakartajs.org</a>. His interests include programming languages and developer automation.

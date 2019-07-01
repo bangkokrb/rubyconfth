@@ -16,3 +16,9 @@
   photo_url: /assets/images/pages/home/speakers/giovanni-sakti.jpg
   bio: |
     Gio comes from Jakarta where he works for GO-JEK as systems engineer. He organizes various meetups, including <a href="https://ruby.id/">ruby.id</a> and <a href="https://www.jakartajs.org/" target="_blank">jakartajs.org</a>. His interests include programming languages and developer automation.
+- first_name: Vishal
+  last_name: Chandnani
+  twitter_handle: ''
+  photo_url: /assets/images/pages/home/speakers/vishal-chandnani.jpg
+  bio: |
+    Vishal test-drives clean code at <a href="https://www.defmethod.com/" target="_blank">Def Method</a> in New York City. At The Boeing Company, he developed software for the US Government Intelligence Community. Vishal started his career at Lucent Technologies (Bell Labs Innovations), where he developed software for wireless communication systems.

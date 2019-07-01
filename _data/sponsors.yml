@@ -22,6 +22,9 @@
     - name: Nexmo
       url: https://developer.nexmo.com/
       logo_url: /assets/images/pages/home/sponsors/logo-nexmo.jpg
+    - name: Gitlab
+      url: https://about.gitlab.com/
+      logo_url: /assets/images/pages/home/sponsors/logo-gitlab.jpg
 - title: Partners
   slug: partner
   companies:

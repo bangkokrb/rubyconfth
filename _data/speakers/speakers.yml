@@ -28,3 +28,15 @@
   photo_url: /assets/images/pages/home/speakers/dmitry-salahutdinov.jpg
   bio: |
     Dmitry is originally a mathematician and currently works as backend developer at <a href="https://amplifr.com/en/" target="_blank">Amplifr</a>, He's a family-man with 3 kids, maintainer of the <a href="https://github.com/logux/logux_rails" target="_blank">logux_rails</a>contributes to other FOSS projects occasionally.
+- first_name: Leandro
+  last_name: Ostera
+  twitter_handle: '@leostera'
+  photo_url: /assets/images/pages/home/speakers/leandro-ostera.jpg
+  bio: |
+    Leandro is a Research Engineer at SRC, where he's rebuilding the foundations of the Web using ReasonML and the Actor model. In the past he's worked at both Swedish unicorns Klarna and Spotify.
+- first_name: Tae Noppakun
+  last_name: Wongsrinoppakun
+  twitter_handle: '@tae8838'
+  photo_url: /assets/images/pages/home/speakers/tae-wongsrinoppakun.jpg
+  bio: |
+    Tae is originally from Bangkok, but currently is living in Tokyo. He's a software engineer at <a href="https://wovn.io/" target="_blank">Wovn Technologies</a> building a platform to localize the internet. He has been working with Ruby his entire professional career. He also works with Vue.js and is interested in Elixir. If he's not in front of his laptop or Nintendo Switch, he's probably on a mountain somewhere.

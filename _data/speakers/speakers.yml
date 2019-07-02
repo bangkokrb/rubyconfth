@@ -40,3 +40,9 @@
   photo_url: /assets/images/pages/home/speakers/tae-wongsrinoppakun.jpg
   bio: |
     Tae is originally from Bangkok, but currently is living in Tokyo. He's a software engineer at <a href="https://wovn.io/" target="_blank">Wovn Technologies</a> building a platform to localize the internet. He has been working with Ruby his entire professional career. He also works with Vue.js and is interested in Elixir. If he's not in front of his laptop or Nintendo Switch, he's probably on a mountain somewhere.
+- first_name: Kazuma
+  last_name: Furuhashi
+  twitter_handle: '@284km'
+  photo_url: /assets/images/pages/home/speakers/kazuma-furuhashi.jpg
+  bio: |
+    Kazuma Furuhashi is a programmer and the creator of a visualization library named <a href="https://github.com/red-data-tools/charty" target="_blank">Charty</a>. A member of <a href="https://asakusarb.esa.io/" target="_blank">Asakusa.rb</a>, <a href="https://red-data-tools.github.io/" target="_blank">Red Data Tools</a>. Working at <a href="https://speee.jp/"  target="_blank">Speee Inc</a>.

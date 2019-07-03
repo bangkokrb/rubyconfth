@@ -46,3 +46,9 @@
   photo_url: /assets/images/pages/home/speakers/kazuma-furuhashi.jpg
   bio: |
     Kazuma Furuhashi is a programmer and the creator of a visualization library named <a href="https://github.com/red-data-tools/charty" target="_blank">Charty</a>. A member of <a href="https://asakusarb.esa.io/" target="_blank">Asakusa.rb</a>, <a href="https://red-data-tools.github.io/" target="_blank">Red Data Tools</a>. Working at <a href="https://speee.jp/"  target="_blank">Speee Inc</a>.
+- first_name: Gabriel
+  last_name: Fortuna
+  twitter_handle: '@gee_forr'
+  photo_url: /assets/images/pages/home/speakers/gabriel_fortuna.jpg
+  bio: |
+    Gabriel is the founder of Zero One Bespoke Software Development, a South African Ruby consultancy that specialises in developing integrated systems for the Telecommunications industry. In his day job, he tells computers what to do. Sometimes they listen.

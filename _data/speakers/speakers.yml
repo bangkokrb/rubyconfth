@@ -56,3 +56,9 @@
   last_name: Urubatan
   twitter_handle: '@urubatan'
   photo_url: /assets/images/pages/home/speakers/rodrigo-urubatan.png
+- first_name: Sergey
+  last_name: Dolganov
+  twitter_handle: '@ss_dolganov'
+  photo_url: /assets/images/pages/home/speakers/sergey-dolganov.jpg
+  bio: |
+    Sergey has been a software developer for 10 years of which he spent the last 6 or so in the Ruby world. He's interested in building a strong and sustainable community around open-source development and likes to collect and discuss different ways to profile, debug and optimize applications. He also loves dogs and is a drummer and musician.

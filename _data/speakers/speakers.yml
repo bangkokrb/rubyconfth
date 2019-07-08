@@ -80,3 +80,9 @@
   photo_url: /assets/images/pages/home/speakers/shweta-kale.jpg
   bio: |
     hweta is an avid Rubyist and Gopher working with Josh Software from past 5 years. She co-organises RubyConf India, DeccanRuby Conf, RailsGirls Pune and GoLang Girls Pune.
+- first_name: Phil
+  last_name: Nash
+  twitter_handle: '@philnash'
+  photo_url: /assets/images/pages/home/speakers/phil-nash.jpg
+  bio: |
+    Phil is a developer evangelist for Twilio and a Google Developer Expert. He's been in the web industry for 10 years building with JavaScript, Ruby and Swift. He can be found hanging out at meetups and conferences, playing with new technologies and APIs or writing open source code online. Sometimes he makes his own beer, but he's more likely to be found discovering new ones around the world. Phil tweets at @philnash and you can find him elsewhere online at https://philna.sh.

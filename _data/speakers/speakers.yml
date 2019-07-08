@@ -74,3 +74,9 @@
   photo_url: /assets/images/pages/home/speakers/harley-davidson-karel.jpg
   bio: |
     Application security consultant for Vantage Point Security. Certified Ethical Hacker, Speaker for several conferences in Jakarta, Kuala Lumpur, Singapore, Tokyo, Bangkok with topic related to application security.
+- first_name: Shweta
+  last_name: Kale
+  twitter_handle: '@shwetakale13'
+  photo_url: /assets/images/pages/home/speakers/shweta-kale.jpg
+  bio: |
+    hweta is an avid Rubyist and Gopher working with Josh Software from past 5 years. She co-organises RubyConf India, DeccanRuby Conf, RailsGirls Pune and GoLang Girls Pune.

@@ -82,3 +82,9 @@
   photo_url: /assets/images/pages/home/speakers/phil-nash.jpg
   bio: |
     Phil is a developer evangelist for Twilio and a Google Developer Expert. He's been in the web industry for 10 years building with JavaScript, Ruby and Swift. He can be found hanging out at meetups and conferences, playing with new technologies and APIs or writing open source code online. Sometimes he makes his own beer, but he's more likely to be found discovering new ones around the world. Phil tweets at @philnash and you can find him elsewhere online at https://philna.sh.
+- first_name: Vipul
+  last_name: AM
+  twitter_handle: '@vipulnsward'
+  photo_url: /assets/images/pages/home/speakers/vipul-am.jpg
+  bio: |
+    Vipul is the founder of <a href="https://www.saeloun.com/" target="_blank">Saeloun Inc</a>, a Ruby on Rails Consultancy. He is part of the Rails team, where he helps triaging issues. His spare time is spent exploring and contributing to many open source Ruby projects, when not dabbling with ReactJS. In the past he has authored ReactJS by Example, a deep walk-through of using ReactJS. Vipul helps run the Pune Ruby and ReactJS Pune communities. He also organizes DeccanRubyConf in Pune.

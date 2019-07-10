@@ -37,6 +37,9 @@
     - name: Speee
       url: https://speee.jp/
       logo_url: /assets/images/pages/home/sponsors/logo-speee.jpg
+    - name: Wovn
+      url: https://wovn.io/
+      logo_url: /assets/images/pages/home/sponsors/logo-wovn.jpg
 - title: Partners
   slug: partner
   companies:

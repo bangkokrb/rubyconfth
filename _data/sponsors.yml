@@ -25,6 +25,24 @@
     - name: Rapid River Software
       url: https://rrsoft.co/
       logo_url: /assets/images/pages/home/sponsors/logo-rapid-river.jpg
+- title: Speakers Sponsors & Individuals
+  slug: speaker
+  companies:
+    - name: Brightwire
+      url: https://www.brightwire.com
+      logo_url: /assets/images/pages/home/sponsors/logo-brightwire.jpg
+    - name: Josh
+      url: https://www.joshsoftware.com/
+      logo_url: /assets/images/pages/home/sponsors/logo-josh.jpg
+    - name: Speee
+      url: https://speee.jp/
+      logo_url: /assets/images/pages/home/sponsors/logo-speee.jpg
+    - name: Wovn
+      url: https://wovn.io/
+      logo_url: /assets/images/pages/home/sponsors/logo-wovn.jpg
+    - name: Zero One
+      url: http://www.zero-one.io/
+      logo_url: /assets/images/pages/home/sponsors/logo-zero-one.jpg
 - title: Partners
   slug: partner
   companies:

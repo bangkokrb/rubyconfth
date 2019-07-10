@@ -22,12 +22,6 @@
   photo_url: /assets/images/pages/home/speakers/vishal-chandnani.jpg
   bio: |
     Vishal test-drives clean code at <a href="https://www.defmethod.com/" target="_blank">Def Method</a> in New York City. At The Boeing Company, he developed software for the US Government Intelligence Community. Vishal started his career at Lucent Technologies (Bell Labs Innovations), where he developed software for wireless communication systems.
-- first_name: Dmitry
-  last_name: Salahutdinov
-  twitter_handle: '@dsalahutdinov1'
-  photo_url: /assets/images/pages/home/speakers/dmitry-salahutdinov.jpg
-  bio: |
-    Dmitry is originally a mathematician and currently works as a backend developer at <a href="https://amplifr.com/en/" target="_blank">Amplifr</a>, He's a family-man with 3 kids, maintainer of the <a href="https://github.com/logux/logux_rails" target="_blank">logux_rails</a> and contributes to other FOSS projects.
 - first_name: Leandro
   last_name: Ostera
   twitter_handle: '@leostera'

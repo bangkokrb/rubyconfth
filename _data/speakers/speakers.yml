@@ -88,3 +88,9 @@
   photo_url: /assets/images/pages/home/speakers/vipul-am.jpg
   bio: |
     Vipul is the founder of <a href="https://www.saeloun.com/" target="_blank">Saeloun Inc</a>, a Ruby on Rails Consultancy. He is part of the Rails team, where he helps triaging issues. His spare time is spent exploring and contributing to many open source Ruby projects, when not dabbling with ReactJS. In the past he has authored ReactJS by Example, a deep walk-through of using ReactJS. Vipul helps run the Pune Ruby and ReactJS Pune communities. He also organizes DeccanRubyConf in Pune.
+- first_name: Melvrick Goh Aik
+  last_nam: Chun
+  twitter_handle: ''
+  photo_url: /assets/images/pages/home/speakers/melvrick-chun.png
+  bio: |
+    Melvrick is a Senior Engineer at Ascenda Loyalty working on various products. He now leads TransferConnect, a points exchange marketplace. He likes coding & Ruby makes it even more joyful for him. Outside of work, he likes reading, an occasional jog and writing in the 3rd person for conference intros.

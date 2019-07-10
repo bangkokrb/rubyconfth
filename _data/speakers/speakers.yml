@@ -50,6 +50,8 @@
   last_name: Urubatan
   twitter_handle: '@urubatan'
   photo_url: /assets/images/pages/home/speakers/rodrigo-urubatan.png
+  bio: |
+    Rodrigo Urubatan works as a software developer since 1997 and has worked with many languages such as Delphi, C++, C, Visual Basic, C#, Java, Ruby, Python, and others. He currently works for Brightwire and has the goal to help Ruby developers to use the best tools for each job, so they can solve hard problems, with less bugs and have more free time.
 - first_name: Sergey
   last_name: Dolganov
   twitter_handle: '@ss_dolganov'

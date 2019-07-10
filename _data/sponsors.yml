@@ -13,15 +13,18 @@
 - title: Gold Sponsors
   slug: gold
   companies:
-    - name: Rapid River Software
-      url: https://rrsoft.co/
-      logo_url: /assets/images/pages/home/sponsors/logo-rapid-river.jpg
+    - name: Gitlab
+      url: https://about.gitlab.com/
+      logo_url: /assets/images/pages/home/sponsors/logo-gitlab.jpg
     - name: Matestack
       url: https://matestack.org/
       logo_url: /assets/images/pages/home/sponsors/logo-matestack.jpg
     - name: Nexmo
       url: https://developer.nexmo.com/
       logo_url: /assets/images/pages/home/sponsors/logo-nexmo.jpg
+    - name: Rapid River Software
+      url: https://rrsoft.co/
+      logo_url: /assets/images/pages/home/sponsors/logo-rapid-river.jpg
 - title: Partners
   slug: partner
   companies:
@@ -31,9 +34,9 @@
     - name: Gummy Bear Recruitment
       url: https://www.gummybear.tech/
       logo_url: /assets/images/pages/home/sponsors/logo-gummy-bear.jpg
-    - name: Notion
-      url: https://www.notion.so/
-      logo_url: /assets/images/pages/home/sponsors/logo-notion.jpg
     - name: Lemi
       url: https://app.lemi.travel/
       logo_url: /assets/images/pages/home/sponsors/logo-lemi.jpg
+    - name: Notion
+      url: https://www.notion.so/
+      logo_url: /assets/images/pages/home/sponsors/logo-notion.jpg

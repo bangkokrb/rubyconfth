@@ -42,6 +42,23 @@
     }
   }
 
+  &--speaker {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    .list-sponsor__company {
+      flex: 50% 1 1;
+
+      margin-bottom: rem(30px);
+
+      @include media-breakpoint-up('md') {
+        flex: 33% 1 1;
+      }
+    }
+  }
+
   &--partner {
     display: flex;
     align-items: center;

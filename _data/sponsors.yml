@@ -25,6 +25,12 @@
     - name: Rapid River Software
       url: https://rrsoft.co/
       logo_url: /assets/images/pages/home/sponsors/logo-rapid-river.jpg
+- title: Speakers Sponsors & Individuals
+  slug: speaker
+  companies:
+    - name: Brightwire
+      url: https://www.brightwire.com
+      logo_url: /assets/images/pages/home/sponsors/logo-brightwire.jpg
 - title: Partners
   slug: partner
   companies:

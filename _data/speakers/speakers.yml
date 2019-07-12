@@ -98,4 +98,11 @@
   last_name: Mogollan
   twitter_handle: '@mogox'
   photo_url: /assets/images/pages/home/speakers/enrique-mogollan.jpg
-  bio: Enrique has been passionate about writing code for more than 12 years. His experience as software engineer ranges from backend and web applications to integrations and open source projects. He is a big fan of pair programming and believes that collaborative environments are the key to promote quality code and improve software design. Enrique was born and raised in San Miguel de Allende, Mexico.  He has lived in Valencia, Spain and San Francisco, California.  He enjoys traveling and reading.
+  bio: |
+    Enrique has been passionate about writing code for more than 12 years. His experience as software engineer ranges from backend and web applications to integrations and open source projects. He is a big fan of pair programming and believes that collaborative environments are the key to promote quality code and improve software design. Enrique was born and raised in San Miguel de Allende, Mexico.  He has lived in Valencia, Spain and San Francisco, California.  He enjoys traveling and reading.
+- first_name: Anton
+  last_name: Davydov
+  twitter_handle: '@anton_davydov'
+  photo_url: /assets/images/pages/home/speakers/anton-davydov.jpg
+  bio: |
+    Anton is a Hanami and dry-rb core developer and an indie developer from Moscow. He works on different open source projects and builds space-rocket ships at night.

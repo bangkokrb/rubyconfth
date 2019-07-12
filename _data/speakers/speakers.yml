@@ -106,3 +106,9 @@
   photo_url: /assets/images/pages/home/speakers/anton-davydov.jpg
   bio: |
     Anton is a Hanami and dry-rb core developer and an indie developer from Moscow. He works on different open source projects and builds space-rocket ships at night.
+- first_name: Elle
+  last_name: Meredith
+  twitter_handle: '@aemeredith'
+  photo_url: /assets/images/pages/home/speakers/elle-meredith.jpg
+  bio: |
+    Elle is a web developer with more than ten years experience writing Ruby and Rails. Currently at Blackmill, previously she was Development Director at thoughtbot New York. Elle believes in writing clean code, driven by automatic tests, with agile practices, an even work/life balance, and a respectful and inclusive team culture. Recently, she developed and ran the apprenticeship program for Qantas Hotels, up-skilling less experienced developers. When she is not immersed in the Ruby community, she is probably immersed in water, or lately, in bread flour.

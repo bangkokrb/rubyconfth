@@ -112,3 +112,9 @@
   photo_url: /assets/images/pages/home/speakers/elle-meredith.jpg
   bio: |
     Elle is a web developer with more than ten years experience writing Ruby and Rails. Currently at Blackmill, previously she was Development Director at thoughtbot New York. Elle believes in writing clean code, driven by automatic tests, with agile practices, an even work/life balance, and a respectful and inclusive team culture. Recently, she developed and ran the apprenticeship program for Qantas Hotels, up-skilling less experienced developers. When she is not immersed in the Ruby community, she is probably immersed in water, or lately, in bread flour.
+- first_name: Janko
+  last_name: Marohnić
+  twitter_handle: '@jankomarohnic'
+  photo_url: /assets/images/pages/home/speakers/janko-marohnic.jpg
+  bio: |
+    Janko is a Ruby off Rails evangelist and a frequent open source contributor. He firmly believse the future of the Ruby ecosystem lies outside of Rails, and frequently blogs about it. He's the creator of Shrine, a modern file attachment library for Ruby.

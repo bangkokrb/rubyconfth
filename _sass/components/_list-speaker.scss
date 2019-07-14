@@ -94,7 +94,7 @@
       background: $body-color;
 
       // Thin black line separating the bio from the speaker name + Twitter handle
-      @include media-breakpoint-down('sm') {
+      @include media-breakpoint-down('md') {
         top: 20px;
 
         width: 100%;

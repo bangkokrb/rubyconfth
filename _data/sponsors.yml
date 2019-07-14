@@ -31,6 +31,9 @@
     - name: Ascenda Loyalty
       url: https://www.ascendaloyalty.com/
       logo_url: /assets/images/pages/home/sponsors/logo-ascenda.jpg
+    - name: Blackmill
+      url: https://blackmill.co/
+      logo_url: /assets/images/pages/home/sponsors/logo-blackmill.jpg
     - name: Brightwire
       url: https://www.brightwire.com/
       logo_url: /assets/images/pages/home/sponsors/logo-brightwire.jpg

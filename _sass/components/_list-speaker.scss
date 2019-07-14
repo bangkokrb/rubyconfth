@@ -1,5 +1,5 @@
-.list-keynote-speaker {
-  $photo-size-md: 200px;
+.list-speaker {
+  $photo-size-lg: 200px;
 
   @include media-breakpoint-up('md') {
     @include make-row();
@@ -15,10 +15,6 @@
     @include media-breakpoint-up('md') {
       @include make-col-ready();
       @include make-col(6);
-
-      &:nth-child(-n + 2) {
-        margin-bottom: rem(30px);
-      }
     }
   }
 
@@ -33,7 +29,7 @@
     width: 100%;
 
     @include media-breakpoint-up('lg') {
-      width: $photo-size-md;
+      width: $photo-size-lg;
       height: 100%;
       order: 0;
     }
@@ -76,8 +72,11 @@
     @include media-breakpoint-up('lg') {
       order: 1;
 
-      width: calc(100% - #{$photo-size-md});
+      width: calc(100% - #{$photo-size-lg});
+      max-height: rem(200px);
       padding: rem(12px);
+
+      overflow: hidden;
 
       font-size: rem(13px);
 
@@ -91,7 +90,7 @@
       background: $body-color;
 
       // Thin black line separating the bio from the speaker name + Twitter handle
-      @include media-breakpoint-down('sm') {
+      @include media-breakpoint-down('md') {
         top: 20px;
 
         width: 100%;

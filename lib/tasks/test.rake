@@ -9,10 +9,9 @@ namespace :test do
       check_html: true,
       log_level: :debug,
 
-      # Known private links that returns 404, 403 or other specific code
+      # Known private links that returns 404, 403 or other specific error codes
       url_ignore: [
-        'https://angel.co/',
-        'https://www.zero-one.io/'
+        'https://angel.co/'
       ]
     }
 

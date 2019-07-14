@@ -1,0 +1,16 @@
+<ul class="list-speaker list--unstyled">
+  {% for speaker in site.data.speakers.speakers %}
+  <li class="list-speaker__item">
+    <figure class="list-speaker__profile">
+      <img src="{{ speaker.photo_url }}" alt="Photo of {{ speaker.first_name }} {{ speaker.last_name }}" class="list-speaker__photo" />
+      <figcaption class="list-speaker__name text-branded">
+        <span>{{ speaker.first_name }}</span> {{ speaker.last_name }}
+      </figcaption>
+      <a href="https://twitter.com/{{ speaker.twitter_handle }}" class="list-speaker__link link link--secondary">{{ speaker.twitter_handle }}</a>
+      <p class="list-speaker__bio">
+        {{ speaker.bio }}
+      </p>
+    </figure>
+  </li>
+  {% endfor %}
+</ul>

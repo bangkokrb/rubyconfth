@@ -16,7 +16,7 @@ permalink: /
 <section id="speakers" class="home-speaker">
     <h2>Speakers</h2>
     {% include list-keynote-speaker.html %}
-    <p class="home-speaker__coming-soon">Our CFP is now closed. The complete list of speakers is coming soon.</p>
+    {% include list-speaker.html %}
 </section>
 
 <section id="agenda" class="home-agenda">

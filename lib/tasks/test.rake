@@ -11,6 +11,7 @@ namespace :test do
 
       # Known private links that returns 404, 403 or other specific code
       url_ignore: [
+        'https://angel.co/',
         'https://www.zero-one.io/'
       ]
     }

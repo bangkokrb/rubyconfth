@@ -9,7 +9,7 @@
   twitter_handle: '@piotr_murach'
   photo_url: /assets/images/pages/home/speakers/piotr-murach.jpg
   bio: |
-    Piotr is a Software Engineer with an interest in tooling, automation, and testing. A creator of over 50 Ruby gems including the <a href=" https://piotrmurach.github.io/tty/" target="_blank">TTY toolkit</a> for building sleek command line apps. He writes about software, technology and more on <a href="https://piotrmurach.com" target="_blank">piotrmurach.com</a>.
+    Piotr is a Software Engineer with an interest in tooling, automation, and testing. A creator of over 50 Ruby gems including the <a href="https://ttytoolkit.org/" target="_blank">TTY toolkit</a> for building sleek command line apps. He writes about software, technology and more on <a href="https://piotrmurach.com" target="_blank">piotrmurach.com</a>.
 - first_name: Giovanni
   last_name: Sakti
   twitter_handle: '@giosakti'

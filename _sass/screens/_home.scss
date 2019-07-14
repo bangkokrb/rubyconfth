@@ -38,8 +38,7 @@ body.home .app-content {
   }
 
   .schedule,
-  .map-venue .call-to-action,
-  .list-speaker--keynote {
+  .map-venue .call-to-action {
     margin-top: 2rem;
     margin-bottom: 2rem;
 
@@ -51,6 +50,38 @@ body.home .app-content {
 }
 
 body.home .home-speaker {
+  .list-speaker--keynote {
+    margin-top: 2rem;
+
+    @include media-breakpoint-up('lg') {
+      margin-top: 3rem;
+    }
+  }
+
+  .list-speaker:not(.list-speaker--keynote) {
+    margin-bottom: 2rem;
+
+    @include media-breakpoint-up('lg') {
+      margin-bottom: 3rem;
+    }
+  }
+
+  .list-speaker--keynote .list-speaker__item {
+    @include media-breakpoint-up('md') {
+      &:nth-child(-n + 2) {
+        margin-bottom: rem(30px);
+      }
+    }
+  }
+
+  .list-speaker__item {
+    @include media-breakpoint-up('md') {
+      &:nth-child(-n + 18) {
+        margin-bottom: rem(30px);
+      }
+    }
+  }
+
   .call-to-action__btn {
     @include media-breakpoint-up('md') {
       width: rem(300px);

@@ -15,10 +15,6 @@
     @include media-breakpoint-up('md') {
       @include make-col-ready();
       @include make-col(6);
-
-      &:nth-child(-n + 18) {
-        margin-bottom: rem(30px);
-      }
     }
   }
 

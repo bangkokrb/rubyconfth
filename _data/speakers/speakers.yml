@@ -3,13 +3,13 @@
   twitter_handle: '@rstankov'
   photo_url: /assets/images/pages/home/speakers/radoslav-stankov.jpg
   bio: |
-    Web developer with 17+ years of experience, currently is the head of engineering at Product Hunt (by AngelList). Lately, he is juggling between Ruby and Javascript projects, with the belief that it's equally important to work both on the frontend and on the backend. Organizer of <a href="http://react-not-a-conf.com/" target="_blank">React.NotAConf</a> conference and <a href="https://www.meetup.com/React-Sofia/" target="_blank">React.Sofia</a> meetup.
+    Radoslav is currently the head of engineering at Product Hunt (by AngelList). Lately, juggling between Ruby and JavaScript projects. Organizer of <a href="http://react-not-a-conf.com/" target="_blank">React.NotAConf</a> conference and <a href="https://www.meetup.com/React-Sofia/" target="_blank">React.Sofia</a> meetup.
 - first_name: Piotr
   last_name: Murach
   twitter_handle: '@piotr_murach'
   photo_url: /assets/images/pages/home/speakers/piotr-murach.jpg
   bio: |
-    A software engineer with an interest in tooling, automation, and testing. A creator of over 50 Ruby gems including the <a href=" https://piotrmurach.github.io/tty/" target="_blank">TTY toolkit</a> for building sleek command line apps. He writes his ruminations about software, technology and more on <a href="https://piotrmurach.com" target="_blank">piotrmurach.com</a>.
+    Piotr  is a software engineer with an interest in tooling, automation, and testing. A creator of over 50 Ruby gems including the <a href=" https://piotrmurach.github.io/tty/" target="_blank">TTY toolkit</a> for building sleek command line apps. He writes about software, technology and more on <a href="https://piotrmurach.com" target="_blank">piotrmurach.com</a>.
 - first_name: Giovanni
   last_name: Sakti
   twitter_handle: '@giosakti'
@@ -21,7 +21,7 @@
   twitter_handle: ''
   photo_url: /assets/images/pages/home/speakers/vishal-chandnani.jpg
   bio: |
-    Vishal test-drives clean code at <a href="https://www.defmethod.com/" target="_blank">Def Method</a> in New York City. At The Boeing Company, he developed software for the US Government Intelligence Community. Vishal started his career at Lucent Technologies (Bell Labs Innovations), where he developed software for wireless communication systems.
+    Vishal test-drives clean code at <a href="https://www.defmethod.com/" target="_blank">Def Method</a> in New York City. Previously, he developed software for the US Government Intelligence Community at The Boeing Company and software for wireless communication systems at Lucent Technologies.
 - first_name: Leandro
   last_name: Ostera
   twitter_handle: '@leostera'
@@ -33,7 +33,7 @@
   twitter_handle: '@tae8838'
   photo_url: /assets/images/pages/home/speakers/tae-wongsrinoppakun.jpg
   bio: |
-    Tae is originally from Bangkok, but currently is living in Tokyo. He's a software engineer at <a href="https://wovn.io/" target="_blank">Wovn Technologies</a> building a platform to localize the internet. He has been working with Ruby his entire professional career. He also works with Vue.js and is interested in Elixir. If he's not in front of his laptop or Nintendo Switch, he's probably on a mountain somewhere.
+    Tae is originally from Bangkok, but lives in Tokyo. Currently, he is a software engineer at <a href="https://wovn.io/" target="_blank">Wovn Technologies</a> building a platform to localize the internet. If he's not in front of his laptop or Nintendo Switch, he is probably on a mountain somewhere.
 - first_name: Kazuma
   last_name: Furuhashi
   twitter_handle: '@284km'
@@ -45,31 +45,31 @@
   twitter_handle: '@gee_forr'
   photo_url: /assets/images/pages/home/speakers/gabriel-fortuna.jpg
   bio: |
-    Gabriel is the founder of Zero One Bespoke Software Development, a South African Ruby consultancy that specialises in developing integrated systems for the Telecommunications industry. In his day job, he tells computers what to do. Sometimes they listen.
+    Gabriel is the founder of Zero One Bespoke Software Development, a South African Ruby consultancy that specialises in software for the Telecommunications industry. In his day job, he tells computers what to do. Sometimes they listen.
 - first_name: Rodrigo
   last_name: Urubatan
   twitter_handle: '@urubatan'
   photo_url: /assets/images/pages/home/speakers/rodrigo-urubatan.jpg
   bio: |
-    Rodrigo Urubatan works as a software developer since 1997 and has worked with many languages such as Delphi, C++, C, Visual Basic, C#, Java, Ruby, Python, and others. He currently works for Brightwire and has the goal to help Ruby developers to use the best tools for each job, so they can solve hard problems, with less bugs and have more free time.
+    Rodrigo Urubatan is a polyglot software developer since 1997. He currently works for Brightwire and has the goal to help Ruby developers to use the best tools for each job, so they can solve hard problems, with less bugs and have more free time.
 - first_name: Sergey
   last_name: Dolganov
   twitter_handle: '@ss_dolganov'
   photo_url: /assets/images/pages/home/speakers/sergey-dolganov.jpg
   bio: |
-    Sergey has been a software developer for 10 years of which he spent the last 6 or so in the Ruby world. He's interested in building a strong and sustainable community around open-source development and likes to collect and discuss different ways to profile, debug and optimize applications. He also loves dogs and is a drummer and musician.
+    Sergey is an experienced software developer interested in building a strong and sustainable community around OSS and likes to discuss different ways to profile, debug and optimize applications. He also loves dogs and is a drummer and musician.
 - first_name: Jaroslava
   last_name: Košanová
   twitter_handle: '@jajina_k'
   photo_url: /assets/images/pages/home/speakers/jaroslava-kosanova.jpg
   bio: |
-    Jarka is Ruby Backend Engineer working on GitLab, a single application with features for the entire DevOps lifecycle. Jarka really enjoys working for the remote-only company because she has an active lifestyle and takes care of her 1.5 year old daughter.
+    Jarka is Ruby Backend Engineer working on GitLab, a single application with features for the entire DevOps lifecycle. She really enjoys working for the remote-only company because she has an active lifestyle and takes care of her 1.5 year old daughter.
 - first_name: Harley Davidson
   last_name: Karel
   twitter_handle: '@harleydavidkar1'
   photo_url: /assets/images/pages/home/speakers/harley-davidson-karel.jpg
   bio: |
-    Application security consultant for Vantage Point Security. Certified Ethical Hacker, speaker for several conferences in Jakarta, Kuala Lumpur, Singapore, Tokyo and Bangkok with topics related to application security.
+    Harley is an application security consultant for Vantage Point Security. Certified Ethical Hacker, speaker for several conferences in Jakarta, Kuala Lumpur, Singapore, Tokyo and Bangkok with topics related to application security.
 - first_name: Shweta
   last_name: Kale
   twitter_handle: '@shwetakale13'
@@ -81,25 +81,25 @@
   twitter_handle: '@philnash'
   photo_url: /assets/images/pages/home/speakers/phil-nash.jpg
   bio: |
-    Phil is a developer evangelist for Twilio and a Google Developer Expert. He's been in the web industry for 10 years building with JavaScript, Ruby and Swift. He can be found hanging out at meetups and conferences, playing with new technologies and APIs or writing open source code online. Sometimes he makes his own beer, but he's more likely to be found discovering new ones around the world. Phil tweets at @philnash and you can find him elsewhere online at https://philna.sh.
+    <a href="https://philna.sh">Phil</a> is a developer evangelist for Twilio and a Google Developer Expert. 10 years of experience building with JavaScript, Ruby and Swift. Sometimes he makes his own beer, but he is more likely to be found discovering new ones around the world.
 - first_name: Vipul
-  last_name: AM
+  last_name: Am
   twitter_handle: '@vipulnsward'
   photo_url: /assets/images/pages/home/speakers/vipul-am.jpg
   bio: |
-    Vipul is the founder of <a href="https://www.saeloun.com/" target="_blank">Saeloun Inc</a>, a Ruby on Rails Consultancy. He is part of the Rails team, where he helps triaging issues. His spare time is spent exploring and contributing to many open source Ruby projects, when not dabbling with ReactJS. In the past he has authored ReactJS by Example, a deep walk-through of using ReactJS. Vipul helps run the Pune Ruby and ReactJS Pune communities. He also organizes DeccanRubyConf in Pune.
-- first_name: Melvrick Goh Aik
-  last_nam: Chun
+    Vipul is the founder of <a href="https://www.saeloun.com/" target="_blank">Saeloun Inc</a>, a Ruby on Rails Consultancy. Part of the Rails team. Author of ReactJS by Example. He helps run the Pune Ruby and ReactJS Pune communities. He also organizes DeccanRubyConf in Pune.
+- first_name: Melvrick 
+  last_name: Goh
   twitter_handle: ''
   photo_url: /assets/images/pages/home/speakers/melvrick-chun.jpg
   bio: |
-    Melvrick is a Senior Engineer at Ascenda Loyalty working on various products. He now leads TransferConnect, a points exchange marketplace. He likes coding & Ruby makes it even more joyful for him. Outside of work, he likes reading, an occasional jog and writing in the 3rd person for conference intros.
+    Melvrick is a Senior Engineer at Ascenda Loyalty and currently leads TransferConnect. He likes coding an Ruby makes it even more joyful. Outside of work, he likes reading, an occasional jog and writing in the 3rd person for conference intros.
 - first_name: Enrique
   last_name: Mogollan
   twitter_handle: '@mogox'
   photo_url: /assets/images/pages/home/speakers/enrique-mogollan.jpg
   bio: |
-    Enrique has been passionate about writing code for more than 12 years. His experience as software engineer ranges from backend and web applications to integrations and open source projects. He is a big fan of pair programming and believes that collaborative environments are the key to promote quality code and improve software design. Enrique was born and raised in San Miguel de Allende, Mexico.  He has lived in Valencia, Spain and San Francisco, California.  He enjoys traveling and reading.
+    Enrique has been writing code passionately for more than 12 years. He is a big fan of pair programming and believes that collaborative environments are the key to promote quality code and improve software design.
 - first_name: Anton
   last_name: Davydov
   twitter_handle: '@anton_davydov'
@@ -111,10 +111,10 @@
   twitter_handle: '@aemeredith'
   photo_url: /assets/images/pages/home/speakers/elle-meredith.jpg
   bio: |
-    Elle is a web developer with more than ten years experience writing Ruby and Rails. Currently at Blackmill, previously she was Development Director at thoughtbot New York. Elle believes in writing clean code, driven by automatic tests, with agile practices, an even work/life balance, and a respectful and inclusive team culture. Recently, she developed and ran the apprenticeship program for Qantas Hotels, up-skilling less experienced developers. When she is not immersed in the Ruby community, she is probably immersed in water, or lately, in bread flour.
+    Elle is a web developer with over ten years experience writing Ruby and Rails. Currently at Blackmill, previously Development Director at Thoughtbot New York. When not immersed in the Ruby community, she is likely immersed in water, or lately, in bread flour.
 - first_name: Janko
   last_name: Marohnić
   twitter_handle: '@jankomarohnic'
   photo_url: /assets/images/pages/home/speakers/janko-marohnic.jpg
   bio: |
-    Janko is a Ruby off Rails evangelist and a frequent open source contributor. He firmly believse the future of the Ruby ecosystem lies outside of Rails, and frequently blogs about it. He's the creator of Shrine, a modern file attachment library for Ruby.
+    Janko is a Ruby off Rails evangelist and a frequent open source contributor. He firmly believes the future of the Ruby ecosystem lies outside of Rails, and frequently blogs about it. He's the creator of Shrine, a modern file attachment library for Ruby.

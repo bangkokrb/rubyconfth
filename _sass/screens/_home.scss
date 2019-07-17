@@ -58,27 +58,15 @@ body.home .home-speaker {
     }
   }
 
-  .list-speaker:not(.list-speaker--keynote) {
-    margin-bottom: 2rem;
-
-    @include media-breakpoint-up('lg') {
-      margin-bottom: 3rem;
-    }
-  }
-
-  .list-speaker--keynote .list-speaker__item {
-    @include media-breakpoint-up('md') {
-      &:nth-child(-n + 2) {
-        margin-bottom: rem(30px);
-      }
-    }
-  }
-
   .list-speaker__item {
     @include media-breakpoint-up('md') {
-      &:nth-child(-n + 18) {
-        margin-bottom: rem(30px);
-      }
+      margin-bottom: rem(30px);
+    }
+  }
+
+  .list-speaker:not(.list-speaker--keynote) .list-speaker__item:nth-last-child(-n+2) {
+    @include media-breakpoint-up('md') {
+      margin-bottom: 0;
     }
   }
 

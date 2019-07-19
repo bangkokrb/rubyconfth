@@ -49,6 +49,9 @@
     - name: TTY Toolkit
       url: https://ttytoolkit.org/
       logo_url: /assets/images/pages/home/sponsors/logo-tty-toolkit.jpg
+    - name: Twilio
+      url: https://www.twilio.com/
+      logo_url: /assets/images/pages/home/sponsors/logo-twilio.jpg
     - name: Wovn
       url: https://wovn.io/
       logo_url: /assets/images/pages/home/sponsors/logo-wovn.jpg

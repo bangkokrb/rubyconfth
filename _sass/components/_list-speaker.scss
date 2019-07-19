@@ -19,6 +19,8 @@
   }
 
   &__profile {
+    position: relative;
+
     @include media-breakpoint-up('lg') {
       display: flex;
       flex-wrap: wrap;
@@ -33,6 +35,26 @@
       height: 100%;
       order: 0;
     }
+  }
+
+  &__tag {
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: map-get($zIndex, 'high');
+
+    width: rem(100px);
+    height: rem(36px);
+    line-height: rem(36px);
+    padding: 0 10px;
+
+    font-size: 1rem;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #fff;
+
+    background: map-get($color-brand, 'primary');
   }
 
   &__name {

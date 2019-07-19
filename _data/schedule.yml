@@ -1,0 +1,165 @@
+- date: 2019-09-06
+  month_short: Sep
+  day_name: Friday
+  day_of_month: 6
+  events:
+    - time: 8:00 - 9:00
+      title: Registration & Conference Door Opens
+    - time: 9:00 - 9:10
+      title: Welcome Address
+    - time: 9:10 - 9:50
+      title: Opening Keynote
+      speaker:
+        name: Tim Riley
+        photo_url: /assets/images/pages/home/speakers/tim-riley.jpg
+    - time: 9:50 - 10:20
+      title: Beyond REST in Rails
+      speaker:
+        name: Vipul Am
+        photo_url: /assets/images/pages/home/speakers/vipul-am.jpg
+    - time: 10:20 - 10:40
+      title: Tea Break
+    - time: 10:40 - 11:00
+      title: Pattern Matching In Ruby 2.7
+      speaker:
+        name: Tae Noppakun Wongsrinoppakun
+        photo_url: /assets/images/pages/home/speakers/tae-wongsrinoppakun.jpg
+    - time: 11:00 - 11:30
+      title: Charty - Visualize Real-world Data with Ruby
+      speaker:
+        name: Kazuma Furuhashi
+        photo_url: /assets/images/pages/home/speakers/kazuma-furuhashi.jpg
+    - time: 11:30 - 12:00
+      title: How to collaborate and keep healthy culture in a full-remote company
+      speaker:
+        name: Jarka Košanová
+        photo_url: /assets/images/pages/home/speakers/jaroslava-kosanova.jpg
+    - time: 12:00 - 12:30
+      title: Data Science in Ruby? Is it possible? Is it Fast? Should we use it?
+      speaker:
+        name: Rodrigo Urubatan
+        photo_url: /assets/images/pages/home/speakers/rodrigo-urubatan.jpg
+    - time: 12:30 - 13:30
+      title: Buffet Lunch
+    - time: 13:30 - 14:00
+      title: Sponsor Lightning Talk - Official Partner
+    - time: 14:00 - 14:30
+      title: It is correct but is it fast?
+      speaker:
+        name: Piotr Murach
+        photo_url: /assets/images/pages/home/speakers/piotr-murach.jpg
+    - time: 14:30 - 15:00
+      title: The developer who wanted to refactor the moon
+      speaker:
+        name: Enrique Mogollan
+        photo_url: /assets/images/pages/home/speakers/enrique-mogollan.jpg
+    - time: 15:00 - 15:30
+      title: Scalable Applications with JRuby
+      speaker:
+        name: Charles Nutter
+        photo_url: /assets/images/pages/home/speakers/charles-nutter.jpg
+    - time: 15:30 - 15:50
+      title: Tea break
+    - time: 15:50 - 16:20
+      title: Practical Guide to Discourage your Boss from Migrating into Kubernetes
+      speaker:
+        name: Giovanni Sakti
+        photo_url: /assets/images/pages/home/speakers/giovanni-sakti.jpg
+    - time: 16:20 - 16:50
+      title: How we use service objects to make our apps clean, composable, maintainable, and testable.
+      speaker:
+        name: Gabriel Fortuna
+        photo_url: /assets/images/pages/home/speakers/gabriel-fortuna.jpg
+    - time: 16:50 - 17:20
+      title: Events. Events. Events!
+      speaker:
+        name: Anton Davydov
+        photo_url: /assets/images/pages/home/speakers/anton-davydov.jpg
+    - time: 17:20 - 18:00
+      title: Closing Keynote
+      speaker:
+        name: Saron Yitbarek
+        photo_url: /assets/images/pages/home/speakers/saron-yitbarek.jpg
+    - time: 18:00 - 18:10
+      title: Closing Remarks/Announcements
+    - time: 19:00 - 23:00
+      title: Official Party
+- date: 2019-09-07
+  month_short: Sep
+  day_name: Saturday
+  day_of_month: 7
+  events:
+    - time: 8:00 - 9:00
+      title: Registration & Conference Door Opens
+    - time: 9:00 - 9:10
+      title: Welcome Address
+    - time: 9:10 - 9:50
+      title: |
+        Opening keynote: The Life-Changing Magic of Tidying Up ActiveRecord Allocations
+      speaker:
+        name: Richard Schneeman
+        photo_url: /assets/images/pages/home/speakers/richard-schneeman.jpg
+    - time: 9:50 - 10:20
+      title: Building WebApps like it's 1972
+      speaker:
+        name: Leandro Ostera
+        photo_url: /assets/images/pages/home/speakers/leandro-ostera.jpg
+    - time: 10:20 - 10:40
+      title: Tea Break
+    - time: 10:40 - 11:10
+      title: |
+        Debug Hard: Ruby String Library Methods and Underlying C Implementations
+      speaker:
+        name: Vishal Chandnani
+        photo_url: /assets/images/pages/home/speakers/vishal-chandnani.jpg
+    - time: 11:10 - 11:40
+      title: Security Issues on Your Ruby Code
+      speaker:
+        name: Harley Davidson Karel
+        photo_url: /assets/images/pages/home/speakers/harley-davidson-karel.jpg
+    - time: 11:40 - 12:00
+      title: Metaprogramming DSLs for managing complexity at scale
+      speaker:
+        name: Melvrick Goh
+        photo_url: /assets/images/pages/home/speakers/melvrick-chun.jpg
+    - time: 12:00 - 12:30
+      title: Go-ing a long way with Rails
+      speaker:
+        name: Shweta Kale
+        photo_url: /assets/images/pages/home/speakers/shweta-kale.jpg
+    - time: 12:30 - 13:30
+      title: Buffet Lunch
+    - time: 13:30 - 14:00
+      title: Handling file uploads for a modern developer
+      speaker:
+        name: Janko Marohnić
+        photo_url: /assets/images/pages/home/speakers/janko-marohnic.jpg
+    - time: 14:00 - 14:30
+      title: Start your own engineering apprenticeship program
+      speaker:
+        name: Elle Meredith
+        photo_url: /assets/images/pages/home/speakers/elle-meredith.jpg
+    - time: 14:30 - 15:00
+      title: Smaller is always better
+      speaker:
+        name: Phil Nash
+        photo_url: /assets/images/pages/home/speakers/phil-nash.jpg
+    - time: 15:00 - 15:30
+      title: Dirty Magic for Resilient API Dependencies
+      speaker:
+        name: Sergey Dolganov
+        photo_url: /assets/images/pages/home/speakers/sergey-dolganov.jpg
+    - time: 15:30 - 15:50
+      title: Tea Break
+    - time: 15:50 - 16:20
+      title: How to get to zero unhandled exceptions in production
+      speaker:
+        name: Radoslav Stankov
+        photo_url: /assets/images/pages/home/speakers/radoslav-stankov.jpg
+    - time: 16:20 - 17:00
+      title: Closing Keynote
+      speaker:
+        name: Ajey Gore
+        photo_url: /assets/images/pages/home/speakers/ajey-gore.jpg
+    - time: 17:00 - 17:10
+      title: Closing Remarks/Announcements

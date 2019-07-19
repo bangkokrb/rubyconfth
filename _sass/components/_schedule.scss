@@ -40,7 +40,7 @@
     font-size: rem(26px);
   }
 
-  .schedule__day-of-week {
+  .schedule__day-of-month {
     font-size: rem(80px);
     line-height: 1;
   }
@@ -103,15 +103,28 @@
     padding-right: 1rem;
 
     font-weight: bold;
+  }
 
-    &::after {
-      content: '·';
-      position: absolute;
-      top: -8px;
-      right: 2px;
+  .schedule__event-details {
+    display: flex;
+    margin: 10px 0 0;
+  }
 
-      height: 20px;
-      font-size: map-get($font-sizes, 'xl');
-    }
+  .schedule__speaker-photo {
+    width: rem(50px);
+    height: rem(50px);
+    flex-shrink: 0;
+
+    border-radius: 50%;
+  }
+
+  .schedule__talk-details {
+    margin-left: 1rem;
+  }
+
+  .schedule__talk-title {
+    line-height: 1.5;
+    font-weight: 600;
+    font-size: rem(15px);
   }
 }

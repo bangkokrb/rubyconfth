@@ -19,8 +19,8 @@ permalink: /
     {% include list-speaker.html %}
 </section>
 
-<section id="agenda" class="home-agenda">
-    <h2>Agenda</h2>
+<section id="schedule" class="home-schedule">
+    <h2>Schedule</h2>
     {% include schedule.html %}
     <div class="schedule-link">
       Add to Google Calendar:

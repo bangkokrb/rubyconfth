@@ -22,6 +22,13 @@ permalink: /
 <section id="agenda" class="home-agenda">
     <h2>Agenda</h2>
     {% include schedule.html %}
+    <div class="schedule-link">
+      Add to Google Calendar:
+      <a href="http://www.google.com/calendar/render?action=TEMPLATE&text=RubyConfTH+2019+(day+1)&dates=20190906T090000/20190906T160000&ctz=Asia/Bangkok&location=Pullman+Bangkok+King+Power,+8-2+Rang+Nam+Alley,+Khwaeng+Thanon+Phaya+Thai,+Khet+Ratchathewi,+Krung+Thep+Maha+Nakhon+10400,+Thailand&trp=true&sprop=website:rubyconfth.com&sprop=name:Ruby+Conference+Thailand+2019"
+         target="_blank" rel="nofollow" >Day 1</a>,
+      <a href="http://www.google.com/calendar/render?action=TEMPLATE&text=RubyConfTH+2019+(day+2)&dates=20190907T100000/20190907T170000&ctz=Asia/Bangkok&location=Pullman+Bangkok+King+Power,+8-2+Rang+Nam+Alley,+Khwaeng+Thanon+Phaya+Thai,+Khet+Ratchathewi,+Krung+Thep+Maha+Nakhon+10400,+Thailand&trp=true&sprop=website:rubyconfth.com&sprop=name:Ruby+Conference+Thailand+2019"
+         target="_blank" rel="nofollow" >Day 2</a>
+    </div>
 </section>
 
 <section id="venue" class="home-venue">

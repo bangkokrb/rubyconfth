@@ -14,7 +14,7 @@
           <time class="schedule__time-slot">{{ event_item.time }}</time>
           {% if event_item.speaker %}
           <figure class="schedule__event-details">
-            <img src="{{ event_item.speaker.photo_url }}" class="schedule__speaker-photo">
+            <img src="{{ event_item.speaker.photo_url }}" alt="Photo of {{ event_item.speaker.name }}" class="schedule__speaker-photo">
             <figcaption class="schedule__talk-details">
               <div class="schedule__talk-title">{{ event_item.title }}</div>
               <small class="schedule__speaker-name">{{ event_item.speaker.name }}</small>

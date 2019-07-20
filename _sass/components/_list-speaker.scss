@@ -42,7 +42,7 @@
     position: absolute;
     top: 0;
     left: 0;
-    z-index: map-get($zIndex, 'high');
+    z-index: map-get($zIndex, 'default');
 
     width: rem(100px);
     height: rem(36px);

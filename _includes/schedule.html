@@ -1,64 +1,33 @@
 <div class="schedule">
+  {% for schedule_item in site.data.schedule %}
   <div class="schedule__item">
-    <time datetime="2019-09-06" class="schedule__date">
-      <span class="schedule__month">Sep</span>
-      <span class="schedule__day-of-week">6</span>
+    <time datetime="{{ schedule_item.date }}" class="schedule__date">
+      <span class="schedule__month">{{ schedule_item.month_short }}</span>
+      <span class="schedule__day-of-month">{{ schedule_item.day_of_month }}</span>
     </time>
     <div class="schedule__day">
-      <h3 class="schedule__title">Friday</h3>
-      <ul class="schedule__list-event">
-        <li class="schedule__event">
-          <time class="schedule__time-slot">9 AM - 10 AM</time>
-          <span class="schedule__event-name">Registration</span>
-        </li>
-        <li class="schedule__event">
-          <time class="schedule__time-slot">10 AM - 1 PM</time>
-          <span class="schedule__event-name">Talks</span>
-        </li>
-        <li class="schedule__event">
-          <time class="schedule__time-slot">1 PM - 2 PM</time>
-          <span class="schedule__event-name">Buffet Lunch</span>
-        </li>
-        <li class="schedule__event">
-          <time class="schedule__time-slot">2 PM - 6 PM</time>
-          <span class="schedule__event-name">Talks</span>
-        </li>
-        <li class="schedule__event">
-          <time class="schedule__time-slot">7 PM - Late</time>
-          <span class="schedule__event-name">Official Party</span>
-        </li>
-      </ul>
-    </div>
-  </div>
+      <h3 class="schedule__title">{{ schedule_item.day_name }}</h3>
 
-  <div class="schedule__item">
-    <time datetime="2019-09-07" class="schedule__date">
-      <span class="schedule__month">Sep</span>
-      <span class="schedule__day-of-week">7</span>
-    </time>
-    <div class="schedule__day">
-      <h3 class="schedule__title">Saturday</h3>
       <ul class="schedule__list-event">
+        {% for event_item in schedule_item.events %}
         <li class="schedule__event">
-          <time class="schedule__time-slot">10 AM - 1 PM</time>
-          <span class="schedule__event-name">Talks</span>
+          <time class="schedule__time-slot">{{ event_item.time }}</time>
+          {% if event_item.speaker %}
+          <figure class="schedule__event-details">
+            <img src="{{ event_item.speaker.photo_url }}" alt="Photo of {{ event_item.speaker.name }}" class="schedule__speaker-photo">
+            <figcaption class="schedule__talk-details">
+              <div class="schedule__talk-title">{{ event_item.title }}</div>
+              <small class="schedule__speaker-name">{{ event_item.speaker.name }}</small>
+            </figcaption>
+          </figure>
+          {% else %}
+          <div class="schedule__event-title">{{ event_item.title }}</div>
+          {% endif %}
         </li>
-        <li class="schedule__event">
-          <time class="schedule__time-slot">1 PM - 2 PM</time>
-          <span class="schedule__event-name">Buffet Lunch</span>
-        </li>
-        <li class="schedule__event">
-          <time class="schedule__time-slot">2 PM - 5 PM</time>
-          <span class="schedule__event-name">Talks</span>
-        </li>
+        {% endfor %}
       </ul>
+
     </div>
   </div>
+  {% endfor %}
 </div>
-<p>
-Add to Google Calendar:
-<a href="http://www.google.com/calendar/render?action=TEMPLATE&text=RubyConfTH+2019+(day+1)&dates=20190906T090000/20190906T160000&ctz=Asia/Bangkok&location=Pullman+Bangkok+King+Power,+8-2+Rang+Nam+Alley,+Khwaeng+Thanon+Phaya+Thai,+Khet+Ratchathewi,+Krung+Thep+Maha+Nakhon+10400,+Thailand&trp=true&sprop=website:rubyconfth.com&sprop=name:Ruby+Conference+Thailand+2019"
-  target="_blank" rel="nofollow" >Day 1</a>,
-<a href="http://www.google.com/calendar/render?action=TEMPLATE&text=RubyConfTH+2019+(day+2)&dates=20190907T100000/20190907T170000&ctz=Asia/Bangkok&location=Pullman+Bangkok+King+Power,+8-2+Rang+Nam+Alley,+Khwaeng+Thanon+Phaya+Thai,+Khet+Ratchathewi,+Krung+Thep+Maha+Nakhon+10400,+Thailand&trp=true&sprop=website:rubyconfth.com&sprop=name:Ruby+Conference+Thailand+2019"
-  target="_blank" rel="nofollow" >Day 2</a>
-</p>

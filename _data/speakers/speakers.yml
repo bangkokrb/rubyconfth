@@ -118,3 +118,9 @@
   photo_url: /assets/images/pages/home/speakers/janko-marohnic.jpg
   bio: |
     Janko is a Ruby off Rails evangelist and a frequent open source contributor. He firmly believes the future of the Ruby ecosystem lies outside of Rails, and frequently blogs about it. He is the Creator of <a href="https://github.com/shrinerb/shrine" target="_blank">Shrine</a>, a modern file attachment library for Ruby.
+- first_name: Charles
+  last_name: Nutter
+  twitter_handle: '@headius'
+  photo_url: /assets/images/pages/home/speakers/charles-nutter.jpg
+  bio: |
+    Charles is one of the JRuby guys. He is a Ruby Hero and Java Champion too! He works every day to make JRuby the best JVM-based Ruby possible while pushing JVM folks and other language authors to keep improving the platform.

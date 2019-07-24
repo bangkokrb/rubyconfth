@@ -4,12 +4,15 @@
     - name: Go-jek
       url: https://www.gojek.io/
       logo_url: /assets/images/pages/home/sponsors/logo-gojek.jpg
-- title: Platinum Sponsor & Official Partner
+- title: Platinum Sponsors
   slug: platinum
   companies:
     - name: Nimble
       url: https://nimblehq.co/
       logo_url: /assets/images/pages/home/sponsors/logo-nimble.jpg
+    - name: Omise
+      url: https://www.omise.co/
+      logo_url: /assets/images/pages/home/sponsors/logo-omise.jpg
 - title: Gold Sponsors
   slug: gold
   companies:

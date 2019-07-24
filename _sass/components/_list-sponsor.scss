@@ -23,6 +23,21 @@
 }
 
 .list-sponsor__list-company {
+  &--platinum {
+    @include media-breakpoint-up('md') {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-wrap: wrap;
+
+      .list-sponsor__company {
+        @include media-breakpoint-up('md') {
+          flex: 50% 1 1;
+        }
+      }
+    }
+  }
+
   &--gold {
     @include media-breakpoint-up('md') {
       display: flex;

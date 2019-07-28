@@ -59,9 +59,17 @@
     margin-bottom: 0;
   }
 
-  &--gold .list-sponsor__company:nth-child(n+3) {
-    @include media-breakpoint-up('md') {
-      margin-bottom: 0;
+  &--gold .list-sponsor__company {
+    &:nth-child(-n+2) {
+      @include media-breakpoint-up('md') {
+        margin-bottom: rem(75px);
+      }
+    }
+
+    &:nth-child(n+3) {
+      @include media-breakpoint-up('md') {
+        margin-bottom: 0;
+      }
     }
   }
 
@@ -72,8 +80,17 @@
       flex: 33% 1 1;
     }
 
+    &:last-child,
+    &:nth-last-child(2) {
+      @include media-breakpoint-down('sm') {
+        margin-bottom: 0;
+      }
+    }
+
     &:last-child {
-      margin-bottom: 0;
+      @include media-breakpoint-up('md') {
+        margin-bottom: 0;
+      }
     }
   }
 

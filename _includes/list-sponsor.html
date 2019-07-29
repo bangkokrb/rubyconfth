@@ -5,8 +5,11 @@
     <ul class="list-sponsor__list-company list-sponsor__list-company--{{ sponsor_level.slug }} list--unstyled">
       {% for company in sponsor_level.companies %}
         <li class="list-sponsor__company">
-          <a href="{{ company.url }}" title="{{ company.name }}" target="_blank">
+          <a href="{{ company.url }}" title="{{ company.name }}" target="_blank" class="list-sponsor__link">
             <img src="{{ company.logo_url }}" alt="{{ company.name }}" />
+            {% if company.is_partner  %}
+              <span class="list-sponsor__tag">{{ company.partner_text }}</span>
+            {% endif %}
           </a>
         </li>
       {% endfor %}

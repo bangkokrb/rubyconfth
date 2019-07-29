@@ -10,86 +10,95 @@
   }
 
   &__list-company {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+
     padding: rem(30px) 0;
   }
 
   &__company {
-    margin-bottom: rem(30px);
+    flex: 50% 1 1;
+    margin-bottom: rem(50px);
 
-    @include media-breakpoint-up('lg') {
-      margin-bottom: 0;
+    &:last-child {
+      @include media-breakpoint-down('sm') {
+        margin-bottom: 0;
+      }
     }
+  }
+
+  &__link {
+    display: block;
+    position: relative;
+  }
+
+  &__tag {
+    display: block;
+
+    position: absolute;
+    bottom: -50%;
+    left: 50%;
+    z-index: map-get($zIndex, 'default');
+    transform: translateX(-50%);
+
+    width: auto;
+    padding: 0 4px;
+
+    color: #fff;
+    font-size: map-get($font-sizes, 'xs');
+    text-transform: uppercase;
+
+    background: #f81c49;
   }
 }
 
 .list-sponsor__list-company {
-  &--platinum {
-    @include media-breakpoint-up('md') {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      flex-wrap: wrap;
-
-      .list-sponsor__company {
-        @include media-breakpoint-up('md') {
-          flex: 50% 1 1;
-        }
-      }
-    }
+  &--ruby .list-sponsor__company:last-child {
+    margin-bottom: 0;
   }
 
-  &--gold {
-    @include media-breakpoint-up('md') {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      flex-wrap: wrap;
-
-      .list-sponsor__company {
-        @include media-breakpoint-up('md') {
-          flex: 50% 1 1;
-        }
-
-        @include media-breakpoint-up('lg') {
-          margin-bottom: rem(30px);
-        }
-      }
-    }
-  }
-
-  &--speaker {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
-
-    .list-sponsor__company {
-      flex: 50% 1 1;
-
-      margin-bottom: rem(30px);
-
+  &--gold .list-sponsor__company {
+    &:nth-child(-n+2) {
       @include media-breakpoint-up('md') {
-        flex: 33% 1 1;
+        margin-bottom: rem(75px);
+      }
+    }
+
+    &:nth-child(n+3) {
+      @include media-breakpoint-up('md') {
+        margin-bottom: 0;
       }
     }
   }
 
-  &--partner {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
+  &--speaker .list-sponsor__company {
+    margin-bottom: rem(40px);
 
-    .list-sponsor__company {
-      flex: 50% 1 1;
+    @include media-breakpoint-up('md') {
+      flex: 33% 1 1;
+    }
 
+    &:last-child,
+    &:nth-last-child(2) {
+      @include media-breakpoint-down('sm') {
+        margin-bottom: 0;
+      }
+    }
+
+    &:last-child {
       @include media-breakpoint-up('md') {
-        flex: 25% 1 1;
+        margin-bottom: 0;
       }
+    }
+  }
 
-      @include media-breakpoint-up('lg') {
-        flex: auto 1 1;
-      }
+  &--partner .list-sponsor__company {
+    margin-bottom: rem(40px);
+
+    @include media-breakpoint-up('md') {
+      flex: 25% 1 1;
     }
   }
 }

@@ -82,8 +82,9 @@
         photo_url: /assets/images/pages/home/speakers/ajey-gore.jpg
     - time: 18:00 - 18:10
       title: Closing Remarks/Announcements
-    - time: 19:00 - 23:00
+    - time: 18:30 - 23:00
       title: Official Party
+      extra: Hosted at Bangkok Heritage, <a target="_blank" href="https://bit.ly/2yGCBLY">a short walk away</a>
 - date: 2019-09-07
   month_short: Sep
   day_name: Saturday

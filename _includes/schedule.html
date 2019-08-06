@@ -22,6 +22,9 @@
           </figure>
           {% else %}
           <div class="schedule__event-title">{{ event_item.title }}</div>
+          {% if event_item.extra %}
+            <div class="schedule__event-extra">{{ event_item.extra }}</div>
+          {% endif %}
           {% endif %}
         </li>
         {% endfor %}

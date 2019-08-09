@@ -32,6 +32,9 @@
     - name: Rapid River Software
       url: https://rrsoft.co/
       logo_url: /assets/images/pages/home/sponsors/logo-rapid-river.jpg
+    - name: Jetbrains
+      url: https://www.jetbrains.com/
+      logo_url: /assets/images/pages/home/sponsors/logo-jetbrains.jpg
 - title: Speakers Sponsors & Individuals
   slug: speaker
   companies:

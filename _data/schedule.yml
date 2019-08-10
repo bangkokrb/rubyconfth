@@ -78,8 +78,8 @@
     - time: 17:20 - 18:00
       title: Closing Keynote
       speaker:
-        name: Saron Yitbarek
-        photo_url: /assets/images/pages/home/speakers/saron-yitbarek.jpg
+        name: Ajey Gore
+        photo_url: /assets/images/pages/home/speakers/ajey-gore.jpg
     - time: 18:00 - 18:10
       title: Closing Remarks/Announcements
     - time: 18:30 - 23:00
@@ -160,7 +160,7 @@
     - time: 16:20 - 17:00
       title: Closing Keynote
       speaker:
-        name: Ajey Gore
-        photo_url: /assets/images/pages/home/speakers/ajey-gore.jpg
+        name: Saron Yitbarek
+        photo_url: /assets/images/pages/home/speakers/saron-yitbarek.jpg
     - time: 17:00 - 17:10
       title: Closing Remarks/Announcements

@@ -47,6 +47,9 @@
     - name: Brightwire
       url: https://www.brightwire.com/
       logo_url: /assets/images/pages/home/sponsors/logo-brightwire.jpg
+    - name: IEX
+      url: https://iextrading.com/
+      logo_url: /assets/images/pages/home/sponsors/logo-iex.jpg
     - name: Josh
       url: https://www.joshsoftware.com/
       logo_url: /assets/images/pages/home/sponsors/logo-josh.jpg
@@ -62,9 +65,6 @@
     - name: Twilio
       url: https://www.twilio.com/
       logo_url: /assets/images/pages/home/sponsors/logo-twilio.jpg
-    - name: Wovn
-      url: https://wovn.io/
-      logo_url: /assets/images/pages/home/sponsors/logo-wovn.jpg
     - name: Zero One
       url: https://www.zero-one.io/
       logo_url: /assets/images/pages/home/sponsors/logo-zero-one.jpg

@@ -47,6 +47,9 @@
     - name: Brightwire
       url: https://www.brightwire.com/
       logo_url: /assets/images/pages/home/sponsors/logo-brightwire.jpg
+    - name: IEX
+      url: https://iextrading.com/
+      logo_url: /assets/images/pages/home/sponsors/logo-iex.jpg
     - name: Josh
       url: https://www.joshsoftware.com/
       logo_url: /assets/images/pages/home/sponsors/logo-josh.jpg

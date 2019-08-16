@@ -10,9 +10,10 @@
   companies:
     - name: Nimble
       url: https://nimblehq.co/
-      logo_url: /assets/images/pages/home/sponsors/logo-nimble.jpg
+      logo_url: /assets/images/pages/home/sponsors/logo-nimble.svg
       is_partner: true
       partner_text: Official Partner
+      logo_style: height:64px;
     - name: Omise
       url: https://www.omise.co/
       logo_url: /assets/images/pages/home/sponsors/logo-omise.svg

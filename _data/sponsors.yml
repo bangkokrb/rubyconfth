@@ -34,7 +34,8 @@
       logo_url: /assets/images/pages/home/sponsors/logo-rapid-river.jpg
     - name: Jetbrains
       url: https://www.jetbrains.com/
-      logo_url: /assets/images/pages/home/sponsors/logo-jetbrains.jpg
+      logo_url: /assets/images/pages/home/sponsors/logo-jetbrains.svg
+      logo_style: max-height:90px;
 - title: Speakers Sponsors & Individuals
   slug: speaker
   companies:

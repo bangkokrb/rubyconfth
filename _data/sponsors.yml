@@ -3,7 +3,8 @@
   companies:
     - name: Go-jek
       url: https://www.gojek.io/
-      logo_url: /assets/images/pages/home/sponsors/logo-gojek.jpg
+      logo_url: /assets/images/pages/home/sponsors/logo-gojek.svg
+      logo_style: height:65px;
 - title: Platinum Sponsors
   slug: platinum
   companies:
@@ -14,7 +15,8 @@
       partner_text: Official Partner
     - name: Omise
       url: https://www.omise.co/
-      logo_url: /assets/images/pages/home/sponsors/logo-omise.jpg
+      logo_url: /assets/images/pages/home/sponsors/logo-omise.svg
+      logo_style: height:64px;
 - title: Gold Sponsors
   slug: gold
   companies:
@@ -35,7 +37,7 @@
     - name: Jetbrains
       url: https://www.jetbrains.com/
       logo_url: /assets/images/pages/home/sponsors/logo-jetbrains.svg
-      logo_style: max-height:90px;
+      logo_style: height:90px;
 - title: Speakers Sponsors & Individuals
   slug: speaker
   companies:

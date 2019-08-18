@@ -4,7 +4,7 @@
     - name: Go-jek
       url: https://www.gojek.io/
       logo_url: /assets/images/pages/home/sponsors/logo-gojek.svg
-      logo_style: height:65px;
+      logo_style: height:64px;
 - title: Platinum Sponsors
   slug: platinum
   companies:
@@ -23,7 +23,8 @@
   companies:
     - name: Gitlab
       url: https://about.gitlab.com/
-      logo_url: /assets/images/pages/home/sponsors/logo-gitlab.jpg
+      logo_url: /assets/images/pages/home/sponsors/logo-gitlab.svg
+      logo_style: height:52px; margin-bottom:5px;
       is_partner: true
       partner_text: Swag Sponsor
     - name: Matestack

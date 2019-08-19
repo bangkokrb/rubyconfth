@@ -6,7 +6,7 @@
       {% for company in sponsor_level.companies %}
         <li class="list-sponsor__company">
           <a href="{{ company.url }}" title="{{ company.name }}" target="_blank" class="list-sponsor__link">
-            <img src="{{ company.logo_url }}" alt="{{ company.name }}" />
+            <img src="{{ company.logo_url }}" alt="{{ company.name }}" style="{{ company.logo_style }}"/>
             {% if company.is_partner  %}
               <span class="list-sponsor__tag">{{ company.partner_text }}</span>
             {% endif %}

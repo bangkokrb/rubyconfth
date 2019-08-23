@@ -70,17 +70,12 @@
       speaker:
         name: Gabriel Fortuna
         photo_url: /assets/images/pages/home/speakers/gabriel-fortuna.jpg
-    - time: 16:50 - 17:20
-      title: Events. Events. Events!
-      speaker:
-        name: Anton Davydov
-        photo_url: /assets/images/pages/home/speakers/anton-davydov.jpg
-    - time: 17:20 - 18:00
+    - time: 16:50 - 17:30
       title: Closing Keynote
       speaker:
         name: Ajey Gore
         photo_url: /assets/images/pages/home/speakers/ajey-gore.jpg
-    - time: 18:00 - 18:10
+    - time: 17:30 - 17:40
       title: Closing Remarks/Announcements
     - time: 18:30 - 23:00
       title: Official Party
@@ -101,10 +96,10 @@
         name: Richard Schneeman
         photo_url: /assets/images/pages/home/speakers/richard-schneeman.jpg
     - time: 9:50 - 10:20
-      title: Building WebApps like it's 1972
+      title: Events. Events. Events!
       speaker:
-        name: Leandro Ostera
-        photo_url: /assets/images/pages/home/speakers/leandro-ostera.jpg
+        name: Anton Davydov
+        photo_url: /assets/images/pages/home/speakers/anton-davydov.jpg
     - time: 10:20 - 10:40
       title: Tea Break
     - time: 10:40 - 11:10

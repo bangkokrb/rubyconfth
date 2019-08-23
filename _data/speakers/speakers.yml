@@ -21,13 +21,7 @@
   twitter_handle: ''
   photo_url: /assets/images/pages/home/speakers/vishal-chandnani.jpg
   bio: |
-    Vishal test-drives clean code at <a href="https://www.defmethod.com/" target="_blank">Def Method</a> in New York City. Previously, he developed software for the US Government Intelligence Community at The Boeing Company and software for wireless communication systems at Lucent Technologies.
-- first_name: Leandro
-  last_name: Ostera
-  twitter_handle: '@leostera'
-  photo_url: /assets/images/pages/home/speakers/leandro-ostera.jpg
-  bio: |
-    Leandro is a Research Engineer at SRC, where he's rebuilding the foundations of the Web using <a href="https://reasonml.github.io/" target="_blank">ReasonML</a> and the Actor model. In the past he has worked at Swedish unicorns <a href="https://www.klarna.com/" target="_blank">Klarna</a> and <a href="https://www.spotify.com/" target="_blank">Spotify</a>.
+    Vishal is the Head of Engineering (Astral) at IEX in New York City. Prior to IEX, he worked as a Senior Software Consultant at Def Method. At The Boeing Company, he developed software for the US Government Intelligence Community. Vishal started his career at Lucent Technologies (Bell Labs Innovations), where he developed software for wireless communication systems.
 - first_name: Tae Noppakun
   last_name: Wongsrinoppakun
   twitter_handle: '@tae8838'

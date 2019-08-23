@@ -3,38 +3,46 @@
   companies:
     - name: Go-jek
       url: https://www.gojek.io/
-      logo_url: /assets/images/pages/home/sponsors/logo-gojek.jpg
+      logo_url: /assets/images/pages/home/sponsors/logo-gojek.svg
+      logo_style: height:64px;
 - title: Platinum Sponsors
   slug: platinum
   companies:
     - name: Nimble
       url: https://nimblehq.co/
-      logo_url: /assets/images/pages/home/sponsors/logo-nimble.jpg
+      logo_url: /assets/images/pages/home/sponsors/logo-nimble.svg
       is_partner: true
       partner_text: Official Partner
+      logo_style: height:64px;
     - name: Omise
       url: https://www.omise.co/
-      logo_url: /assets/images/pages/home/sponsors/logo-omise.jpg
+      logo_url: /assets/images/pages/home/sponsors/logo-omise.svg
+      logo_style: height:64px;
 - title: Gold Sponsors
   slug: gold
   companies:
     - name: Gitlab
       url: https://about.gitlab.com/
-      logo_url: /assets/images/pages/home/sponsors/logo-gitlab.jpg
+      logo_url: /assets/images/pages/home/sponsors/logo-gitlab.svg
+      logo_style: height:52px; margin-bottom:5px;
       is_partner: true
       partner_text: Swag Sponsor
     - name: Matestack
       url: https://matestack.org/
-      logo_url: /assets/images/pages/home/sponsors/logo-matestack.jpg
+      logo_url: /assets/images/pages/home/sponsors/logo-matestack.svg
+      logo_style: height:37px; 
     - name: Nexmo
       url: https://developer.nexmo.com/
-      logo_url: /assets/images/pages/home/sponsors/logo-nexmo.jpg
+      logo_url: /assets/images/pages/home/sponsors/logo-nexmo.svg
+      logo_style: height:57px; 
     - name: Rapid River Software
       url: https://rrsoft.co/
-      logo_url: /assets/images/pages/home/sponsors/logo-rapid-river.jpg
+      logo_url: /assets/images/pages/home/sponsors/logo-rapid-river.svg
+      logo_style: height:38px; 
     - name: Jetbrains
       url: https://www.jetbrains.com/
-      logo_url: /assets/images/pages/home/sponsors/logo-jetbrains.jpg
+      logo_url: /assets/images/pages/home/sponsors/logo-jetbrains.svg
+      logo_style: height:90px;
 - title: Speakers Sponsors & Individuals
   slug: speaker
   companies:

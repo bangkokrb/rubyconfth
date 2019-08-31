@@ -71,7 +71,7 @@
         name: Gabriel Fortuna
         photo_url: /assets/images/pages/home/speakers/gabriel-fortuna.jpg
     - time: 16:50 - 17:30
-      title: Closing Keynote: Scalable Applications with JRuby
+      title: 'Closing Keynote: Scalable Applications with JRuby'
       speaker:
         name: Charles Nutter
         photo_url: /assets/images/pages/home/speakers/charles-nutter.jpg

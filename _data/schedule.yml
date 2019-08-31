@@ -54,10 +54,10 @@
         name: Enrique Mogollan
         photo_url: /assets/images/pages/home/speakers/enrique-mogollan.jpg
     - time: 15:00 - 15:30
-      title: Scalable Applications with JRuby
+      title: How to get to zero unhandled exceptions in production
       speaker:
-        name: Charles Nutter
-        photo_url: /assets/images/pages/home/speakers/charles-nutter.jpg
+        name: Radoslav Stankov
+        photo_url: /assets/images/pages/home/speakers/radoslav-stankov.jpg
     - time: 15:30 - 15:50
       title: Tea break
     - time: 15:50 - 16:20
@@ -71,10 +71,10 @@
         name: Gabriel Fortuna
         photo_url: /assets/images/pages/home/speakers/gabriel-fortuna.jpg
     - time: 16:50 - 17:30
-      title: Closing Keynote
+      title: Closing Keynote: Scalable Applications with JRuby
       speaker:
-        name: Ajey Gore
-        photo_url: /assets/images/pages/home/speakers/ajey-gore.jpg
+        name: Charles Nutter
+        photo_url: /assets/images/pages/home/speakers/charles-nutter.jpg
     - time: 17:30 - 17:40
       title: Closing Remarks/Announcements
     - time: 18:30 - 23:00
@@ -147,15 +147,10 @@
         photo_url: /assets/images/pages/home/speakers/sergey-dolganov.jpg
     - time: 15:30 - 15:50
       title: Tea Break
-    - time: 15:50 - 16:20
-      title: How to get to zero unhandled exceptions in production
-      speaker:
-        name: Radoslav Stankov
-        photo_url: /assets/images/pages/home/speakers/radoslav-stankov.jpg
-    - time: 16:20 - 17:00
+    - time: 15:50 - 16:30
       title: Closing Keynote
       speaker:
         name: Saron Yitbarek
         photo_url: /assets/images/pages/home/speakers/saron-yitbarek.jpg
-    - time: 17:00 - 17:10
+    - time: 16:30 - 16:40
       title: Closing Remarks/Announcements

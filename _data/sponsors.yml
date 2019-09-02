@@ -28,17 +28,17 @@
       is_partner: true
       partner_text: Swag Sponsor
     - name: Matestack
-      url: https://matestack.org/
+      url: https://www.matestack.org/
       logo_url: /assets/images/pages/home/sponsors/logo-matestack.svg
-      logo_style: height:37px; 
+      logo_style: height:37px;
     - name: Nexmo
       url: https://developer.nexmo.com/
       logo_url: /assets/images/pages/home/sponsors/logo-nexmo.svg
-      logo_style: height:57px; 
+      logo_style: height:57px;
     - name: Rapid River Software
       url: https://rrsoft.co/
       logo_url: /assets/images/pages/home/sponsors/logo-rapid-river.svg
-      logo_style: height:38px; 
+      logo_style: height:38px;
     - name: Jetbrains
       url: https://www.jetbrains.com/
       logo_url: /assets/images/pages/home/sponsors/logo-jetbrains.svg

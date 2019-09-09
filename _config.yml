@@ -48,10 +48,13 @@ exclude:
   - node_modules/
   - resources/
   - vendor/
+  - babel.config.js
+  - CONTRIBUTING.md
   - Dockerfile
   - Gemfile
   - Gemfile.lock
   - LICENSE
+  - netlify.toml
   - package.json
   - package-lock.json
   - Procfile.dev

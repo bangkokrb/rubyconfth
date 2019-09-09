@@ -78,6 +78,9 @@ body.home .home-speaker {
 }
 
 body.home .home-hero {
+  display: flex;
+  align-items: center;
+
   background: {
     image: image-url('pages/home/bangkok-illustration.svg');
     repeat: no-repeat;
@@ -113,17 +116,6 @@ body.home .home-hero {
       @include font-size(3.25rem);
 
       text-align: left;
-    }
-  }
-
-  .call-to-action {
-    @include media-breakpoint-up('lg') {
-      text-align:left;
-    }
-
-    &__btn {
-      padding-right: 4rem;
-      padding-left: 4rem;
     }
   }
 }

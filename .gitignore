@@ -44,5 +44,5 @@ assets/javascript/*.js
 assets/javascript/*.js.map
 assets/javascript/*sprite*
 
-# S3 deployment
+# Deployment
 .env

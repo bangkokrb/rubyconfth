@@ -34,10 +34,6 @@ const shared = {
   module: {
     rules: [
       {
-        test: /\.vue$/,
-        loaders: ['vue-loader']
-      },
-      {
         test: /\.js$/,
         exclude: /node_modules/,
         loaders: ['babel-loader']
@@ -49,7 +45,6 @@ const shared = {
     extensions: ['*', '.js', '.json'],
 
     alias: {
-      'vue$': 'vue/dist/vue.esm.js',
       'Vendor': resolve('vendor/javascript/')
     }
   },

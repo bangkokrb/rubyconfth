@@ -7,20 +7,11 @@ function resolve (dir) {
   return path.join(__dirname, '../../', dir)
 }
 
-const polyfills = [
-  ...sync(path.join(resolve('_js/polyfills/'), '*.js')).map(polyfill => {
-    return polyfill;
-  })
-];
-
 const shared = {
   context: resolve('/'),
 
   entry: {
-    application: [
-      ...polyfills,
-      resolve('_js/application.js')
-    ]
+    application: resolve('_js/application.js')
   },
 
   output: {

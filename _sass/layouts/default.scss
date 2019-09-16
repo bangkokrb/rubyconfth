@@ -1,0 +1,7 @@
+.layout-default .app-content,
+.layout-default .app-footer {
+  .container {
+    @include make-container();
+    @include make-container-max-widths();
+  }
+}

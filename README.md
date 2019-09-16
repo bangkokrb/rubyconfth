@@ -122,6 +122,26 @@ Corresponding to the following file structure:
 * In the case of using media other than images, prefer creating a new sub-directory e.g. `assets/videos/pages/<section-name>` 
 * To embed these media in the content, use the absolute path to each file: `/assets/<media type>/pages/<section-name>/<filename.extension>`
 
+### Past Version
+
+Past website versions are kept as Git submodules. So each website lives in its own repository.
+
+In order to add a new past version, commit a compiled version of the sire to a public repository and add a new submodule:
+
+```
+git submodule add https://github.com/bangkokrb/rubyconfth-2019.git ./past/2019
+```
+
+> Store all past version under the directory `./past`
+
+In order to publish all past version, pull all submodules:
+
+```
+git submodule update --remote --recursive
+```
+
+> Use `git submodule update --init --recursive` when pulling for the first time after cloning this repository
+
 ## Testing
 
 As a static site grows to tens of hundreds of pages, broken links or HTML could easily make its way to a number of pages. 
@@ -143,29 +163,13 @@ Run this locally or your CI / CD pipeline:
 bundle exec rake test:lint
 ```
 
-## Deployment to S3 (optional)
+## Deployment to Netlify
 
 * Setup the Docker image locally: `./bin/setup`
 
-* Publish the latest changes to S3: `./bin/deploy`
+* Publish the latest changes to Netlify: `./bin/deploy`
 
 > .env.docker is used to load the environment variables from the local environment `docker run --rm --entrypoint '/bin/bash' --env-file .env.docker -it rubyconfth`
-
-## Troubleshooting
-
-* When not using the Docker setup, `s3_website` currently does not work on the latest Java versions 9/10. It's necessary 
-to have the previous version 8 installed.
-  
-How to install multiple versions of Java on Mac:
-
-1. Install [jenv](http://www.jenv.be/)
-2. Install Java 8 using `homebrew` and `cask`: `brew cask install caskroom/versions/java8`
-3. In the app directory, set the local version to java 8: `jenv local 8.0`
-
-* Deploy commands outputs "There was nothing to push":
-
-In most cases, the gem `s3_website` outputs this message when changes to the assets have been performed but not on the 
-markdown files. In this case, `s3_website push --force` will push all content.
 
 ## Contributing
 

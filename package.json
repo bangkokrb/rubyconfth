@@ -1,7 +1,7 @@
 {
   "name": "rubyconfth",
   "version": "2.0.0",
-  "description": "Website for the Ruby Conference Thailand",
+  "description": "Website for RubyConf TH",
   "scripts": {
     "start": "BUILD_ENV=development webpack -w --config ./config/webpack/config.dev.js",
     "build": "BUILD_ENV=production webpack --config ./config/webpack/config.prod.js",

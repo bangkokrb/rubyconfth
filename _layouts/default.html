@@ -13,8 +13,6 @@
 <body class="{{ body_page_class | append: body_section_class }}">
 {% include svg-sprite.html %}
 
-{% include header.html %}
-
 <main class="app-content">
   <div class="container">
     {{ content }}
@@ -27,7 +25,6 @@
   {% include analytics.html %}
 {% endif %}
 
-<script src="/assets/javascript/vendor.js"></script>
 <script src="/assets/javascript/application.js"></script>
 </body>
 </html>

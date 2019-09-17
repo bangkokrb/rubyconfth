@@ -7,20 +7,11 @@ function resolve (dir) {
   return path.join(__dirname, '../../', dir)
 }
 
-const polyfills = [
-  ...sync(path.join(resolve('_js/polyfills/'), '*.js')).map(polyfill => {
-    return polyfill;
-  })
-];
-
 const shared = {
   context: resolve('/'),
 
   entry: {
-    application: [
-      ...polyfills,
-      resolve('_js/application.js')
-    ]
+    application: resolve('_js/application.js')
   },
 
   output: {
@@ -43,10 +34,6 @@ const shared = {
   module: {
     rules: [
       {
-        test: /\.vue$/,
-        loaders: ['vue-loader']
-      },
-      {
         test: /\.js$/,
         exclude: /node_modules/,
         loaders: ['babel-loader']
@@ -58,7 +45,6 @@ const shared = {
     extensions: ['*', '.js', '.json'],
 
     alias: {
-      'vue$': 'vue/dist/vue.esm.js',
       'Vendor': resolve('vendor/javascript/')
     }
   },

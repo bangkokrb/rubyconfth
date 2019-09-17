@@ -3,7 +3,8 @@
 </p>
 
 <p align="center">
-    <a href='https://semaphoreci.com/nimble/rubyconfth'> <img src='https://semaphoreci.com/api/v1/nimble/rubyconfth/branches/master/badge.svg' alt='Build Status'></a>
+    <a href="https://semaphoreci.com/nimble/rubyconfth"> <img src="https://semaphoreci.com/api/v1/nimble/rubyconfth/branches/master/badge.svg" alt="Build Status"></a>
+    <a href="https://app.netlify.com/sites/bangkokrb-rubyconfth/deploys"> <img src="https://api.netlify.com/api/v1/badges/3dbba728-8b59-40c4-b84e-66010ec3f0cf/deploy-status" alt="Deployment Status"></a>
 </p>
 
 ---

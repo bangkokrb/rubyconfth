@@ -3,8 +3,7 @@
     "browser": 1
   },
   "extends": [
-    "@nimbl3/eslint-config-nimbl3",
-    "plugin:vue/recommended"
+    "@nimbl3/eslint-config-nimbl3"
   ],
   "rules": {
     "no-new": "off"

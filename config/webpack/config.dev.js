@@ -1,6 +1,5 @@
 const webpack = require('webpack');
 const config = require('./shared');
-const VueLoaderPlugin = require('vue-loader/lib/plugin');
 
 /**
  * `BUILD_ENV` holds the environment name to be used for loading environment specific configs
@@ -21,7 +20,5 @@ config['plugins'].push(new webpack.SourceMapDevToolPlugin({
   filename: '[name].js.map',
   exclude: ['spritemap']
 }));
-
-config['plugins'].push(new VueLoaderPlugin());
 
 module.exports = config;

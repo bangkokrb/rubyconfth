@@ -1,11 +1,3 @@
-.list {
-  margin-left: rem(-25px);
-
-  &__item {
-    margin-bottom: 1rem;
-  }
-}
-
 .list--unstyled {
   @include list-unstyled();
 

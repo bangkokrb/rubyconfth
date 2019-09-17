@@ -1,10 +1,9 @@
 {
   "env": {
-    "browser": 1
+    "browser": true
   },
   "extends": [
-    "@nimbl3/eslint-config-nimbl3",
-    "plugin:vue/recommended"
+    "@nimbl3/eslint-config-nimbl3"
   ],
   "rules": {
     "no-new": "off"

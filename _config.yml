@@ -1,6 +1,6 @@
 ---
 url: https://rubyconfth.com
-name: Ruby Conference Thailand 2019
+name: RubyConf TH 2020
 permalink: pretty
 relative_permalinks: false
 timezone: Asia/Bangkok
@@ -32,7 +32,7 @@ defaults:
     values:
       layout: default
       seo:
-        description: "Join us for the first ever Ruby conference in Thailand"
+        description: "Stay tuned for RubyConf TH 2020"
         image: "/public/images/social/opengraph.png"
 
 includes:
@@ -48,10 +48,13 @@ exclude:
   - node_modules/
   - resources/
   - vendor/
+  - babel.config.js
+  - CONTRIBUTING.md
   - Dockerfile
   - Gemfile
   - Gemfile.lock
   - LICENSE
+  - netlify.toml
   - package.json
   - package-lock.json
   - Procfile.dev

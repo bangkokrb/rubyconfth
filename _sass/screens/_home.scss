@@ -5,7 +5,8 @@
 }
 
 .home .mailing-list,
-.home .social-platform {
+.home .social-platform,
+.home .save-the-date {
   text-align: center;
 
   @include media-breakpoint-up('md') {
@@ -13,7 +14,9 @@
     @include make-col-offset(3);
   }
 }
-
+.home .save-the-date {
+  padding-bottom: 4rem;
+}
 .home .mailing-list {
   &__text {
     padding: 0 2rem;

@@ -14,9 +14,11 @@
     @include make-col-offset(3);
   }
 }
+
 .home .save-the-date {
   padding-bottom: 4rem;
 }
+
 .home .mailing-list {
   &__text {
     padding: 0 2rem;

@@ -4,9 +4,9 @@
   align-items: center;
 }
 
+.home .cancellation-announcement,
 .home .mailing-list,
-.home .social-platform,
-.home .save-the-date {
+.home .social-platform {
   text-align: center;
 
   @include media-breakpoint-up('md') {
@@ -15,7 +15,7 @@
   }
 }
 
-.home .save-the-date {
+.home .cancellation-announcement {
   padding-bottom: 4rem;
 }
 

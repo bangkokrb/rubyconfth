@@ -32,7 +32,7 @@ defaults:
     values:
       layout: default
       seo:
-        description: "Stay tuned for RubyConf TH 2020"
+        description: "Stay tuned for RubyConf TH 2022"
         image: "/public/images/social/opengraph.png"
 
 includes:

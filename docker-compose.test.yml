@@ -13,8 +13,6 @@ services:
     container_name: rubyconfth_test
     command: bin/test
     volumes:
-      - .:/rubyconfth
-      - /rubyconfth/node_modules/
       - ruby-bundle:/bundle
 
 volumes:

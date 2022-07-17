@@ -1,0 +1,41 @@
+name: Test
+
+on: pull_request
+
+env:
+  DOCKER_IMAGE: ${{ github.repository }}
+
+jobs:
+  test:
+    name: Linting
+    runs-on: ubuntu-latest
+    steps:
+      - name: Cancel previous runs
+        uses: styfle/cancel-workflow-action@0.6.0
+        with:
+          access_token: ${{ github.token }}
+
+      - name: Checkout repository
+        uses: actions/checkout@v2.3.4
+
+      - name: Set env BRANCH_TAG
+        uses: nimblehq/branch-tag-action@v1.2
+
+      - name: Login to DockerHub
+        uses: docker/login-action@v1.6.0
+        with:
+          username: ${{ github.repository_owner }}
+          password: ${{ secrets.DOCKERHUB_TOKEN }}
+
+      - name: Docker pull
+        if: env.BRANCH_TAG != 'latest' && env.BRANCH_TAG != 'develop'
+        run: docker-compose -f docker-compose.test.yml pull || true
+
+      - name: Build Docker image
+        run: docker-compose -f docker-compose.test.yml build
+
+      - name: Docker push
+        run: docker-compose -f docker-compose.test.yml push
+
+      - name: HTML Linter
+        run: ./bin/docker-test

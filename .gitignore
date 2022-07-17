@@ -33,7 +33,9 @@
 .rvmrc
 
 # Jekyll specific
+.jekyll-cache/
 .jekyll-metadata
+.sass-cache/
 _site/
 
 # JS

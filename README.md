@@ -3,7 +3,6 @@
 </p>
 
 <p align="center">
-    <a href="https://semaphoreci.com/nimble/rubyconfth"> <img src="https://semaphoreci.com/api/v1/nimble/rubyconfth/branches/master/badge.svg" alt="Build Status"></a>
     <a href="https://app.netlify.com/sites/bangkokrb-rubyconfth/deploys"> <img src="https://api.netlify.com/api/v1/badges/3dbba728-8b59-40c4-b84e-66010ec3f0cf/deploy-status" alt="Deployment Status"></a>
 </p>
 
@@ -11,32 +10,23 @@
 
 ## Get Started
 
-### Using Docker
+### Using Docker and Docker Compose
 
-This is the fastest way to get started working on the website:
+This is the fastest way to get started working on Compass:
 
 * Rename the env file `.env.sample` to `.env` and add the required environment variables
 
-* Build the image locally and create a container for the application: 
+* Build the image locally and start the application:
 
 ```shell
-./bin/setup
+./bin/docker-start
 ```
 
-* Start the container:
+The container is running in development mode by default, making the application reachable at `http://localhost:4000`.
 
-```shell
-./bin/start
-```
+### Without Docker a.k.a the legacy way
 
-The container is running in development mode by default making the application reachable at `http://localhost:4000`.
-
-> `./bin/log` can be used to see the output of the Jekyll server. This is useful to check if the content is regenerated 
-properly inside the Docker container.
-
-### Without Docker a.k.a the legacy way 😢
-
-* Make sure that you have Ruby `2.5.3` and Node.JS > `8.6.0`
+* Make sure that you have ![ruby-version-image](https://img.shields.io/badge/ruby-3.1.1-brightgreen.svg) and ![node-version-image](https://img.shields.io/badge/node-16.14.0-brightgreen.svg)
 
 * Install dependencies
 
@@ -45,21 +35,11 @@ bundle install
 npm install
 ```
 
-* Use Jekyll to serve the website locally (by default, at `http://localhost:5000`):
+* Use Jekyll to serve the website locally (by default, at `http://localhost:4100`):
 
 ```shell
-$ bundle exec jekyll serve --config ./_config.yml [--incremental]
-$ open http://localhost:5000/
+./bin/start
 ```
-
-* Compile assets using Webpack: 
-
-```shell
-npm run start
-```
-
-> During development, both jekyll and webpack processes need to be started. To make this easier, foreman has been 
-configured in the project: `foreman start -f Procfile.dev`
 
 ## Managing Content
 
@@ -127,7 +107,7 @@ Corresponding to the following file structure:
 
 Past website versions are kept as Git submodules. So each website lives in its own repository.
 
-In order to add a new past version, commit a compiled version of the sire to a public repository and add a new submodule:
+In order to add a new past version, commit a compiled version of the site to a public repository and add a new submodule:
 
 ```
 git submodule add https://github.com/bangkokrb/rubyconfth-2019.git ./past/2019
@@ -178,8 +158,7 @@ Please see [CONTRIBUTING.md](/CONTRIBUTING.md).
 
 ## License
 
-This project is Copyright (c) 2018-2019 bangkok.rb. It is free software,
-and may be redistributed under the terms specified in the [LICENSE] file.
+This project is 2018 and onwards bangkok.rb. It is free software, and may be redistributed under the terms specified in the [LICENSE] file.
 
 [LICENSE]: /LICENSE
 

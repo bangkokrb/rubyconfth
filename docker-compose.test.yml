@@ -1,0 +1,21 @@
+version: '3.8'
+
+services:
+  test:
+    build:
+      context: .
+      cache_from:
+        - ${DOCKER_IMAGE}:${BRANCH_TAG}-test
+      args:
+        - RUBY_ENV=test
+        - NODE_ENV=test
+    image: ${DOCKER_IMAGE}:${BRANCH_TAG}-test
+    container_name: rubyconfth_test
+    command: bin/test
+    volumes:
+      - .:/rubyconfth
+      - /rubyconfth/node_modules/
+      - ruby-bundle:/bundle
+
+volumes:
+  ruby-bundle:

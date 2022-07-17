@@ -3,7 +3,7 @@ name: Test
 on: pull_request
 
 env:
-  DOCKER_IMAGE: ${{ github.repository }}
+  DOCKER_IMAGE: '${{ secrets.DOCKERHUB_USERNAME }}/${{ github.event.repository.name }}'
 
 jobs:
   test:

@@ -1,0 +1,21 @@
+version: '3.8'
+
+services:
+  web:
+    build:
+      context: .
+      args:
+        - RUBY_ENV=development
+        - NODE_ENV=development
+    env_file:
+      - .env
+    container_name: rubyconfth_development
+    volumes:
+      - .:/rubyconfth
+      - /rubyconfth/node_modules/
+      - ruby-bundle:/bundle
+    ports:
+      - 4000:4000
+
+volumes:
+  ruby-bundle:

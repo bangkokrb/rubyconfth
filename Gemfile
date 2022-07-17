@@ -11,5 +11,5 @@ group :development, :test do
 end
 
 group :test do
-  gem 'html-proofer'
+  gem 'html-proofer'# Test rendered HTML files to make sure they are accurate
 end

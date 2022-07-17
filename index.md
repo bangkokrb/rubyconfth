@@ -6,8 +6,8 @@ permalink: /
 
 <section class="conference-announcement">
   <p>A comeback of RubyConf TH for 2022 is in the works 🎉</p>
-  <p>The conference is scheduled to take place on December 10-11th 2022 at <a href="https://www.pullmanbangkokkingpower.com/">Pullman Bangkok King Power</a> in Bangkok</p>
-  <p>Standard ticket price is <mark>3,200 THB</mark> for the two-day event inclusive of an international buffet on both days and a welcome party 🥳</p>
+  <p>The conference is scheduled to take place on December 10-11th 2022 at <a href="https://www.pullmanbangkokkingpower.com/">Pullman Bangkok King Power</a> in Bangkok, Thailand</p>
+  <p>Standard ticket price is <mark>3,200 THB</mark> (approx. 89 USD) for the two-day event inclusive of all talks, an international lunch buffet on both days and a ticket to the official party 🥳</p>
 </section>
 
 <section class="mailing-list">

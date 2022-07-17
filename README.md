@@ -26,7 +26,7 @@ The container is running in development mode by default, making the application 
 
 ### Without Docker a.k.a the legacy way
 
-* Make sure that you have Ruby `3.1.1` and Node.JS >= `16.14.0`
+* Make sure that you have ![ruby-version-image](https://img.shields.io/badge/ruby-3.1.1-brightgreen.svg) and ![node-version-image](https://img.shields.io/badge/node-16.14.0-brightgreen.svg)
 
 * Install dependencies
 

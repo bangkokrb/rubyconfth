@@ -17,6 +17,8 @@ jobs:
 
       - name: Checkout repository
         uses: actions/checkout@v2.3.4
+        with:
+          submodules: true
 
       - name: Set env BRANCH_TAG
         uses: nimblehq/branch-tag-action@v1.2

@@ -4,7 +4,7 @@
   align-items: center;
 }
 
-.home .cancellation-announcement,
+.home .conference-announcement,
 .home .mailing-list,
 .home .social-platform {
   text-align: center;
@@ -15,8 +15,10 @@
   }
 }
 
-.home .cancellation-announcement {
-  padding-bottom: 4rem;
+.home .conference-announcement {
+  @include media-breakpoint-up('md') {
+    padding-bottom: 4rem;
+  }
 }
 
 .home .mailing-list {

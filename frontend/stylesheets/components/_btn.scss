@@ -2,6 +2,7 @@
   &--primary {
     @extend .btn-primary;
 
+    color: $white;
     text-transform: uppercase;
 
     &,
@@ -10,6 +11,8 @@
     &:focus,
     &:not(:disabled):not(.disabled):active,
     &:not(:disabled):not(.disabled):active:focus {
+      --bs-btn-hover-border-color: map-get($color-gray, 'primary');
+
       border: 2px solid map-get($color-gray, 'primary');
       box-shadow: none;
     }

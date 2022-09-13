@@ -31,5 +31,9 @@ yarn-error.log
 yarn-debug.log*
 .pnp/
 .pnp.js
+
 # Yarn Integrity file
 .yarn-integrity
+
+# Git Submodules
+src/past

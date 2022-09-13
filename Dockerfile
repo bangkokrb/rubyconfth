@@ -69,9 +69,6 @@ COPY . ./
 # Make the init files executable
 RUN chmod +x ./bin/*
 
-# Generate Jekyll site
-RUN ./bin/build
-
 EXPOSE $PORT
 
-CMD ./bin/start
+CMD ./bin/bridgetown start

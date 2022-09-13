@@ -23,6 +23,6 @@ namespace :test do
       ]
     }
 
-    HTMLProofer.check_directory('./_site', options).run
+    HTMLProofer.check_directory('./output', options).run
   end
 end

@@ -1,3 +1,15 @@
 [build]
   publish = "_site/"
   command = "git submodule update --init --recursive && JEKYLL_ENV=production ./bin/build"
+
+[[redirects]]
+  from = "/cfp"
+  to = "https://www.papercall.io/rubyconfth2022"
+  
+[[redirects]]
+  from = "/tickets"
+  to = "https://www.eventpop.me/e/13417/rubyconfth-2022"
+  
+[[redirects]]
+  from = "/sponsors"
+  to = "https://drive.google.com/file/d/1Rgt9qWPaaMf6juoEHyLF_mnltm915IBh/view?usp=sharing"

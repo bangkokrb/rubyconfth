@@ -62,8 +62,9 @@ page_class: home
 ### Assets
 
 - Media used to enrich text content must be stored in `src/images/<media type>/<section-name>`. 
-- In the case of using media other than images, prefer creating a new sub-directory e.g. `/videos/<section-name>` 
-- To embed these media in the content, use the absolute path to each file: `/images/<media type>/<section-name>/<filename.extension>`
+- In the case of using media other than images, prefer creating a new sub-directory e.g. `/videos/<section-name>`.
+- To embed these media in the content, use the absolute path to each file: `/images/<media type>/<section-name>/<filename.extension>`.
+- SVG icons are combined into a sprite image. Place new icons in `/images/shared/icons` and regenerate the new sprite image with `npm run svg:generate-sprite`.
 
 ### Past Version
 

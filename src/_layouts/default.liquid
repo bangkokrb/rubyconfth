@@ -8,6 +8,9 @@
     {% live_reload_dev_js %}
   </head>
   <body class="{{ resource.data.page_class }}">
+    <div hidden>
+      {% render "icon_sprite" %}
+    </div>
 
     <main>
       {{ content }}

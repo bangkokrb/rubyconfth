@@ -1,4 +1,5 @@
 require "bridgetown"
+require 'html-proofer'
 
 Bridgetown.load_tasks
 
@@ -37,13 +38,32 @@ namespace :frontend do
   end
 end
 
-#
-# Add your own Rake tasks here! You can use `environment` as a prerequisite
-# in order to write automations or other commands requiring a loaded site.
-#
-# task :my_task => :environment do
-#   puts site.root_dir
-#   automation do
-#     say_status :rake, "I'm a Rake tast =) #{site.config.url}"
-#   end
-# end
+# Custom tasks
+
+namespace :test do
+  desc 'Lint HTML of the generated static site'
+  task :lint do
+    options = {
+      error_sort: :status,
+      log_level: :debug,
+      enforce_https: false,
+
+      # List of checkers to execute
+      check_favicon: true,
+      check_html: true,
+      check_img_http: true,
+      check_opengraph: true,
+
+      # Known private links that returns 404 or 403
+      ignore_urls: [
+        /angel.co/,
+        /go-jek.com/,
+        /icelab.com.au/,
+        /matestack.org/
+      ]
+    }
+
+    HTMLProofer.check_directory('./output', options).run
+  end
+end
+

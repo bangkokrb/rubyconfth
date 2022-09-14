@@ -1,21 +1,7 @@
 source "https://rubygems.org"
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
-####
-# Welcome to your project's Gemfile, used by Rubygems & Bundler.
-#
-# To install a plugin, run:
-#
-#   bundle add new-plugin-name -g bridgetown_plugins
-#
-# This will ensure the plugin is added to the correct Bundler group.
-#
-# When you run Bridgetown commands, we recommend using a binstub like so:
-#
-#   bin/bridgetown start (or console, etc.)
-#
-# This will help ensure the proper Bridgetown version is running.
-####
+ruby '3.1.1'
 
 # If you need to upgrade/switch Bridgetown versions, change the line below
 # and then run `bundle update bridgetown`
@@ -31,3 +17,8 @@ gem "bridgetown", "~> 1.1.0"
 # Puma is a Rack-compatible server used by Bridgetown
 # (you can optionally limit this to the "development" group)
 gem "puma", "~> 5.6"
+
+group :test do
+# Test rendered HTML files to make sure they are accurate
+  gem 'html-proofer'
+end

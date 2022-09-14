@@ -69,6 +69,10 @@ COPY . ./
 # Make the init files executable
 RUN chmod +x ./bin/*
 
+# Build static site
+RUN npm run esbuild \
+     ./bin/bridgetown build
+
 EXPOSE $PORT
 
 CMD ./bin/bridgetown start

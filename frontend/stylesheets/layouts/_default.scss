@@ -1,0 +1,6 @@
+.layout-default .app-content,
+.layout-default .app-footer {
+  > .container {
+    @include make-container();
+  }
+}

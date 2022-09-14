@@ -1,5 +1,0 @@
-#!/bin/bash
-
-if [ -z "$PORT" ]; then export PORT=4000; fi
-
-bundle exec foreman start -f Procfile.dev

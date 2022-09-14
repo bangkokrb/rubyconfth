@@ -1,0 +1,52 @@
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+{% capture resource_title %}{{ title | strip_html | strip_newlines }}{% endcapture %}
+{% capture page_title %}{% if resource_title != "Index" %}{{ resource_title | escape }} | {{ metadata.title | escape }}{% else %}{{ metadata.title | escape }}: {{ metadata.tagline | escape }}{% endif %}{% endcapture %}
+<title>{{ page_title }}</title>
+
+<meta name="description" content="{{ metadata.description }}" />
+
+<meta itemprop="name" content="{{ page_title }}" />
+<meta itemprop="description" content="{{ metadata.description }}" />
+<meta itemprop="image" content="{{ metadata.image }}" />
+
+<meta property="og:title" content="{{ page_title }}" />
+<meta property="og:description" content="{{ metadata.description }}" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="{{ site.url }}" />
+<meta property="og:image" content="/images/social/opengraph.png" />
+
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:site" content="{{ site.url }}" />
+<meta name="twitter:title" content="{{ page_title }}" />
+<meta name="twitter:description" content="{{ metadata.description }}" />
+<meta name="twitter:image" content="/images/social/twitter.png" />
+
+<meta name="apple-mobile-web-app-title" content="{{ site.name }}"/>
+<meta name="mobile-web-app-capable" content="yes"/>
+<meta name="apple-touch-fullscreen" content="yes"/>
+<meta name="apple-mobile-web-app-status-bar-style" content="#f81c49"/>
+
+<meta name="theme-color" content="#f81c49"/>
+
+<meta http-equiv="Page-Enter" content="RevealTrans(Duration=2.0,Transition=2)">
+<meta http-equiv="Page-Exit" content="RevealTrans(Duration=3.0,Transition=12)">
+<meta http-equiv="cleartype" content="on">
+
+<meta name="msapplication-TileColor" content="#fff" />
+<meta name="msapplication-TileImage" content="/images/favicon/mstile-144x144.png" />
+<meta name="msapplication-square70x70logo" content="/images/favicon/mstile-70x70.png" />
+<meta name="msapplication-square150x150logo" content="/images/favicon/mstile-150x150.png" />
+<meta name="msapplication-wide310x150logo" content="/images/favicon/mstile-310x150.png" />
+<meta name="msapplication-square310x310logo" content="/images/favicon/mstile-310x310.png" />
+
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="/images/favicon/apple-icon-144x144.png"/>
+<link rel="apple-touch-icon-precomposed" sizes="152x152" href="/images/favicon/apple-icon-152x152.png"/>
+
+<link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon/android-icon-192x192.png"/>
+<link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png"/>
+<link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png"/>
+<link rel="icon" type="image/x-icon" href="/images/favicon/favicon.ico">
+
+<link rel="manifest" href="/manifest.json"">

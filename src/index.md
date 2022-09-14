@@ -37,4 +37,3 @@ title: "Home"
   
   {% render "list_social_platform", social_platforms: site.data.social_platforms %}
 </section>
-

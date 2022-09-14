@@ -12,8 +12,10 @@
       {% render "icon_sprite" %}
     </div>
 
-    <main>
-      {{ content }}
+    <main class="app-content">
+      <div class="container">
+        {{ content }}
+      </div>
     </main>
 
     {% render "footer", metadata: site.metadata %}

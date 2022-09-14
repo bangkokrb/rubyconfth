@@ -3,7 +3,7 @@
 
 {% capture resource_title %}{{ title | strip_html | strip_newlines }}{% endcapture %}
 {% capture page_title %}{% if resource_title != "Index" %}{{ resource_title | escape }} | {{ metadata.title | escape }}{% else %}{{ metadata.title | escape }}: {{ metadata.tagline | escape }}{% endif %}{% endcapture %}
-<title>{{ meta_title }}</title>
+<title>{{ page_title }}</title>
 
 <meta name="description" content="{{ metadata.description }}" />
 
@@ -12,7 +12,7 @@
 <meta itemprop="image" content="{{ metadata.image }}" />
 
 <meta property="og:title" content="{{ page_title }}" />
-<meta property="og:description" content="{{{ metadata.description }}" />
+<meta property="og:description" content="{{ metadata.description }}" />
 <meta property="og:type" content="website" />
 <meta property="og:url" content="{{ site.url }}" />
 <meta property="og:image" content="/images/social/opengraph.png" />
@@ -44,7 +44,7 @@
 <link rel="apple-touch-icon-precomposed" sizes="144x144" href="/images/favicon/apple-icon-144x144.png"/>
 <link rel="apple-touch-icon-precomposed" sizes="152x152" href="/images/favicon/apple-icon-152x152.png"/>
 
-<link rel="icon" type="image/png" sizes="192x192"  href="/public/images/favicon/android-icon-192x192.png"/>
+<link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon/android-icon-192x192.png"/>
 <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png"/>
 <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png"/>
 <link rel="icon" type="image/x-icon" href="/images/favicon/favicon.ico">

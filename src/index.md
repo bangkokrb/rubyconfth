@@ -1,10 +1,11 @@
 ---
 layout: default
 page_class: home
+title: "Home"
 ---
 
 <header>
-  <img src="/images/shared/logo/logo-icon.svg">
+  <img src="/images/shared/logo/logo-icon.svg" alt="RubyConf TH Logo" />
 </header>
 <section class="conference-announcement">
   <p>A comeback of RubyConf TH for 2022 is in the works 🎉</p>

@@ -59,7 +59,8 @@ namespace :test do
         /angel.co/,
         /go-jek.com/,
         /icelab.com.au/,
-        /matestack.org/
+        /matestack.org/,
+        /rubyconfindia.org/
       ]
     }
 

@@ -1,12 +1,19 @@
 .home .app-hero {
   text-align: center;
 
+  background: {
+    image: url('/images/home/hero-background.png');
+    repeat: no-repeat;
+    position: center;
+  }
+
   @include media-breakpoint-up('md') {
-    height: rem(360px);
+    height: rem(460px);
   }
 
   .btn {
     margin-top: 2rem;
+    font-size: map-get($font-sizes, 'lg');
   }
 }
 

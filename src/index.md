@@ -6,8 +6,8 @@ title: "Home"
 
 <div class="app-hero">
   <div class="container">
-    <div class="display-1">9-10 December, 2022</div>
-    <div class="display-4">Tickets now on sale</div>
+    <div class="app-hero__text display-1">9-10 December, 2022</div>
+    <div class="app-hero__text display-4">Tickets now on sale</div>
     <a href="https://www.eventpop.me/e/13417/rubyconfth-2022" target="_blank" class="btn btn--outline-light">
       Buy Tickets {% render "icon", icon: "icon-arrow-right-circle" %}
     </a>

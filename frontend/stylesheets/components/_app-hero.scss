@@ -1,9 +1,13 @@
 .app-hero {
   display: flex;
   align-items: center;
-
   padding: 2rem 0;
+
   background-color: $primary;
+
+  &__text {
+    font-weight: 500;
+  }
 
   &,
   a {

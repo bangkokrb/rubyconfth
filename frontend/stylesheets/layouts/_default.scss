@@ -1,6 +1,11 @@
-.layout-default .app-content,
-.layout-default .app-footer {
-  > .container {
-    @include make-container();
-  }
+.layout-default .app-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  height: rem(120px);
+}
+
+.layout-default .app-content {
+  min-height: rem(400px);
 }

@@ -1,5 +1,22 @@
 <footer class="app-footer">
   <div class="container">
+
+    <section class="mailing-list">
+      <h3>Want to attend the event?</h3>
+      <p class="mailing-list__text">Add your email now if you plan to join the event. Tickets go on sale in September.</p>
+      
+      {% render "form_mailing_list" %}
+    </section>
+  </div>
+  <div class="container">
+    <section class="social-platform">
+      <h3>Follow us</h3>
+      
+      {% render "list_social_platform", social_platforms: social_platforms %}
+    </section>
+  </div>
+
+  <div class="container">
     <div class="app-footer__legal">
       &copy; Bangkok.rb
     </div>

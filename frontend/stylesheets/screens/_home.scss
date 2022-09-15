@@ -1,13 +1,8 @@
-.home {
-  margin-top:4rem;
-}
-
 .home .conference-announcement,
 .home .mailing-list,
 .home .social-platform,
 .home .cfp,
-.home .sponsors,
-.home header {
+.home .sponsors {
   text-align: center;
 
   @include media-breakpoint-up('md') {
@@ -16,15 +11,10 @@
   }
 }
 
-.home header img {
-  max-width:200px;
-}
-
 .home .conference-announcement,
 .home .cfp,
-.home .sponsors,
-.home header {
-    padding-bottom: 2.5rem;
+.home .sponsors {
+  padding-bottom: 2.5rem;
 }
 
 .home .mailing-list {

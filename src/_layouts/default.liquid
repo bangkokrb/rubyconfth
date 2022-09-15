@@ -12,13 +12,17 @@
       {% render "icon_sprite" %}
     </div>
 
-    <main class="app-content">
-      <div class="container">
-        {{ content }}
+    <header class="app-header">
+      <div class="app-header__logo logo logo--text-icon">
+        <span class="visually-hidden">RubyConf TH {💎}</span>
       </div>
+    </header>
+
+    <main class="app-content">
+        {{ content }}
     </main>
 
-    {% render "footer", metadata: site.metadata %}
+    {% render "footer", metadata: site.metadata, social_platforms: site.data.social_platforms %}
 
     {% if site.environment == "production" %}
       {% render "analytics" %}

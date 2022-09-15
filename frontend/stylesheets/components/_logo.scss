@@ -11,7 +11,7 @@
     height: rem(50px);
 
     background: {
-      image: image-url('shared/logo/logo-icon.svg')
+      image: url('/images/shared/logo/logo-icon.svg')
     };
   }
 
@@ -20,16 +20,16 @@
     height: rem(26px);
 
     background: {
-      image: image-url('shared/logo/logo-text.svg')
+      image: url('/images/shared/logo/logo-text.svg')
     };
   }
 
   &--text-icon {
-    width: rem(223px);
-    height: rem(26px);
+    width: rem(334px);
+    height: rem(40px);
 
     background: {
-      image: image-url('shared/logo/logo-text-icon.svg')
+      image: url('/images/shared/logo/logo-text-icon.svg')
     };
   }
 }

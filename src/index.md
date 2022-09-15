@@ -4,9 +4,19 @@ page_class: home
 title: "Home"
 ---
 
+<div class="app-hero">
+  <div class="container">
+    <div class="display-1">9-10 December, 2022</div>
+    <div class="display-4">Tickets now on sale</div>
+    <a href="https://www.eventpop.me/e/13417/rubyconfth-2022" class="btn btn--outline-light">
+      Get yours {% render "icon", icon: "icon-arrow-right-circle" %}
+    </a>
+  </div>
+</div>
+
 <section class="cfp">
   <h3>Want to submit a proposal?</h3>
-  <p>The call for papers is now open</p>
+  <p>The call for papers is still open</p>
   <a class="btn btn--primary" href="https://www.papercall.io/rubyconfth2022" target="_blank">View CFP</a>
 </section>
 

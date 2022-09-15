@@ -1,49 +1,11 @@
-.home .conference-announcement,
-.home .mailing-list,
-.home .social-platform,
-.home .cfp,
-.home .sponsors {
+.home .app-hero {
   text-align: center;
 
   @include media-breakpoint-up('md') {
-    @include make-col(6);
-    @include make-col-offset(3);
-  }
-}
-
-.home .conference-announcement,
-.home .cfp,
-.home .sponsors {
-  padding-bottom: 2.5rem;
-}
-
-.home .mailing-list {
-  &__text {
-    padding: 0 2rem;
-
-    @include media-breakpoint-up('md') {
-      padding: 0;
-    }
+    height: rem(360px);
   }
 
-  .form-mailing-list .form__control {
-    font-size: map-get($font-sizes, 'xs');
-
-    @include media-breakpoint-up('sm') {
-      font-size: map-get($font-sizes, 'sm');
-    }
-
-    @include media-breakpoint-up('lg') {
-      font-size: map-get($font-sizes, 'lg');
-    }
-  }
-}
-
-.home .social-platform {
-  margin-top: 2rem;
-
-  .list-social-platform {
-    display: flex;
-    justify-content: center;
+  .btn {
+    margin-top: 2rem;
   }
 }

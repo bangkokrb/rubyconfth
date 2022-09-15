@@ -6,6 +6,14 @@
   height: rem(120px);
 }
 
+.layout-default .app-hero {
+  margin-bottom: 1rem;
+
+  @include media-breakpoint-up('md') {
+    margin-bottom: 2rem;
+  }
+}
+
 .layout-default .app-content {
   min-height: rem(400px);
 }

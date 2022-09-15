@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="{{ site.locale }}" class="layout-{{ resource.data.layout }}">
+  <head>
+    {% render "head", metadata: site.metadata, title: resource.data.title %}
+
+    <link rel="stylesheet" href="{% asset_path stylesheets/application.scss %}" type="text/css"/>
+    <script src="{% asset_path javascript/application.js %}" defer></script>
+    {% live_reload_dev_js %}
+  </head>
+  <body class="{{ resource.data.page_class }}">
+    <div hidden>
+      {% render "icon_sprite" %}
+    </div>
+
+    <header class="app-header">
+      <div class="app-header__logo logo logo--text-icon">
+        <span class="visually-hidden">RubyConf TH {💎}</span>
+      </div>
+    </header>
+
+    <main class="app-content">
+        {{ content }}
+    </main>
+
+    {% render "footer", metadata: site.metadata, social_platforms: site.data.social_platforms %}
+
+    {% if site.environment == "production" %}
+      {% render "analytics" %}
+    {% endif %}
+  </body>
+</html>

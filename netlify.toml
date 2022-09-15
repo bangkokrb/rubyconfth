@@ -1,6 +1,6 @@
 [build]
-  publish = "_site/"
-  command = "git submodule update --init --recursive && JEKYLL_ENV=production ./bin/build"
+  publish = "output/"
+  command = "git submodule update --init --recursive && BRIDGETOWN_ENV=production ./bin/bridgetown deploy"
 
 [[redirects]]
   from = "/cfp"

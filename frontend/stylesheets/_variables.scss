@@ -1,0 +1,64 @@
+// Base
+
+$color-brand: (
+  primary: #f81c49
+);
+
+$color-gray: (
+  primary: #000006,
+  light: #66666a,
+  lighter: #99999B,
+  lightest: #cccccd
+);
+
+// Typography
+
+$font-sizes: (
+  default: 1rem, // 16px
+  xs: 0.75rem,   // 12 px
+  sm: 0.875rem,  // 14 px
+  lg: 1.125rem,  // 18 px
+  xl: 1.375rem   // 22 px
+);
+
+$base-font-size: map-get($font-sizes, 'default');
+$base-font-family: 'Work Sans', -apple-system, 'Segoe UI', sans-serif;
+$base-line-height: 1.7;
+$base-font-color: map-get($color-gray, 'primary');
+
+// Z-index
+
+$zIndex: (
+  default: 1,
+  behind: -1,
+  high: 5,
+  higher: 100,
+  highest: 1000,
+  sky: 10000
+);
+
+// Animations
+
+$base-animation-duration: 300ms;
+$base-animation-timing: linear;
+
+// Layout
+
+$app-navigation-lg-width: 154px;
+
+/////////////////////////////
+// Bootstrap Customization //
+/////////////////////////////
+
+$primary: map-get($color-brand, 'primary');
+$secondary: map-get($color-gray, 'light');
+
+$body-color: $base-font-color;
+
+// Buttons
+
+$btn-border-radius: 0;
+$btn-border-radius-lg: 0;
+
+$btn-padding-y-lg: 2rem;
+$btn-font-size-lg: map-get($font-sizes, 'lg')

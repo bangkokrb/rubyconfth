@@ -1,0 +1,20 @@
+.app-hero {
+  display: flex;
+  align-items: center;
+  padding: 2rem 0;
+
+  background-color: $primary;
+
+  &__heading {
+    font-weight: 500;
+  }
+
+  &__subheading {
+    font-size: map-get($font-sizes, 'lg');
+  }
+
+  &,
+  a {
+    color: $white;
+  }
+}

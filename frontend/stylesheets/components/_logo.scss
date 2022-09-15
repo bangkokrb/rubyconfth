@@ -1,0 +1,35 @@
+.logo {
+  display: block;
+
+  background: {
+    repeat: no-repeat;
+    size: contain;
+  }
+
+  &--icon {
+    width: rem(71px);
+    height: rem(50px);
+
+    background: {
+      image: url('/images/shared/logo/logo-icon.svg')
+    };
+  }
+
+  &--text {
+    width: rem(179px);
+    height: rem(26px);
+
+    background: {
+      image: url('/images/shared/logo/logo-text.svg')
+    };
+  }
+
+  &--text-icon {
+    width: rem(334px);
+    height: rem(40px);
+
+    background: {
+      image: url('/images/shared/logo/logo-text-icon.svg')
+    };
+  }
+}

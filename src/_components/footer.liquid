@@ -1,10 +1,27 @@
 <footer class="app-footer">
-  <div class="container">
-    <div class="app-footer__legal">
-      &copy; Bangkok.rb
+  <section class="app-footer__mailing-list">
+    <div class="container">
+      <h3>Join our mailing list</h3>
+      <p class="mailing-list__text">Sign up to receive updates about the event</p>
+      {% render "form_mailing_list" %}
     </div>
-    <div class="app-footer__link">
-      Past conferences: <a href="/past/2019">2019</a>
+  </section>
+  
+  <section class="app-footer__social-platform">
+    <div class="container">
+      <h3>Follow us</h3>
+      {% render "list_social_platform", social_platforms: social_platforms %}
+    </div>
+  </section>
+
+  <div class="app-footer__footnote">
+    <div class="container">
+      <div class="app-footer__legal">
+        &copy; Bangkok.rb
+      </div>
+      <div class="app-footer__link">
+        Past conferences: <a href="/past/2019">2019</a>
+      </div>
     </div>
   </div>
 </footer>

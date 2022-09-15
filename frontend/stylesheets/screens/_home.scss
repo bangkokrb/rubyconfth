@@ -1,59 +1,38 @@
-.home {
-  margin-top:4rem;
+.home .app-hero {
+  text-align: center;
+
+  background: {
+    image: url('/images/home/hero-background.png');
+    repeat: no-repeat;
+    position: center;
+  }
+
+  @include media-breakpoint-up('md') {
+    height: rem(460px);
+  }
+
+  &__subheading {
+    display: block;
+    margin-bottom: 1rem;
+    text-transform: uppercase;
+  }
+
+  .btn {
+    margin-top: 2rem;
+    font-size: map-get($font-sizes, 'lg');
+  }
 }
 
-.home .conference-announcement,
-.home .mailing-list,
-.home .social-platform,
 .home .cfp,
-.home .sponsors,
-.home header {
+.home .sponsors {
   text-align: center;
+
+  &:not(:last-child) {
+    margin-bottom: 2rem
+  }
 
   @include media-breakpoint-up('md') {
     @include make-col(6);
     @include make-col-offset(3);
-  }
-}
-
-.home header img {
-  max-width:200px;
-}
-
-.home .conference-announcement,
-.home .cfp,
-.home .sponsors,
-.home header {
-    padding-bottom: 2.5rem;
-}
-
-.home .mailing-list {
-  &__text {
-    padding: 0 2rem;
-
-    @include media-breakpoint-up('md') {
-      padding: 0;
-    }
-  }
-
-  .form-mailing-list .form__control {
-    font-size: map-get($font-sizes, 'xs');
-
-    @include media-breakpoint-up('sm') {
-      font-size: map-get($font-sizes, 'sm');
-    }
-
-    @include media-breakpoint-up('lg') {
-      font-size: map-get($font-sizes, 'lg');
-    }
-  }
-}
-
-.home .social-platform {
-  margin-top: 2rem;
-
-  .list-social-platform {
-    display: flex;
-    justify-content: center;
   }
 }

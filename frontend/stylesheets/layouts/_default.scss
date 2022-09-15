@@ -1,6 +1,33 @@
-.layout-default .app-content,
-.layout-default .app-footer {
-  > .container {
-    @include make-container();
+.layout-default .app-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  height: rem(120px);
+}
+
+.layout-default .app-hero {
+  margin-bottom: 1.5rem;
+
+  @include media-breakpoint-up('md') {
+    margin-bottom: 3rem;
   }
+  
+  
+}
+
+.layout-default .app-content {
+  min-height: rem(400px);
+
+  &__text {
+    padding: 1.5rem 0;
+
+    @include media-breakpoint-up('md') {
+      padding: 3rem 0;
+    }
+  }
+}
+
+.layout-default .app-hero ~ .app-content__text {
+  padding-top: 0;
 }

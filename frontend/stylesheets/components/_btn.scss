@@ -33,4 +33,8 @@
   &--lg {
     @extend .btn-lg;
   }
+
+  &--outline-light {
+    @extend .btn-outline-light;
+  }
 }

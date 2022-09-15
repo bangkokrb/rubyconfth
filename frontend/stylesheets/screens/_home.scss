@@ -11,6 +11,12 @@
     height: rem(460px);
   }
 
+  &__subheading {
+    display: block;
+    margin-bottom: 1rem;
+    text-transform: uppercase;
+  }
+
   .btn {
     margin-top: 2rem;
     font-size: map-get($font-sizes, 'lg');

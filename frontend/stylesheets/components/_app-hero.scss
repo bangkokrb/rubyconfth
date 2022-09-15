@@ -5,8 +5,12 @@
 
   background-color: $primary;
 
-  &__text {
+  &__heading {
     font-weight: 500;
+  }
+
+  &__subheading {
+    font-size: map-get($font-sizes, 'lg');
   }
 
   &,

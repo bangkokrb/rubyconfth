@@ -9,3 +9,17 @@
     margin-top: 2rem;
   }
 }
+
+.home .cfp,
+.home .sponsors {
+  text-align: center;
+
+  &:not(:last-child) {
+    margin-bottom: 2rem
+  }
+
+  @include media-breakpoint-up('md') {
+    @include make-col(6);
+    @include make-col-offset(3);
+  }
+}

@@ -1,7 +1,7 @@
 <ul class="list-sponsor list--unstyled">
   {% for sponsor in sponsors %}
   <li class="list-sponsor__company">
-    <a href="{{ sponsor.url }}" title="{{ sponsor.about }}" target="_blank" class="list-sponsor__link">
+    <a href="{{ sponsor.url }}" title="{{ sponsor.name }} - {{ sponsor.about }}" target="_blank" class="list-sponsor__link">
       <img class="list-sponsor__logo" src="{{ sponsor.logo_url }}" alt="{{ sponsor.name }}"{% if sponsor.logo_style %} style="{{ sponsor.logo_style }}"{% endif %}/>
     </a>
   </li>

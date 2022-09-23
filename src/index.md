@@ -23,7 +23,7 @@ title: "Home"
       <a class="btn btn--primary" href="https://www.papercall.io/rubyconfth2022" target="_blank">View CFP</a>
     </section>
     <section class="sponsors">
-      <h3>The event is made possible thanks to the support of our oustanding sponsors</h3>
+      <h3>The event is made possible thanks to the support of our outstanding sponsors</h3>
 
       {% render "list_sponsor", sponsors: site.data.sponsors %}
 

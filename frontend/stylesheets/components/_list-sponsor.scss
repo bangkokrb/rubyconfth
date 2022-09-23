@@ -1,0 +1,17 @@
+.list-sponsor {
+  @include make-row();
+
+  &__company {
+    @include make-col-ready();
+    @include make-col(4);
+  }
+
+  &__link {
+    display: block;
+    position: relative;
+  }
+
+  &__logo {
+    max-width: 100%;
+  }
+}

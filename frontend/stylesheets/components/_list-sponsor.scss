@@ -4,6 +4,10 @@
   &__company {
     @include make-col-ready();
     @include make-col(4);
+
+    &:not(:nth-child(-n+3)) {
+      margin-top: 1rem;
+    }
   }
 
   &__link {

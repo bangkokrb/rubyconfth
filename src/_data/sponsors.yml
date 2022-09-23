@@ -6,6 +6,10 @@
   about: "Eventpop is an end-to-end event solution that enhances the seamless event experience. Eventpop แพลตฟอร์มจำหน่ายบัตรที่ตอบโจทย์ทุกงานอีเวนต์."
   logo_url: /images/sponsors/eventpop.png
   url: "https://www.eventpop.me/"
+- name: Honeybadger
+  about: "Application Health Monitoring built for Developers. Everything you need to keep production happy so that you can keep shipping. Deploy with confidence and be your team's DevOps hero."
+  logo_url: /images/sponsors/honeybadger.png
+  url: "https://www.honeybadger.io/"
 - name: Saeloun
   about: "We are a team of developers which specialises in building web and mobile applications. We have a track record of success in delivering results that meet and exceed our clients' expectations."
   logo_url: /images/sponsors/saeloun.svg

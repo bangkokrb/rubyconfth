@@ -36,3 +36,9 @@
     @include make-col-offset(3);
   }
 }
+
+.home .sponsors {
+  .list-sponsor {
+    padding: 2rem 0;
+  }  
+}

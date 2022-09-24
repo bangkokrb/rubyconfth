@@ -6,10 +6,10 @@
     @include make-col(6);
 
     display: flex;
-    flex-direction: column;
     justify-content: center;
-    padding-top:1em;
-    padding-bottom:1em;
+
+    padding-top: 1rem;
+    padding-bottom: 1rem;
   }
 
   &__link {

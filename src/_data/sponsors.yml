@@ -1,6 +1,6 @@
 - name: AppSignal
   about: "Monitor your apps from A to Z: error tracking, performance insights, server metrics, uptime pages, custom dashboards, and more. AppSignal works for all popular Ruby frameworks and automatically instruments and creates beautiful dashboards for Sidekiq, Active Job, and other integrations."
-  logo_url: /images/sponsors/appsignal.svg
+  logo_url: /images/sponsors/appsignal2.svg
   url: "https://www.appsignal.com/"
 - name: Eventpop
   about: "Eventpop is an end-to-end event solution that enhances the seamless event experience. Eventpop แพลตฟอร์มจำหน่ายบัตรที่ตอบโจทย์ทุกงานอีเวนต์."
@@ -8,13 +8,9 @@
   url: "https://www.eventpop.me/"
 - name: Honeybadger
   about: "Application Health Monitoring built for Developers. Everything you need to keep production happy so that you can keep shipping. Deploy with confidence and be your team's DevOps hero."
-  logo_url: /images/sponsors/honeybadger.png
+  logo_url: /images/sponsors/honeybadger.svg
   url: "https://www.honeybadger.io/"
 - name: Oivan
   about: "We believe that extraordinary expertise in design and technology can solve some of the world's biggest challenges "
-  logo_url: /images/sponsors/oivan.png
+  logo_url: /images/sponsors/oivan.svg
   url: "https://oivan.com/"
-- name: Saeloun
-  about: "We are a team of developers which specialises in building web and mobile applications. We have a track record of success in delivering results that meet and exceed our clients' expectations."
-  logo_url: /images/sponsors/saeloun.svg
-  url: "https://www.saeloun.com/"

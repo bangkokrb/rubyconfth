@@ -17,7 +17,7 @@
     "postcss-preset-env": "7.4.3",
     "sass": "1.50.1",
     "sass-loader": "12.6.0",
-    "svg-sprite": "1.5.4"
+    "svg-sprite": "2.0.0-beta7"
   },
   "dependencies": {
     "bootstrap": "5.2.1"

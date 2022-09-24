@@ -26,16 +26,13 @@ bundle install && yarn install
 
 ### Development
 
-To start your site in development mode, run `bin/bridgetown start` and navigate to [localhost:4000](https://localhost:4000/)!
+### Without Docker
 
-Use a [theme](https://github.com/topics/bridgetown-theme) or add some [plugins](https://www.bridgetownrb.com/plugins/) to get started quickly.
+To start the site in development mode, run `bin/bridgetown start` and navigate to [localhost:4000](https://localhost:4000/).
 
-### Commands
+Other commands:
 
 ```sh
-# running locally
-bin/bridgetown start
-
 # build & deploy to production
 bin/bridgetown deploy
 
@@ -45,6 +42,10 @@ bin/bridgetown console
 
 > Learn more: [Bridgetown CLI Documentation](https://www.bridgetownrb.com/docs/command-line-usage)
 
+### With Docker 🐳
+
+To start then site in development mode, run `bin/docker-start` and navigate to [localhost:4000](https://localhost:4000/).
+
 ## Managing Content
 
 All content is written using [kramdown](https://kramdown.gettalong.org/) which is basically Markdown with the ability to use HTML tags. 
@@ -52,11 +53,12 @@ All content is written using [kramdown](https://kramdown.gettalong.org/) which i
 ### Text Content
 
 - Text content is stored in `src` into sub-directories. 
-- Each file must contain a front-matter block at the beginning of the file with the config params `layout` and `page_class`:
+- Each file must contain a front-matter block at the beginning of the file with the config params `layout`, `page_class` and `title`:
 
 ```yaml
 layout: default
 page_class: home
+title: "Home"
 ```
 
 ### Assets

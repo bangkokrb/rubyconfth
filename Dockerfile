@@ -52,7 +52,8 @@ RUN mkdir -p /usr/local/etc \
 WORKDIR $APP_HOME
 
 COPY package.json package-lock.json ./
-RUN npm install
+RUN npm install -g yarn && \
+    npm install
 
 # Only copy the dependency definition files (Gemfile and packages) to use Docker cache for these steps
 # Install Ruby dependencies
@@ -75,4 +76,4 @@ RUN npm run esbuild \
 
 EXPOSE $PORT
 
-CMD ./bin/bridgetown start
+CMD ./bin/start

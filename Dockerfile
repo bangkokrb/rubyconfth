@@ -13,7 +13,7 @@ ENV RACK_ENV=$RUBY_ENV \
 
 ENV BUNDLE_JOBS=4 \
     BUNDLE_PATH="/bundle"
-    
+
 ENV NODE_VERSION="16"
 
 RUN apt-get update -qq && \

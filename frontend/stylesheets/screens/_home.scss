@@ -28,7 +28,7 @@
   text-align: center;
 
   &:not(:last-child) {
-    margin-bottom: 2rem
+    margin-bottom: 4rem
   }
 
   @include media-breakpoint-up('md') {

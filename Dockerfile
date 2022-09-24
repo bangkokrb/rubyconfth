@@ -28,7 +28,7 @@ RUN curl -sL https://deb.nodesource.com/setup_"$NODE_VERSION".x | bash -
 # Install general required core packages, Node JS related packages and Chrome (testing)
 RUN mkdir -p /usr/share/man/man1 && \
     apt-get update -qq && \
-    apt-get install -y --no-install-recommends build-essential libpq-dev nodejs yarn && \
+    apt-get install -y --no-install-recommends build-essential libpq-dev nodejs && \
     apt-get install -y --no-install-recommends rsync locales chrpath pkg-config libfreetype6 libfontconfig1 && \
     apt-get clean && \
     rm -rf /var/lib/apt/lists/*
@@ -52,7 +52,8 @@ RUN mkdir -p /usr/local/etc \
 WORKDIR $APP_HOME
 
 COPY package.json package-lock.json ./
-RUN npm install
+RUN npm install -g yarn && \
+    npm install
 
 # Only copy the dependency definition files (Gemfile and packages) to use Docker cache for these steps
 # Install Ruby dependencies

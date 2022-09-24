@@ -99,6 +99,8 @@ GEM
     minitest (5.16.3)
     multipart-post (2.2.3)
     nio4r (2.5.8)
+    nokogiri (1.13.8-aarch64-linux)
+      racc (~> 1.4)
     nokogiri (1.13.8-arm64-darwin)
       racc (~> 1.4)
     parallel (1.22.1)
@@ -113,7 +115,7 @@ GEM
     rb-inotify (0.10.1)
       ffi (~> 1.0)
     rexml (3.2.5)
-    roda (3.59.0)
+    roda (3.60.0)
       rack
     rouge (3.30.0)
     ruby2_keywords (0.0.5)
@@ -135,6 +137,7 @@ GEM
     zeitwerk (2.6.0)
 
 PLATFORMS
+  aarch64-linux
   arm64-darwin-21
 
 DEPENDENCIES
@@ -146,4 +149,4 @@ RUBY VERSION
    ruby 3.1.1p18
 
 BUNDLED WITH
-   2.3.8
+   2.3.7

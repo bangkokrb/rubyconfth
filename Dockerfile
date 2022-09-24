@@ -13,7 +13,7 @@ ENV RACK_ENV=$RUBY_ENV \
 
 ENV BUNDLE_JOBS=4 \
     BUNDLE_PATH="/bundle"
-
+    
 ENV NODE_VERSION="16"
 
 RUN apt-get update -qq && \
@@ -28,7 +28,7 @@ RUN curl -sL https://deb.nodesource.com/setup_"$NODE_VERSION".x | bash -
 # Install general required core packages, Node JS related packages and Chrome (testing)
 RUN mkdir -p /usr/share/man/man1 && \
     apt-get update -qq && \
-    apt-get install -y --no-install-recommends build-essential libpq-dev nodejs && \
+    apt-get install -y --no-install-recommends build-essential libpq-dev nodejs yarn && \
     apt-get install -y --no-install-recommends rsync locales chrpath pkg-config libfreetype6 libfontconfig1 && \
     apt-get clean && \
     rm -rf /var/lib/apt/lists/*
@@ -75,4 +75,4 @@ RUN npm run esbuild \
 
 EXPOSE $PORT
 
-CMD ./bin/bridgetown start
+CMD ./bin/start

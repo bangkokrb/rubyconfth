@@ -40,9 +40,5 @@
 .home .sponsors {
   .list-sponsor {
     padding: 2rem 0;
-
-    &__company:nth-child(4) {
-      @include make-col-offset(1.5)
-    }
   }  
 }

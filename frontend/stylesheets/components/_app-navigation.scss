@@ -3,6 +3,7 @@
 .app-navigation {
   position: fixed;
   inset: 0 -100% 0 auto;
+  z-index: map-get($zIndex, 'high');
 
   width: min(calc(100vw - 4rem), 16rem);
 
@@ -33,11 +34,12 @@
   }
 
   &__link {
-    position: relative;
     isolation: isolate;
+    position: relative;
 
     display: flex;
     align-items: center;
+    padding-left: 2rem;
 
     height: 2.5rem;
 

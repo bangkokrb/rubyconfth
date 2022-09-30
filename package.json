@@ -8,6 +8,7 @@
     "svg:generate-sprite": "svg-sprite --shape-id-generator \"icon-%s\" --symbol --symbol-dest src/_components/ --symbol-sprite icon_sprite.liquid src/images/shared/icons/*.svg"
   },
   "devDependencies": {
+    "css-has-pseudo": "4.0.1",
     "esbuild": "0.14.39",
     "glob": "8.0.1",
     "postcss": "8.4.12",

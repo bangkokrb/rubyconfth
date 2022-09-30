@@ -67,7 +67,7 @@
   dependencies:
     "postcss-value-parser" "^4.2.0"
 
-"@csstools/selector-specificity@^2.0.0":
+"@csstools/selector-specificity@^2.0.0", "@csstools/selector-specificity@^2.0.1":
   "integrity" "sha512-IkpVW/ehM1hWKln4fCA3NzJU8KwD+kIOvPZA4cqxoJHtE21CCzjyp+Kxbu0i5I4tBNOlXPL9mjwnWlL0VEG4Fg=="
   "resolved" "https://registry.npmjs.org/@csstools/selector-specificity/-/selector-specificity-2.0.2.tgz"
   "version" "2.0.2"
@@ -342,6 +342,15 @@
   "version" "3.0.4"
   dependencies:
     "postcss-selector-parser" "^6.0.9"
+
+"css-has-pseudo@4.0.1":
+  "integrity" "sha512-L3s0E0B+DhaFhUVpBAJri+Z7xVijUJQJUIDluB7LcsdNk8MIUS1a2EhrMhmMSGnFULcecQOjIenuvCYgKZBwew=="
+  "resolved" "https://registry.npmjs.org/css-has-pseudo/-/css-has-pseudo-4.0.1.tgz"
+  "version" "4.0.1"
+  dependencies:
+    "@csstools/selector-specificity" "^2.0.1"
+    "postcss-selector-parser" "^6.0.10"
+    "postcss-value-parser" "^4.2.0"
 
 "css-prefers-color-scheme@^6.0.3":
   "integrity" "sha512-4BqMbZksRkJQx2zAjrokiGMd07RqOa2IxIrrN10lyBe9xhn9DEvjUK79J6jkeiv9D9hQFXKb6g1jwU62jziJZA=="

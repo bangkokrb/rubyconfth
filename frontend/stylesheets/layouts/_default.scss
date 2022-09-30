@@ -1,27 +1,29 @@
-.layout-default .app-header {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+.layout-default {
+  
+  .app-header {
+    display: flex;
+    align-items: center;
 
-  height: rem(120px);
-}
-
-.layout-default .app-hero {
-  margin-bottom: 1.5rem;
-
-  @include media-breakpoint-up('md') {
-    margin-bottom: 3rem;
+    height: rem(120px);
   }
-}
 
-.layout-default .app-content {
-  min-height: rem(400px);
-
-  &__text {
-    padding: 1.5rem 0;
+  .app-hero {
+    margin-bottom: 1.5rem;
 
     @include media-breakpoint-up('md') {
-      padding: 3rem 0;
+      margin-bottom: 3rem;
+    }
+  }
+
+  .app-content {
+    min-height: rem(400px);
+
+    &__text {
+      padding: 1.5rem 0;
+
+      @include media-breakpoint-up('md') {
+        padding: 3rem 0;
+      }
     }
   }
 }

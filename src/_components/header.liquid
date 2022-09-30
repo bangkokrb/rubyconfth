@@ -1,7 +1,21 @@
 <header class="app-header">
   <div class="container">
-    <a href="/" class="app-header__logo logo logo--text-icon">
-      <span class="sr-only">RubyConf TH {💎}</span>
+    <a href="{{ '/' | relative_url }}" class="app-header__logo logo logo--text-icon">
+      <span class="visually-hidden">RubyConf TH {💎}</span>
     </a>
+
+    <div class="app-header__navigation">
+      <nav class="app-navigation">
+        <ul class="app-navigation__list">
+          {% for menu_item in menu_items %}
+          <li class="app-navigation__item">
+            <a href="{{ menu_item.permalink | relative_url }}" class="app-navigation__link">
+              <spn class="app-navigation__text">{{ menu_item.title }}</span>
+            </a>
+          </li>
+          {% endfor %}
+        </ul>
+      </nav>
+    </div>
   </div>
 </header>

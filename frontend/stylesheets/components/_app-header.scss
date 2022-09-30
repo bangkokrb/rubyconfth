@@ -5,5 +5,24 @@
     align-items: center;
     justify-content: space-between;
   }
+
+  &__logo {
+    width: 80%;
+  }
   
+  &__navigation {
+    .btn-toggle {
+      
+      position: relative;
+      z-index: map-get($zIndex, 'highest');
+
+      @include media-breakpoint-up('lg') {
+        display: none;
+      }
+    }
+
+    &:has(input:checked) .app-navigation {
+      right: 0;
+    }
+  }
 }

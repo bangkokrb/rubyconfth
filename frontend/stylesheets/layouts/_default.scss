@@ -4,7 +4,7 @@
     display: flex;
     align-items: center;
 
-    height: rem(120px);
+    height: var(--app-header-height);
   }
 
   .app-hero {
@@ -26,8 +26,8 @@
       }
     }
   }
-}
 
-.layout-default .app-hero ~ .app-content__text {
-  padding-top: 0;
+  .app-hero ~ .app-content__text {
+    padding-top: 0;
+  }  
 }

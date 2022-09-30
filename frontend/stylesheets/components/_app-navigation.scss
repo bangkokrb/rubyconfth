@@ -1,19 +1,45 @@
 @use '../variables';
 
 .app-navigation {
+  position: fixed;
+  inset: 0 -100% 0 auto;
+
+  width: min(calc(100vw - 4rem), 16rem);
+
+  transition: all variables.$base-animation-duration variables.$base-animation-timing;
+  background: var(--bs-white);
+  box-shadow: 0 0 3rem rgb(0 0 0 / 40%);
+
+  @include media-breakpoint-up('lg') {
+    position: revert;
+    inset: revert;
+    box-shadow: none;
+  }
 
   &__list {
     display: flex;
-    align-items: center;
-    gap: var(--bs-gutter-x);
+    flex-direction: column;
+    gap: calc(var(--bs-gutter-x) / 2);
 
-    list-style: none;
+    padding-top: var(--app-header-height);
+
+    @include media-breakpoint-up('lg') {
+      flex-direction: row;
+      align-items: center;
+      gap: var(--bs-gutter-x);
+
+      padding-top: 0;
+    }
   }
 
   &__link {
-    display: block;
     position: relative;
-    padding: 0 1rem;
+    isolation: isolate;
+
+    display: flex;
+    align-items: center;
+
+    height: 2.5rem;
 
     color: var(--bs-body-color);
     font-size: 1rem;
@@ -22,32 +48,43 @@
 
     transition: all .1s variables.$base-animation-timing;
 
-    &::before {
-      content: '';
+    @include media-breakpoint-up('lg') {
+      display: block;
+      padding: 0 1rem;
 
-      position: absolute;
-      left: 50%;
-      top: 50%;
-      transform: translate(-50%, -50%);
-      z-index: map-get($zIndex, 'behind');
-
-      width: 75%;
-      height: 75%;
-
-      opacity: 0;
-      background-color: var(--color-brand-primary);
-      border-radius: 1rem;
-      transition: all variables.$base-animation-duration variables.$base-animation-timing;
+      height: auto;
     }
   }
 
-  &__link:hover {
-    color: var(--bs-white);
+  &__link::before {
+    content: '';
 
-    &::before {
-      width: 100%;
-      height: 100%;
-      
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    z-index: map-get($zIndex, 'behind');
+
+    width: 75%;
+    height: 75%;
+
+    opacity: 0;
+    background-color: var(--color-brand-primary);
+    border-radius: 1rem;
+    transition: all variables.$base-animation-duration variables.$base-animation-timing;
+  }
+
+  &__link:hover {
+    @include media-breakpoint-up('lg') {
+      color: var(--bs-white);
+    }
+  }
+
+  &__link:hover::before {
+    width: 100%;
+    height: 100%;
+    
+    @include media-breakpoint-up('lg') {
       opacity: 1;
     }
   }

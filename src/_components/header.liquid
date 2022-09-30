@@ -5,6 +5,12 @@
     </a>
 
     <div class="app-header__navigation">
+      <label class="btn-toggle app-header__toggle">
+        <i class="btn-toggle__icon"></i>
+        <span class="visually-hidden">Toggle Menu</span>
+        <input type="checkbox" name="toggle-menu" class="btn-toggle__input visually-hidden" />
+      </label>
+
       <nav class="app-navigation">
         <ul class="app-navigation__list">
           {% for menu_item in menu_items %}

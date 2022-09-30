@@ -7,5 +7,6 @@ module.exports = {
       },
       stage: 3
     }
-  }
+  },
+  'css-has-pseudo': { forcePolyfill: true }
 }

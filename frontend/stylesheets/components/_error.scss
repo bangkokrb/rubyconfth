@@ -28,8 +28,9 @@
   }
 
   &__action {
+    display: flex;
+
     margin-top: 45px;
-    overflow: hidden;
   }
 
   &__action a {

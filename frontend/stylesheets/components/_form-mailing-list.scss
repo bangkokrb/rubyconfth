@@ -1,6 +1,6 @@
 .form-mailing-list {
   position: relative;
-
+  
   .form__control {
     @include media-breakpoint-up('md') {
       padding-right: 155px;
@@ -8,13 +8,13 @@
   }
 
   .btn {
-
     width: 100%;
 
     @include media-breakpoint-up('md') {
       position: absolute;
       top: 9px;
       right: 9px;
+      z-index: map-get($zIndex, 'high');
 
       width: auto;
       height: rem(51px);

@@ -12,11 +12,7 @@
       {% render "icon_sprite" %}
     </div>
 
-    <header class="app-header">
-      <div class="app-header__logo logo logo--text-icon">
-        <span class="visually-hidden">RubyConf TH {💎}</span>
-      </div>
-    </header>
+    {% render "header", menu_items: site.data.menu.header, social_platforms: site.data.social_platforms %}
 
     <main class="app-content">
         {{ content }}

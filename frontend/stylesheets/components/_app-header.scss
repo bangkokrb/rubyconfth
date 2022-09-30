@@ -1,0 +1,35 @@
+.app-header {
+
+  > .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  &__logo {
+    width: 80%;
+  }
+  
+  &__navigation {
+    .btn-toggle {
+      position: relative;
+      z-index: map-get($zIndex, 'highest');
+
+      @include media-breakpoint-up('lg') {
+        display: none;
+      }
+    }
+
+    &:has(input:checked) .app-navigation {
+      right: 0;
+    }
+  }
+}
+
+// Fallback for browsers not supporting the selector :has
+// `menu--open` is added via the navigation Stimulus controller 
+@supports not selector(:has(a)) {
+  body.menu--open .app-header__navigation .app-navigation {
+    right: 0;
+  }
+}

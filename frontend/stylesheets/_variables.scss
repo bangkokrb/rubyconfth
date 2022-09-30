@@ -39,8 +39,8 @@ $zIndex: (
 
 // Animations
 
-$base-animation-duration: 300ms;
-$base-animation-timing: linear;
+$base-animation-duration: .2s;
+$base-animation-timing: ease-out;
 
 // Layout
 
@@ -61,4 +61,12 @@ $btn-border-radius: 0;
 $btn-border-radius-lg: 0;
 
 $btn-padding-y-lg: 2rem;
-$btn-font-size-lg: map-get($font-sizes, 'lg')
+$btn-font-size-lg: map-get($font-sizes, 'lg');
+
+/////////////////////////////
+// Layout                  //
+/////////////////////////////
+
+:root {
+  --app-header-height: 7rem; // 120px
+}

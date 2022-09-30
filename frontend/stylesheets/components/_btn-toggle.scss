@@ -57,3 +57,19 @@
     }
   }
 }
+
+// Fallback for browsers not supporting the selector :has
+// `menu--open` is added via the navigation Stimulus controller 
+@supports not selector(:has(a)) {
+  body.menu--open .btn-toggle .btn-toggle__icon {
+    width: 0;
+  }
+
+  body.menu--open .btn-toggle .btn-toggle__icon::before {
+    transform: translateY(9px) rotate(45deg);
+  }
+
+  body.menu--open .btn-toggle .btn-toggle__icon::after {
+    transform: translateY(-9px) rotate(-45deg);
+  }
+}

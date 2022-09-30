@@ -1,5 +1,6 @@
 .layout-default {
 
+  // `menu--open` is added via the navigation Stimulus controller 
   body.menu--open {
     overflow: hidden;
   }

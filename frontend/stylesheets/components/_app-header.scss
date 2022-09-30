@@ -25,3 +25,11 @@
     }
   }
 }
+
+// Fallback for browsers not supporting the selector :has
+// `menu--open` is added via the navigation Stimulus controller 
+@supports not selector(:has(a)) {
+  body.menu--open .app-header__navigation .app-navigation {
+    right: 0;
+  }
+}

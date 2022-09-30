@@ -4,11 +4,11 @@
       <span class="visually-hidden">RubyConf TH {💎}</span>
     </a>
 
-    <div class="app-header__navigation">
+    <div class="app-header__navigation" data-controller="navigation">
       <label class="btn-toggle app-header__toggle">
         <i class="btn-toggle__icon"></i>
         <span class="visually-hidden">Toggle Menu</span>
-        <input type="checkbox" name="toggle-menu" class="btn-toggle__input visually-hidden" />
+        <input type="checkbox" name="toggle-menu" class="btn-toggle__input visually-hidden" data-action="navigation#toggleMenu" />
       </label>
 
       <nav class="app-navigation">

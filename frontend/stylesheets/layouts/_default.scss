@@ -1,11 +1,16 @@
 .layout-default {
-  
+
+  body.menu--open {
+    overflow: hidden;
+  }
+
   .app-header {
     display: flex;
     align-items: center;
 
     height: var(--app-header-height);
   }
+  
 
   .app-hero {
     margin-bottom: 1.5rem;

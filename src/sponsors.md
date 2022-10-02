@@ -19,3 +19,10 @@ title: "Sponsors"
 
   {% render "list_sponsor", sponsors: silver_sponsors, with_info: true %}
 </section>
+
+<section class="sponsor-contact">
+  <h5>Want to have your company listed here?</h5>
+  <p>We offer various packages at different level of sponsorship and are open to any custom package that may fit better your company.</p>
+  <a class="btn btn--primary" href="https://drive.google.com/file/d/1Rgt9qWPaaMf6juoEHyLF_mnltm915IBh/view?usp=sharing" target="_blank">View sponsorship deck</a>
+</section>
+

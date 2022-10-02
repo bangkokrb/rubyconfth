@@ -1,0 +1,23 @@
+.list-speaker {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+
+  &__individual {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+
+  &__link {
+    display: block;
+  }
+
+  &__photo {
+    max-width: 75%;
+  }
+
+  &__name {
+    margin-block-start: 1rem;
+
+    font-size: map-get($font-sizes, 'xl');
+  }
+}

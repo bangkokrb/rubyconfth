@@ -17,6 +17,10 @@
     box-shadow: none;
   }
 
+  &__item {
+    display: block;
+  }
+
   &__list {
     display: flex;
     flex-direction: column;

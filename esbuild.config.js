@@ -1,7 +1,7 @@
-const build = require("./config/esbuild.defaults.js")
+const build = require("./config/esbuild.defaults.js");
 
 // Update this if you need to configure a destination folder other than `output`
-const outputFolder = "output"
+const outputFolder = "output";
 
 const esbuildOptions = {
   entryPoints: [
@@ -9,6 +9,6 @@ const esbuildOptions = {
     "frontend/javascript/error.js"
   ],
   format: "esm"
-}
+};
 
-build(outputFolder, esbuildOptions)
+build(outputFolder, esbuildOptions);

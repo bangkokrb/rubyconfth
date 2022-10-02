@@ -1,0 +1,14 @@
+- first_name: Nate
+  last_name: Berkopec
+  twitter_handle: nateberkopec
+  photo_url: /images/speakers/nate-berkopec.png
+  type: keynote
+  bio: |
+    Nate runs Speedshop, a software performance company specializing in Ruby, and is also the maintainer of Puma, the popular Ruby webserver.
+- first_name: Siddarth
+  last_name: Sharma
+  twitter_handle: _svs_
+  photo_url: /images/speakers/siddarth-sharma.png
+  type: keynote
+  bio: |
+    Siddarth is the CTO of InVideo. He has been a Ruby developer for fifteen years and has also been an investment banker and musician.

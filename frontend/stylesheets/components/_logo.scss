@@ -1,3 +1,5 @@
+@use '../functions/sizing';
+
 .logo {
   display: block;
 
@@ -7,8 +9,8 @@
   }
 
   &--icon {
-    width: rem(71px);
-    height: rem(50px);
+    width: sizing.rem(71px);
+    height: sizing.rem(50px);
 
     background: {
       image: url('/images/shared/logo/logo-icon.svg')
@@ -16,8 +18,8 @@
   }
 
   &--text {
-    width: rem(179px);
-    height: rem(26px);
+    width: sizing.rem(179px);
+    height: sizing.rem(26px);
 
     background: {
       image: url('/images/shared/logo/logo-text.svg')
@@ -25,11 +27,16 @@
   }
 
   &--text-icon {
-    width: rem(334px);
-    height: rem(40px);
+    width: sizing.rem(223px);
+    height: sizing.rem(26px);
 
     background: {
       image: url('/images/shared/logo/logo-text-icon.svg')
     };
+
+    @include media-breakpoint-up('lg') {
+      width: sizing.rem(334px);
+      height: sizing.rem(40px);
+    }
   }
 }

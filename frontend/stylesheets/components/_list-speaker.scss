@@ -1,0 +1,33 @@
+.list-speaker {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+
+  padding-left: 0;
+
+  @include media-breakpoint-up('sm') {
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  &__individual {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+
+  &__link {
+    display: block;
+  }
+
+  &__photo {
+    max-width: 75%;
+  }
+
+  &__name {
+    margin-block-start: 1rem;
+
+    font-size: map-get($font-sizes, 'lg');
+
+    @include media-breakpoint-up('sm') {
+      font-size: map-get($font-sizes, 'xl');
+    }
+  }
+}

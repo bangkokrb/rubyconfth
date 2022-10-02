@@ -2,15 +2,19 @@
   about: "Monitor your apps from A to Z: error tracking, performance insights, server metrics, uptime pages, custom dashboards, and more. AppSignal works for all popular Ruby frameworks and automatically instruments and creates beautiful dashboards for Sidekiq, Active Job, and other integrations."
   logo_url: /images/sponsors/appsignal.svg
   url: "https://www.appsignal.com/"
+  level: silver
 - name: Eventpop
   about: "Eventpop is an end-to-end event solution that enhances the seamless event experience. Eventpop แพลตฟอร์มจำหน่ายบัตรที่ตอบโจทย์ทุกงานอีเวนต์."
   logo_url: /images/sponsors/eventpop.png
   url: "https://www.eventpop.me/"
+  level: gold
 - name: Honeybadger
   about: "Honeybadger is the error, uptime, and cron monitoring tool built for you, the developer who cares about a quality product and happy customers."
   logo_url: /images/sponsors/honeybadger.svg
   url: "https://www.honeybadger.io/"
+  level: gold
 - name: Oivan
-  about: "We believe that extraordinary expertise in design and technology can solve some of the world's biggest challenges "
+  about: "We believe that extraordinary expertise in design and technology can solve some of the world's biggest challenges."
   logo_url: /images/sponsors/oivan.svg
   url: "https://oivan.com/"
+  level: gold

@@ -1,4 +1,4 @@
-.home .app-hero {
+body.home .app-hero {
   text-align: center;
 
   background: {
@@ -23,22 +23,25 @@
   }
 }
 
-.home .cfp,
-.home .sponsors {
+body.home .app-content {
   text-align: center;
+}
 
-  &:not(:last-child) {
-    margin-bottom: 4rem
-  }
+body.home .list-speaker {
+  margin-top: 2rem;
 
-  @include media-breakpoint-up('md') {
-    @include make-col(6);
-    @include make-col-offset(3);
+  &__individual:first-child {
+    @include media-breakpoint-up('sm') {
+      grid-column-start: 2;
+    }
   }
 }
 
-.home .sponsors {
-  .list-sponsor {
-    padding: 2rem 0;
-  }  
+body.home .list-sponsor {
+  padding-left: 0;
+
+  @include media-breakpoint-up('sm') {
+    width: 65%;
+    margin: 0 auto;
+  }
 }

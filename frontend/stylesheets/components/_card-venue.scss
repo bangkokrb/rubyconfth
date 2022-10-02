@@ -1,0 +1,25 @@
+.card-venue {
+  @include make-row();
+
+  &__image,
+  &__info {
+    @include make-col-ready();
+  }
+
+  &__image {
+    @include make-col(12);
+
+    @include media-breakpoint-up('sm') {
+      @include make-col(8);
+    }
+    
+  }
+
+  &__info {
+    @include make-col(12);
+
+    @include media-breakpoint-up('sm') {
+      @include make-col(4);
+    }
+  }
+}

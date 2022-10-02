@@ -29,12 +29,6 @@ body.home .app-content {
 
 body.home .list-speaker {
   margin-top: 2rem;
-
-  &__individual:first-child {
-    @include media-breakpoint-up('sm') {
-      grid-column-start: 2;
-    }
-  }
 }
 
 body.home .list-sponsor {

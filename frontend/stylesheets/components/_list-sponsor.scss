@@ -20,4 +20,48 @@
   &__logo {
     max-width: 100%;
   }
+
+  & + & {
+    margin-top: 2rem;
+  }
+}
+
+.list-sponsor--with-info {
+
+  .list-sponsor__company {
+    @include make-row();
+    @include make-col(12);
+
+    align-items: center;
+
+    &:nth-child(odd) {
+      background: rgb(0 0 0 / 5%);
+    }
+  }
+
+  .list-sponsor__link,
+  .list-sponsor__info {
+    @include make-col-ready();
+  }
+
+  .list-sponsor__link { 
+    @include make-col(12);
+
+    @include media-breakpoint-up('sm') {
+      @include make-col(4);
+    }
+  }
+
+  .list-sponsor__info {
+    @include make-col(12);
+    
+    margin-bottom: 0;
+    text-align: center;
+
+    @include media-breakpoint-up('sm') {
+      @include make-col(8);
+
+      text-align: left;
+    }
+  }
 }

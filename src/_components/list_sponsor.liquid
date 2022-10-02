@@ -1,9 +1,12 @@
-<ul class="list-sponsor">
+<ul class="list-sponsor{% if with_info == true %} list-sponsor--with-info{% endif %}">
   {% for sponsor in sponsors %}
-  <li class="list-sponsor__company">
-    <a href="{{ sponsor.url }}" title="{{ sponsor.name }} - {{ sponsor.about }}" target="_blank" class="list-sponsor__link">
+  <li class="list-sponsor__company">    
+    <a href="{{ sponsor.url }}" {% if with_info != true %}title="{{ sponsor.name }} - {{ sponsor.about }}"{% endif %} target="_blank" class="list-sponsor__link">
       <img class="list-sponsor__logo" src="{{ sponsor.logo_url }}" alt="{{ sponsor.name }}"{% if sponsor.logo_style %} style="{{ sponsor.logo_style }}"{% endif %}/>
     </a>
+    {% if with_info == true %}
+      <p class="list-sponsor__info">{{ sponsor.about }}</p>
+    {% endif %}
   </li>
   {% endfor %}
 </ul>

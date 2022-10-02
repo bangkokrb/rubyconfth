@@ -27,10 +27,15 @@
     @include media-breakpoint-up('lg') {
       flex-direction: row;
       align-items: center;
+      justify-content: end;
       gap: var(--bs-gutter-x);
 
       padding-top: 0;
     }
+  }
+
+  &__item {
+    display: block;
   }
 
   &__link {
@@ -47,8 +52,6 @@
     font-size: 1rem;
     line-height: 1.75;
     font-weight: 500;
-
-    transition: all .1s variables.$base-animation-timing;
 
     @include media-breakpoint-up('lg') {
       display: block;

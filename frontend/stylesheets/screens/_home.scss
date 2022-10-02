@@ -1,4 +1,4 @@
-.home .app-hero {
+body.home .app-hero {
   text-align: center;
 
   background: {
@@ -23,8 +23,8 @@
   }
 }
 
-.home .cfp,
-.home .sponsors {
+body.home .cfp,
+body.home .sponsors {
   text-align: center;
 
   &:not(:last-child) {
@@ -37,7 +37,7 @@
   }
 }
 
-.home .sponsors {
+body.home .sponsors {
   .list-sponsor {
     padding: 2rem 0;
   }  

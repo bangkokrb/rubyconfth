@@ -1,0 +1,6 @@
+.card-venue {
+  @include media-breakpoint-up('sm') {
+    display: flex;
+    gap: 2rem;
+  }
+}

@@ -28,6 +28,14 @@
     @include media-breakpoint-up('md') {
       padding: 3rem 0;
     }
+
+    section + section {
+      margin-top: 2rem;
+
+      @include media-breakpoint-up('sm') {
+        margin-top: 4rem;
+      }
+    }
   }
 
   .app-hero ~ .app-content {

@@ -1,9 +1,0 @@
-body.sponsor {
-  .sponsor-info:not(:first-child) {
-    margin-top: 2rem;
-
-    @include media-breakpoint-up('sm') {
-      margin-top: 4rem;
-    }
-  }
-}

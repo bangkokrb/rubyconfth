@@ -53,8 +53,6 @@
     line-height: 1.75;
     font-weight: 500;
 
-    transition: all .1s variables.$base-animation-timing;
-
     @include media-breakpoint-up('lg') {
       display: block;
       padding: 0 1rem;

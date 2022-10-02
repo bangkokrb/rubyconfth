@@ -6,11 +6,13 @@ title: "Home"
 
 <section class="speaker-lineup">
   <h2 class="sponsor-info__heading">Keynote Speakers</h2>
-  <h4>For this second edition we have the pleasure to host amazing speakers again.</h4>
+  <h4>For this second edition, we have the pleasure of hosting amazing speakers again</h4>
 
   {% assign keynote_speakers = site.data.speakers | where: "type", "keynote" %}
 
   {% render "list_speaker", speakers: keynote_speakers %}
+
+  <p>The complete list of speakers and schedule will be announced shortly.</p>
 </section>
 
 <section class="sponsors">

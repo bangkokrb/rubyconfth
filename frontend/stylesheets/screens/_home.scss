@@ -25,4 +25,28 @@ body.home .app-hero {
 
 body.home .app-content {
   text-align: center;
+
+  .list-speaker .list-speaker__individual:first-child {
+
+    @include media-breakpoint-up('sm') {
+      grid-column-start: 2;
+    }
+  }
+
+  .list-sponsor {
+    @include media-breakpoint-up('sm') {
+      width: 65%;
+      margin: 0 auto;
+    }
+  }
+}
+
+body.home .list-speaker {
+  margin-top: 2rem;
+
+  &__individual:first-child {
+    @include media-breakpoint-up('sm') {
+      grid-column-start: 2;
+    }
+  }
 }

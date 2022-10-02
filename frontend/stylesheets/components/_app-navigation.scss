@@ -17,10 +17,6 @@
     box-shadow: none;
   }
 
-  &__item {
-    display: block;
-  }
-
   &__list {
     display: flex;
     flex-direction: column;
@@ -31,10 +27,15 @@
     @include media-breakpoint-up('lg') {
       flex-direction: row;
       align-items: center;
+      justify-content: end;
       gap: var(--bs-gutter-x);
 
       padding-top: 0;
     }
+  }
+
+  &__item {
+    display: block;
   }
 
   &__link {

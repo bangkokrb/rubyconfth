@@ -1,28 +1,28 @@
 - first_name: Nate
   last_name: Berkopec
   twitter_handle: nateberkopec
-  photo_url: /images/speakers/nate-berkopec.png
+  photo_url: /images/speakers/nate-berkopec.jpg
   type: keynote
   bio: |
     Nate runs Speedshop, a software performance company specializing in Ruby, and is also the maintainer of Puma, the popular Ruby webserver.
 - first_name: Noah
   last_name: Gibbs
   twitter_handle: codefolio
-  photo_url: /images/speakers/noah-gibbs.png
+  photo_url: /images/speakers/noah-gibbs.jpg
   type: keynote
   bio: |
     Noah is an Engineer at Shopify. He wrote the ebook 'Rebuilding Rails' and then a lot about how fast Ruby is at various tasks. Despite being a grumpy old programmer in Inverness, Scotland, Noah believes that some day, somehow, there will be a second game as good as Stuart Smith's Adventure Construction Set for the Apple IIe.
 - first_name: Siddharth
   last_name: Sharma
   twitter_handle: _svs_
-  photo_url: /images/speakers/siddharth-sharma.png
+  photo_url: /images/speakers/siddharth-sharma.jpg
   type: keynote
   bio: |
     Siddharth is the CTO of InVideo. He has been a Ruby developer for fifteen years and has also been an investment banker and musician.
 - first_name: Yarden
   last_name: Laifenfeld
   twitter_handle: YardenLaif
-  photo_url: /images/speakers/yarden-laifenfeld.png
+  photo_url: /images/speakers/yarden-laifenfeld.jpg
   type: keynote
   bio: |
     Yarden is a Software Engineer at Rookout. With a deep background in C and embedded Linux environments, you can find her in the office jumping between 6 different programming languages a day. When she's not busy developing new features and helping out clients, she loves learning about new technology, creating iOS apps and making everything she can automated.

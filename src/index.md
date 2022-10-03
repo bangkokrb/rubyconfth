@@ -6,7 +6,7 @@ title: "Home"
 
 <section class="speaker-lineup">
   <h2 class="sponsor-info__heading">Keynote Speakers</h2>
-  <h4>For this second edition, we have the pleasure of hosting amazing speakers again</h4>
+  <h4>We're delighted to welcome amazing Ruby speakers to Bangkok, including:</h4>
 
   {% assign keynote_speakers = site.data.speakers | where: "type", "keynote" %}
 

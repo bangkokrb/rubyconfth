@@ -30,5 +30,13 @@ title: "Venue"
 
   <p>The venue is accessible both by BTS (Victory Monument) and the Airport Link (Phaya Thai).</p>
 
-  <a href="https://goo.gl/maps/vnLpSxt1zzw" target="_blank" class="card-venue__btn btn btn--primary">View in Google Maps</a>
+  <a href="https://goo.gl/maps/vnLpSxt1zzw" target="_blank" class="btn btn--primary">View in Google Maps</a>
+</section>
+
+<section class="venue-booking">
+  <h2>Staying There</h2>
+
+  <p>If you are interested in staying in the hotel during the event, you can use a dedicated booking portal provided directly by the hotel. The portal provides a discounted rate for all attendees.</p>
+
+  <a href="https://www.idem.events/r/rubyconfth-2022" target="_blank" class="btn btn--primary">Book a Room</a>
 </section>

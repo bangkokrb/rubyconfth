@@ -36,7 +36,7 @@ title: "Venue"
 <section class="venue-booking">
   <h2>Staying There</h2>
 
-  <p>If you are interested in staying in the hotel during the event, you can use a dedicated booking portal provided directly by the hotel. The service is available to all attendees.</p>
+  <p>If you are interested in staying in the hotel during the event, you can use a dedicated booking portal provided directly by the hotel. The portal provides a discounted rate for all attendees.</p>
 
   <a href="https://www.idem.events/r/rubyconfth-2022" target="_blank" class="btn btn--primary">Book a Room</a>
 </section>

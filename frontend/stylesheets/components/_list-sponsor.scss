@@ -45,6 +45,7 @@
   }
 
   .list-sponsor__link { 
+    text-align: center;
     @include make-col(12);
 
     @include media-breakpoint-up('sm') {

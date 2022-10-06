@@ -14,7 +14,6 @@
     //silver row only has two smaller items
     &:nth-child(4),&:nth-child(5) {
       @include make-col(6);
-      @include make-col-offset(1.5);
       .list-sponsor__logo {
         width: 75%;
       }
@@ -29,6 +28,7 @@
 
   &__logo {
     max-width: 100%;
+    max-height:100px;
   }
 
   & + & {

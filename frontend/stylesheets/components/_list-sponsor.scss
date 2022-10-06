@@ -12,10 +12,10 @@
     padding-top: 1rem;
     padding-bottom: 1rem;
 
-    //silver row only has two smaller items
+    //silver row only has two smaller items, limit height
     &:nth-child(4),&:nth-child(5) {
       .list-sponsor__logo {
-        width: 75%;
+        max-height:60px;
       }
     }
     &:nth-child(4) {

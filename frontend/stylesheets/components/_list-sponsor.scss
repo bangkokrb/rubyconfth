@@ -32,7 +32,10 @@
     margin-top: 2rem;
   }
 }
-//limit height on silver row
+//limit height of logos - 110px on sponsor page, 80px on home, 60px for silver on home
+.list-sponsor__logo  {
+  max-height:110px;
+}
 body.home .list-sponsor {
   &__company {
     .list-sponsor__logo {

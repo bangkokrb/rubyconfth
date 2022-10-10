@@ -39,15 +39,3 @@ body.home .list-sponsor {
     margin: 0 auto rem(24px);
   }
 }
-body.home .list-sponsor {
-  &__company {
-    .list-sponsor__logo {
-      max-height:rem(80px);
-    }
-    &:nth-child(4),&:nth-child(5) {
-      .list-sponsor__logo {
-        max-height:rem(60px);
-      }
-    }
-  }
-}

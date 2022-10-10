@@ -3,7 +3,7 @@ layout: default
 page_class: schedule
 title: "Schedule"
 ---
-
+<p>A more detailed schedule will be published soon</p>
 <section class="schedule-day">
   <h2>Thursday, 8th December 2022</h2>
   <ul>

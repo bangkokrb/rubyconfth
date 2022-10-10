@@ -34,20 +34,9 @@
 }
 //limit height of logos - 110px on sponsor page, 80px on home, 60px for silver on home
 .list-sponsor__logo  {
-  max-height:110px;
+  max-height:rem(110px);
 }
-body.home .list-sponsor {
-  &__company {
-    .list-sponsor__logo {
-      max-height:80px;
-    }
-    &:nth-child(4),&:nth-child(5) {
-      .list-sponsor__logo {
-        max-height:60px;
-      }
-    }
-  }
-}
+
 
 .list-sponsor--with-info {
 
@@ -68,7 +57,6 @@ body.home .list-sponsor {
   }
 
   .list-sponsor__link { 
-    text-align: center;
     @include make-col(12);
 
     @include media-breakpoint-up('sm') {

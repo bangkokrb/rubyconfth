@@ -28,7 +28,7 @@ body.home .app-content {
 }
 
 body.home .list-speaker {
-margin-top: 2rem;
+  margin-top: 2rem;
 }
 
 body.home .list-sponsor {
@@ -36,6 +36,18 @@ body.home .list-sponsor {
 
   @include media-breakpoint-up('sm') {
     width: 65%;
-    margin: 0 auto 24px;
+    margin: 0 auto rem(24px);
+  }
+}
+body.home .list-sponsor {
+  &__company {
+    .list-sponsor__logo {
+      max-height:rem(80px);
+    }
+    &:nth-child(4),&:nth-child(5) {
+      .list-sponsor__logo {
+        max-height:rem(60px);
+      }
+    }
   }
 }

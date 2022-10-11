@@ -9,7 +9,7 @@ title: "Sponsors"
 
   {% assign gold_sponsors = site.data.sponsors | where: "level", "gold" %}
 
-  {% render "list_sponsor", sponsors: gold_sponsors, with_info: true %}
+  {% render "list_sponsor", sponsors: gold_sponsors, level: 'gold', with_info: true %}
 </section>
 
 <section class="sponsor-info">
@@ -17,7 +17,7 @@ title: "Sponsors"
 
   {% assign silver_sponsors = site.data.sponsors | where: "level", "silver" %}
 
-  {% render "list_sponsor", sponsors: silver_sponsors, with_info: true %}
+  {% render "list_sponsor", sponsors: silver_sponsors, level: 'silver', with_info: true %}
 </section>
 
 <section class="sponsor-contact">

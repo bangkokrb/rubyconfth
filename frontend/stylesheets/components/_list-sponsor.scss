@@ -1,9 +1,11 @@
+@use '../variables';
+
 .list-sponsor {
   @include make-row();
 
   &__company {
     @include make-col-ready();
-    @include make-col(6);
+    @include make-col(4);
 
     display: flex;
     justify-content: center;
@@ -18,11 +20,21 @@
   }
 
   &__logo {
-    max-width: 100%;
+    width: 100%;
   }
 
   & + & {
-    margin-top: 2rem;
+    @include media-breakpoint-up('sm') {
+      margin-top: 1rem;
+    }
+  }
+
+  & + &:not(:last-child) {
+    margin-bottom: 1rem;
+
+    @include media-breakpoint-up('sm') {
+      margin-bottom: 2rem;
+    }
   }
 }
 
@@ -62,6 +74,21 @@
       @include make-col(8);
 
       text-align: left;
+    }
+  }
+
+  &.list-sponsor--gold {
+    .list-sponsor__company {
+      padding-top: 2rem;
+      padding-bottom: 2rem;
+    }
+  }
+
+  &.list-sponsor--silver {
+    .list-sponsor__info {
+      @include media-breakpoint-up('sm') {
+        font-size: map-get(variables.$font-sizes, 'sm');
+      }
     }
   }
 }

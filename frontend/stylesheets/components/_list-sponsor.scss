@@ -1,3 +1,5 @@
+@use '../variables';
+
 .list-sponsor {
   @include make-row();
 
@@ -72,6 +74,21 @@
       @include make-col(8);
 
       text-align: left;
+    }
+  }
+
+  &.list-sponsor--gold {
+    .list-sponsor__company {
+      padding-top: 2rem;
+      padding-bottom: 2rem;
+    }
+  }
+
+  &.list-sponsor--silver {
+    .list-sponsor__info {
+      @include media-breakpoint-up('sm') {
+        font-size: map-get(variables.$font-sizes, 'sm');
+      }
     }
   }
 }

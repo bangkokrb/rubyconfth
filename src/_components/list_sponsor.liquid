@@ -1,4 +1,4 @@
-<ul class="list-sponsor{% if with_info == true %} list-sponsor--with-info{% endif %}">
+<ul class="list-sponsor{% if level %} list-sponsor--{{ level }}{% endif %}{% if with_info == true %} list-sponsor--with-info{% endif %}">
   {% for sponsor in sponsors %}
   <li class="list-sponsor__company">    
     <a href="{{ sponsor.url }}" {% if with_info != true %}title="{{ sponsor.name }} - {{ sponsor.about }}"{% endif %} target="_blank" class="list-sponsor__link">

@@ -35,7 +35,27 @@ body.home .list-sponsor {
   padding-left: 0;
 
   @include media-breakpoint-up('sm') {
-    width: 65%;
-    margin: 0 auto;
+    margin-inline: auto;
+  }
+
+  &.list-sponsor--silver {
+    @include media-breakpoint-up('sm') {
+      width: 75%
+    }
+  }
+  
+  &.list-sponsor--silver {
+    margin-left: 25%;
+
+    @include media-breakpoint-up('sm') {
+      width: 50%;
+      margin-left: auto;
+    }
+
+    .list-sponsor__company {
+      @include media-breakpoint-up('sm') {
+        @include make-col(6);
+      }
+    }
   }
 }

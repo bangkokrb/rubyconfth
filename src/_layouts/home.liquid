@@ -5,6 +5,11 @@
 
     <link rel="stylesheet" href="{% asset_path stylesheets/application.scss %}" type="text/css"/>
     <script src="{% asset_path javascript/application.js %}" defer></script>
+    
+    {% if bridgetown.environment == "production" %}
+      {% render "analytics" %}
+    {% endif %}
+
     {% live_reload_dev_js %}
   </head>
   <body class="{{ resource.data.page_class }}">

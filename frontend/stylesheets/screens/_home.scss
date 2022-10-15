@@ -43,19 +43,4 @@ body.home .list-sponsor {
       width: 75%
     }
   }
-  
-  &.list-sponsor--silver {
-    margin-left: 25%;
-
-    @include media-breakpoint-up('sm') {
-      width: 50%;
-      margin-left: auto;
-    }
-
-    .list-sponsor__company {
-      @include media-breakpoint-up('sm') {
-        @include make-col(6);
-      }
-    }
-  }
 }

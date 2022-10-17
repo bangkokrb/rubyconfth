@@ -3,6 +3,11 @@
   logo_url: /images/sponsors/appsignal.svg
   url: "https://www.appsignal.com/"
   level: silver
+- name: Bee SCM
+  about: "Enterprise-grade Hospitality Procurement & Inventory management software that is intuitive, connected, simple to use and helps your team focus on the bottom line."
+  logo_url: /images/sponsors/beeees.png
+  url: "https://beescm.com/"
+  level: silver
 - name: Cloud 66
   about: "Cloud 66 is the best deployment tool for Rails. Deploy your Rails and Rack applications directly from your repo to any cloud, with native support for Rails conventions, full databases support, replication and backups, powerful access management, and traffic control features. Try it today for free with an extra $200 in free credits with the code: RubyConfTH."
   url: https://www.cloud66.com/frameworks/rails/?utm_source=e&utm_medium=l&utm_campaign=RubyConfTH

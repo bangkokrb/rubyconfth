@@ -230,7 +230,7 @@ Bangkok is a major tourist destination and there are lots of things to do, eat a
 
 The **Airport Rail Link** ([http://www.bangkok.com/airport-rail-link.htm](http://www.bangkok.com/airport-rail-link.htm) ) will easily get you from the airport to downtown.
 
-The **BTS Skytrain **is an elevated rapid transit/metro system. There are two lines, the Sukhumvit Line (light green) and Silom Line (dark green) which interchange at Siam station. Victory Monument and Phaya Thai stations for the conference hotel are both on the Sukhumvit Line. You can buy tickets in cash at any station, or purchase a Rabbit card which allows preloading multiple journeys. You must show your passport to buy a Rabbit card. 
+The **BTS Skytrain** is an elevated rapid transit/metro system. There are two lines, the Sukhumvit Line (light green) and Silom Line (dark green) which interchange at Siam station. Victory Monument and Phaya Thai stations for the conference hotel are both on the Sukhumvit Line. You can buy tickets in cash at any station, or purchase a Rabbit card which allows preloading multiple journeys. You must show your passport to buy a Rabbit card. 
 
 The **MRT** is an underground metro system, with two lines, the Blue Line and Purple Line, of which the Blue Line is the most convenient for tourists. You can buy tickets in cash at any station, or purchase a MRT card which allows preloading multiple journeys. The MRT and BTS have completely separate ticketing systems. 
 
@@ -242,7 +242,7 @@ Public **buses** are confusing for tourists and not recommended!
 
 Taxis often claim not to have change, so it's best not to try to pay with a 1000THB bill. If necessary ask your hotel to break a bill, or pop into a 7-11 convenience store and buy something small like a bottle of water. The taxi will wait ;)
 
-**Motorbike taxis **are a popular way for locals to get around but due to the poor road conditions in Bangkok can be very dangerous. Stick to regular taxis which give you more protection if there's an accident.
+**Motorbike taxis** are a popular way for locals to get around but due to the poor road conditions in Bangkok can be very dangerous. Stick to regular taxis which give you more protection if there's an accident.
 
 "**Tuktuks**" are an iconic image of Bangkok, but really only used by tourists. If you want to ride one for fun, be sure to bargain the price with the driver as there are no meters. Some hotels have free tuktuks for their guests, for example the King Power Pullman provides tuktuk service around the Victory Monument area.
 
@@ -266,5 +266,5 @@ Bangkok is hot and wet. In December, Bangkok has daily highs of around 31 Celsiu
 
 [14 day forecast from the BBC](https://www.bbc.com/weather/1609350)
 
-![Weather in Bangkok](/images/practicalities/image9.png)
+![Weather in Bangkok](/images/practicalities/weather.png)
 

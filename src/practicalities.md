@@ -162,97 +162,37 @@ Bangkok is a major tourist destination and there are hundreds of hotels and host
 **Directions from Victory Monument BTS Station to the Hotel:**
 
 
-<table>
-  <tr>
-   <td>1. Take Exit 2 from Victory Monument station
-<p>
-
-
-
-
+1. Take Exit 2 from Victory Monument station
 
 ![](/images/practicalities/image1.jpg)
 
-   </td>
-   <td>2. Walk down the stairs, and continue straight ahead
-<p>
-
-
-
-
+2. Walk down the stairs, and continue straight ahead
 
 ![](/images/practicalities/image2.jpg)
 
-   </td>
-  </tr>
-  <tr>
-   <td>3. Turn left on to the street called <strong>Thanon Rangnam</strong>
-<p>
-
-
-
-
+3. Turn left on to the street called <strong>Thanon Rangnam</strong>
 
 ![](/images/practicalities/image3.jpg)
 
-   </td>
-   <td>4. Turn right after the big glass dome
-<p>
-
-
-
-
+4. Turn right after the big glass dome
 
 ![](/images/practicalities/image4.jpg)
 
-   </td>
-  </tr>
-  <tr>
-   <td>5. You enter the King Power neighbourhood (Pullman Hotel is signposted)
-<p>
-
-
-
-
+5. You enter the King Power neighbourhood (Pullman Hotel is signposted)
 
 ![](/images/practicalities/image5.jpg)
 
-   </td>
-   <td>6. Go straight past the King Power Duty Free shop (Pullman is the brown building behind)
-<p>
-
-
-
-
+6. Go straight past the King Power Duty Free shop (Pullman is the brown building behind)
 
 ![](/images/practicalities/image6.jpg)
 
-   </td>
-  </tr>
-  <tr>
-   <td>7. Follow the signs to the Pullman Hotel straight ahead
-<p>
-
-
-
-
+7. Follow the signs to the Pullman Hotel straight ahead
 
 ![](/images/practicalities/image7.jpg)
 
-   </td>
-   <td>8. And here is the lobby!
-<p>
-
-
-
-
+8. And here is the lobby!
 
 ![](/images/practicalities/image8.jpg)
-
-   </td>
-  </tr>
-</table>
-
 
 
 ## Money

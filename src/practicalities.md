@@ -153,7 +153,7 @@ Address, in Thai:
 
 [Google Maps link](https://goo.gl/maps/vnLpSxt1zzw)
 
-We have a discounted rate available for conference attendees, [click this link to book](https://www.idem.events/r/rubyconf-th-2019-ce8885c5) .
+We have a discounted rate available for conference attendees, [view the venue page](/venue/).
 
 The hotel is easy to reach by taxi or public transport. You can take the Airport Rail Link to Phaya Thai station, or the BTS Skytrain to Phaya Thai or Victory Monument. From either it is around a 7-10 minute walk.
 

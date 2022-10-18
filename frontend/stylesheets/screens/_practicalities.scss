@@ -1,4 +1,15 @@
-body.practicalities h3 {
-  font-size: calc(1rem + .3vw);
-  font-weight: bold;
+body.practicalities {
+  h3 {
+    font-size: calc(1rem + .3vw);
+    font-weight: bold;
+  }
+  .app-content {
+    img {
+      width:rem(400px);
+      max-width:100%;
+    }
+    ul li {
+      list-style-type: disc;
+    }
+  }
 }

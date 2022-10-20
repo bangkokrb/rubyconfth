@@ -45,8 +45,16 @@ main ul, ol {
   }
 }
 
-main h2 {
-  margin-bottom: 1.5rem;
+main section {
+  h2 {
+    margin-bottom: 1.5rem;
+    border-bottom: 1px map-get($color-brand, 'primary') solid;
+  }
+
+  h3 {
+    margin-top: 2rem;
+    font-size: calc(1rem + .3vw);
+  }
 }
 
 // Utility to replicate the logo for any text: Red-Text Black-Text

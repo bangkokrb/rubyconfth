@@ -1,22 +1,8 @@
 body.practicalities {
-  h3 {
-    font-size: calc(1rem + .3vw);
-    font-weight: bold;
-  }
   .app-content {
-    h2 {
-      margin-top:rem(60px);
-      border-bottom: 1px map-get($color-brand, 'primary') solid;
-    }
-    h3 {
-      margin-top:rem(30px);
-    }
     img {
       width:rem(400px);
       max-width:100%;
-    }
-    ul li {
-      list-style-type: disc;
     }
   }
 }

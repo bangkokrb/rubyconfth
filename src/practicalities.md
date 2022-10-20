@@ -119,14 +119,30 @@ On this page you'll find our __A-Z of Practicalities for RubyConf TH 2022__.
 
   __Directions from Victory Monument BTS Station to the Hotel:__
 
-  1. Take Exit 2 from Victory Monument station <br>![](/images/practicalities/image1.jpg)
-  2. Walk down the stairs, and continue straight ahead<br>![](/images/practicalities/image2.jpg)
-  3. Turn left on to the street called __Thanon Rangnam__<br>![](/images/practicalities/image3.jpg)
-  4. Turn right after the big glass dome<br>![](/images/practicalities/image4.jpg)
-  5. You enter the King Power neighbourhood (Pullman Hotel is signposted)<br>![](/images/practicalities/image5.jpg)
-  6. Go straight past the King Power Duty Free shop (Pullman is the brown building behind)<br>![](/images/practicalities/image6.jpg)
-  7. Follow the signs to the Pullman Hotel straight ahead<br>![](/images/practicalities/image7.jpg)
-  8. And here is the lobby!<br>![](/images/practicalities/image8.jpg)
+  1. Take Exit 2 from Victory Monument station
+    <br />
+    ![Exit 2 from the BTS station](/images/practicalities/hotel/direction-step-1-exit-2.jpg)
+  2. Walk down the stairs, and continue straight ahead
+    <br />
+    ![BTS stairs](/images/practicalities/hotel/direction-step-2-stairs.jpg)
+  3. Turn left on to the street called __Thanon Rangnam__
+    <br />
+    ![Direction to Rangnam street](/images/practicalities/hotel/direction-step-3-rangnam-street.jpg)
+  4. Turn right after the big glass dome
+    <br />
+    ![Dome on Rangnam street](/images/practicalities/hotel/direction-step-4-dome.jpg)
+  5. You enter the King Power neighbourhood (Pullman Hotel is signposted)
+    <br />
+    ![King Power Duty Free shop road signage](/images/practicalities/hotel/direction-step-5-neighbourhood.jpg)
+  6. Go straight past the King Power Duty Free shop (Pullman is the brown building behind) 
+    <br />
+    ![Outdoor of the the King Power Duty Free shop](/images/practicalities/hotel/direction-step-6-duty-free.jpg)
+  7. Follow the signs to the Pullman Hotel straight ahead
+    <br />
+    ![Pullman Hotel road signag](/images/practicalities/hotel/direction-step-7-hotel-signage.jpg)
+  8.  And here is the lobby!
+    <br />
+    ![Outdoor of Pullman Bangkok King Power](/images/practicalities/hotel/direction-step-8-hotel-lobby.jpg)
 {% endrendercontent %}
 
 {% rendercontent "section_text", title: "Money" %}

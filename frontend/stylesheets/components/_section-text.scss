@@ -2,4 +2,10 @@
   ul {
     list-style-type: disc;
   }
+
+  ol, ul {
+    li + li {
+      margin-top: 1rem;
+    }
+  }
 }

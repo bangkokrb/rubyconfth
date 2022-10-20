@@ -6,7 +6,7 @@ title: "Practicalities"
 
 On this page you'll find our __A-Z of Practicalities for RubyConf TH 2022__.
 
-{% rendercontent "section", title: "Airports" %}
+{% rendercontent "section_text", title: "Airports" %}
   Bangkok is served by two airports: Suvarnabhumi (pronounced “su-vahn-a-boom”, the final “i” is silent) Airport (__BKK__) and Don Mueang Airport (__DMK__). Suvarnabhumi Airport is the main airport and used by all full-service airlines, but most low cost carriers use Don Mueang Airport. Both airports lie about 30 km (19 mi) out on opposite sides of the city, so be prepared for a long ride to get into the city centre.
 
   ### From Suvarnabhumi Airport (BKK) by Train
@@ -36,7 +36,7 @@ On this page you'll find our __A-Z of Practicalities for RubyConf TH 2022__.
   From DMK there is limited public transport (a new Red Line train opened recently, but trains are infrequent), so a taxi is the easiest. Follow the signs to the main taxi stand and ignore the touts.
 {% endrendercontent %}
 
-{% rendercontent "section", title: "Budgeting" %}
+{% rendercontent "section_text", title: "Budgeting" %}
   By international "big city" standards, Thailand is inexpensive, but costs can still add up quickly. We understand that in the current economic situation, many people and companies are struggling. We've compiled a few money-saving tips to ensure you can enjoy your time in Bangkok.
 
   - Flights: This is likely to be your biggest expense when coming from abroad. Use a flights aggregator like [Google Flights](https://www.google.com/flights) or [Kiwi.com](https://kiwi.com). Consider being somewhat flexible on dates or routes, flights with a stop are often cheaper than direct flights.
@@ -48,13 +48,13 @@ On this page you'll find our __A-Z of Practicalities for RubyConf TH 2022__.
   - Freebies: Make the most of the free coffee and snack breaks, buffet lunch and official party (the buffet lunch is large enough you probably won't need to eat too much more :D)
 {% endrendercontent %}
 
-{% rendercontent "section", title: "Code of Conduct" %}
+{% rendercontent "section_text", title: "Code of Conduct" %}
   All attendees, speakers, sponsors and volunteers at our conference are required to agree with the [code of conduct](https://confcodeofconduct.com/). Organisers will enforce this code throughout the event. We expect cooperation from all participants to help ensure a safe environment for everybody.
 
   If you are being harassed, notice that someone else is being harassed, or have any other concerns, please contact a conference staff member immediately. Conference staff can be identified as they'll be wearing branded clothing and/or badges.
 {% endrendercontent %}
 
-{% rendercontent "section", title: "COVID restrictions" %}
+{% rendercontent "section_text", title: "COVID restrictions" %}
   As of October 1st 2022, there are no COVID-related restrictions to enter Thailand (no vaccination proof, no "Thailand Pass", no mandatory tests). [Official Thailand Tourist Authority website](https://www.tatnews.org/2022/09/thailand-ends-covid-19-emergency-decree-on-30-september-2022/)
 
   It is not required to wear a mask at the conference, however you are welcome to do so: conferences are an easy place for diseases like COVID to spread.
@@ -62,11 +62,11 @@ On this page you'll find our __A-Z of Practicalities for RubyConf TH 2022__.
   Masks are no longer mandatory, however they are recommended in crowded and indoor places. You will see a lot of people wearing masks, especially on public transport and in shops. If asked to put a mask to enter a venue, please put one on.
 {% endrendercontent %}
 
-{% rendercontent "section", title: "Dietary Requirements" %}
+{% rendercontent "section_text", title: "Dietary Requirements" %}
   Vegetarian and Halal options will be available for lunch on each day of the conference. If you have any concerns please contact us in the Slack channel.
 {% endrendercontent %}
 
-{% rendercontent "section", title: "Entry Requirements" %}
+{% rendercontent "section_text", title: "Entry Requirements" %}
   ### Visas
 
   Many nationalities including US, most EU countries, UK etc, can enter Thailand without needing a visa for up to 45 days. A full list of countries is available at [Visa Exempt countries](https://www.thaiembassy.com/thailand/changes-visa-exempt.php) . 
@@ -90,7 +90,7 @@ On this page you'll find our __A-Z of Practicalities for RubyConf TH 2022__.
   Your passport’s expiration date should be at least six months later than the date you enter Thailand.
 {% endrendercontent %}
 
-{% rendercontent "section", title: "Health/Vaccinations" %}
+{% rendercontent "section_text", title: "Health/Vaccinations" %}
   Check with a doctor in your home country to see if you require any vaccinations before travelling to Thailand. It is best to start this process as soon as possible, as some vaccines may be difficult to find, or require multiple doses spaced apart. A useful resource for more information about this is at [CDC Travel Vaccines](https://wwwnc.cdc.gov/travel/page/travel-vaccines).)
 
   If you need emergency medical assistance during your trip, dial 1669 (this may not work with non-Thai phone numbers) and ask for an ambulance. You should contact your insurance/medical assistance company promptly if you are referred to a medical facility for treatment.
@@ -98,7 +98,7 @@ On this page you'll find our __A-Z of Practicalities for RubyConf TH 2022__.
   Medical care in Thailand is excellent. It is much cheaper than more developed countries, but a serious incident can incur substantial charges. You should have your own travel/health insurance before visiting Thailand.
 {% endrendercontent %}
 
-{% rendercontent "section", title: "Hotels" %}
+{% rendercontent "section_text", title: "Hotels" %}
   The conference venue is the __Pullman Bangkok King Power__ hotel ([https://www.pullmanbangkokkingpower.com/](https://www.pullmanbangkokkingpower.com/)).
 
   Address, in English:
@@ -129,23 +129,23 @@ On this page you'll find our __A-Z of Practicalities for RubyConf TH 2022__.
   8. And here is the lobby!<br>![](/images/practicalities/image8.jpg)
 {% endrendercontent %}
 
-{% rendercontent "section", title: "Money" %}
+{% rendercontent "section_text", title: "Money" %}
   Thailand uses the Thai baht as its currency, 38 THB is approximately 1 USD. Credit cards are widely accepted (Visa and Mastercard always work, JCB sometimes, Amex only occasionally). That said, taxis, street vendors, and some shops and restaurants will only accept cash, so we do recommend having some cash on you.
 
   When withdrawing money from an ATM, you will be charged a fixed fee of 220 baht, so it's generally best to withdraw 5,000 THB or 10,000 THB at a time. (To USA residents: you can open an ATM-fee-free account online at [Charles Schwab](https://www.schwab.com/public/schwab/banking_lending/checking_account).)
 {% endrendercontent %}
 
-{% rendercontent "section", title: "Official Party" %}
+{% rendercontent "section_text", title: "Official Party" %}
   The official party is held on Friday evening. The venue will be confirmed soon. Don't worry about getting lost, we'll provide volunteers to help you make your way to the party from the hotel!
 
   The party is free for all attendees (simply wear your conference lanyard)!
 {% endrendercontent %}
 
-{% rendercontent "section", title: "Plugs/Adaptors" %}
+{% rendercontent "section_text", title: "Plugs/Adaptors" %}
   Thailand uses 220V AC and US-style plugs with two thin prongs. Before plugging in any devices check your adaptor will work with 220V. Many hotels have plugs which also accept European and UK style plugs.
 {% endrendercontent %}
 
-{% rendercontent "section", title: "Safety and Scams" %}
+{% rendercontent "section_text", title: "Safety and Scams" %}
   Bangkok is generally a safe place but like any large city you should keep your wits about you. 
 
   - The roads in Bangkok and Thailand are very dangerous. Always wear a seatbelt and avoid using motorbike taxis.
@@ -160,21 +160,21 @@ On this page you'll find our __A-Z of Practicalities for RubyConf TH 2022__.
   - If you don’t intend to carry your passport around with you, it may be helpful to make a copy of the information page and carry it in your wallet. Most places that say they require a passport also accept a photocopy.
 {% endrendercontent %}
 
-{% rendercontent "section", title: "SIM Cards" %}
+{% rendercontent "section_text", title: "SIM Cards" %}
   The three major cell service providers are True, AIS, and DTAC. SIM cards sold at the airport after you exit baggage claim are fairly priced and inexpensive, so you should just pick one up there, including phone calls and fast 4G data. In general True has the best signal coverage, but if you will just be in Bangkok it doesn’t matter much.
 
   You may need to modify your phone’s configuration to work in Thailand. We recommend installing the SIM card, and testing both a) phone calling or receiving and b) mobile Internet data access, before leaving the kiosk. Kiosk agents are usually happy to help with this.
 {% endrendercontent %}
 
-{% rendercontent "section", title: "Slack" %}
+{% rendercontent "section_text", title: "Slack" %}
   We have set up a Slack group so you can easily ask questions before and during the conference. [Join here](https://join.slack.com/t/rubyconfth/shared_invite/enQtNzEwMTk1MjEyMjg4LTcyOTQwZjNjODE1ZTQzMzllNmY2NTMxOTM3NWI2Mzk0ZmJmNWE3MjdlYzBhOGQ1NDdjOWI4ZWYyZGJiYzU4YWU) .
 {% endrendercontent %}
 
-{% rendercontent "section", title: "Things to do" %}
+{% rendercontent "section_text", title: "Things to do" %}
   Bangkok is a major tourist destination and there are lots of things to do, eat and drink, for every budget. For some ideas check [our travel guide](https://lemi.travel/rubyconfth/guide-for-visitors-to-rubyconf-th) .
 {% endrendercontent %}
 
-{% rendercontent "section", title: "Transportation" %}
+{% rendercontent "section_text", title: "Transportation" %}
   The __Airport Rail Link__ ([http://www.bangkok.com/airport-rail-link.htm](http://www.bangkok.com/airport-rail-link.htm) ) will easily get you from the airport to downtown.
 
   The __BTS Skytrain__ is an elevated rapid transit/metro system. There are two lines, the Sukhumvit Line (light green) and Silom Line (dark green) which interchange at Siam station. Victory Monument and Phaya Thai stations for the conference hotel are both on the Sukhumvit Line. You can buy tickets in cash at any station, or purchase a Rabbit card which allows preloading multiple journeys. You must show your passport to buy a Rabbit card. 
@@ -196,7 +196,7 @@ On this page you'll find our __A-Z of Practicalities for RubyConf TH 2022__.
   As an alternative to hailing a taxi, you can use the [Grab ride-hailing app](https://www.grab.com/th/en/download/), which works similarly to apps like Uber or Lyft. The app works well in English, and you can type in your destination and see an instant price for your journey. It works best if you have mobile data (a Thai SIM card is probably best for this) so you can access the Internet anywhere. The app will show the license plate of your vehicle. Prices are typically slightly more expensive than a taxi. Actual arrival times are often longer than stated on the app. Grab is especially useful if you are not on a main road where taxis are likely to be plentiful. An alternative to Grab is [Bolt](https://bolt.eu/) which is generally cheaper, though has fewer cars.
 {% endrendercontent %}
 
-{% rendercontent "section", title: "Tipping" %}
+{% rendercontent "section_text", title: "Tipping" %}
   Tips will never be refused, but there's not much of a tipping culture in Thailand.
 
   All restaurant bills will already have a 7% tax and 10% service charge included. __You don't need to tip on top of that__
@@ -206,7 +206,7 @@ On this page you'll find our __A-Z of Practicalities for RubyConf TH 2022__.
   You should tip someone who carries suitcases up to your room in a hotel.
 {% endrendercontent %}
 
-{% rendercontent "section", title: "Weather" %}
+{% rendercontent "section_text", title: "Weather" %}
   Bangkok is hot and wet. In December, Bangkok has daily highs of around 31 Celsius (87F) and lows of 21 Celsius (70F). December is one of the relatively coolest and driest months of the year, though it can still rain, so if you get caught in a storm, it's generally best to just wait it out in a mall. It's best to carry a small umbrella or raincoat (which you can also easily get at a convenience store).
 
   [14 day forecast from the BBC](https://www.bbc.com/weather/1609350)

@@ -38,6 +38,11 @@
   url: https://www.cloud66.com/frameworks/rails/?utm_source=e&utm_medium=l&utm_campaign=RubyConfTH
   logo_url: /images/sponsors/prodigy9.svg
   level: silver
+- name: ProudCloud
+  about: "Based in Manila, we're a full stack development firm that's been building web and mobile technologies for global startups, medium, and large enterprises since 2009. Since then, we've established ourselves as one of the leading web engineering and cloud computing service providers in South East Asia."
+  url: https://www.proudcloud.io/
+  logo_url: /images/sponsors/proudcloud.svg
+  level: silver
 - name: Talented
   about: "Talented helps small businesses with just about anything you can name. We cover bases like recruitment, social media, web design, and small business financing so you get a breather from managing your own business."
   url: https://talentedhk.com/

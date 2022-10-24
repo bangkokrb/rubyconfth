@@ -1,0 +1,59 @@
+- start_at: "8:00"
+  end_at: "9:00"
+  title: "Registration & Conference Door Opens"
+- start_at: "9:00"
+  end_at: "9:10"
+  title: "Welcome Address"
+- start_at: "9:10"
+  end_at: "9:55"
+  title: "A Beginner's Guide to Puma Internals"
+  speaker_id: nate-berkopec
+- start_at: "10:00"
+  end_at: "10:30"
+  title: "A Rails performance guidebook: from 0 to 1B requests/day"
+  speaker_id: cristian-planas
+- start_at: "10:30"
+  end_at: "10:50"
+  title: "Tea Break"
+- start_at: "10:50"
+  end_at: "11:20"
+  title: "Hanami 2: New Framework, New You"
+  speaker_id: tim-riley
+- start_at: "11:25"
+  end_at: "11:55"
+  title: "Megaruby - mruby/c on Sega Mega Drive"
+  speaker_id: yuji-yokoo
+- start_at: "12:00"
+  end_at: "12:30"
+  title: "Roasting the Duck - A talk about Ruby and types"
+  speaker_id: paolo-perrotta
+- start_at: "12:30"
+  end_at: "13:50"
+  title: "Buffet Lunch"
+- start_at: "14:00"
+  end_at: "14:30"
+  title: "Scaling Ruby with JRuby"
+  speaker_id: charles-nutter
+- start_at: "14:35"
+  end_at: "15:05"
+  title: "10x your teamwork through pair programming"
+  speaker_id:
+    - michael-milewski
+    - selena-small
+- start_at: "15:05"
+  end_at: "15:35"
+  title: "Tea Break"
+- start_at: "15:35"
+  end_at: "16:05"
+  title: "Why I choose Phoenix"
+  speaker_id: aaron-cruz
+- start_at: "16:10"
+  end_at: "16:55"
+  title: "The Ecstatic Organisation"
+  speaker_id: siddarth-sharma
+- start_at: "17:00"
+  end_at: "17:10"
+  title: "Closing remarks & announcements"
+- start_at: "18:00"
+  end_at: "22:00"
+  title: "Official Party 🥳"

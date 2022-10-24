@@ -58,11 +58,11 @@
   first_name: Stephan
   last_name: Eberle
 - id: thatthep-vorrasing
-  first_name: Tim
-  last_name: Riley
-- id: tim-riley
   first_name: Thatthep "Audy"
   last_name: Vorrasing
+- id: tim-riley
+  first_name: Tim
+  last_name: Riley
 - id: yarden-laifenfeld
   first_name: Yarden
   last_name: Laifenfeld

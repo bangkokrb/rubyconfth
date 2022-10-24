@@ -2,9 +2,11 @@
   first_name: Aaron
   last_name: Cruz
   twitter_handle: mraaroncruz
+  photo_url: /images/speakers/aaron-cruz.jpg
 - id: anita-jaszewska
   first_name: Anita
   last_name: Jaszewska
+  photo_url: /images/speakers/anita-jaszewska.jpg
 - id: charles-nutter
   first_name: Charles
   last_name: Nutter
@@ -63,6 +65,7 @@
   first_name: Selena
   last_name: Small
   twitter_handle: selenasmall88
+  photo_url: /images/speakers/selena-small.jpg
 - id: siddharth-sharma
   first_name: Siddharth
   last_name: Sharma

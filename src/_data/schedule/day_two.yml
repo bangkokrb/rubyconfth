@@ -6,7 +6,7 @@
   title: "Welcome Address"
 - start_at: "9:10"
   end_at: "9:55"
-  title: "Ruby & JVM: A (JRuby) Love Story"
+  title: "Keynote: Ruby & JVM: A (JRuby) Love Story"
   speaker_id: yarden-laifenfeld
 - start_at: "10:00"
   end_at: "10:30"
@@ -14,7 +14,7 @@
   speaker_id: stephan-eberle
 - start_at: "10:30"
   end_at: "10:50"
-  title: "Tea Break"
+  title: "Coffee Break"
 - start_at: "10:50"
   end_at: "11:20"
   title: "GitOps: The Single source of truth"
@@ -40,14 +40,14 @@
   speaker_id: jonatas-davi
 - start_at: "15:05"
   end_at: "15:35"
-  title: "Tea Break"
+  title: "Coffee Break"
 - start_at: "15:35"
   end_at: "16:05"
   title: "Refactoring for Rails - using deodorant to prevent code smells and a shower from time to time to eliminate the most persistent ones"
   speaker_id: rodrigo-urubatan
 - start_at: "16:10"
   end_at: "16:55"
-  title: "YJIT's Three Languages: the Fun of Code that Writes Code"
+  title: "Keynote: YJIT's Three Languages: the Fun of Code that Writes Code"
   speaker_id: noah-gibbs
 - start_at: "17:00"
   end_at: "17:10"

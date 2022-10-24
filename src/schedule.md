@@ -8,10 +8,10 @@ title: "Schedule"
   <nav class="schedule-browser__navigation" data-schedule-target="navigation">
     <ul class="nav nav--pills" role="tablist">
       <li class="nav__item">
-        <a class="nav__link nav__link--active" href="/schedule/day-1" data-day="day-1"  data-action="schedule#toggleTab" role="tab">Dec 9</a>
+        <a class="nav__link nav__link--active" href="/schedule/day-1" data-day="day-1"  data-action="schedule#toggleTab" role="tab">Friday, Dec 9</a>
       </li>
       <li class="nav__item">
-        <a class="nav__link" href="/schedule/#day-2" data-day="day-2" data-action="schedule#toggleTab" role="tab">Dec 10</a>
+        <a class="nav__link" href="/schedule/#day-2" data-day="day-2" data-action="schedule#toggleTab" role="tab">Saturday, Dec 10</a>
       </li>
     </ul>
   </nav>

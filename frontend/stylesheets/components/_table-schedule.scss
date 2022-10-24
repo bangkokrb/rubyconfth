@@ -1,0 +1,39 @@
+.table-schedule {
+  table-layout: fixed;
+
+  width: 100%;
+
+  thead {
+    // Visually hide the header
+    line-height: 0;
+    text-indent: -9999px;
+
+    .table-schedule__time {
+      width: 15%;
+    }
+
+    .table-schedule__event {
+      width: 85%;
+    }
+  }
+
+  &__slot {
+    border: 1px solid var(--bs-border-color);
+  }
+
+  tbody .table-schedule__time,
+  tbody .table-schedule__event {
+    padding: 1rem;
+  }
+
+  tbody &__time {
+    display: flex;
+    flex-direction: column;
+
+    text-align: center;
+  }
+
+  tbody .table-schedule__event {
+    border-left: 1px solid var(--bs-border-color);
+  }
+}

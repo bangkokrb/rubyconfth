@@ -1,8 +1,8 @@
 <table class="table-schedule">
-  <thead class="visually-hidden">
+  <thead>
     <tr>
-      <td>Time Slot</td>
-      <td>Talk and Speaker Information</td>
+      <th class="table-schedule__time">Time Slot</th>
+      <th class="table-schedule__event">Talk and Speaker Information</th>
     </tr>
   </thead>
   <tbody>    
@@ -27,7 +27,7 @@
           {% endfor %}
         </td>
         {% else %}
-          <td class="table-schedule__info">
+          <td class="table-schedule__event">
             {{ event.title }}
           </td>
         {% endif %}

@@ -7,12 +7,16 @@
 - id: charles-nutter
   first_name: Charles
   last_name: Nutter
+  twitter_handle: headius
+  photo_url: /images/speakers/charles-nutter.jpg
 - id: cristian-planas
   first_name: Cristian
   last_name: Planas
 - id: jeremy-evans
   first_name: Jeremy
   last_name: Evans
+  twitter_handle: jeremyevans0
+  photo_url: /images/speakers/jeremy-evans.jpg
 - id: jonatas-davi
   first_name: Jônatas
   last_name: Davi
@@ -63,6 +67,8 @@
 - id: tim-riley
   first_name: Tim
   last_name: Riley
+  twitter_handle: timriley
+  photo_url: /images/speakers/tim-riley.jpg
 - id: yarden-laifenfeld
   first_name: Yarden
   last_name: Laifenfeld

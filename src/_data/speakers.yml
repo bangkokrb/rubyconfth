@@ -1,6 +1,7 @@
 - id: aaron-cruz
   first_name: Aaron
   last_name: Cruz
+  twitter_handle: mraaroncruz
 - id: anita-jaszewska
   first_name: Anita
   last_name: Jaszewska
@@ -12,6 +13,7 @@
 - id: cristian-planas
   first_name: Cristian
   last_name: Planas
+  twitter_handle: crplanas
 - id: jeremy-evans
   first_name: Jeremy
   last_name: Evans
@@ -20,9 +22,11 @@
 - id: jonatas-davi
   first_name: Jônatas
   last_name: Davi
+  twitter_handle: jonatasdp
 - id: michael-milewski
   first_name: Michael
   last_name: Milewski
+  twitter_handle: saramic
 - id: nate-berkopec
   first_name: Nate
   last_name: Berkopec
@@ -42,14 +46,18 @@
 - id: paolo-perrotta
   first_name: Paolo "Nusco"
   last_name: Perrotta
+  twitter_handle: nusco
 - id: rtdp
   first_name: rtdp
+  twitter_handle: rtdp
 - id: rodrigo-urubatan
   first_name: Rodrigo
   last_name: Urubatan Ferreira Jardim
+  twitter_handle: urubatan
 - id: selena-small
   first_name: Selena
   last_name: Small
+  twitter_handle: selenasmall88
 - id: siddarth-sharma
   first_name: Siddharth
   last_name: Sharma
@@ -61,9 +69,11 @@
 - id: stephan-eberle
   first_name: Stephan
   last_name: Eberle
+  twitter_handle: stephaneberle
 - id: thatthep-vorrasing
   first_name: Thatthep "Audy"
   last_name: Vorrasing
+  twitter_handle: audyningrum27
 - id: tim-riley
   first_name: Tim
   last_name: Riley
@@ -80,3 +90,4 @@
 - id: yuji-yokoo
   first_name: Yuji
   last_name: Yokoo
+  twitter_handle: yujiyokoo

@@ -29,3 +29,6 @@
     padding-left: 0.5rem;
   }
 }
+.card-talk + .card-talk {
+  margin-top:0.5rem; //for dual speaker talks
+}

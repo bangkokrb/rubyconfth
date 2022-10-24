@@ -33,10 +33,11 @@
   }
 
   tbody &__time {
-    display: flex;
-    flex-direction: column;
-
     text-align: center;
+
+    & > span {
+      display: block;
+    }
   }
 
   tbody .table-schedule__event {

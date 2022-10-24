@@ -1,16 +1,20 @@
 <div class="card-talk">
-  {% if speaker.photo_url %}
-  <figure class="card-talk__photo">
-    <img src="{{ speaker.photo_url }}" />
-  </figure>
-  {% endif %}
   {% if show_title %}
   <div class="card-talk__title">{{ event.title }}</div>
   {% endif %}
-  <div class="card-talk__name text-branded">
-    <span>{{ speaker.first_name }}</span>&nbsp;{{ speaker.last_name }}
+  <div class="card-talk__speaker">
+    {% if speaker.photo_url %}
+    <figure class="card-talk__profile">
+      <img src="{{ speaker.photo_url }}" class="card-talk__photo" />
+    </figure>
+    {% endif %}
+    <div class="card-talk__info">
+      <div class="card-talk__name text-branded">
+        <span>{{ speaker.first_name }}</span>&nbsp;{{ speaker.last_name }}
+      </div>
+      {% if speaker.twitter_handle %}
+      <div class="card-talk__social">@{{ speaker.twitter_handle }}</div>
+      {% endif %}
+    </div>
   </div>
-  {% if speaker.twitter_handle %}
-  <div class="card-talk__social">@{{ speaker.twitter_handle }}</div>
-  {% endif %}
 </div>

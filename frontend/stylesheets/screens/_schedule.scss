@@ -1,0 +1,10 @@
+body.schedule {
+  .table-schedule {
+    width: 100%;
+
+    @include media-breakpoint-up('xl') {
+      width: 80%;
+      margin: 0 auto;
+    }
+  }
+}

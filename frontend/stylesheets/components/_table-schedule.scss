@@ -1,19 +1,25 @@
 .table-schedule {
   table-layout: fixed;
 
-  width: 100%;
-
   thead {
     // Visually hide the header
     line-height: 0;
     text-indent: -9999px;
 
     .table-schedule__time {
-      width: 15%;
+      width: 25%;
+
+      @include media-breakpoint-up('sm') {
+        width: 15%;
+      }
     }
 
     .table-schedule__event {
-      width: 85%;
+      width: 75%;
+
+      @include media-breakpoint-up('sm') {
+        width: 85%;
+      }
     }
   }
 

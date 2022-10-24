@@ -1,0 +1,31 @@
+@use '../functions/sizing';
+@use '../variables';
+
+.card-talk {
+  &__title {
+    font-size: map-get(variables.$font-sizes, 'lg');
+
+    @include media-breakpoint-up('sm') {
+      font-size: map-get(variables.$font-sizes, 'xl');
+    }
+  }
+
+  &__speaker {
+    display: flex;
+  }
+
+  &__profile {
+    margin: 0;
+
+    width: sizing.rem(60px);
+  }
+
+  &__photo {
+    max-width: 100%;
+    border-radius: 50%;
+  }
+
+  &__profile + &__info {
+    padding-left: 0.5rem;
+  }
+}

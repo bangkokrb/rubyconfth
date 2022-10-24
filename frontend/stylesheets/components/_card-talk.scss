@@ -3,8 +3,8 @@
 
 .card-talk {
   &__title {
-    font-size: map-get(variables.$font-sizes, 'lg');
-
+    margin-bottom: 0.5rem;
+    
     @include media-breakpoint-up('sm') {
       font-size: map-get(variables.$font-sizes, 'xl');
     }

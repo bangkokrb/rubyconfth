@@ -1,7 +1,7 @@
 import { Controller } from '@hotwired/stimulus';
 
 const CLASS_NAMES = {
-  activeTab: 'nav__link--active',
+  activeTab: 'nav-tab__link--active',
   activePane: 'schedule-browser__tabpane--active'
 };
 

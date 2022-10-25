@@ -6,7 +6,7 @@ const CLASS_NAMES = {
 };
 
 export default class extends Controller {
-  static targets = [ 'navigation', 'tabpane' ];
+  static targets = ['navigation', 'tabpane'];
 
   connect() {
     const tabFromUrlHash = window.location.hash.match(/^#day-[1-2]$/) ?? undefined;
@@ -24,7 +24,7 @@ export default class extends Controller {
     const { day } = tab.dataset;
 
     this._activeTabFor(day);
-    this._updateUrl(day)
+    this._updateUrl(day);
   }
 
   _activeTabFor(day) {

@@ -20,6 +20,7 @@ body.home .app-hero {
   .btn {
     margin-top: 2rem;
     font-size: map-get($font-sizes, 'lg');
+    border-radius: var(--bs-border-radius-lg);
   }
 }
 
@@ -36,6 +37,7 @@ body.home .list-speaker {
 }
 
 body.home .list-sponsor {
+  justify-content: center;
   padding-left: 0;
 
   @include media-breakpoint-up('sm') {

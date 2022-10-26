@@ -21,6 +21,7 @@
 @import 'components/app-navigation';
 @import 'components/btn';
 @import 'components/btn-toggle';
+@import 'components/card-talk';
 @import 'components/card-venue';
 @import 'components/form';
 @import 'components/form-mailing-list';
@@ -30,8 +31,11 @@
 @import 'components/list-sponsor';
 @import 'components/list-speaker';
 @import 'components/logo';
+@import 'components/nav-tab';
 @import 'components/section-text';
+@import 'components/table-schedule';
 
 @import 'screens/home';
+@import 'screens/schedule';
 @import 'screens/sponsor';
 @import 'screens/practicalities';

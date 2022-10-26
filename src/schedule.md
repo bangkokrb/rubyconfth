@@ -4,26 +4,25 @@ page_class: schedule
 title: "Schedule"
 ---
 
-<p>A more detailed schedule will be published soon.</p>
+<div class="schedule-browser" data-controller="schedule">
+  <nav class="schedule-browser__navigation" data-schedule-target="navigation">
+    <ul class="nav-tab nav-tab--pills" role="tablist">
+      <li class="nav-tab__item">
+        <a class="nav-tab__link nav-tab__link--active" href="/schedule/day-1" data-day="day-1"  data-action="schedule#toggleTab" role="tab">Friday, Dec 9</a>
+      </li>
+      <li class="nav-tab__item">
+        <a class="nav-tab__link" href="/schedule/#day-2" data-day="day-2" data-action="schedule#toggleTab" role="tab">Saturday, Dec 10</a>
+      </li>
+    </ul>
+  </nav>
 
-<section class="schedule-day">
-  <h2>Friday, 9th December 2022</h2>
-  <ul>
-    <li>8:00 - 9:00 - Registration & Conference Door Opens</li>
-    <li>9:00 - 12:30 - Day 1, Morning sessions</li>
-    <li>12:30 - 13:30 - Buffet lunch</li>
-    <li>13:30 - 17:30 - Day 1, Afternoon sessions</li>
-    <li>18:30 - 23:00 - Official Party (open to all attendees)</li>
-  </ul>
-</section>
+  <div class="schedule-browser__content" data-schedule-target="tabpane">
+    <div class="schedule-browser__tabpane schedule-browser__tabpane--active" data-day="day-1" role="tabpanel">
+      {% render "table_schedule", events: site.data.schedule.day_one, speakers: site.data.speakers %}
+    </div>
 
-<section class="schedule-day">
-  <h2>Saturday, 10th December 2022</h2>
-  <ul>
-    <li>8:00 - 9:00 - Registration & Conference Door Opens</li>
-    <li>9:00 - 12:30 - Day 2, Morning sessions</li>
-    <li>12:30 - 13:30 - Buffet lunch</li>
-    <li>13:30 - 17:00 - Day 2, Afternoon sessions</li>
-    <li>17:00 - end of conference</li>
-  </ul>
-</section>
+    <div class="schedule-browser__tabpane" data-day="day-2" role="tabpanel">  
+      {% render "table_schedule", events: site.data.schedule.day_two, speakers: site.data.speakers %}
+    </div>
+  </div>
+</div>

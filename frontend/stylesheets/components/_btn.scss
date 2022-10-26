@@ -14,6 +14,7 @@
       --bs-btn-hover-border-color: map-get($color-gray, 'primary');
 
       border: 2px solid map-get($color-gray, 'primary');
+      border-radius: var(--bs-border-radius-lg);
       box-shadow: none;
     }
   }

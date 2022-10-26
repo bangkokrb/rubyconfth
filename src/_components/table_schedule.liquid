@@ -1,0 +1,37 @@
+<table class="table-schedule">
+  <thead>
+    <tr>
+      <th class="table-schedule__time">Time Slot</th>
+      <th class="table-schedule__event">Talk and Speaker Information</th>
+    </tr>
+  </thead>
+  <tbody>    
+    {% for event in events %}
+      <tr class="table-schedule__slot">
+        <td class="table-schedule__time">
+          <span>{{ event.start_at }}</span>
+          <span>-</span>
+          <span>{{ event.end_at }}</span>
+        </td>
+        {% if event.speaker_id %}
+        <td class="table-schedule__event table-schedule__event--speaker">
+          {% for speaker_id in event.speaker_id %}
+            {% assign speaker = speakers | where: "id", speaker_id | first %}
+            {% if forloop.index == 1 %}
+              {% assign show_title = true %}
+            {% else %}
+              {% assign show_title = false %}
+            {% endif %}
+
+            {% render "card_talk", event: event, speaker: speaker, show_title: show_title %}
+          {% endfor %}
+        </td>
+        {% else %}
+          <td class="table-schedule__event">
+            {{ event.title }}
+          </td>
+        {% endif %}
+      </tr>
+    {% endfor %}
+  </tbody>
+</table>

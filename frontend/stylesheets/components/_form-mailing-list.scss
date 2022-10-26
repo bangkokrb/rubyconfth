@@ -2,6 +2,8 @@
   position: relative;
   
   .form__control {
+    border-radius: var(--bs-border-radius-lg);
+
     @include media-breakpoint-up('md') {
       padding-right: 155px;
     }

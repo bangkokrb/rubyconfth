@@ -8,10 +8,6 @@
 
     .table-schedule__time {
       width: 25%;
-      &--start {
-        font-size:larger;
-        font-weight:bold;
-      }
 
       @include media-breakpoint-up('sm') {
         width: 15%;
@@ -41,6 +37,10 @@
 
   tbody &__time {
     text-align: center;
+    &--start {
+      font-size:larger;
+      font-weight:bold;
+    }
 
     & > span {
       display: block;
@@ -49,8 +49,5 @@
 
   tbody .table-schedule__event {
     border-left: 1px solid var(--bs-border-color);
-    &--speaker {
-      background: rgb(0 0 0 / 5%);
-    }
   }
 }

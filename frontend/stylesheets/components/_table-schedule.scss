@@ -20,6 +20,9 @@
       @include media-breakpoint-up('sm') {
         width: 85%;
       }
+      &--speaker {
+        background: rgb(0 0 0 / 5%);
+      }
     }
   }
 

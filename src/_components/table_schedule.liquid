@@ -7,11 +7,11 @@
   </thead>
   <tbody>    
     {% for event in events %}
-      <tr class="table-schedule__slot">
+      <tr class="table-schedule__slot{% if event.speaker_id %} table-schedule__slot--speaker{% endif %}">
         <td class="table-schedule__time">
-          <span>{{ event.start_at }}</span>
-          <span>-</span>
-          <span>{{ event.end_at }}</span>
+          <span class="table-schedule__time--start">{{ event.start_at }}</span>
+          <span class="table-schedule__time--dash">-</span>
+          <span class="table-schedule__time--end">{{ event.end_at }}</span>
         </td>
         {% if event.speaker_id %}
         <td class="table-schedule__event table-schedule__event--speaker">

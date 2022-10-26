@@ -9,6 +9,13 @@
       font-size: map-get(variables.$font-sizes, 'xl');
     }
   }
+  &__social a {
+    color:inherit;
+    text-decoration: none;
+    &:hover {
+      color:map-get($color-brand, 'primary');
+    }
+  }
 
   &__speaker {
     display: flex;

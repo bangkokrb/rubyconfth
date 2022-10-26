@@ -20,9 +20,6 @@
       @include media-breakpoint-up('sm') {
         width: 85%;
       }
-      &--speaker {
-        background: rgb(0 0 0 / 5%);
-      }
     }
   }
 
@@ -45,5 +42,8 @@
 
   tbody .table-schedule__event {
     border-left: 1px solid var(--bs-border-color);
+    &--speaker {
+      background: rgb(0 0 0 / 5%);
+    }
   }
 }

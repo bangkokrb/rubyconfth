@@ -5,7 +5,7 @@
   <div class="card-talk__speaker">
     {% if speaker.photo_url %}
     <figure class="card-talk__profile">
-      <img src="{{ speaker.photo_url }}" class="card-talk__photo" />
+      <img src="{{ speaker.photo_url }}" {% if speaker.bio %}title="{{ speaker.bio }}"{% endif %} class="card-talk__photo" />
     </figure>
     {% endif %}
     <div class="card-talk__info">

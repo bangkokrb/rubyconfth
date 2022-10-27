@@ -55,7 +55,7 @@
   photo_url: /images/speakers/noah-gibbs.jpg
   type: keynote
   bio: |
-    Noah spent many years charting exactly how fast Ruby is for various tasks, and continues this work at speed.yjit.org. On the YJIT team, he bothers younger, more vigorous programmers with questions like, "would you say five warmup iterations are enough if we set this parameter?"
+    Noah spent many years charting exactly how fast Ruby is for various tasks, and continues this work at speed.yjit.org. On the YJIT team, he bothers younger, more vigorous programmers with questions like, “would you say five warmup iterations are enough if we set this parameter?”
 - id: paolo-perrotta
   first_name: Paolo
   last_name: Perrotta

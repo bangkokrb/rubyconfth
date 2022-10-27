@@ -25,6 +25,7 @@
 
   &__slot {
     border: 1px solid var(--bs-border-color);
+
     &--speaker {
       background: rgb(0 0 0 / 5%);
     }
@@ -37,9 +38,10 @@
 
   tbody &__time {
     text-align: center;
+
     &--start {
-      font-size:larger;
-      font-weight:bold;
+      font-size: larger;
+      font-weight: bold;
     }
 
     & > span {

@@ -9,11 +9,13 @@
       font-size: map-get(variables.$font-sizes, 'xl');
     }
   }
+
   &__social a {
     color:inherit;
     text-decoration: none;
+
     &:hover {
-      color:map-get($color-brand, 'primary');
+      color: map-get($color-brand, 'primary');
     }
   }
 
@@ -35,7 +37,9 @@
   &__profile + &__info {
     padding-left: 0.5rem;
   }
-}
-.card-talk + .card-talk {
-  margin-top:0.5rem; //for dual speaker talks
+
+  // fFor dual speaker talks
+  & + & {
+    margin-top: 0.5rem;
+ }
 }

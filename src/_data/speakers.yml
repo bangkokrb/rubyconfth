@@ -3,20 +3,26 @@
   last_name: Cruz
   twitter_handle: mraaroncruz
   photo_url: /images/speakers/aaron-cruz.jpg
+  bio: |
+    Elixir developer, former Ruby dev for over a decade. Freelancer, streaming at https://www.twitch.tv/Elixir_Bytes. Podcasting about freelancing for software devs at https://dreamclients.io
 - id: anita-jaszewska
   first_name: Anita
   last_name: Jaszewska
   photo_url: /images/speakers/anita-jaszewska.jpg
 - id: charles-nutter
-  first_name: Charles
+  first_name: Charles Oliver
   last_name: Nutter
   twitter_handle: headius
   photo_url: /images/speakers/charles-nutter.jpg
+  bio: |
+    Charles works on JRuby and JVM language technologies at Red Hat.
 - id: cristian-planas
   first_name: Cristian
   last_name: Planas
   twitter_handle: crplanas
   photo_url: /images/speakers/cristian-planas.jpg
+  bio: |
+    Cristian is a software engineer in love with Ruby. He has been working with Rails since the release of Rails 3, more than 10 years ago. Currently, he leads performance optimization efforts at Zendesk as a Group Tech Lead.
 - id: jeremy-evans
   first_name: Jeremy
   last_name: Evans
@@ -24,9 +30,11 @@
   photo_url: /images/speakers/jeremy-evans.jpg
 - id: jonatas-davi
   first_name: Jônatas
-  last_name: Davi Paganini
+  last_name: Paganini
   twitter_handle: jonatasdp
   photo_url: /images/speakers/jonatas-davi.jpg
+  bio: |
+    Nerd, cyclist, and blogger. Jônatas is a pair programming evangelist, Vim editor user and enthusiast.
 - id: michael-milewski
   first_name: Michael
   last_name: Milewski
@@ -39,7 +47,7 @@
   photo_url: /images/speakers/nate-berkopec.jpg
   type: keynote
   bio: |
-    Nate runs Speedshop, a software performance company specializing in Ruby, and is also the maintainer of Puma, the popular Ruby webserver.
+    Nate is a Rails performance expert. He’s the author of several books, and he also maintains the Puma web server project.
 - id: noah-gibbs
   first_name: Noah
   last_name: Gibbs
@@ -47,12 +55,14 @@
   photo_url: /images/speakers/noah-gibbs.jpg
   type: keynote
   bio: |
-    Noah is an Engineer at Shopify. He wrote the ebook 'Rebuilding Rails' and then a lot about how fast Ruby is at various tasks. Despite being a grumpy old programmer in Inverness, Scotland, Noah believes that some day, somehow, there will be a second game as good as Stuart Smith's Adventure Construction Set for the Apple IIe.
+    Noah spent many years charting exactly how fast Ruby is for various tasks, and continues this work at speed.yjit.org. On the YJIT team, he bothers younger, more vigorous programmers with questions like, "would you say five warmup iterations are enough if we set this parameter?"
 - id: paolo-perrotta
-  first_name: Paolo "Nusco"
+  first_name: Paolo
   last_name: Perrotta
   twitter_handle: nusco
   photo_url: /images/speakers/paolo-perrotta.jpg
+  bio: |
+    Paolo Perrotta is the author of "Metaprogramming Ruby" and "Programming Machine Learning". He's been coding for most of his life, ranging from embedded to enterprise software, computer games, and web apps. He lives in Bologna, Italy.
 - id: rtdp
   first_name: rtdp
   twitter_handle: rtdp
@@ -62,6 +72,8 @@
   last_name: Urubatan Ferreira Jardim
   twitter_handle: urubatan
   photo_url: /images/speakers/rodrigo-urubatan.jpg
+  bio: |
+    Rodrigo works with development since 1997, have worked with many languages and platforms before falling in love with Ruby and now has the objective to help developers to use the best tools for each job so they can solve hard problems, with less bugs and have more free time.
 - id: selena-small
   first_name: Selena
   last_name: Small
@@ -80,6 +92,8 @@
   last_name: Eberle
   twitter_handle: stephaneberle
   photo_url: /images/speakers/stephan-eberle.jpg
+  bio: |
+    Stephan is working as a Software Developer at NEW WORK SE! When not working he's traveling with his family, hiking or sailing.
 - id: thatthep-vorrasing
   first_name: Thatthep "Audy"
   last_name: Vorrasing

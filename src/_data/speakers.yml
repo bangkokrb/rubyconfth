@@ -62,11 +62,14 @@
   twitter_handle: nusco
   photo_url: /images/speakers/paolo-perrotta.jpg
   bio: |
-    Paolo Perrotta is the author of "Metaprogramming Ruby" and "Programming Machine Learning". He's been coding for most of his life, ranging from embedded to enterprise software, computer games, and web apps. He lives in Bologna, Italy.
+    Paolo Perrotta is the author of “Metaprogramming Ruby” and “Programming Machine Learning”. He's been coding for most of his life, ranging from embedded to enterprise software, computer games, and web apps. He lives in Bologna, Italy.
 - id: rtdp
-  first_name: rtdp
+  first_name: Ratnadeep
+  last_name: Deshmane
   twitter_handle: rtdp
   photo_url: /images/speakers/rtdp.jpg
+  bio: |
+    Ratnadeep (rtdp), is a software craftsman, an entrepreneur and work with Ruby for the past 13 years. He runs a Rails consulting company BetaCraft Technologies. Earlier he was a digital nomad and changed his location every few weeks, coding Ruby and exploring places.
 - id: rodrigo-urubatan
   first_name: Rodrigo
   last_name: Urubatan Ferreira Jardim

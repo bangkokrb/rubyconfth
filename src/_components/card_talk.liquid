@@ -13,7 +13,7 @@
         <span>{{ speaker.first_name }}</span>&nbsp;{{ speaker.last_name }}
       </div>
       {% if speaker.twitter_handle %}
-      <div class="card-talk__social">@{{ speaker.twitter_handle }}</div>
+      <div class="card-talk__social"><a target="_blank" href="https://twitter.com/{{ speaker.twitter_handle }}">@{{ speaker.twitter_handle }}</a></div>
       {% endif %}
     </div>
   </div>

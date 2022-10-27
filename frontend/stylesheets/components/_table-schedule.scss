@@ -25,6 +25,10 @@
 
   &__slot {
     border: 1px solid var(--bs-border-color);
+
+    &--speaker {
+      background: rgb(0 0 0 / 5%);
+    }
   }
 
   tbody .table-schedule__time,
@@ -34,6 +38,11 @@
 
   tbody &__time {
     text-align: center;
+
+    &--start {
+      font-size: larger;
+      font-weight: bold;
+    }
 
     & > span {
       display: block;

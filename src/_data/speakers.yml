@@ -9,6 +9,9 @@
   first_name: Anita
   last_name: Jaszewska
   photo_url: /images/speakers/anita-jaszewska.jpg
+  twitter_handle: anita_jaszewska
+  bio: |
+    Anita is a self-learner who entered the Ruby world in 2013 as a backend developer. Since then, she has started a master’s degree in psychology. Initially a hobby, with time, psychology turned into a valuable experience that helped her transition to a managerial path in IT.
 - id: charles-nutter
   first_name: Charles Oliver
   last_name: Nutter
@@ -82,6 +85,8 @@
   last_name: Small
   twitter_handle: selenasmall88
   photo_url: /images/speakers/selena-small.jpg
+  bio: |
+    Selena is a full-stack lead engineer at Fresho in Melbourne Australia who is particularly passionate about TDD. As a self-taught coder with a background in management, she is well-equipped to mentor others. In her spare time, she is a nak muay ying, a professional kickboxer.
 - id: siddharth-sharma
   first_name: Siddharth
   last_name: Sharma

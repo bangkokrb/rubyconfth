@@ -30,6 +30,8 @@
   first_name: Jeremy
   last_name: Evans
   twitter_handle: jeremyevans0
+  bio: |
+    Jeremy Evans is a Ruby committer who focuses on fixing bugs in Ruby. He the lead developer of the Sequel database library, the Roda web toolkit, the Rodauth authentication framework, and many other Ruby libraries. He is the author of “Polished Ruby Programming”.
   photo_url: /images/speakers/jeremy-evans.jpg
 - id: jonatas-davi
   first_name: Jônatas

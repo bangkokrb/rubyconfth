@@ -12,7 +12,7 @@ title: "Home"
 
   {% render "list_speaker", speakers: keynote_speakers %}
 
-  <p>The complete list of speakers and schedule will be announced shortly.</p>
+  <p>The <a href="/schedule/">complete schedule</a> is now available.</p>
 </section>
 
 <section class="sponsors">

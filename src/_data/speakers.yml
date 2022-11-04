@@ -105,15 +105,19 @@
   bio: |
     Stephan is working as a Software Developer at NEW WORK SE! When not working he's traveling with his family, hiking or sailing.
 - id: thatthep-vorrasing
-  first_name: Thatthep "Audy"
+  first_name: Thatthep
   last_name: Vorrasing
   twitter_handle: amaudy
   photo_url: /images/speakers/thatthep-vorrasing.jpg
+  bio: |
+    Audy's background is as a backend developer, then he's focused on SysAdmin/DevOps for the last 8 years. The guy who gets excited when talking about cloud technology and container orchestration!
 - id: tim-riley
   first_name: Tim
   last_name: Riley
   twitter_handle: timriley
   photo_url: /images/speakers/tim-riley.jpg
+  bio: |
+    Tim is a core team member of Hanami, dry-rb and rom-rb, and a Principal Engineer at Buildkite. He’s been writing Ruby for over 20 years and still loves it! He works to bring the joy of Ruby to the experience of writing real, maintainable apps of all shapes and sizes.
 - id: yarden-laifenfeld
   first_name: Yarden
   last_name: Laifenfeld
@@ -127,3 +131,5 @@
   last_name: Yokoo
   twitter_handle: yujiyokoo
   photo_url: /images/speakers/yuji-yokoo.jpg
+  bio: |
+    Yuji is a software developer based in Adelaide, South Australia. He is originally from Tokyo, Japan. He used to be a Windows desktop application developer until he discovered Ruby.

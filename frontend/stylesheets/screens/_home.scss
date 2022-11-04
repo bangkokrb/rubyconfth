@@ -49,4 +49,9 @@ body.home .list-sponsor {
       width: 75%
     }
   }
+  &.list-sponsor--speaker {
+    @include media-breakpoint-up('sm') {
+      width: 60%
+    }
+  }
 }

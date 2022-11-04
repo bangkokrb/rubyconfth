@@ -84,7 +84,7 @@
     }
   }
 
-  &.list-sponsor--silver {
+  &.list-sponsor--silver,&.list-sponsor--speaker {
     .list-sponsor__info {
       @include media-breakpoint-up('sm') {
         font-size: map-get(variables.$font-sizes, 'sm');

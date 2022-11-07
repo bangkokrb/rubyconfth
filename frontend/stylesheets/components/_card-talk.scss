@@ -5,20 +5,13 @@
   &__title {
     margin-bottom: 0.5rem;
     
-    
     @include media-breakpoint-up('sm') {
       font-size: map-get(variables.$font-sizes, 'xl');
-    }
-    a {
-      text-decoration: none;
-      &:hover {
-        text-decoration: underline;
-      }
     }
 
     > a:not(:hover) {
       color: variables.$base-font-color;
-
+      text-decoration: none;
     }
   }
 

@@ -9,7 +9,7 @@ title: "Speakers"
 
   {% assign keynote_speakers = site.data.speakers | where: "type", "keynote" %}
 
-  {% render "list_speaker", speakers: keynote_speakers %}
+  {% render "list_speaker", speakers: keynote_speakers, with_info: true %}
 </section>
 
 <section class="speaker-info">
@@ -17,5 +17,5 @@ title: "Speakers"
 
   {% assign speakers = site.data.speakers | where: "type", "speaker" %}
 
-  {% render "list_speaker", speakers: speakers %}
+  {% render "list_speaker", speakers: speakers, with_info: true %}
 </section>

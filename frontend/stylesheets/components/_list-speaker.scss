@@ -4,6 +4,8 @@
 
   padding-left: 0;
 
+  text-align: center;
+
   @include media-breakpoint-up('sm') {
     grid-template-columns: repeat(4, 1fr);
   }
@@ -32,3 +34,11 @@
     }
   }
 }
+
+.list-speaker--with-info {
+  grid-template-columns: 1fr;
+
+  @include media-breakpoint-up('sm') {
+    grid-template-columns: repeat(2, 1fr);
+  }
+} 

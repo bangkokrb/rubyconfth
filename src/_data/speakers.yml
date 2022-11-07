@@ -3,6 +3,7 @@
   last_name: Cruz
   twitter_handle: mraaroncruz
   photo_url: /images/speakers/aaron-cruz.jpg
+  type: speaker
   bio: |
     Elixir developer, former Ruby dev for over a decade. Freelancer, streaming at https://www.twitch.tv/Elixir_Bytes. Podcasting about freelancing for software devs at https://dreamclients.io
 - id: anita-jaszewska
@@ -17,6 +18,7 @@
   last_name: Nutter
   twitter_handle: headius
   photo_url: /images/speakers/charles-nutter.jpg
+  type: speaker
   bio: |
     Charles works on JRuby and JVM language technologies at Red Hat.
 - id: cristian-planas
@@ -24,12 +26,14 @@
   last_name: Planas
   twitter_handle: crplanas
   photo_url: /images/speakers/cristian-planas.jpg
+  type: speaker
   bio: |
     Cristian is a software engineer in love with Ruby. He has been working with Rails since the release of Rails 3, more than 10 years ago. Currently, he leads performance optimization efforts at Zendesk as a Group Tech Lead.
 - id: jeremy-evans
   first_name: Jeremy
   last_name: Evans
   twitter_handle: jeremyevans0
+  type: speaker
   bio: |
     Jeremy Evans is a Ruby committer who focuses on fixing bugs in Ruby. He the lead developer of the Sequel database library, the Roda web toolkit, the Rodauth authentication framework, and many other Ruby libraries. He is the author of “Polished Ruby Programming”.
   photo_url: /images/speakers/jeremy-evans.jpg
@@ -38,6 +42,7 @@
   last_name: Paganini
   twitter_handle: jonatasdp
   photo_url: /images/speakers/jonatas-davi.jpg
+  type: speaker
   bio: |
     Nerd, cyclist, and blogger. Jônatas is a pair programming evangelist, Vim editor user and enthusiast.
 - id: michael-milewski
@@ -45,6 +50,7 @@
   last_name: Milewski
   twitter_handle: saramic
   photo_url: /images/speakers/michael-milewski.jpg
+  type: speaker
 - id: nate-berkopec
   first_name: Nate
   last_name: Berkopec
@@ -66,6 +72,7 @@
   last_name: Perrotta
   twitter_handle: nusco
   photo_url: /images/speakers/paolo-perrotta.jpg
+  type: speaker
   bio: |
     Paolo Perrotta is the author of “Metaprogramming Ruby” and “Programming Machine Learning”. He's been coding for most of his life, ranging from embedded to enterprise software, computer games, and web apps. He lives in Bologna, Italy.
 - id: rtdp
@@ -73,6 +80,7 @@
   last_name: Deshmane
   twitter_handle: rtdp
   photo_url: /images/speakers/rtdp.jpg
+  type: speaker
   bio: |
     Ratnadeep (rtdp), is a software craftsman, an entrepreneur and work with Ruby for the past 13 years. He runs a Rails consulting company BetaCraft Technologies. Earlier he was a digital nomad and changed his location every few weeks, coding Ruby and exploring places.
 - id: rodrigo-urubatan
@@ -80,6 +88,7 @@
   last_name: Urubatan Ferreira Jardim
   twitter_handle: urubatan
   photo_url: /images/speakers/rodrigo-urubatan.jpg
+  type: speaker
   bio: |
     Rodrigo works with development since 1997, have worked with many languages and platforms before falling in love with Ruby and now has the objective to help developers to use the best tools for each job so they can solve hard problems, with less bugs and have more free time.
 - id: selena-small
@@ -87,6 +96,7 @@
   last_name: Small
   twitter_handle: selenasmall88
   photo_url: /images/speakers/selena-small.jpg
+  type: speaker
   bio: |
     Selena is a full-stack lead engineer at Fresho in Melbourne Australia who is particularly passionate about TDD. As a self-taught coder with a background in management, she is well-equipped to mentor others. In her spare time, she is a nak muay ying, a professional kickboxer.
 - id: siddharth-sharma
@@ -102,6 +112,7 @@
   last_name: Eberle
   twitter_handle: stephaneberle
   photo_url: /images/speakers/stephan-eberle.jpg
+  type: speaker
   bio: |
     Stephan is working as a Software Developer at NEW WORK SE! When not working he's traveling with his family, hiking or sailing.
 - id: thatthep-vorrasing
@@ -109,6 +120,7 @@
   last_name: Vorrasing
   twitter_handle: amaudy
   photo_url: /images/speakers/thatthep-vorrasing.jpg
+  type: speaker
   bio: |
     Audy's background is as a backend developer, then he's focused on SysAdmin/DevOps for the last 8 years. The guy who gets excited when talking about cloud technology and container orchestration!
 - id: tim-riley
@@ -116,6 +128,7 @@
   last_name: Riley
   twitter_handle: timriley
   photo_url: /images/speakers/tim-riley.jpg
+  type: speaker
   bio: |
     Tim is a core team member of Hanami, dry-rb and rom-rb, and a Principal Engineer at Buildkite. He’s been writing Ruby for over 20 years and still loves it! He works to bring the joy of Ruby to the experience of writing real, maintainable apps of all shapes and sizes.
 - id: yarden-laifenfeld
@@ -131,5 +144,6 @@
   last_name: Yokoo
   twitter_handle: yujiyokoo
   photo_url: /images/speakers/yuji-yokoo.jpg
+  type: speaker
   bio: |
     Yuji is a software developer based in Adelaide, South Australia. He is originally from Tokyo, Japan. He used to be a Windows desktop application developer until he discovered Ruby.

@@ -51,6 +51,7 @@
   twitter_handle: saramic
   photo_url: /images/speakers/michael-milewski.jpg
   type: speaker
+  bio: "Michael is a developer keen on the people side of things. He loves pairing, and in particular with people new to writing software. He especially likes driving software out with tests and directing the evolution of the design. In his spare time he is busy camping with his 4 kids."
 - id: nate-berkopec
   first_name: Nate
   last_name: Berkopec
@@ -138,7 +139,7 @@
   photo_url: /images/speakers/yarden-laifenfeld.jpg
   type: keynote
   bio: |
-    Yarden is a Software Engineer at Rookout. With a deep background in C and embedded Linux environments, you can find her in the office jumping between 6 different programming languages a day. When she's not busy developing new features and helping out clients, she loves learning about new technology, creating iOS apps and making everything she can automated.
+    Yarden is a Software Engineer at Rookout, where you can find her in the office jumping between 6 different programming languages a day. She loves learning about new technology, creating iOS apps and making everything she can automated.
 - id: yuji-yokoo
   first_name: Yuji
   last_name: Yokoo

@@ -37,8 +37,8 @@
   }
 
   &__social {
-    &-icon {
-      transform: scale(0.75);
+    &-icon.icon {
+      width: calc(2rem * 0.75);
     }
 
     &-link {
@@ -47,7 +47,6 @@
 
     &-link:not(:hover) {
       color: variables.$base-font-color;
-      
     } 
   }
 

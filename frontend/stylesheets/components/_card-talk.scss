@@ -10,15 +10,6 @@
     }
   }
 
-  &__social a {
-    color:inherit;
-    text-decoration: none;
-
-    &:hover {
-      color: map-get($color-brand, 'primary');
-    }
-  }
-
   &__speaker {
     display: flex;
   }
@@ -38,7 +29,21 @@
     padding-left: 0.5rem;
   }
 
-  // fFor dual speaker talks
+  &__social {
+    &-icon.icon {
+      width: calc(2rem * 0.65);
+    }
+
+    &-link {
+      text-decoration: none;
+    }
+
+    &-link:not(:hover) {
+      color: variables.$base-font-color;
+    } 
+  }
+
+  // For dual speaker talks
   & + & {
     margin-top: 0.5rem;
  }

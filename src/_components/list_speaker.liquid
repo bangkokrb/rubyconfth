@@ -8,7 +8,17 @@
       <span>{{ speaker.first_name }}</span>&nbsp;{{ speaker.last_name }}
     </div>
     {% if with_info == true %}
-      <p class="list-speaker__info">{{ speaker.bio }}</p>
+    <div class="list-speaker__info">
+      {% if speaker.twitter_handle %}
+      <div class="list-speaker__social">
+        <a class="list-speaker__social-link" target="_blank" href="https://twitter.com/{{ speaker.twitter_handle }}">
+          {% render "icon", icon: "icon-twitter", class: "list-speaker__social-icon" %}
+          <span class="list-speaker__social-handle">@{{ speaker.twitter_handle }}</span>
+        </a>
+      </div>
+      {% endif %}
+      <p class="list-speaker__bio">{{ speaker.bio }}</p>
+    </div>
     {% endif %}
   </li>
   {% endfor %}

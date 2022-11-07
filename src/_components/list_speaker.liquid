@@ -1,7 +1,7 @@
 <ul class="list-speaker{% if with_info == true %} list-speaker--with-info{% endif %}">
   {% for speaker in speakers %}
-  <li class="list-speaker__individual" id="{{ speaker.id }}">    
-    <a href="https://twitter.com/{{ speaker.twitter_handle }}" {% if with_info != true %}title="{{ speaker.bio }}"{% endif %} target="_blank" class="list-sponsor__link">
+  <li class="list-speaker__individual" id="{{ speaker.id }}">
+    <a href="/speakers#{{ speaker.id }}" target="_blank" class="list-sponsor__link">
       <img class="list-speaker__photo" src="{{ speaker.photo_url }}" alt="{{ speaker.first_name }} {{ speaker.last_name }}" />
     </a>
     <div class="list-speaker__name text-branded">

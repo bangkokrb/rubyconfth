@@ -5,14 +5,14 @@ title: "Home"
 ---
 
 <section class="speaker-lineup">
-  <h2 class="sponsor-info__heading">Keynote Speakers</h2>
+  <h2 class="speaker-lineup__heading">Keynote Speakers</h2>
   <h4>We're delighted to welcome amazing Ruby speakers to Bangkok, including:</h4>
 
   {% assign keynote_speakers = site.data.speakers | where: "type", "keynote" %}
 
   {% render "list_speaker", speakers: keynote_speakers %}
 
-  <p>The <a href="/schedule/">complete schedule</a> is now available.</p>
+  <a class="btn btn--primary" href="/schedule/" target="_blank">View the schedule</a>
 </section>
 
 <section class="sponsors">

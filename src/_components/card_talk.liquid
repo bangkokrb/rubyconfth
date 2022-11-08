@@ -1,19 +1,30 @@
 <div class="card-talk">
   {% if show_title %}
-  <div class="card-talk__title">{{ event.title }}</div>
+  <div class="card-talk__title">
+    <a href="/speakers#{{ speaker.id }}">
+      {{ event.title }}
+    </a>
+  </div>
   {% endif %}
   <div class="card-talk__speaker">
     {% if speaker.photo_url %}
     <figure class="card-talk__profile">
-      <img src="{{ speaker.photo_url }}" {% if speaker.bio %}title="{{ speaker.bio }}"{% endif %} class="card-talk__photo" />
+      <a href="/speakers#{{ speaker.id }}">
+        <img src="{{ speaker.photo_url }}" {% if speaker.bio %}title="{{ speaker.bio }}"{% endif %} class="card-talk__photo" />
+      </a>
     </figure>
     {% endif %}
     <div class="card-talk__info">
-      <div class="card-talk__name text-branded">
+      <a href="/speakers#{{ speaker.id }}" class="card-talk__name text-branded">
         <span>{{ speaker.first_name }}</span>&nbsp;{{ speaker.last_name }}
-      </div>
+      </a>
       {% if speaker.twitter_handle %}
-      <div class="card-talk__social"><a target="_blank" href="https://twitter.com/{{ speaker.twitter_handle }}">@{{ speaker.twitter_handle }}</a></div>
+      <div class="card-talk__social">
+        <a class="card-talk__social-link" target="_blank" href="https://twitter.com/{{ speaker.twitter_handle }}">
+          {% render "icon", icon: "icon-twitter", class: "card-talk__social-icon" %}
+          <span class="card-talk__social-handle">@{{ speaker.twitter_handle }}</span>
+        </a>
+      </div>
       {% endif %}
     </div>
   </div>

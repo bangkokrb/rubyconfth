@@ -30,10 +30,10 @@
     }
 
     section + section {
-      margin-top: 1.5rem;
+      margin-top: 2rem;
 
       @include media-breakpoint-up('sm') {
-        margin-top: 3rem;
+        margin-top: 4rem;
       }
     }
   }

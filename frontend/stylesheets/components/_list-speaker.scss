@@ -1,8 +1,12 @@
+@use '../variables';
+
 .list-speaker {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
 
   padding-left: 0;
+
+  text-align: center;
 
   @include media-breakpoint-up('sm') {
     grid-template-columns: repeat(4, 1fr);
@@ -25,10 +29,36 @@
   &__name {
     margin-block-start: 1rem;
 
-    font-size: map-get($font-sizes, 'lg');
+    font-size: map-get(variables.$font-sizes, 'lg');
 
     @include media-breakpoint-up('sm') {
-      font-size: map-get($font-sizes, 'xl');
+      font-size: map-get(variables.$font-sizes, 'xl');
     }
   }
+
+  &__social {
+    &-icon.icon {
+      width: calc(2rem * 0.75);
+    }
+
+    &-link {
+      text-decoration: none;
+    }
+
+    &-link:not(:hover) {
+      color: variables.$base-font-color;
+    } 
+  }
+
+  &__bio {
+    margin-top: 1rem;
+  }
 }
+
+.list-speaker--with-info {
+  grid-template-columns: 1fr;
+
+  @include media-breakpoint-up('sm') {
+    grid-template-columns: repeat(2, 1fr);
+  }
+} 

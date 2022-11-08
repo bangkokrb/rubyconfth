@@ -18,6 +18,16 @@
   logo_url: /images/sponsors/eventpop.png
   url: "https://www.eventpop.me/"
   level: gold
+- name: Fresho
+  about: "Fresho is an online ordering and order management platform for wholesale food businesses with the goal to positively transform the food industry for the benefit of people and the planet."
+  logo_url: /images/sponsors/fresho.svg
+  url: "http://www.fresho.com/"
+  level: speaker
+- name: GetLinks
+  about: "GetLinks is the leading technology recruiting platform in South East Asia, having helped thousands of tech talents to work at tech companies as well as helping major corporates like Accenture, L’Oreal, SCG, CP Group, to achieve digital transformation through building digital teams."
+  logo_url: /images/sponsors/getlinks.svg
+  url: "https://www.getlinks.com/"
+  level: silver
 - name: Honeybadger
   about: "Honeybadger is the error, uptime, and cron monitoring tool built for you, the developer who cares about a quality product and happy customers."
   logo_url: /images/sponsors/honeybadger.svg

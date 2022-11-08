@@ -1,14 +1,24 @@
 <ul class="list-speaker{% if with_info == true %} list-speaker--with-info{% endif %}">
   {% for speaker in speakers %}
-  <li class="list-speaker__individual">    
-    <a href="https://twitter.com/{{ speaker.twitter_handle }}" {% if with_info != true %}title="{{ speaker.bio }}"{% endif %} target="_blank" class="list-sponsor__link">
+  <li class="list-speaker__individual" id="{{ speaker.id }}">
+    <a href="/speakers#{{ speaker.id }}" target="_blank" class="list-sponsor__link">
       <img class="list-speaker__photo" src="{{ speaker.photo_url }}" alt="{{ speaker.first_name }} {{ speaker.last_name }}" />
     </a>
     <div class="list-speaker__name text-branded">
       <span>{{ speaker.first_name }}</span>&nbsp;{{ speaker.last_name }}
     </div>
     {% if with_info == true %}
-      <p class="list-speaker__info">{{ speaker.bio }}</p>
+    <div class="list-speaker__info">
+      {% if speaker.twitter_handle %}
+      <div class="list-speaker__social">
+        <a class="list-speaker__social-link" target="_blank" href="https://twitter.com/{{ speaker.twitter_handle }}">
+          {% render "icon", icon: "icon-twitter", class: "list-speaker__social-icon" %}
+          <span class="list-speaker__social-handle">@{{ speaker.twitter_handle }}</span>
+        </a>
+      </div>
+      {% endif %}
+      <p class="list-speaker__bio">{{ speaker.bio }}</p>
+    </div>
     {% endif %}
   </li>
   {% endfor %}

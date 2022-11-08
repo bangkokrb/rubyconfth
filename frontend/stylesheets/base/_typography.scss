@@ -1,3 +1,5 @@
+@use '../variables';
+
 body {
   color: $base-font-color;
   font-family: $base-font-family;
@@ -48,7 +50,7 @@ main ul, ol {
 main section {
   h2 {
     margin-bottom: 1.5rem;
-    border-bottom: 1px map-get($color-brand, 'primary') solid;
+    border-bottom: 1px map-get(variables.$color-brand, 'primary') solid;
   }
 
   h3 {
@@ -60,9 +62,11 @@ main section {
 // Utility to replicate the logo for any text: Red-Text Black-Text
 // <span>Ruby<span>Conf
 .text-branded {
+  color: variables.$base-font-color;
   font-weight: bold;
+  text-decoration: none;
 
   > span {
-    color: map-get($color-brand, 'primary');
+    color: map-get(variables.$color-brand, 'primary');
   }
 }

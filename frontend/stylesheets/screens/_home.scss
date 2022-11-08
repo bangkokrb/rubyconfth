@@ -32,21 +32,45 @@ body.home .app-content {
   }
 }
 
-body.home .list-speaker {
-  margin-top: 2rem;
+body.home .speaker-lineup {
+  .list-speaker,
+  .btn  {
+    margin-top: 1rem;
+
+    @include media-breakpoint-up('sm') {
+      margin-top: 2rem;
+    }
+  }
 }
 
-body.home .list-sponsor {
-  justify-content: center;
-  padding-left: 0;
+body.home .sponsors {
+    
+  .list-sponsor {
+    justify-content: center;
+    padding-left: 0;
 
-  @include media-breakpoint-up('sm') {
-    margin-inline: auto;
+    &--silver {
+      .list-sponsor__company {
+        @include media-breakpoint-up('sm') {
+          @include make-col(3);
+        }
+      }
+    }
+  
+    @include media-breakpoint-up('sm') {
+      margin-inline: auto;
+    }
   }
 
   &.list-sponsor--silver {
     @include media-breakpoint-up('sm') {
       width: 75%
+    }
+  }
+
+  &.list-sponsor--speaker {
+    @include media-breakpoint-up('sm') {
+      width: 60%
     }
   }
 }

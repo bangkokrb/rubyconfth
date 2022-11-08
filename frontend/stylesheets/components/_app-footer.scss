@@ -35,8 +35,12 @@
 }
 
 .app-footer__social-platform {
-  padding: 1rem 0;
+  padding-block: 1rem;
   text-align: center;
+
+  @include media-breakpoint-up('sm') {
+    padding-block: 2.5rem;
+  }
 
   .list-social-platform {
     display: flex;

@@ -9,6 +9,10 @@
 [[redirects]]
   from = "/tickets"
   to = "https://www.eventpop.me/e/13417/rubyconfth-2022"
+
+[[redirects]]
+  from = "/tickets/fbpromo"
+  to = "https://www.eventpop.me/e/13417/rubyconfth-2022?discount_code=FBPROMO"
   
 [[redirects]]
   from = "/sponsors"

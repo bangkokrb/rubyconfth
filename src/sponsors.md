@@ -28,6 +28,14 @@ title: "Sponsors"
   {% render "list_sponsor", sponsors: speaker_sponsors, level: 'speaker', with_info: true %}
 </section>
 
+<section class="sponsor-info">
+  <h2 class="sponsor-info__heading">Community Partners</h2>
+
+  {% assign community_sponsors = site.data.sponsors | where: "level", "community" %}
+
+  {% render "list_sponsor", sponsors: community_sponsors, level: 'community', with_info: true %}
+</section>
+
 <section class="sponsor-contact">
   <h5>Want to have your company listed here?</h5>
   <p>We offer various sponsorship packages at different levels and are open to any custom package that may fit better your company.</p>

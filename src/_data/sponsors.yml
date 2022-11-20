@@ -53,6 +53,11 @@
   url: https://www.proudcloud.io/
   logo_url: /images/sponsors/proudcloud.svg
   level: silver
+- name: STYAVA
+  about: "For Developers, By Developers, With Developers"
+  url: https://azure.styava.dev/apac/en/home
+  logo_url: /images/sponsors/styava.png
+  level: community
 - name: Talented
   about: "Talented helps small businesses with just about anything you can name. We cover bases like recruitment, social media, web design, and small business financing so you get a breather from managing your own business."
   url: https://talentedhk.com/

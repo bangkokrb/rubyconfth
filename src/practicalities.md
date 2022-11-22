@@ -111,8 +111,6 @@ On this page you'll find our __A-Z of Practicalities for RubyConf TH 2022__.
 
   [Google Maps link](https://goo.gl/maps/vnLpSxt1zzw)
 
-  We have a discounted rate available for conference attendees, [view the venue page](/venue/).
-
   The hotel is easy to reach by taxi or public transport. You can take the Airport Rail Link to Phaya Thai station, or the BTS Skytrain to Phaya Thai or Victory Monument. From either it is around a 7-10 minute walk.
 
   Bangkok is a major tourist destination and there are hundreds of hotels and hostels for every budget. For some ideas check [our travel guide](https://lemi.travel/rubyconfth/guide-for-visitors-to-rubyconf-th) .
@@ -152,7 +150,7 @@ On this page you'll find our __A-Z of Practicalities for RubyConf TH 2022__.
 {% endrendercontent %}
 
 {% rendercontent "section_text", title: "Official Party" %}
-  The official party is held on Friday evening. The venue will be confirmed soon. Don't worry about getting lost, we'll provide volunteers to help you make your way to the party from the hotel!
+  The official party is held on Friday evening. The venue will be the **Bangkok Heritage** restaurant at [2 Phaya Thai Rd, Thung Phaya Thai, Ratchathewi, Bangkok 10400](https://www.google.com/maps/dir/8+Pullman+Bangkok+King+Power,+Rang+Nam+Alley,+Thanon+Phaya+Thai,+Ratchathewi,+Bangkok/2+Phaya+Thai+Rd,+Thung+Phaya+Thai,+Ratchathewi,+Bangkok+10400/@13.7571317,100.5331732,17z/data=!3m1!4b1!4m13!4m12!1m5!1m1!1s0x30e29eb64a4f804b:0xe80009bce2fa812a!2m2!1d100.5373605!2d13.7588878!1m5!1m1!1s0x30e29eca59954db1:0xeb9150e8229bf5dc!2m2!1d100.5327609!2d13.7553756). Don't worry about getting lost, we'll provide volunteers to help you make your way to the party from the hotel!
 
   The party is free for all attendees (simply wear your conference lanyard)!
 {% endrendercontent %}

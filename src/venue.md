@@ -36,7 +36,6 @@ title: "Venue"
 <section class="venue-booking">
   <h2>Staying There</h2>
 
-  <p>If you are interested in staying in the hotel during the event, you can use a dedicated booking portal provided directly by the hotel. The portal provides a discounted rate for all attendees.</p>
+  <p>The dedicated booking portal provided directly by the hotel is now closed, however you can still book the hotel via other booking sites e.g. <a href='https://www.agoda.com/en-gb/search?site_id=1731617&checkout=2022-12-10&campaignid=&SearchDateType=selected&NumberOfAdults=2&LT=16&NumberOfChildren=0&childages=&NumberOfRooms=1&gsite=localuniversal&los=2&PartnerCurrency=THB&RoomID=2983988&PriceTax=1534.58&PriceTotal=10204.58&RatePlan=5d8337e9-8c4f-1d07-bff4-517c31ed088a&UserCountry=TH&Currency=THB&UserDevice=desktop&Verif=false&rr=&audience_list=&mcid=29004&booking_source=cpc&adType=0&selectedproperty=90026&city=9395&adults=2&children=0&rooms=1&hc=THB&checkin=2022-12-08'>Agoda</a>. For other hotel options view the <a href='/practicalities'>Practicalities</a> page</p>
 
-  <a href="https://www.idem.events/r/rubyconfth-2022" target="_blank" class="btn btn--primary">Book a Room</a>
 </section>

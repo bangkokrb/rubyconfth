@@ -51,5 +51,9 @@
 
   tbody .table-schedule__event {
     border-left: 1px solid var(--bs-border-color);
+    &--subtitle {
+      display: block;
+      font-size: 80%;
+    }
   }
 }

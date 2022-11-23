@@ -29,6 +29,9 @@
         {% else %}
           <td class="table-schedule__event">
             {{ event.title }}
+            {% if event.subtitle %}
+            <span class="table-schedule__event--subtitle">{{ event.subtitle }}</span>
+            {% endif %}
           </td>
         {% endif %}
       </tr>

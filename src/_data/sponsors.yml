@@ -33,6 +33,11 @@
   logo_url: /images/sponsors/honeybadger.svg
   url: "https://www.honeybadger.io/"
   level: gold
+- name: Jobandtalent
+  about: "At Jobandtalent, we make workers and companies thrive. Our workforce-as-a-service (WaaS) system handles everything from matching candidates with offers, to payroll. Employment stability for crew and data-driven insights into attendance data for shift managers are the main benefits of Jobandtalent. Founded in Spain, we are a remote-first company with people working from all over the world."
+  logo_url: /images/sponsors/jobandtalent.svg
+  url: "https://www.jobandtalent.com/"
+  level: speaker
 - name: MyCloudFulfillment
   about: "We are the #1 fulfillment solution in Thailand for E-Commerce and multi-channel businesses. Our Order Management System and Warehouse Center are designed for SEA markets with full connectivity to Marketplaces, Websites, Social commerces, and beyond."
   url: https://careers.mycloudfulfillment.com/software-developers.html

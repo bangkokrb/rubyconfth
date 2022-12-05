@@ -49,11 +49,19 @@
 }
 
 .app-footer__footnote {
-  padding-bottom: 2rem;
+  padding-block: 1rem 2rem;
 
   .container {
     display: flex;
     align-items: center;
     justify-content: space-between;
+  }
+
+  .app-footer__community {
+    display: none;
+
+    @include media-breakpoint-up('sm') {
+      display: initial;
+    }
   }
 }

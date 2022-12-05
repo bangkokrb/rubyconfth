@@ -15,7 +15,7 @@
       position: relative;
       z-index: map-get($zIndex, 'highest');
 
-      @include media-breakpoint-up('lg') {
+      @include media-breakpoint-up('xl') {
         display: none;
       }
     }

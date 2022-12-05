@@ -11,6 +11,7 @@
   last_name: Jaszewska
   photo_url: /images/speakers/anita-jaszewska.jpg
   twitter_handle: anita_jaszewska
+  type: speaker
   bio: |
     Anita is a self-learner who entered the Ruby world in 2013 as a backend developer. Since then, she has started a master’s degree in psychology. Initially a hobby, with time, psychology turned into a valuable experience that helped her transition to a managerial path in IT.
 - id: charles-nutter

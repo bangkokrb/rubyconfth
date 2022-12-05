@@ -8,6 +8,16 @@
   logo_url: /images/sponsors/beeees.png
   url: "https://beescm.com/"
   level: silver
+- name: Bluethumb
+  about: "Bluethumb is Australia's largest online art gallery. Built on top of Ruby On Rails in 2012, we represent over 20,000 emerging and established artists from Australia and work with 20 of Australia's most remote Aboriginal Art Centres."
+  logo_url: /images/sponsors/bluethumb.svg
+  url: "https://bluethumb.com.au/"
+  level: speaker
+- name: BuildKite
+  about: "Buildkite is a next generation CI/CD platform for building, testing, and deploying at scale. Use your own cloud infrastructure to turbo charge build speed, increase reliability, and reduce cost."
+  logo_url: /images/sponsors/buildkite.svg
+  url: "https://buildkite.com/"
+  level: speaker
 - name: Cloud 66
   about: "Cloud 66 is the best deployment tool for Rails. Deploy your Rails and Rack applications directly from your repo to any cloud, with native support for Rails conventions, full databases support, replication and backups, powerful access management, and traffic control features. Try it today for free with an extra $200 in free credits with the code: RubyConfTH."
   url: https://www.cloud66.com/frameworks/rails/?utm_source=e&utm_medium=l&utm_campaign=RubyConfTH

@@ -8,6 +8,11 @@
   logo_url: /images/sponsors/beeees.png
   url: "https://beescm.com/"
   level: silver
+- name: Bluethumb
+  about: "Bluethumb is Australia's largest online art gallery. Built on top of Ruby On Rails in 2012, we represent over 20,000 emerging and established artists from Australia and work with 20 of Australia's most remote Aboriginal Art Centres."
+  logo_url: /images/sponsors/bluethumb.svg
+  url: "https://bluethumb.com.au/"
+  level: speaker
 - name: BuildKite
   about: "Buildkite is a next generation CI/CD platform for building, testing, and deploying at scale. Use your own cloud infrastructure to turbo charge build speed, increase reliability, and reduce cost."
   logo_url: /images/sponsors/buildkite.svg

@@ -17,3 +17,7 @@
 [[redirects]]
   from = "/sponsors"
   to = "https://drive.google.com/file/d/1Rgt9qWPaaMf6juoEHyLF_mnltm915IBh/view?usp=sharing"
+
+[[redirects]]
+  from = "/slack"
+  to = "https://join.slack.com/t/rubyconfth/shared_invite/enQtNzEwMTk1MjEyMjg4LTcyOTQwZjNjODE1ZTQzMzllNmY2NTMxOTM3NWI2Mzk0ZmJmNWE3MjdlYzBhOGQ1NDdjOWI4ZWYyZGJiYzU4YWU"

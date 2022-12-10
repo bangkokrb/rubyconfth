@@ -34,6 +34,7 @@
   end_at: "14:30"
   title: "Roda: Simplicity, Reliability, Extensibility, Performance"
   speaker_id: jeremy-evans
+  slides_url: https://code.jeremyevans.net/presentations/rubyconfth2022/index.html
 - start_at: "14:35"
   end_at: "15:05"
   title: "Processing data: Ruby or SQL?"

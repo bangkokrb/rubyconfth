@@ -47,6 +47,7 @@
   end_at: "16:05"
   title: "Refactoring for Rails - using deodorant to prevent code smells and a shower from time to time to eliminate the most persistent ones"
   speaker_id: rodrigo-urubatan
+  slides_url: https://www.slideshare.net/urubatan/ruby-code-smells
 - start_at: "16:10"
   end_at: "16:55"
   title: "Keynote: YJIT's Three Languages: the Fun of Code that Writes Code"

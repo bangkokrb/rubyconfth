@@ -52,6 +52,7 @@
   end_at: "16:55"
   title: "Keynote: YJIT's Three Languages: the Fun of Code that Writes Code"
   speaker_id: noah-gibbs
+  slides_url: https://codefol.io/speaking/rubyconfth2022/YJIT%20Three%20Languages%20slides.pdf
 - start_at: "17:00"
   end_at: "17:10"
   title: "Closing remarks & announcements"

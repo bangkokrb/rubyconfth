@@ -24,6 +24,7 @@
   end_at: "11:55"
   title: "Megaruby - mruby/c on Sega Mega Drive"
   speaker_id: yuji-yokoo
+  slides_url: https://github.com/yujiyokoo/mega-present/releases/tag/rubyconfth-2022
 - start_at: "12:00"
   end_at: "12:30"
   title: "Roasting the Duck - A talk about Ruby and types"

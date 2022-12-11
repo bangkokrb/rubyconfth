@@ -34,10 +34,12 @@
   end_at: "14:30"
   title: "Roda: Simplicity, Reliability, Extensibility, Performance"
   speaker_id: jeremy-evans
+  slides_url: https://code.jeremyevans.net/presentations/rubyconfth2022/index.html
 - start_at: "14:35"
   end_at: "15:05"
   title: "Processing data: Ruby or SQL?"
   speaker_id: jonatas-davi
+  slides_url: "https://docs.google.com/presentation/d/e/2PACX-1vST6o2xxkIuNddKwWeXgNENN2-Fcpwe2m9Ax-Z4j6q0V7vjX-GUISxAt6Oj75OFUZ7KQbSI3CLbKI3l/pub?start=false&loop=false&delayms=3000&slide=id.g198c5a1f7c9_0_16580"
 - start_at: "15:05"
   end_at: "15:35"
   title: "Coffee Break"
@@ -45,6 +47,7 @@
   end_at: "16:05"
   title: "Refactoring for Rails - using deodorant to prevent code smells and a shower from time to time to eliminate the most persistent ones"
   speaker_id: rodrigo-urubatan
+  slides_url: https://www.slideshare.net/urubatan/ruby-code-smells
 - start_at: "16:10"
   end_at: "16:55"
   title: "Keynote: YJIT's Three Languages: the Fun of Code that Writes Code"

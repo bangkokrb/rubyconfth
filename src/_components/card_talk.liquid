@@ -4,6 +4,13 @@
     <a href="/speakers#{{ speaker.id }}">
       {{ event.title }}
     </a>
+    {% if event.slides_url %}
+    <small>
+      <a href="{{ event.slides_url }}" target="_blank" class="card-talk__slides">
+        (Slides)
+      </a>
+    </small>
+    {% endif %}
   </div>
   {% endif %}
   <div class="card-talk__speaker">

@@ -23,6 +23,7 @@
   end_at: "11:55"
   title: "Dealing With A Project's Complexity In A Changing Environment"
   speaker_id: anita-jaszewska
+  slides_url: https://github.com/letsleaveitempty/conference_talks/blob/main/rubyconf_th_essential_slides.pdf
 - start_at: "12:00"
   end_at: "12:30"
   title: "Dissecting Rails - a different approach to learning Rails"

@@ -8,10 +8,12 @@
   end_at: "9:55"
   title: "Keynote: Ruby & JVM: A (JRuby) Love Story"
   speaker_id: yarden-laifenfeld
+  youtube_id: QdXX7OjhZJY
 - start_at: "10:00"
   end_at: "10:30"
   title: "On making your Rails App more transparent"
   speaker_id: stephan-eberle
+  youtube_id: uLjaTFAOnIs
 - start_at: "10:30"
   end_at: "10:50"
   title: "Coffee Break"
@@ -19,14 +21,18 @@
   end_at: "11:20"
   title: "GitOps: The Single source of truth"
   speaker_id: thatthep-vorrasing
+  youtube_id: wxHcV1qhiiU
 - start_at: "11:25"
   end_at: "11:55"
   title: "Dealing With A Project's Complexity In A Changing Environment"
   speaker_id: anita-jaszewska
+  slides_url: https://github.com/letsleaveitempty/conference_talks/blob/main/rubyconf_th_essential_slides.pdf
+  youtube_id: O2nC8lIGkJQ
 - start_at: "12:00"
   end_at: "12:30"
   title: "Dissecting Rails - a different approach to learning Rails"
   speaker_id: rtdp
+  youtube_id: gXwRs-FwcmE
 - start_at: "12:30"
   end_at: "13:50"
   title: "Buffet Lunch"
@@ -35,11 +41,13 @@
   title: "Roda: Simplicity, Reliability, Extensibility, Performance"
   speaker_id: jeremy-evans
   slides_url: https://code.jeremyevans.net/presentations/rubyconfth2022/index.html
+  youtube_id: 9fukis_VHl4
 - start_at: "14:35"
   end_at: "15:05"
   title: "Processing data: Ruby or SQL?"
   speaker_id: jonatas-davi
   slides_url: "https://docs.google.com/presentation/d/e/2PACX-1vST6o2xxkIuNddKwWeXgNENN2-Fcpwe2m9Ax-Z4j6q0V7vjX-GUISxAt6Oj75OFUZ7KQbSI3CLbKI3l/pub?start=false&loop=false&delayms=3000&slide=id.g198c5a1f7c9_0_16580"
+  youtube_id: MXAtSZ5Szgk
 - start_at: "15:05"
   end_at: "15:35"
   title: "Coffee Break"
@@ -48,10 +56,13 @@
   title: "Refactoring for Rails - using deodorant to prevent code smells and a shower from time to time to eliminate the most persistent ones"
   speaker_id: rodrigo-urubatan
   slides_url: https://www.slideshare.net/urubatan/ruby-code-smells
+  youtube_id: 5THDThGPOVQ
 - start_at: "16:10"
   end_at: "16:55"
   title: "Keynote: YJIT's Three Languages: the Fun of Code that Writes Code"
   speaker_id: noah-gibbs
+  slides_url: https://codefol.io/speaking/rubyconfth2022/YJIT%20Three%20Languages%20slides.pdf
+  youtube_id: yZSe1BhiTvI
 - start_at: "17:00"
   end_at: "17:10"
   title: "Closing remarks & announcements"

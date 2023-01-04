@@ -6,9 +6,12 @@
     </a>
     {% if event.slides_url %}
     <small>
-      <a href="{{ event.slides_url }}" target="_blank" class="card-talk__slides">
-        (Slides)
-      </a>
+      <a href="{{ event.slides_url }}" target="_blank" class="card-talk__slides">Slides</a>
+    </small>
+    {% endif %}
+    {% if event.youtube_id %}
+    <small>
+      <a href="https://www.youtube.com/watch?v={{ event.youtube_id }}" target="_blank" class="card-talk__video">Video</a>
     </small>
     {% endif %}
   </div>

@@ -7,6 +7,9 @@
 - name: Instagram
   icon: instagram
   url: https://instagram.com/rubyconfth
+- name: Mastodon
+  icon: mastodon
+  url: https://ruby.social/@rubyconfth
 - name: Youtube
   icon: youtube
   url: https://youtube.com/@rubyconfth

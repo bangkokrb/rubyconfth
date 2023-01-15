@@ -33,6 +33,3 @@ yarn-debug.log*
 
 # Yarn Integrity file
 .yarn-integrity
-
-# Git Submodules
-src/past

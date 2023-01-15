@@ -19,6 +19,18 @@
 
     {% render "header", menu_items: site.data.menu.header, social_platforms: site.data.social_platforms %}
 
+    <div class="app-hero">
+      <div class="container">
+        <small class="app-hero__subheading">Bangkok, Thailand</small>
+        <div class="app-hero__heading display-1">October 6-7, 2023</div>
+
+        <div class="app-hero__mailing-list">
+          <p class="app-hero__text">Sign up to receive updates about the speakers, venue, and ticket sales</p>
+          {% render "form_mailing_list" %}
+        </div>
+      </div>
+    </div>
+
     <main class="app-content">
       <div class="container">
         {{ content }}

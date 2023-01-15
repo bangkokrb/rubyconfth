@@ -1,3 +1,31 @@
+body.home .app-hero {
+  
+  color: $primary;
+  text-align: center;
+
+  background: $white;
+
+  &__subheading {
+    display: block;
+    margin-bottom: 1rem;
+    text-transform: uppercase;
+  }
+
+  &__mailing-list {
+    width: 80%;
+    margin: 2rem auto 0;
+
+    @include media-breakpoint-up('lg') {
+      width: 50%;
+      margin-top: 3rem;
+    }
+  }
+
+  &__text {
+    color: $body-color;
+  }
+}
+
 body.home .app-content {
   text-align: center;
 
@@ -18,8 +46,16 @@ body.home .sponsors {
   }
 
   &.list-sponsor--silver {
-    @include media-breakpoint-up('sm') {
+    @include media-breakpoint-up('md') {
       width: 85%
+    }
+  }
+
+  .btn {
+    width: 80%;
+
+    @include media-breakpoint-up('sm') {
+      width: auto;
     }
   }
 }

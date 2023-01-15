@@ -5,7 +5,7 @@ title: "Home"
 ---
 
 <section class="sponsors">
-  <h4>These sponsors have already decided on supporting the event ♥️</h4>
+  <h3>These sponsors have decided on supporting the event 💯</h3>
 
   {% assign gold_sponsors = site.data.sponsors | where: "level", "gold" %}
   {% assign silver_sponsors = site.data.sponsors | where: "level", "silver" %}
@@ -19,7 +19,7 @@ title: "Home"
 
   <!-- {% render "list_sponsor", sponsors: other_sponsors, level: 'speaker' %} -->
 
-  <h5>Interested in sponsoring the conference?</h5>
-  <p>Promote your company to the world's top Ruby devs</p>
+  <h3>Interested in sponsoring the conference?</h3>
+  <p>Promote your company to the world's top Ruby developers</p>
   <a class="btn btn--primary" href="https://rubyconfth.com/sponsors2023" target="_blank">View sponsorship deck</a>
 </section>

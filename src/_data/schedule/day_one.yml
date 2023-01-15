@@ -1,72 +1,28 @@
-- start_at: "8:00"
-  end_at: "9:00"
-  title: "Registration & Conference Door Opens"
-- start_at: "9:00"
-  end_at: "9:10"
-  title: "Welcome Address"
-- start_at: "9:10"
-  end_at: "9:55"
-  title: "Keynote: A Beginner's Guide to Puma Internals"
-  speaker_id: nate-berkopec
-  slides_url: https://github.com/nateberkopec/rubyconfth/blob/main/RubyConfTH.pdf
-  youtube_id: w4X_oBuPmTM
-- start_at: "10:00"
-  end_at: "10:30"
-  title: "A Rails performance guidebook: from 0 to 1B requests/day"
-  speaker_id: cristian-planas
-  youtube_id: QOGY1GHVQu0
-- start_at: "10:30"
-  end_at: "10:50"
-  title: "Coffee Break"
-- start_at: "10:50"
-  end_at: "11:20"
-  title: "Hanami 2: New Framework, New You"
-  speaker_id: tim-riley
-  youtube_id: jxJ4-iadvIk
-- start_at: "11:25"
-  end_at: "11:55"
-  title: "Megaruby - mruby/c on Sega Mega Drive"
-  speaker_id: yuji-yokoo
-  slides_url: https://github.com/yujiyokoo/mega-present/releases/tag/rubyconfth-2022
-  youtube_id: s65qlUFRWtI
-- start_at: "12:00"
-  end_at: "12:30"
-  title: "Roasting the Duck - A talk about Ruby and types"
-  speaker_id: paolo-perrotta
-  youtube_id: tQU8PEY55rg
-- start_at: "12:30"
-  end_at: "13:50"
-  title: "Buffet Lunch"
-- start_at: "14:00"
-  end_at: "14:30"
-  title: "Scaling Ruby with JRuby"
-  speaker_id: charles-nutter
-  slides_url: https://speakerdeck.com/headius/scaling-ruby-with-jruby
-  youtube_id: OwEDqtlBg04
-- start_at: "14:35"
-  end_at: "15:05"
-  title: "10x your teamwork through pair programming"
-  speaker_id:
-    - michael-milewski
-    - selena-small
-  youtube_id: 6E_2azg8r40
-- start_at: "15:05"
-  end_at: "15:35"
-  title: "Coffee Break"
-- start_at: "15:35"
-  end_at: "16:05"
-  title: "Why I choose Phoenix"
-  speaker_id: aaron-cruz
-  youtube_id: PIrLtOvDwGA
-- start_at: "16:10"
-  end_at: "16:55"
-  title: "Keynote: The Ecstatic Organisation"
-  speaker_id: siddharth-sharma
-  youtube_id: M_vHUl3riKQ
-- start_at: "17:00"
-  end_at: "17:10"
-  title: "Closing remarks & announcements"
-- start_at: "18:00"
-  end_at: "22:00"
-  title: "Official Party 🥳"
-  subtitle: "at Bangkok Heritage, 2 Phaya Thai Rd, Thung Phaya Thai, Ratchathewi, Bangkok 10400"
+# - start_at: "8:00"
+#   end_at: "9:00"
+#   title: "Registration & Conference Door Opens"
+# - start_at: "9:00"
+#   end_at: "9:10"
+#   title: "Welcome Address"
+# - start_at:
+#   end_at: 
+#   title: 
+#   speaker_id: 
+#   slides_url: 
+#   youtube_id: 
+# - start_at: "10:30"
+#   end_at: "10:50"
+#   title: "Coffee Break"
+# - start_at: "12:30"
+#   end_at: "13:50"
+#   title: "Buffet Lunch"
+# - start_at: "15:05"
+#   end_at: "15:35"
+#   title: "Coffee Break"
+# - start_at: "17:00"
+#   end_at: "17:10"
+#   title: "Closing remarks & announcements"
+# - start_at: "18:00"
+#   end_at: "22:00"
+#   title: "Official Party 🥳"
+#   subtitle: "at TBD"

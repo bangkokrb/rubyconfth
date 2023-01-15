@@ -1,29 +1,3 @@
-body.home .app-hero {
-  text-align: center;
-
-  background: {
-    image: url('/images/home/hero-background.png');
-    repeat: no-repeat;
-    position: center;
-  }
-
-  @include media-breakpoint-up('md') {
-    height: rem(460px);
-  }
-
-  &__subheading {
-    display: block;
-    margin-bottom: 1rem;
-    text-transform: uppercase;
-  }
-
-  .btn {
-    margin-top: 2rem;
-    font-size: map-get($font-sizes, 'lg');
-    border-radius: var(--bs-border-radius-lg);
-  }
-}
-
 body.home .app-content {
   text-align: center;
 
@@ -32,30 +6,11 @@ body.home .app-content {
   }
 }
 
-body.home .speaker-lineup {
-  .list-speaker,
-  .btn  {
-    margin-top: 1rem;
-
-    @include media-breakpoint-up('sm') {
-      margin-top: 2rem;
-    }
-  }
-}
-
 body.home .sponsors {
     
   .list-sponsor {
     justify-content: center;
     padding-left: 0;
-
-    &--silver,&--speaker {
-      .list-sponsor__company {
-        @include media-breakpoint-up('sm') {
-          @include make-col(3);
-        }
-      }
-    }
   
     @include media-breakpoint-up('sm') {
       margin-inline: auto;
@@ -64,13 +19,7 @@ body.home .sponsors {
 
   &.list-sponsor--silver {
     @include media-breakpoint-up('sm') {
-      width: 75%
-    }
-  }
-
-  &.list-sponsor--speaker {
-    @include media-breakpoint-up('sm') {
-      width: 60%
+      width: 85%
     }
   }
 }

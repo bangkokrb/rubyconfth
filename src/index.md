@@ -5,7 +5,7 @@ title: "Home"
 ---
 
 <section class="sponsors">
-  <h3>These sponsors have decided on supporting the event 💯</h3>
+  <h3>These sponsors have decided to support the event 💯</h3>
 
   {% assign gold_sponsors = site.data.sponsors | where: "level", "gold" %}
   {% assign silver_sponsors = site.data.sponsors | where: "level", "silver" %}

@@ -16,8 +16,13 @@
   padding-block: 1rem 2rem;
 
   .container {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    display: flex;
+    justify-content: space-between;
+
+    @include media-breakpoint-up('sm') {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+    }
   }
 
   .app-footer__community {

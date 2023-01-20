@@ -6,6 +6,9 @@ title: "Practicalities"
 
 On this page you'll find our __A-Z of Practicalities for RubyConf TH 2023__.
 
+
+<small>Information is updated regularly. So you can expect changes the closer we get to the event.<br/>Last updated on <mark>January 20th, 2023</mark>.</small>
+
 {% rendercontent "section_text", title: "Airports" %}
   Bangkok is served by two airports: Suvarnabhumi (pronounced “su-vahn-a-boom”, the final “i” is silent) Airport (__BKK__) and Don Mueang Airport (__DMK__). Suvarnabhumi Airport is the main airport and used by all full-service airlines, but most low cost carriers use Don Mueang Airport. Both airports lie about 30 km (19 mi) out on opposite sides of the city, so be prepared for a long ride to get into the city centre.
 

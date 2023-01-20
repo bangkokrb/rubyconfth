@@ -2,10 +2,20 @@
   position: relative;
   
   .form__control {
+    font-size: map-get($font-sizes, 'xs');
+
     border-radius: var(--bs-border-radius-lg);
+
+    @include media-breakpoint-up('sm') {
+      font-size: map-get($font-sizes, 'sm');
+    }
 
     @include media-breakpoint-up('md') {
       padding-right: 155px;
+    }
+
+    @include media-breakpoint-up('lg') {
+      font-size: map-get($font-sizes, 'lg');
     }
   }
 

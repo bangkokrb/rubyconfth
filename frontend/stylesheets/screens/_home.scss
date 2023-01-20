@@ -1,15 +1,9 @@
 body.home .app-hero {
+  
+  color: $primary;
   text-align: center;
 
-  background: {
-    image: url('/images/home/hero-background.png');
-    repeat: no-repeat;
-    position: center;
-  }
-
-  @include media-breakpoint-up('md') {
-    height: rem(460px);
-  }
+  background: $white;
 
   &__subheading {
     display: block;
@@ -17,10 +11,18 @@ body.home .app-hero {
     text-transform: uppercase;
   }
 
-  .btn {
-    margin-top: 2rem;
-    font-size: map-get($font-sizes, 'lg');
-    border-radius: var(--bs-border-radius-lg);
+  &__mailing-list {
+    width: 80%;
+    margin: 2rem auto 0;
+
+    @include media-breakpoint-up('lg') {
+      width: 50%;
+      margin-top: 3rem;
+    }
+  }
+
+  &__text {
+    color: $body-color;
   }
 }
 
@@ -32,30 +34,11 @@ body.home .app-content {
   }
 }
 
-body.home .speaker-lineup {
-  .list-speaker,
-  .btn  {
-    margin-top: 1rem;
-
-    @include media-breakpoint-up('sm') {
-      margin-top: 2rem;
-    }
-  }
-}
-
 body.home .sponsors {
     
   .list-sponsor {
     justify-content: center;
     padding-left: 0;
-
-    &--silver,&--speaker {
-      .list-sponsor__company {
-        @include media-breakpoint-up('sm') {
-          @include make-col(3);
-        }
-      }
-    }
   
     @include media-breakpoint-up('sm') {
       margin-inline: auto;
@@ -63,14 +46,16 @@ body.home .sponsors {
   }
 
   &.list-sponsor--silver {
-    @include media-breakpoint-up('sm') {
-      width: 75%
+    @include media-breakpoint-up('md') {
+      width: 85%
     }
   }
 
-  &.list-sponsor--speaker {
+  .btn {
+    width: 80%;
+
     @include media-breakpoint-up('sm') {
-      width: 60%
+      width: auto;
     }
   }
 }

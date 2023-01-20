@@ -4,7 +4,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.metadata.myvariable }}.
 
-title: RubyConf TH 2022
+title: RubyConf TH 2023
 description: >-
-  A community-powered Ruby conference on 9-10 December 2022 in Bangkok, Thailand
+  A community-powered Ruby conference on 6-7 October 2023 in Bangkok, Thailand
 image: /public/images/social/opengraph.png

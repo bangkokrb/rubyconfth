@@ -4,7 +4,10 @@ page_class: practicalities
 title: "Practicalities"
 ---
 
-On this page you'll find our __A-Z of Practicalities for RubyConf TH 2022__.
+On this page you'll find our __A-Z of Practicalities for RubyConf TH 2023__.
+
+
+<small>Information is updated regularly. So you can expect changes the closer we get to the event.<br/>Last updated on <mark>January 20th, 2023</mark>.</small>
 
 {% rendercontent "section_text", title: "Airports" %}
   Bangkok is served by two airports: Suvarnabhumi (pronounced “su-vahn-a-boom”, the final “i” is silent) Airport (__BKK__) and Don Mueang Airport (__DMK__). Suvarnabhumi Airport is the main airport and used by all full-service airlines, but most low cost carriers use Don Mueang Airport. Both airports lie about 30 km (19 mi) out on opposite sides of the city, so be prepared for a long ride to get into the city centre.
@@ -96,51 +99,6 @@ On this page you'll find our __A-Z of Practicalities for RubyConf TH 2022__.
   If you need emergency medical assistance during your trip, dial 1669 (this may not work with non-Thai phone numbers) and ask for an ambulance. You should contact your insurance/medical assistance company promptly if you are referred to a medical facility for treatment.
 
   Medical care in Thailand is excellent. It is much cheaper than more developed countries, but a serious incident can incur substantial charges. You should have your own travel/health insurance before visiting Thailand.
-{% endrendercontent %}
-
-{% rendercontent "section_text", title: "Hotels" %}
-  The conference venue is the __Pullman Bangkok King Power__ hotel ([https://www.pullmanbangkokkingpower.com/](https://www.pullmanbangkokkingpower.com/)).
-
-  Address, in English:
-
-  8-2 Rang Nam Alley, Khwaeng Thanon Phaya Thai, Khet Ratchathewi, Krung Thep Maha Nakhon 10400
-
-  Address, in Thai:
-
-  8-2 ถนน รางน้ำ แขวง ถนนพญาไท เขตราชเทวี กรุงเทพมหานคร 10400
-
-  [Google Maps link](https://goo.gl/maps/vnLpSxt1zzw)
-
-  The hotel is easy to reach by taxi or public transport. You can take the Airport Rail Link to Phaya Thai station, or the BTS Skytrain to Phaya Thai or Victory Monument. From either it is around a 7-10 minute walk.
-
-  Bangkok is a major tourist destination and there are hundreds of hotels and hostels for every budget. For some ideas check [our travel guide](https://lemi.travel/rubyconfth/guide-for-visitors-to-rubyconf-th) .
-
-  __Directions from Victory Monument BTS Station to the Hotel:__
-
-  1. Take Exit 2 from Victory Monument station
-    <br />
-    ![Exit 2 from the BTS station](/images/practicalities/hotel/direction-step-1-exit-2.jpg)
-  2. Walk down the stairs, and continue straight ahead
-    <br />
-    ![BTS stairs](/images/practicalities/hotel/direction-step-2-stairs.jpg)
-  3. Turn left on to the street called __Thanon Rangnam__
-    <br />
-    ![Direction to Rangnam street](/images/practicalities/hotel/direction-step-3-rangnam-street.jpg)
-  4. Turn right after the big glass dome
-    <br />
-    ![Dome on Rangnam street](/images/practicalities/hotel/direction-step-4-dome.jpg)
-  5. You enter the King Power neighbourhood (Pullman Hotel is signposted)
-    <br />
-    ![King Power Duty Free shop road signage](/images/practicalities/hotel/direction-step-5-neighbourhood.jpg)
-  6. Go straight past the King Power Duty Free shop (Pullman is the brown building behind) 
-    <br />
-    ![Outdoor of the the King Power Duty Free shop](/images/practicalities/hotel/direction-step-6-duty-free.jpg)
-  7. Follow the signs to the Pullman Hotel straight ahead
-    <br />
-    ![Pullman Hotel road signag](/images/practicalities/hotel/direction-step-7-hotel-signage.jpg)
-  8.  And here is the lobby!
-    <br />
-    ![Outdoor of Pullman Bangkok King Power](/images/practicalities/hotel/direction-step-8-hotel-lobby.jpg)
 {% endrendercontent %}
 
 {% rendercontent "section_text", title: "Money" %}

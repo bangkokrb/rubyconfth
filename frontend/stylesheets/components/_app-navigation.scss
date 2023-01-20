@@ -74,7 +74,7 @@
     height: 75%;
 
     opacity: 0;
-    background-color: var(--color-brand-primary);
+    background-color: $black;
     border-radius: 1rem;
     transition: all variables.$base-animation-duration variables.$base-animation-timing;
   }

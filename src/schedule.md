@@ -2,16 +2,17 @@
 layout: default
 page_class: schedule
 title: "Schedule"
+published: false
 ---
 
 <div class="schedule-browser" data-controller="schedule">
   <nav class="schedule-browser__navigation" data-schedule-target="navigation">
     <ul class="nav-tab nav-tab--pills" role="tablist">
       <li class="nav-tab__item">
-        <a class="nav-tab__link nav-tab__link--active" href="/schedule/day-1" data-day="day-1"  data-action="schedule#toggleTab" role="tab">Friday, Dec 9</a>
+        <a class="nav-tab__link nav-tab__link--active" href="/schedule/day-1" data-day="day-1"  data-action="schedule#toggleTab" role="tab">Friday, Oct 6</a>
       </li>
       <li class="nav-tab__item">
-        <a class="nav-tab__link" href="/schedule/#day-2" data-day="day-2" data-action="schedule#toggleTab" role="tab">Saturday, Dec 10</a>
+        <a class="nav-tab__link" href="/schedule/#day-2" data-day="day-2" data-action="schedule#toggleTab" role="tab">Saturday, Oct 7</a>
       </li>
     </ul>
   </nav>

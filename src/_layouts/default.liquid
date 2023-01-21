@@ -31,6 +31,14 @@
       </div>
     </main>
 
+    <div class="mailing-list">
+      <div class="container">
+        <h3>Join our mailing list</h3>
+        <p class="mailing-list__text">Sign up to receive updates about the event</p>
+        {% render "form_mailing_list" %}
+      </div>
+    </div>
+
     {% render "footer", metadata: site.metadata, social_platforms: site.data.social_platforms %}
   </body>
 </html>

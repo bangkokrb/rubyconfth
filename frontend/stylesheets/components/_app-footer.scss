@@ -1,39 +1,3 @@
-.app-footer__mailing-list {
-  padding: 2rem;
-
-  color: $white;
-  text-align: center;
-
-  background-color: black;
-
-  &__text {
-    padding: 0 2rem;
-
-    @include media-breakpoint-up('md') {
-      padding: 0;
-    }
-  }
-
-  .form-mailing-list {
-    @include media-breakpoint-up('md') {
-      @include make-col(6);
-      @include make-col-offset(3);
-    }
-  }
-
-  .form-mailing-list .form__control {
-    font-size: map-get($font-sizes, 'xs');
-
-    @include media-breakpoint-up('sm') {
-      font-size: map-get($font-sizes, 'sm');
-    }
-
-    @include media-breakpoint-up('lg') {
-      font-size: map-get($font-sizes, 'lg');
-    }
-  }
-}
-
 .app-footer__social-platform {
   padding-block: 1rem;
   text-align: center;
@@ -53,15 +17,24 @@
 
   .container {
     display: flex;
-    align-items: center;
     justify-content: space-between;
+
+    @include media-breakpoint-up('sm') {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+    }
   }
 
   .app-footer__community {
     display: none;
+    text-align: center;
 
     @include media-breakpoint-up('sm') {
       display: initial;
     }
+  }
+
+  .app-footer__link {
+    text-align: right;
   }
 }

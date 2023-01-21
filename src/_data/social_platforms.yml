@@ -1,9 +1,15 @@
 - name: Facebook
   icon: facebook
-  url: https://www.facebook.com/rubyconfth
+  url: https://facebook.com/rubyconfth
 - name: Twitter
   icon: twitter
   url: https://twitter.com/rubyconfth
 - name: Instagram
   icon: instagram
-  url: https://www.instagram.com/rubyconfth
+  url: https://instagram.com/rubyconfth
+- name: Mastodon
+  icon: mastodon
+  url: https://ruby.social/@rubyconfth
+- name: Youtube
+  icon: youtube
+  url: https://youtube.com/@rubyconfth

@@ -7,7 +7,7 @@ title: "Practicalities"
 On this page you'll find our __A-Z of Practicalities for RubyConf TH 2023__.
 
 
-<small>Information is updated regularly. So you can expect changes the closer we get to the event.<br/>Last updated on <mark>January 20th, 2023</mark>.</small>
+<small>Information is updated regularly. So you can expect changes the closer we get to the event.<br/>Last updated on <mark>January 22nd, 2023</mark>.</small>
 
 {% rendercontent "section_text", title: "Airports" %}
   Bangkok is served by two airports: Suvarnabhumi (pronounced “su-vahn-a-boom”, the final “i” is silent) Airport (__BKK__) and Don Mueang Airport (__DMK__). Suvarnabhumi Airport is the main airport and used by all full-service airlines, but most low cost carriers use Don Mueang Airport. Both airports lie about 30 km (19 mi) out on opposite sides of the city, so be prepared for a long ride to get into the city centre.
@@ -24,15 +24,13 @@ On this page you'll find our __A-Z of Practicalities for RubyConf TH 2023__.
 
   For taxis, the meter price for a trip to the conference venue area will cost 250-400 baht. In addition, there is a 50 baht airport surcharge and highway tolls of about 75 baht.
 
-  The driver may ask you, possibly with difficulty in English, whether or not you want to take the toll highway. We recommend doing so. The driver may ask you for cash for the tolls during your trip. There are two tolls so he may not return the change until after the second one. If you don’t have any bills smaller than 1000's, this may be a good opportunity to break one into smaller bills.
+  The driver may ask you, possibly with difficulty in English, whether or not you want to take the toll highway. We recommend doing so. The driver may ask you for cash for the tolls during your trip. There are two tolls so they may not return the change until after the second one. If you don’t have any bills smaller than 1000's, this may be a good opportunity to break one into smaller bills.
 
   Ignore any touts who offer you a taxi; they may pretend to be public meter taxis, but are not. 
 
   __You will need cash for taxis in Thailand, credit cards are not accepted.__ There are ATM’s and currency exchange booths in the airport.
 
   It may be possible to use the Grab (like Uber) ride-hailing service from the airport, but there are logistical issues that can make this a challenge. See the transportation section for more information about Grab.
-
-  Your taxi driver will almost certainly know the Pullman King Power Hotel, but in case he doesn’t, the address is included in Thai in the Hotel section below. 
 
   ### From Don Mueang Airport (DMK)
 
@@ -43,16 +41,16 @@ On this page you'll find our __A-Z of Practicalities for RubyConf TH 2023__.
   By international "big city" standards, Thailand is inexpensive, but costs can still add up quickly. We understand that in the current economic situation, many people and companies are struggling. We've compiled a few money-saving tips to ensure you can enjoy your time in Bangkok.
 
   - Flights: This is likely to be your biggest expense when coming from abroad. Use a flights aggregator like [Google Flights](https://www.google.com/flights) or [Kiwi.com](https://kiwi.com). Consider being somewhat flexible on dates or routes, flights with a stop are often cheaper than direct flights.
-  - Accommodation: You don't have to stay at the conference hotel, there are many other hotels and hostels in the neighbourhood and around the city, at all price levels. The conference venue is walking distance from a BTS station (see Hotels section) so is easy to reach if staying elsewhere.
+  - Accommodation: You don't have to stay at the conference hotel, there are many other hotels and hostels in the neighbourhood and around the city, at all price levels.
     - Hostel beds are available for under 800 THB
     - There are many good 2-4 star hotels for 1000-2000 THB/night
     - Five star hotels are available from 2500THB/night upwards
   - Food and drink: Thai street food is cheap and internationally renowned! Stick to non-alcoholic drinks to save money as alcohol is heavily taxed.
-  - Freebies: Make the most of the free coffee and snack breaks, buffet lunch and official party (the buffet lunch is large enough you probably won't need to eat too much more :D)
+  - Freebies: Make the most of the free coffee and snack breaks, buffet lunch and official party!
 {% endrendercontent %}
 
 {% rendercontent "section_text", title: "Code of Conduct" %}
-  All attendees, speakers, sponsors and volunteers at our conference are required to agree with the [code of conduct](https://confcodeofconduct.com/). Organisers will enforce this code throughout the event. We expect cooperation from all participants to help ensure a safe environment for everybody.
+  All attendees, speakers, sponsors and volunteers at our conference are required to agree with the [code of conduct](https://rubyconfth.com/code-of-conduct). Organisers will enforce this code throughout the event. We expect cooperation from all participants to help ensure a safe environment for everybody.
 
   If you are being harassed, notice that someone else is being harassed, or have any other concerns, please contact a conference staff member immediately. Conference staff can be identified as they'll be wearing branded clothing and/or badges.
 {% endrendercontent %}
@@ -108,7 +106,7 @@ On this page you'll find our __A-Z of Practicalities for RubyConf TH 2023__.
 {% endrendercontent %}
 
 {% rendercontent "section_text", title: "Official Party" %}
-  The official party is held on Friday evening. The venue will be the **Bangkok Heritage** restaurant at [2 Phaya Thai Rd, Thung Phaya Thai, Ratchathewi, Bangkok 10400](https://www.google.com/maps/dir/8+Pullman+Bangkok+King+Power,+Rang+Nam+Alley,+Thanon+Phaya+Thai,+Ratchathewi,+Bangkok/2+Phaya+Thai+Rd,+Thung+Phaya+Thai,+Ratchathewi,+Bangkok+10400/@13.7571317,100.5331732,17z/data=!3m1!4b1!4m13!4m12!1m5!1m1!1s0x30e29eb64a4f804b:0xe80009bce2fa812a!2m2!1d100.5373605!2d13.7588878!1m5!1m1!1s0x30e29eca59954db1:0xeb9150e8229bf5dc!2m2!1d100.5327609!2d13.7553756). Don't worry about getting lost, we'll provide volunteers to help you make your way to the party from the hotel!
+  The official party is held on Friday evening. The venue will be confirmed closer to the conference date. Don't worry about getting lost, we'll provide volunteers to help you make your way to the party from the hotel!
 
   The party is free for all attendees (simply wear your conference lanyard)!
 {% endrendercontent %}
@@ -142,14 +140,10 @@ On this page you'll find our __A-Z of Practicalities for RubyConf TH 2023__.
   We have set up a Slack group so you can easily ask questions before and during the conference. [Join here](https://join.slack.com/t/rubyconfth/shared_invite/enQtNzEwMTk1MjEyMjg4LTcyOTQwZjNjODE1ZTQzMzllNmY2NTMxOTM3NWI2Mzk0ZmJmNWE3MjdlYzBhOGQ1NDdjOWI4ZWYyZGJiYzU4YWU) .
 {% endrendercontent %}
 
-{% rendercontent "section_text", title: "Things to do" %}
-  Bangkok is a major tourist destination and there are lots of things to do, eat and drink, for every budget. For some ideas check [our travel guide](https://lemi.travel/rubyconfth/guide-for-visitors-to-rubyconf-th) .
-{% endrendercontent %}
-
 {% rendercontent "section_text", title: "Transportation" %}
   The __Airport Rail Link__ ([http://www.bangkok.com/airport-rail-link.htm](http://www.bangkok.com/airport-rail-link.htm) ) will easily get you from the airport to downtown.
 
-  The __BTS Skytrain__ is an elevated rapid transit/metro system. There are two lines, the Sukhumvit Line (light green) and Silom Line (dark green) which interchange at Siam station. Victory Monument and Phaya Thai stations for the conference hotel are both on the Sukhumvit Line. You can buy tickets in cash at any station, or purchase a Rabbit card which allows preloading multiple journeys. You must show your passport to buy a Rabbit card. 
+  The __BTS Skytrain__ is an elevated rapid transit/metro system. There are two lines, the Sukhumvit Line (light green) and Silom Line (dark green) which interchange at Siam station. You can buy tickets in cash at any station, or purchase a Rabbit card which allows preloading multiple journeys. You must show your passport to buy a Rabbit card. 
 
   The __MRT__ is an underground metro system, with two lines, the Blue Line and Purple Line, of which the Blue Line is the most convenient for tourists. You can buy tickets in cash at any station, or purchase a MRT card which allows preloading multiple journeys. The MRT and BTS have completely separate ticketing systems. 
 
@@ -163,7 +157,7 @@ On this page you'll find our __A-Z of Practicalities for RubyConf TH 2023__.
 
   __Motorbike taxis__ are a popular way for locals to get around but due to the poor road conditions in Bangkok, and the lack of passenger helmets, can be very dangerous. Stick to regular taxis which give you more protection if there's an accident.
 
-  "__Tuktuks__" are an iconic image of Bangkok, but really only used by tourists. If you want to ride one for fun, be sure to bargain the price with the driver as there are no meters. Some hotels have free tuktuks for their guests, for example the King Power Pullman provides tuktuk service around the Victory Monument area.
+  "__Tuktuks__" are an iconic image of Bangkok, but really only used by tourists. If you want to ride one for fun, be sure to bargain the price with the driver as there are no meters. Some hotels have free tuktuks for their guests.
 
   As an alternative to hailing a taxi, you can use the [Grab ride-hailing app](https://www.grab.com/th/en/download/), which works similarly to apps like Uber or Lyft. The app works well in English, and you can type in your destination and see an instant price for your journey. It works best if you have mobile data (a Thai SIM card is probably best for this) so you can access the Internet anywhere. The app will show the license plate of your vehicle. Prices are typically slightly more expensive than a taxi. Actual arrival times are often longer than stated on the app. Grab is especially useful if you are not on a main road where taxis are likely to be plentiful. An alternative to Grab is [Bolt](https://bolt.eu/) which is generally cheaper, though has fewer cars.
 {% endrendercontent %}
@@ -179,7 +173,7 @@ On this page you'll find our __A-Z of Practicalities for RubyConf TH 2023__.
 {% endrendercontent %}
 
 {% rendercontent "section_text", title: "Weather" %}
-  Bangkok is hot and wet. In December, Bangkok has daily highs of around 31 Celsius (87F) and lows of 21 Celsius (70F). December is one of the relatively coolest and driest months of the year, though it can still rain, so if you get caught in a storm, it's generally best to just wait it out in a mall. It's best to carry a small umbrella or raincoat (which you can also easily get at a convenience store).
+  Bangkok is hot and wet. In October, Bangkok has daily highs of around 32 Celsius (89F) and lows of 24 Celsius (75F), and you can expect sudden downpours of rain, especially in the afternoon. If you get caught in a storm, it's generally best to just wait it out in a mall. It's best to carry a small umbrella or raincoat (which you can also easily get at a convenience store).
 
   [14 day forecast from the BBC](https://www.bbc.com/weather/1609350)
 

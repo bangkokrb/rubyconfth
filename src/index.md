@@ -4,6 +4,11 @@ page_class: home
 title: "Home"
 ---
 
+<section class="cfp">
+  <h3>Want to submit a talk?</h3>
+  <p>The call for papers is now open</p>
+  <a class="btn btn--primary" href="/cfp" target="_blank">View CFP</a>
+</section>
 <section class="sponsors">
   <h3>These sponsors have decided to support the event 💯</h3>
 

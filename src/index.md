@@ -3,6 +3,7 @@ layout: home
 page_class: home
 title: "Home"
 ---
+
 <section class="cfp">
   <h3>Want to submit a talk?</h3>
   <p>The call for papers is now open</p>

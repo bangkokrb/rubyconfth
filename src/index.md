@@ -4,7 +4,7 @@ page_class: home
 title: "Home"
 ---
 <section class="cfp">
-  <h3>Want to submit a proposal?</h3>
+  <h3>Want to submit a talk?</h3>
   <p>The call for papers is now open</p>
   <a class="btn btn--primary" href="/cfp" target="_blank">View CFP</a>
 </section>

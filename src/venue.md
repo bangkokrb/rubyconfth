@@ -26,9 +26,10 @@ New year, new venue! We're excited to be bringing RubyConfTH 2023 to you from No
   </div>
 </section>
 <section class="venue-access">
-## Getting There
+<h2>Getting There</h2>
 
 The venue is accessible both by BTS (Asok or Phrom Phong) or MRT (Sukhumvit). It's in a very central location and can easily be reached by taxi or Grab.
 
 <a href="https://goo.gl/maps/JXXXNsnAW8foXhJx7" target="_blank" class="btn btn--primary">View in Google Maps</a>
+
 </section>

@@ -34,6 +34,11 @@ body.home .app-content {
   }
 }
 
+body.home .app-content .list-speaker__photo {
+  max-width:320px;
+  margin-top:1rem;
+}
+
 body.home .sponsors {
     
   .list-sponsor {

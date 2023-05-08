@@ -12,16 +12,18 @@ title: "Home"
 <section class="sponsors">
   <h3>These sponsors have decided to support the event 💯</h3>
 
+  {% assign all_sponsors = site.data.sponsors %}
+  {% render "list_sponsor", sponsors: all_sponsors, level: 'silver' %}
+  <!--
   {% assign gold_sponsors = site.data.sponsors | where: "level", "gold" %}
   {% assign silver_sponsors = site.data.sponsors | where: "level", "silver" %}
   {% assign speaker_sponsors = site.data.sponsors | where: "level", "speaker" %}
   {% assign community_sponsors = site.data.sponsors | where: "level", "community" %}
   {% assign other_sponsors = speaker_sponsors | concat: community_sponsors %}
+  -->
   
+
   <!-- {% render "list_sponsor", sponsors: gold_sponsors, level: 'gold' %} -->
-
-  {% render "list_sponsor", sponsors: silver_sponsors, level: 'silver' %}
-
   <!-- {% render "list_sponsor", sponsors: other_sponsors, level: 'speaker' %} -->
 
   <h3>Interested in sponsoring the conference?</h3>

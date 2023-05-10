@@ -1,7 +1,7 @@
 body.home .app-hero {
   align-items: flex-start;
 
-  height: rem(350px);
+  height: rem(400px);
 
   color: $base-font-color;
   text-align: center;
@@ -26,8 +26,16 @@ body.home .app-hero {
     }
   }
 
+  &__subheading {
+    display: block;
+  }
+
   &__text {
     background: $white;
+  }
+
+  .btn {
+    margin-top: 2rem;
   }
 }
 

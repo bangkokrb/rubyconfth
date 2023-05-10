@@ -1,5 +1,5 @@
 body.home .app-hero {
-  
+
   color: $primary;
   text-align: center;
 
@@ -27,6 +27,7 @@ body.home .app-hero {
 }
 
 body.home .app-content {
+
   text-align: center;
 
   h2 {
@@ -34,17 +35,21 @@ body.home .app-content {
   }
 }
 
-body.home .app-hero .list-speaker__photo {
-  max-width:320px;
-  margin-top:1rem;
+body.home .speaker-lineup {
+
+  .list-speaker {
+    @include media-breakpoint-up('sm') {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
 }
 
 body.home .sponsors {
-    
+
   .list-sponsor {
     justify-content: center;
     padding-left: 0;
-  
+
     @include media-breakpoint-up('sm') {
       margin-inline: auto;
     }

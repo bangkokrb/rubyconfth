@@ -5,4 +5,18 @@
 #   photo_url: /images/speakers/firstname-lastname.jpg
 #   type: speaker | keynote
 #   bio: |
-    
+- id: matz
+  first_name: Yukihiro "Matz"
+  last_name: Matsumoto
+  twitter_handle: matz
+  photo_url: /images/speakers/matz.jpg
+  type: keynote
+  bio: |
+- id: bernard-banta
+  first_name: Bernard
+  last_name: Banta
+  twitter_handle: Bantab
+  photo_url: /images/speakers/banta.jpg
+  type: keynote
+  bio: |
+

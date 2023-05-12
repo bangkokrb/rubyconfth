@@ -1,28 +1,35 @@
 body.home .app-hero {
   align-items: flex-start;
 
-  height: rem(400px);
-
   color: $base-font-color;
   text-align: center;
 
-  background: {
-    color: $white;
-    image: url('/images/home/elephant-illustration.png');
-    repeat: no-repeat;
-    position: bottom center;
-    size: contain;
-  };
+  background: $white;
 
   @include media-breakpoint-up('sm') {
-    align-items: center;
     margin-bottom: 4rem;
 
     text-align: left;
+  }
+
+  .container {
+    height: rem(400px);
 
     background: {
-      position: bottom right;
-      size: auto 100%;
+      image: url('/images/home/elephant-illustration.png');
+      repeat: no-repeat;
+      position: bottom center;
+      size: contain;
+    }
+
+    @include media-breakpoint-up('sm') {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+
+      background: {
+        position: bottom right;
+      }
     }
   }
 
@@ -34,8 +41,13 @@ body.home .app-hero {
     background: $white;
   }
 
-  .btn {
+  &__action {
+    align-self: center;
     margin-top: 2rem;
+
+    @include media-breakpoint-up('sm') {
+      align-self: flex-start;
+    }
   }
 }
 

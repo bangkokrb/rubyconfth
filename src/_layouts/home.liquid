@@ -21,13 +21,12 @@
 
     <div class="app-hero">
       <div class="container">
-        <small class="app-hero__subheading">Novotel Sukhumvit 20 - Bangkok, Thailand</small>
-        <div class="app-hero__heading display-1">October 6-7, 2023</div>
+        <div class="app-hero__heading display-3"><span class="app-hero__text">October 6-7, 2023</span></div>
+        <small class="app-hero__subheading"><span class="app-hero__text">Novotel Sukhumvit 20 - Bangkok, Thailand</span></small>
 
-        <div class="app-hero__mailing-list">
-          <p class="app-hero__text">Sign up to receive updates about the speakers and ticket sales</p>
-          {% render "form_mailing_list" %}
-        </div>
+        <a href="https://www.eventpop.me/e/15095/rubyconfth-2023" target="_blank" class="btn btn--primary">
+          Buy Tickets {% render "icon", icon: "icon-arrow-right-circle" %}
+        </a>
       </div>
     </div>
 
@@ -36,6 +35,14 @@
         {{ content }}
       </div>
     </main>
+
+    <div class="mailing-list">
+      <div class="container">
+        <h3>Join our mailing list</h3>
+        <p class="mailing-list__text">Sign up to receive updates about the event</p>
+        {% render "form_mailing_list" %}
+      </div>
+    </div>
 
     {% render "footer", metadata: site.metadata, social_platforms: site.data.social_platforms %}
   </body>

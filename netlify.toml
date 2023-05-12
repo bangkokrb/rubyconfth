@@ -5,7 +5,7 @@
 [[redirects]]
   from = "/cfp"
   to = "https://www.papercall.io/rubyconfth2023"
-    
+
 [[redirects]]
   from = "/sponsors2023"
   to = "https://docs.google.com/presentation/d/e/2PACX-1vT8-zU4gQA-0ZF0ptHkoV1IGEWw-87U_eNZHrdaG3EP89aOjTceIkKBGG7qcXqIOt6YIc4jWXbnureL/pub?start=false&loop=false&delayms=3000"
@@ -13,3 +13,7 @@
 [[redirects]]
   from = "/slack"
   to = "https://join.slack.com/t/rubyconfth/shared_invite/enQtNzEwMTk1MjEyMjg4LTcyOTQwZjNjODE1ZTQzMzllNmY2NTMxOTM3NWI2Mzk0ZmJmNWE3MjdlYzBhOGQ1NDdjOWI4ZWYyZGJiYzU4YWU"
+
+[[redirects]]
+  from = "/tickets"
+  to = "https://www.eventpop.me/e/15095/rubyconfth-2023"

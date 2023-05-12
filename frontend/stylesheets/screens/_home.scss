@@ -1,28 +1,41 @@
 body.home .app-hero {
+  align-items: flex-start;
 
-  color: $primary;
+  height: rem(400px);
+
+  color: $base-font-color;
   text-align: center;
 
-  background: $white;
+  background: {
+    color: $white;
+    image: url('/images/home/elephant-illustration.png');
+    repeat: no-repeat;
+    position: bottom center;
+    size: contain;
+  };
 
-  &__subheading {
-    display: block;
-    margin-bottom: 1rem;
-    text-transform: uppercase;
-  }
+  @include media-breakpoint-up('sm') {
+    align-items: center;
+    margin-bottom: 4rem;
 
-  &__mailing-list {
-    width: 80%;
-    margin: 2rem auto 0;
+    text-align: left;
 
-    @include media-breakpoint-up('lg') {
-      width: 50%;
-      margin-top: 3rem;
+    background: {
+      position: bottom right;
+      size: auto 100%;
     }
   }
 
+  &__subheading {
+    display: block;
+  }
+
   &__text {
-    color: $body-color;
+    background: $white;
+  }
+
+  .btn {
+    margin-top: 2rem;
   }
 }
 
@@ -40,6 +53,10 @@ body.home .speaker-lineup {
   .list-speaker {
     @include media-breakpoint-up('sm') {
       grid-template-columns: repeat(2, 1fr);
+    }
+
+    &__photo {
+      max-width: 50%;
     }
   }
 }

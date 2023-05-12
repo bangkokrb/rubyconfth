@@ -5,8 +5,6 @@ title: "Home"
 ---
 
 <section class="speaker-lineup">
-  <h2 class="speaker-lineup__heading">Featured Keynote Speakers</h2>
-
   {% assign keynote_speakers = site.data.speakers | where: "type", "keynote" %}
 
   {% render "list_speaker", speakers: keynote_speakers %}

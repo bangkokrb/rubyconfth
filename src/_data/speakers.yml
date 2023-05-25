@@ -19,3 +19,10 @@
   photo_url: /images/speakers/banta.jpg
   type: keynote
   bio: |
+- id: jemma-issroff
+  first_name: Jemma
+  last_name: Issroff
+  twitter_handle: jemmaissroff
+  photo_url: /images/speakers/jemma.jpg
+  type: keynote
+  bio: |

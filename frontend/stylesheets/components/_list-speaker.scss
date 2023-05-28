@@ -58,6 +58,10 @@
       margin-top: 0.6rem;
     }
   }
+  &__minibio {
+    margin-top: 1rem;
+    font-size:map-get(variables.$font-sizes, 'sm');
+  }
 }
 
 .list-speaker--with-info {

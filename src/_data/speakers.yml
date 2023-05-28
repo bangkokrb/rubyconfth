@@ -11,25 +11,25 @@
   twitter_handle: matz
   photo_url: /images/speakers/matz.jpg
   type: keynote
-  bio: |
+  mini_bio: Creator of Ruby
 - id: bernard-banta
   first_name: Bernard
   last_name: Banta
   twitter_handle: Bantab
   photo_url: /images/speakers/banta.jpg
   type: keynote
-  bio: |
+  mini_bio: Ruby Kenya, founder of Finplus
 - id: jemma-issroff
   first_name: Jemma
   last_name: Issroff
   twitter_handle: jemmaissroff
   photo_url: /images/speakers/jemma.jpg
   type: keynote
-  bio: |
+  mini_bio: Founder of wnb.rb, GC expert
 - id: ben-halpern
   first_name: Ben
   last_name: Halpern
   twitter_handle: bendhalpern
   photo_url: /images/speakers/ben.jpg
   type: keynote
-  bio: Ben is the creator of DEV and founder of Forem, one of the largest commercial open source Ruby applications. Ben has been writing Ruby code since 2010.
+  mini_bio: Creator of DEV, founder of Forem

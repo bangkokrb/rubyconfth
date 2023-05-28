@@ -53,6 +53,10 @@
   &__bio {
     margin-top: 1rem;
   }
+  &__minibio {
+    margin-top: 1rem;
+    font-size:map-get(variables.$font-sizes, 'sm');
+  }
 }
 
 .list-speaker--with-info {

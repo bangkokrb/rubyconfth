@@ -19,6 +19,12 @@
       {% endif %}
       <p class="list-speaker__bio">{{ speaker.bio }}</p>
     </div>
+    {% else %}
+    {% if speaker.mini_bio %}
+    <div class="list-speaker__minibio">
+      {{ speaker.mini_bio }}
+    </div>
+    {% endif %}
     {% endif %}
   </li>
   {% endfor %}

@@ -30,6 +30,7 @@
     margin-block-start: 1rem;
 
     font-size: map-get(variables.$font-sizes, 'lg');
+    line-height: 1.4;
 
     @include media-breakpoint-up('sm') {
       font-size: map-get(variables.$font-sizes, 'xl');

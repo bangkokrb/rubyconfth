@@ -48,7 +48,7 @@
 
     &-link:not(:hover) {
       color: variables.$base-font-color;
-    } 
+    }
   }
 
   &__bio {
@@ -57,10 +57,6 @@
     &--mini {
       margin-top: 0.6rem;
     }
-  }
-  &__minibio {
-    margin-top: 0.6rem;
-    font-size:map-get(variables.$font-sizes, 'sm');
   }
 }
 

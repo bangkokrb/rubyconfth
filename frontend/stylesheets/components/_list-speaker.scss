@@ -30,6 +30,7 @@
     margin-block-start: 1rem;
 
     font-size: map-get(variables.$font-sizes, 'lg');
+    line-height: 1.4;
 
     @include media-breakpoint-up('sm') {
       font-size: map-get(variables.$font-sizes, 'xl');
@@ -52,6 +53,10 @@
 
   &__bio {
     margin-top: 1rem;
+
+    &--mini {
+      margin-top: 0.6rem;
+    }
   }
 }
 
@@ -61,4 +66,4 @@
   @include media-breakpoint-up('sm') {
     grid-template-columns: repeat(3, 1fr);
   }
-} 
+}

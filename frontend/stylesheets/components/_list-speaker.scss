@@ -53,10 +53,10 @@
 
   &__bio {
     margin-top: 1rem;
-  }
-  &__minibio {
-    margin-top: 0.6rem;
-    font-size:map-get(variables.$font-sizes, 'sm');
+
+    &--mini {
+      margin-top: 0.6rem;
+    }
   }
 }
 
@@ -66,4 +66,4 @@
   @include media-breakpoint-up('sm') {
     grid-template-columns: repeat(3, 1fr);
   }
-} 
+}

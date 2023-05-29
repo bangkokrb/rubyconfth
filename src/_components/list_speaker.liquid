@@ -5,7 +5,7 @@
       <img class="list-speaker__photo" src="{{ speaker.photo_url }}" alt="{{ speaker.first_name | smartify }} {{ speaker.last_name | smartify }}" />
     </a>
     <div class="list-speaker__name text-branded">
-      <span>{{ speaker.first_name }}</span>&nbsp;{{ speaker.last_name }}
+      <span>{{ speaker.first_name }}</span> {{ speaker.last_name }}
     </div>
     {% if with_info == true %}
     <div class="list-speaker__info">
@@ -19,6 +19,12 @@
       {% endif %}
       <p class="list-speaker__bio">{{ speaker.bio }}</p>
     </div>
+    {% else %}
+      {% if speaker.mini_bio %}
+      <small class="list-speaker__bio list-speaker__bio--mini">
+        {{ speaker.mini_bio }}
+      </small>
+      {% endif %}
     {% endif %}
   </li>
   {% endfor %}

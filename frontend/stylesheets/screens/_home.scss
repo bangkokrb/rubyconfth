@@ -63,8 +63,8 @@ body.home .app-content {
 body.home .speaker-lineup {
 
   .list-speaker {
-    @include media-breakpoint-up('sm') {
-      grid-template-columns: repeat(3, 1fr);
+    @include media-breakpoint-up('md') {
+      grid-template-columns: repeat(4, 1fr);
     }
 
     &__photo {

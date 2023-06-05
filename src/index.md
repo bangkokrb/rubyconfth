@@ -11,9 +11,8 @@ title: "Home"
 </section>
 
 <section class="cfp">
-  <h3>Want to submit a talk?</h3>
-  <p>The call for papers is now open</p>
-  <a class="btn btn--primary" href="/cfp" target="_blank">View CFP</a>
+  <h3>Thank you for your submissions!</h3>
+  <p>The call for papers is now closed. We will be reaching out to successful applicants soon.</p>
 </section>
 
 <section class="sponsors">

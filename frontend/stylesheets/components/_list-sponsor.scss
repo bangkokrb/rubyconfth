@@ -21,6 +21,10 @@
 
   &__logo {
     width: 100%;
+    max-height: 100px;
+    @include media-breakpoint-up('sm') {
+      margin-top: 150px;
+    }
   }
 
   & + & {

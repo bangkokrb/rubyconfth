@@ -51,6 +51,7 @@
   type: speaker
   social_url: "https://ruby.social/@hacrods"
   social_type: mastodon
+  photo_url: /images/speakers/helio-cola.jpg
   bio: |
     He(lio) has created things primarily in C/C++ & Ruby, over the past 20+ years.
     He first met Ruby at v1.8.7 and Rails 2.x in 2010 and it is a Happy Developer since then.

@@ -8,31 +8,39 @@
 - id: matz
   first_name: Yukihiro "Matz"
   last_name: Matsumoto
-  twitter_handle: matz
+  social_url: https://twitter.com/yukihiro_matz
+  social_type: twitter
   photo_url: /images/speakers/matz.jpg
   type: keynote
   mini_bio: Creator of Ruby
+  bio: Creator of Ruby
 - id: bernard-banta
   first_name: Bernard
   last_name: Banta
-  twitter_handle: Bantab
+  social_url: https://twitter.com/bantab
+  social_type: twitter
   photo_url: /images/speakers/banta.jpg
   type: keynote
   mini_bio: Ruby Kenya, founder of Finplus
+  bio: Ruby Kenya, founder of Finplus
 - id: jemma-issroff
   first_name: Jemma
   last_name: Issroff
-  twitter_handle: jemmaissroff
+  social_url: https://twitter.com/jemmaissroff
+  social_type: twitter
   photo_url: /images/speakers/jemma.jpg
   type: keynote
   mini_bio: Founder of wnb.rb, GC expert
+  bio: Founder of wnb.rb, GC expert
 - id: ben-halpern
   first_name: Ben
   last_name: Halpern
-  twitter_handle: bendhalpern
+  social_url: https://twitter.com/bendhalpern
+  social_type: twitter
   photo_url: /images/speakers/ben.jpg
   type: keynote
   mini_bio: Creator of DEV, founder of Forem
+  bio: Creator of DEV, founder of Forem
 - id: matthew-lindfield-seager
   first_name: Matthew
   last_name: Lindfield Seager
@@ -41,6 +49,12 @@
   first_name: Helio
   last_name: Cola
   type: speaker
+  social_url: "https://ruby.social/@hacrods"
+  social_type: mastodon
+  bio: |
+    He(lio) has created things primarily in C/C++ & Ruby, over the past 20+ years.
+    He first met Ruby at v1.8.7 and Rails 2.x in 2010 and it is a Happy Developer since then.
+    He is currently a part-time Rails consultant, while building a new product and doing some OSS!"
 - id: brad-urani
   first_name: Brad
   last_name: Urani

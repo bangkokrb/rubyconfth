@@ -36,42 +36,56 @@
 - id: matthew-lindfield-seager
   first_name: Matthew
   last_name: Lindfield Seager
+  type: speaker
 - id: helio-cola
   first_name: Helio
   last_name: Cola
+  type: speaker
 - id: brad-urani
   first_name: Brad
   last_name: Urani
+  type: speaker
 - id: faraaz-ahmad
   first_name: Syed Faraaz
   last_name: Ahmad
+  type: speaker
 - id: huy-du
   first_name: Huy
   last_name: Du
+  type: speaker
 - id: hitoshi-hasumi
   first_name: Hitoshi
   last_name: Hasumi
+  type: speaker
 - id: omar-sotillo-franco
   first_name: Omar Sotillo
   last_name: Franco
+  type: speaker
 - id: steven-r-baker
   first_name: Steven R.
   last_name: Baker
+  type: speaker
 - id: elle-meredith
   first_name: Elle
   last_name: Meredith
+  type: speaker
 - id: rishi-jain
   first_name: Rishi
   last_name: Jain
+  type: speaker
 - id: benji-lewis
   first_name: Benji
   last_name: Lewis
+  type: speaker
 - id: michael-milewski
   first_name: Michael
   last_name: Milewski
+  type: speaker
 - id: chakrit-wichian
   first_name: Chakrit
   last_name: Wichian
+  type: speaker
 - id: radoslav-stankov
   first_name: Radoslav
   last_name: Stankov
+  type: speaker

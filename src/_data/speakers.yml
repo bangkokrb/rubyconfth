@@ -46,6 +46,7 @@
   last_name: Lindfield Seager
   type: speaker
   photo_url: /images/speakers/matthew-ls.jpg
+  bio: Matthew is a jack of all trades technologist and developer. He enjoys reading novels, playing sport, running and any activity involving his wife and two teenage children.
 - id: helio-cola
   first_name: Helio
   last_name: Cola
@@ -65,8 +66,11 @@
 - id: faraaz-ahmad
   first_name: Syed Faraaz
   last_name: Ahmad
+  social_url: https://twitter.com/Faraaz98
+  social_type: twitter
   type: speaker
   photo_url: /images/speakers/faraaz-ahmad.jpg
+  bio: Faraaz is a Software Engineer based out of Bengaluru, India. He leads the development of the Ruby static analyzer at DeepSource. He is the author of the Trains gem, and is always ready to talk about football.
 - id: huy-du
   first_name: Huy
   last_name: Du
@@ -76,7 +80,10 @@
   first_name: Hitoshi
   last_name: Hasumi
   type: speaker
+  social_url: https://twitter.com/hasumikin
+  social_type: twitter
   photo_url: /images/speakers/hitoshi-hasumi.jpg
+  bio: Hitoshi, a programmer at Monstarlab, is the creator of PicoRuby & PRK Firmware. He maintains ruby/irb and ruby/reline. Winner of Fukuoka Ruby Award First Prize in 2020 & 2022, and a Ruby Prize 2021 final nominee.
 - id: omar-sotillo-franco
   first_name: Omar Sotillo
   last_name: Franco
@@ -96,7 +103,10 @@
   first_name: Rishi
   last_name: Jain
   type: speaker
+  social_url: https://twitter.com/jainrishi15
+  social_type: twitter
   photo_url: /images/speakers/rishi-jain.jpg
+  bio: Rishi is currently working with OmbuLabs where he does Rails upgrades, performance tune reports, open-source contributions. In my spare time, I like to travel, play any sport, play games on his PS, and spend time doing nothing at all.
 - id: benji-lewis
   first_name: Benji
   last_name: Lewis
@@ -116,4 +126,7 @@
   first_name: Radoslav
   last_name: Stankov
   type: speaker
+  social_url: https://twitter.com/rstankov
+  social_type: twitter
   photo_url: /images/speakers/radoslav-stankov.jpg
+  bio: Rado has more than 20 years of experience working in tech. He is currently the CTO and Co-Founder at Angry Building. Previously was Head of engineering at Product Hunt. Enjoys blogging, conference speaking, and solving problems.

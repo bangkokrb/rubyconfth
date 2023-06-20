@@ -116,7 +116,10 @@
   first_name: Michael
   last_name: Milewski
   type: speaker
-  photo_url: /images/speakers/placeholder.png
+  photo_url: /images/speakers/michael-milewski.jpg
+  social_url: https://twitter.com/saramic
+  social_type: twitter
+  bio: Michael is a developer keen on the people side of things. He loves pairing, and in particular with people new to writing software. He especially likes driving software out with tests and directing the evolution of the design. In his spare time he is busy camping with his 4 kids.
 - id: chakrit-wichian
   first_name: Chakrit
   last_name: Wichian
@@ -130,3 +133,11 @@
   social_type: twitter
   photo_url: /images/speakers/radoslav-stankov.jpg
   bio: Rado has more than 20 years of experience working in tech. He is currently the CTO and Co-Founder at Angry Building. Previously was Head of engineering at Product Hunt. Enjoys blogging, conference speaking, and solving problems.
+- id: selena-small
+  first_name: Selena
+  last_name: Small
+  social_url: https://twitter.com/selenasmall88
+  social_type: twitter
+  photo_url: /images/speakers/selena-small.jpg
+  type: speaker
+  bio: Selena is a full-stack lead engineer at Fresho in Melbourne Australia who is particularly passionate about TDD. As a self-taught coder with a background in management, she is well-equipped to mentor others. In her spare time, she is a nak muay ying, a professional kickboxer.

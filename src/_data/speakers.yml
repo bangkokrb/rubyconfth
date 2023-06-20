@@ -46,6 +46,7 @@
   last_name: Lindfield Seager
   type: speaker
   photo_url: /images/speakers/matthew-ls.jpg
+  website: http://matt17r.com
   bio: Matthew is a jack of all trades technologist and developer. He enjoys reading novels, playing sport, running and any activity involving his wife and two teenage children.
 - id: helio-cola
   first_name: Helio
@@ -53,6 +54,7 @@
   type: speaker
   social_url: "https://ruby.social/@hacrods"
   social_type: mastodon
+  website: https://hac-rods.me/
   photo_url: /images/speakers/helio-cola.jpg
   bio: |
     He(lio) has created things primarily in C/C++ & Ruby, over the past 20+ years.
@@ -69,6 +71,7 @@
   social_url: https://twitter.com/Faraaz98
   social_type: twitter
   type: speaker
+  website: https://faraazahmad.github.io
   photo_url: /images/speakers/faraaz-ahmad.jpg
   bio: Faraaz is a Software Engineer based out of Bengaluru, India. He leads the development of the Ruby static analyzer at DeepSource. He is the author of the Trains gem, and is always ready to talk about football.
 - id: huy-du
@@ -131,6 +134,7 @@
   type: speaker
   social_url: https://twitter.com/rstankov
   social_type: twitter
+  website: https://blog.rstankov.com/
   photo_url: /images/speakers/radoslav-stankov.jpg
   bio: Rado has more than 20 years of experience working in tech. He is currently the CTO and Co-Founder at Angry Building. Previously was Head of engineering at Product Hunt. Enjoys blogging, conference speaking, and solving problems.
 - id: selena-small

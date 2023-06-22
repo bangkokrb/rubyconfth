@@ -9,7 +9,7 @@
     </div>
     {% if with_info == true %}
     <div class="list-speaker__info">
-      {% if speaker.social_url || speaker.website %}
+      {% if speaker.social_url or speaker.website %}
       <div class="list-speaker__social">
         {% if speaker.social_url %}
         <a class="list-speaker__social-link" target="_blank" href="{{ speaker.social_url }}">

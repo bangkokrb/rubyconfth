@@ -22,7 +22,8 @@
   photo_url: /images/speakers/banta.jpg
   type: keynote
   mini_bio: Ruby Kenya, founder of Finplus
-  bio: Ruby Kenya, founder of Finplus
+  bio: Bernard Banta is the CTO and co-founder of Finplus Group. He is also Chairman at African Ruby Community. With over 12 years working in tech, Banta is passionate about how technology can be used to transform Africa.
+  website: https://www.linkedin.com/in/banta/
 - id: jemma-issroff
   first_name: Jemma
   last_name: Issroff
@@ -58,13 +59,16 @@
   photo_url: /images/speakers/helio-cola.jpg
   bio: |
     He(lio) has created things primarily in C/C++ & Ruby, over the past 20+ years.
-    He first met Ruby at v1.8.7 and Rails 2.x in 2010 and it is a Happy Developer since then.
+    He first met Ruby at v1.8.7 and Rails 2.x in 2010 and he is a Happy Developer since then.
     He is currently a part-time Rails consultant, while building a new product and doing some OSS!"
 - id: brad-urani
   first_name: Brad
   last_name: Urani
   type: speaker
-  photo_url: /images/speakers/placeholder.png
+  photo_url: /images/speakers/brad-urani.jpg
+  bio: Brad Urani is a coder, karaoke singer and barbecue evangelist. When not skiing, hiking or hacking, he preaches the wonders of Ruby and SQL as a Principal Engineer at Procore
+  social_url: https://twitter.com/bradurani
+  social_type: twitter
 - id: faraaz-ahmad
   first_name: Syed Faraaz
   last_name: Ahmad

@@ -40,8 +40,9 @@
   social_type: twitter
   photo_url: /images/speakers/ben.jpg
   type: keynote
+  website: https//benhalpern.com
   mini_bio: Creator of DEV, founder of Forem
-  bio: Creator of DEV, founder of Forem
+  bio: Ben is the co-founder of Forem, an open source software company that operates DEV and other social networks. Ben has been writing Ruby code for about 15 years.
 - id: matthew-lindfield-seager
   first_name: Matthew
   last_name: Lindfield Seager
@@ -95,7 +96,12 @@
   first_name: Omar Sotillo
   last_name: Franco
   type: speaker
-  photo_url: /images/speakers/placeholder.png
+  photo_url: /images/speakers/omar.jpg
+  bio: |
+    Omar, a Staff Software Engineer III hailing from Spain, has embraced the vibrant city of Berlin, for half a decade. Employed at FactorialHR, he ingeniously crafts technical solutions, fearlessly venturing into uncharted territory within the Core: Processes - Communications team
+  social_url: https://twitter.com/geiloco
+  social_type: twitter
+  website: https://omar.geilo.co
 - id: steven-r-baker
   first_name: Steven R.
   last_name: Baker
@@ -131,7 +137,11 @@
   first_name: Chakrit
   last_name: Wichian
   type: speaker
-  photo_url: /images/speakers/placeholder.png
+  photo_url: /images/speakers/chakrit.jpg
+  bio: Chakrit is a seasoned software engineer who has worked on almost every single role in the software department from standard individual contributor all the way to CTO and currently owns and operate PRODIGY9 Co., Ltd. remote software and IT consultancy based in Bangkok, Thailand.
+  social_url: https://twitter.com/chakrit
+  social_type: twitter
+  website: https://chakrit.net
 - id: radoslav-stankov
   first_name: Radoslav
   last_name: Stankov

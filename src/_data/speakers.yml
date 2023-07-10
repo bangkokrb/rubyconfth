@@ -13,7 +13,7 @@
   photo_url: /images/speakers/matz.jpg
   type: keynote
   mini_bio: Creator of Ruby
-  bio: Creator of Ruby
+  bio: Matz is a Japanese computer scientist and software programmer best known as the chief designer of the Ruby programming language and its original reference implementation, Matz’s Ruby Interpreter (mri). Matz is nice, and so we are nice!
 - id: bernard-banta
   first_name: Bernard
   last_name: Banta
@@ -32,7 +32,7 @@
   photo_url: /images/speakers/jemma.jpg
   type: keynote
   mini_bio: Founder of wnb.rb, GC expert
-  bio: Founder of wnb.rb, GC expert
+  bio: Jemma Issroff works on Shopify's Ruby Infrastructure team. An expert in garbage collection, in 2022, she implemented object shapes in CRuby alongside Aaron Patterson. She is also a co-founder of WNB.rb, a women and non-binary Ruby community, and a co-host on The Ruby on Rails Podcast.
 - id: ben-halpern
   first_name: Ben
   last_name: Halpern

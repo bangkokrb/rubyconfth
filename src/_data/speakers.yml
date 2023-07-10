@@ -33,6 +33,7 @@
   type: keynote
   mini_bio: Founder of wnb.rb, GC expert
   bio: Jemma Issroff works on Shopify's Ruby Infrastructure team. An expert in garbage collection, in 2022, she implemented object shapes in CRuby alongside Aaron Patterson. She is also a co-founder of WNB.rb, a women and non-binary Ruby community, and a co-host on The Ruby on Rails Podcast.
+  website: https://jemma.dev/
 - id: ben-halpern
   first_name: Ben
   last_name: Halpern
@@ -86,6 +87,7 @@
   photo_url: /images/speakers/huy-du.jpg
   bio: Huy is a Software Engineer driven by a genuine passion for his craft. He loves tackling complex challenges in finance and technology. He firmly believes that technology can revolutionize our world in every aspect, and he’s excited about using his skills to make a positive impact.
   social_url: https://twitter.com/DuGiaHuy
+  social_type: twitter
   website: https://dugiahuy.com
 - id: hitoshi-hasumi
   first_name: Hitoshi

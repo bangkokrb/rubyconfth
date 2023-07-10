@@ -114,7 +114,10 @@
   first_name: Elle
   last_name: Meredith
   type: speaker
-  photo_url: /images/speakers/placeholder.png
+  photo_url: /images/speakers/elle-meredith.jpg
+  bio: Elle is a back-end engineer with more than 15 years of experience, leading projects and teams for many technology organisations. At Blackmill, she coaches engineers in effective management practices so that they become engaging, thoughtful and inclusive leaders.
+  social_url: https://tinnies.club/@elle
+  social_type: mastodon
 - id: rishi-jain
   first_name: Rishi
   last_name: Jain

@@ -83,7 +83,10 @@
   first_name: Huy
   last_name: Du
   type: speaker
-  photo_url: /images/speakers/placeholder.png
+  photo_url: /images/speakers/huy-du.jpg
+  bio: Huy is a Software Engineer driven by a genuine passion for his craft. He loves tackling complex challenges in finance and technology. He firmly believes that technology can revolutionize our world in every aspect, and he’s excited about using his skills to make a positive impact.
+  social_url: https://twitter.com/DuGiaHuy
+  website: https://dugiahuy.com
 - id: hitoshi-hasumi
   first_name: Hitoshi
   last_name: Hasumi

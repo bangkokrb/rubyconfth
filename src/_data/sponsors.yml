@@ -8,6 +8,11 @@
   logo_url: /images/sponsors/eventpop.png
   url: "https://www.eventpop.me/"
   level: gold
+- name: Jetbrains
+  about: ""
+  logo_url: /images/sponsors/jetbrains.svg
+  url: "https://www.jetbrains.com/"
+  level: silver
 - name: Oivan
   about: "We believe that extraordinary expertise in design and technology can solve some of the world's biggest challenges."
   logo_url: /images/sponsors/oivan.svg

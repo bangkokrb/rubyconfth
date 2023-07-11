@@ -22,6 +22,7 @@
   &__logo {
     width: 100%;
     max-height: 100px;
+
     @include media-breakpoint-up('sm') {
       max-height: 150px;
     }
@@ -60,7 +61,7 @@
     @include make-col-ready();
   }
 
-  .list-sponsor__link { 
+  .list-sponsor__link {
     @include make-col(12);
 
     @include media-breakpoint-up('sm') {
@@ -70,7 +71,7 @@
 
   .list-sponsor__info {
     @include make-col(12);
-    
+
     margin-bottom: 0;
     text-align: center;
 

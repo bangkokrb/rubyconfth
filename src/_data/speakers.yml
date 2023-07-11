@@ -132,7 +132,10 @@
   first_name: Benji
   last_name: Lewis
   type: speaker
-  photo_url: /images/speakers/placeholder.png
+  photo_url: /images/speakers/benji.jpg
+  bio: Benji, originally from Cape Town but now living in London, has been working at Zappi for the past 6 years. He has a background in Electrical & Computer Engineering and has been working on their analysis and R&D teams where he has been thinking of new ways of storing their data.
+  social_url: https://twitter.com/benjilewis
+  social_type: twitter
 - id: michael-milewski
   first_name: Michael
   last_name: Milewski

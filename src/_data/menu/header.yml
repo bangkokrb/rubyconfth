@@ -6,8 +6,8 @@
   permalink: /practicalities
 # - title: Schedule
 #   permalink: /schedule
-# - title: Speakers
-#   permalink: /speakers
+- title: Speakers
+  permalink: /speakers
 # - title: Sponsors
 #   permalink: /sponsors
 - title: Code of Conduct

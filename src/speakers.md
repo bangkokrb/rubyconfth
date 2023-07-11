@@ -2,7 +2,7 @@
 layout: default
 page_class: speaker
 title: "Speakers"
-published: false
+published: true
 ---
 
 <section class="speaker-info">

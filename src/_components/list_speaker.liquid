@@ -9,12 +9,22 @@
     </div>
     {% if with_info == true %}
     <div class="list-speaker__info">
-      {% if speaker.twitter_handle %}
+      {% if speaker.social_url or speaker.website %}
       <div class="list-speaker__social">
-        <a class="list-speaker__social-link" target="_blank" href="https://twitter.com/{{ speaker.twitter_handle }}">
+        {% if speaker.social_url %}
+        <a class="list-speaker__social-link" target="_blank" href="{{ speaker.social_url }}">
+          {% if speaker.social_type == "twitter" %}
           {% render "icon", icon: "icon-twitter", class: "list-speaker__social-icon" %}
-          <span class="list-speaker__social-handle">@{{ speaker.twitter_handle }}</span>
+          {% elsif speaker.social_type == "mastodon" %}
+          {% render "icon", icon: "icon-mastodon", class: "list-speaker__social-icon" %}
+          {% endif %}
         </a>
+        {% endif %}
+        {% if speaker.website %}
+        <a class="list-speaker__social-link" target="_blank" href="{{ speaker.website }}">
+          {% render "icon", icon: "icon-website", class: "list-speaker__social-icon" %}
+        </a>
+        {% endif %}
       </div>
       {% endif %}
       <p class="list-speaker__bio">{{ speaker.bio }}</p>

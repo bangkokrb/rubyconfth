@@ -107,11 +107,6 @@
   social_url: https://twitter.com/geiloco
   social_type: twitter
   website: https://omar.geilo.co
-- id: steven-r-baker
-  first_name: Steven R.
-  last_name: Baker
-  type: speaker
-  photo_url: /images/speakers/placeholder.png
 - id: elle-meredith
   first_name: Elle
   last_name: Meredith
@@ -170,3 +165,9 @@
   photo_url: /images/speakers/selena-small.jpg
   type: speaker
   bio: Selena is a full-stack lead engineer at Fresho in Melbourne Australia who is particularly passionate about TDD. As a self-taught coder with a background in management, she is well-equipped to mentor others. In her spare time, she is a nak muay ying, a professional kickboxer.
+- id: steven-r-baker
+  first_name: Steven R.
+  last_name: Baker
+  type: speaker
+  photo_url: /images/speakers/placeholder.png
+  bio: Bio coming soon!

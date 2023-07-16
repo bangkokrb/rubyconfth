@@ -171,3 +171,12 @@
   type: speaker
   photo_url: /images/speakers/placeholder.png
   bio: Bio coming soon!
+- id: lachlan-hardy
+  first_name: Lachlan
+  last_name: Hardy
+  type: speaker
+  photo_url: /images/speakers/lachlan-hardy.jpg
+  bio: A long-time front-end standards dev, Lachlan joined the Australian Ruby community in 2006, but first wrote Ruby for money in 2016 at GitHub. He's led teams and orgs for more than a decade, and now tries to share those experiences as much as possible through his work at Blackmill.
+  social_url: https://tinnies.club/@lachlanhardy
+  social_type: mastodon
+  website: https://lachstock.com.au

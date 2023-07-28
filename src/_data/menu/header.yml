@@ -8,7 +8,7 @@
 #   permalink: /schedule
 - title: Speakers
   permalink: /speakers
-# - title: Sponsors
-#   permalink: /sponsors
+- title: Sponsors
+  permalink: /sponsors
 - title: Code of Conduct
   permalink: /code-of-conduct

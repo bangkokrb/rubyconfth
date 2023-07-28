@@ -2,7 +2,7 @@
 layout: default
 page_class: sponsor
 title: "Sponsors"
-published: false
+published: true
 ---
 
 <section class="sponsor-info">
@@ -21,21 +21,21 @@ published: false
   {% render "list_sponsor", sponsors: silver_sponsors, level: 'silver', with_info: true %}
 </section>
 
-<section class="sponsor-info">
+<!-- <section class="sponsor-info">
   <h2 class="sponsor-info__heading">Speaker Sponsors</h2>
 
   {% assign speaker_sponsors = site.data.sponsors | where: "level", "speaker" %}
 
   {% render "list_sponsor", sponsors: speaker_sponsors, level: 'speaker', with_info: true %}
-</section>
+</section> -->
 
-<section class="sponsor-info">
+<!-- <section class="sponsor-info">
   <h2 class="sponsor-info__heading">Community Partners</h2>
 
   {% assign community_sponsors = site.data.sponsors | where: "level", "community" %}
 
   {% render "list_sponsor", sponsors: community_sponsors, level: 'community', with_info: true %}
-</section>
+</section> -->
 
 <section class="sponsor-contact">
   <h5>Want to have your company listed here?</h5>

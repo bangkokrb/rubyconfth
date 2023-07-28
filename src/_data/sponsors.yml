@@ -9,7 +9,7 @@
   url: "https://www.eventpop.me/"
   level: gold
 - name: Jetbrains
-  about: ""
+  about: "JetBrains is a cutting-edge software vendor specializing in the creation of intelligent development tools, including RubyMine, the Ruby and Rails IDE with first-class support for Ruby and Rails, JavaScript and CoffeeScript, ERB and HAML, CSS, Sass and Less, and more."
   logo_url: /images/sponsors/jetbrains.svg
   url: "https://www.jetbrains.com/"
   level: silver

@@ -32,7 +32,7 @@
   photo_url: /images/speakers/jemma2.jpg
   type: keynote
   mini_bio: Founder of wnb.rb, GC expert
-  bio: Jemma Issroff is a Ruby Core committer who works on Shopify's Ruby Infrastructure team. She is also a co-founder of WNB.rb, a women / non-binary Ruby community, and a co-host on The Ruby on Rails Podcast. 
+  bio: Jemma Issroff is a Ruby Core committer who works on Shopify's Ruby Infrastructure team. She is also a co-founder of WNB.rb, a women / non-binary Ruby community, and a co-host on The Ruby on Rails Podcast.
   website: https://jemma.dev/
 - id: ben-halpern
   first_name: Ben
@@ -62,7 +62,7 @@
   bio: |
     He(lio) has created things primarily in C/C++ & Ruby, over the past 20+ years.
     He first met Ruby at v1.8.7 and Rails 2.x in 2010 and he is a Happy Developer since then.
-    He is currently a part-time Rails consultant, while building a new product and doing some OSS!"
+    He is currently a part-time Rails consultant, while building a new product and doing some OSS!
 - id: brad-urani
   first_name: Brad
   last_name: Urani

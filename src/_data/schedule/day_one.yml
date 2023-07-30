@@ -1,28 +1,78 @@
-# - start_at: "8:00"
-#   end_at: "9:00"
-#   title: "Registration & Conference Door Opens"
-# - start_at: "9:00"
-#   end_at: "9:10"
-#   title: "Welcome Address"
-# - start_at:
-#   end_at: 
-#   title: 
-#   speaker_id: 
-#   slides_url: 
-#   youtube_id: 
-# - start_at: "10:30"
-#   end_at: "10:50"
-#   title: "Coffee Break"
-# - start_at: "12:30"
-#   end_at: "13:50"
-#   title: "Buffet Lunch"
-# - start_at: "15:05"
-#   end_at: "15:35"
-#   title: "Coffee Break"
-# - start_at: "17:00"
-#   end_at: "17:10"
-#   title: "Closing remarks & announcements"
-# - start_at: "18:00"
-#   end_at: "22:00"
-#   title: "Official Party 🥳"
-#   subtitle: "at TBD"
+- start_at: "8:00"
+  end_at: "9:00"
+  title: "Registration & Conference Door Opens"
+- start_at: "9:00"
+  end_at: "9:10"
+  title: "Welcome Address"
+- start_at: "9:10"
+  end_at: "9:55"
+  title: "Keynote"
+  speaker_id: matz
+#   slides_url:
+#   youtube_id:
+- start_at: "10:00"
+  end_at: "10:30"
+  title: "Component Driven UI with ViewComponent gem"
+  speaker_id: radoslav-stankov
+#   slides_url:
+#   youtube_id:
+- start_at: "10:30"
+  end_at: "10:50"
+  title: "Coffee Break"
+- start_at: "10:50"
+  end_at: "11:20"
+  title: "Learn to delegate; like a boss"
+  speaker_id:
+    - elle-meredith
+    - lachlan-hardy
+#   slides_url:
+#   youtube_id:
+- start_at: "11:25"
+  end_at: "11:55"
+  title: "Error 418 - I'm a teapot"
+  speaker_id: matthew-lindfield-seager
+#   slides_url:
+#   youtube_id:
+- start_at: "12:00"
+  end_at: "12:30"
+  title: "Big Corps, Big Worries. Some points on selling Ruby to Big Corps."
+  speaker_id: chakrit-wichian
+#   slides_url:
+#   youtube_id:
+- start_at: "12:30"
+  end_at: "13:50"
+  title: "Buffet Lunch"
+- start_at: "14:00"
+  end_at: "14:30"
+  title: "BYOJ: Build your own JIT with Ruby"
+  speaker_id: faraaz-ahmad
+#   slides_url:
+#   youtube_id:
+- start_at: "14:35"
+  end_at: "15:05"
+  title: "Introducing Living Documentation"
+  speaker_id: steven-r-baker
+#   slides_url:
+#   youtube_id:
+- start_at: "15:05"
+  end_at: "15:35"
+  title: "Coffee Break"
+- start_at: "15:35"
+  end_at: "16:05"
+  title: "Data indexing with RGB (Ruby, Graphs and Bitmaps)"
+  speaker_id: benji-lewis
+#   slides_url:
+#   youtube_id:
+- start_at: "16:10"
+  end_at: "16:55"
+  title: "Keynote: Breaking Barriers — Empowering the Unbanked with Innovative Tech"
+  speaker_id: bernard-banta
+#   slides_url:
+#   youtube_id:
+- start_at: "17:00"
+  end_at: "17:10"
+  title: "Closing remarks & announcements"
+- start_at: "18:00"
+  end_at: "22:00"
+  title: "Official Party 🥳"
+  subtitle: "at TBD"

@@ -6,7 +6,7 @@
   title: "Welcome Address"
 - start_at: "9:10"
   end_at: "9:55"
-  title: "Keynote"
+  title: "Keynote: 30 Years of Ruby"
   speaker_id: matz
 #   slides_url:
 #   youtube_id:
@@ -75,4 +75,4 @@
 - start_at: "18:00"
   end_at: "22:00"
   title: "Official Party 🥳"
-  subtitle: "at TBD"
+  subtitle: "at The Deck"

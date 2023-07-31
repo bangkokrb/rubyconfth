@@ -28,9 +28,11 @@
       flex-direction: row;
       align-items: center;
       justify-content: end;
-      gap: var(--bs-gutter-x);
-
+      gap: 0;
       padding-top: 0;
+    }
+    @include media-breakpoint-up('xxl') {
+      gap: var(--bs-gutter-x);
     }
   }
 
@@ -55,9 +57,12 @@
 
     @include media-breakpoint-up('xl') {
       display: block;
-      padding: 0 1rem;
+      padding: 0 0.5rem;
 
       height: auto;
+    }
+    @include media-breakpoint-up('xxl') {
+      padding: 0 1rem;
     }
   }
 

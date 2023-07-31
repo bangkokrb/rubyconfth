@@ -4,8 +4,8 @@
   permalink: /venue
 - title: Practicalities
   permalink: /practicalities
-# - title: Schedule
-#   permalink: /schedule
+- title: Schedule
+  permalink: /schedule
 - title: Speakers
   permalink: /speakers
 - title: Sponsors

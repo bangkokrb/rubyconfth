@@ -2,13 +2,13 @@
   permalink: /tickets
 - title: Venue
   permalink: /venue
-- title: Practicalities
-  permalink: /practicalities
 - title: Schedule
   permalink: /schedule
 - title: Speakers
   permalink: /speakers
 - title: Sponsors
   permalink: /sponsors
+- title: Practicalities
+  permalink: /practicalities
 - title: Code of Conduct
   permalink: /code-of-conduct

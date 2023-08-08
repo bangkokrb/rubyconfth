@@ -2,7 +2,7 @@
 layout: default
 page_class: schedule
 title: "Schedule"
-published: false
+published: true
 ---
 
 <div class="schedule-browser" data-controller="schedule">
@@ -22,7 +22,7 @@ published: false
       {% render "table_schedule", events: site.data.schedule.day_one, speakers: site.data.speakers %}
     </div>
 
-    <div class="schedule-browser__tabpane" data-day="day-2" role="tabpanel">  
+    <div class="schedule-browser__tabpane" data-day="day-2" role="tabpanel">
       {% render "table_schedule", events: site.data.schedule.day_two, speakers: site.data.speakers %}
     </div>
   </div>

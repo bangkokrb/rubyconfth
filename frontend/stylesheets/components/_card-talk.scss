@@ -4,7 +4,7 @@
 .card-talk {
   &__title {
     margin-bottom: 0.5rem;
-    
+
     @include media-breakpoint-up('sm') {
       font-size: map-get(variables.$font-sizes, 'xl');
     }
@@ -23,6 +23,11 @@
     margin: 0;
 
     width: sizing.rem(60px);
+  }
+
+  &__info {
+    display: flex;
+    align-items: center;
   }
 
   &__photo {
@@ -45,7 +50,7 @@
 
     &-link:not(:hover) {
       color: variables.$base-font-color;
-    } 
+    }
   }
 
   // For dual speaker talks

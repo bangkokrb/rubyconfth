@@ -1,7 +1,7 @@
 ---
 layout: default
 page_class: speakerfaq
-title: "Speaker's Guide & FAQ"
+title: "Speaker Guide & FAQ"
 published: true
 ---
 

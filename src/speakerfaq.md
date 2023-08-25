@@ -51,9 +51,11 @@ If your company is paying your expenses to attend, we can display their logo as 
 
 -   You can check the scheduled time of your talk on the [schedule page](https://rubyconfth.com/schedule/)
 -   Please help us keep the sessions on time.
--   Standard talks are 30 minutes.\
+-   Standard talks are 30 minutes.
 -   Keynote talks are 45 minutes.
 -   Timing Signs: A volunteer standing at the back of the room will alert you with "5 MINUTES LEFT", "2 MINUTES LEFT", and "STOP" signs as your time winds down. Kindly acknowledge the signs with a nod.
+
+![5 minutes left](/images/speakerfaq/5minutes.png)
 
 ## On-stage Protocol
 

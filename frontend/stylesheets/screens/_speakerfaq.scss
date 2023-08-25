@@ -1,0 +1,24 @@
+@use '../variables';
+
+body.speakerfaq {
+    .app-content {
+        h2 {
+            margin-top: 2.5rem;
+            margin-bottom: 1.5rem;
+            border-bottom: 1px map-get(variables.$color-brand, 'primary') solid;
+        }
+
+        ul li {
+            list-style-type: disc;
+        }
+
+        ul li li {
+            list-style-type: circle;
+        }
+
+        img {
+            margin-top: 1.5rem;
+        }
+    }
+}
+

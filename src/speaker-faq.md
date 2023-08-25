@@ -24,6 +24,9 @@ If your company is paying your expenses to attend, we can display their logo as 
 - Except for keynote speakers, you should make your own arrangements to book your hotel on their official website or any online travel agent website. 
 -   Of course you do not have to stay at the conference hotel! Bangkok has a huge number of hotels for all budgets, including many options just a few minutes walk from the conference. See more details on the [Practicalities page](https://rubyconfth.com/practicalities/)
 
+![Hotel](/images/venue/novotel.webp){:style="max-width:640px"}
+
+
 ## Exclusive Speaker Dinner
 -   When: Thursday evening.
 -   Details: An invitation-only affair reserved for speakers and volunteers. A wonderful opportunity to meet other speakers and break the ice before the conference.

@@ -34,6 +34,8 @@ If your company is paying your expenses to attend, we can display their logo as 
     -   Return via bus to the hotel around 9 pm.
 -   Lanyard Collection: For convenience, you can collect your lanyard on Thursday, thus skipping the Friday morning rush.
 
+![Cruise](/images/speakerfaq/cruise.jpg){:style="max-width:640px"}
+
 ## Technical Aspects
 
 -   Tech Check: Before your talk, there'll be a short session on stage where we'll:
@@ -67,7 +69,9 @@ If your company is paying your expenses to attend, we can display their logo as 
 
 ## Video Recording
 
-Your presentation, inclusive of both screen content and a video feed of you, will be recorded. This split-screen recording will be uploaded to our Youtube channel a few weeks after the conference: Examples from previous years here: [RubyConfTH](https://youtube.com/@rubyconfth)
+Your presentation, inclusive of both screen content and a video feed of you, will be recorded. This split-screen recording will be uploaded to our Youtube channel a few weeks after the conference: Examples from previous years here: [RubyConfTH on Youtube](https://youtube.com/@rubyconfth)
+
+![Youtube](/images/speakerfaq/youtube.png){:style="max-width:640px"}
 
 ## Q&A Policy
 

@@ -55,13 +55,15 @@ If your company is paying your expenses to attend, we can display their logo as 
 -   Keynote talks are 45 minutes.
 -   Timing Signs: A volunteer standing at the back of the room will alert you with "5 MINUTES LEFT", "2 MINUTES LEFT", and "STOP" signs as your time winds down. Kindly acknowledge the signs with a nod.
 
-![5 minutes left](/images/speakerfaq/5minutes.png)
+![5 minutes left](/images/speakerfaq/5minutes.png){:style="max-width:300px"}
 
 ## On-stage Protocol
 
 1.  As your session begins, we'll guide you to the stage.
 2.  We'll ensure your laptop is connected and everything's in order.
 3.  The MC will then officially introduce you, and invite the audience to applause, after which you begin your presentation.
+
+![Podium](/images/speakerfaq/stage.jpg){:style="max-width:640px"}
 
 ## Video Recording
 

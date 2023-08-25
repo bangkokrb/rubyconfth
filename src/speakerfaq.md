@@ -4,38 +4,25 @@ page_class: speakerfaq
 title: "Speaker's Guide & FAQ"
 published: true
 ---
-<section> 
 
 ## Introduction 
 
 Welcome to RubyConf Thailand 2023! We're thrilled to have you on board as a speaker. This guide contains all the information you'll need to ensure a smooth presentation at the event. Whether you're a first-time conference speaker or a seasoned pro, we hope this guide proves useful!
-
-</section> 
-<section> 
 
 ## Tickets and Identification
 
 -  Free Ticket: As a speaker, you're entitled to a free ticket. You'll receive an email containing your ticket's QR code a few weeks before the event.
 - Lanyards: Upon arriving at the conference, present your QR code to obtain your lanyard. Your 'SPEAKER' designation will be shown via a colored sticker at the bottom of the lanyard.
 
-</section> 
-<section> 
-
 ## Speaker Sponsors
 
 If your company is paying your expenses to attend, we can display their logo as a "speaker sponsor" on our website. Email us on <rubyconfth@gmail.com> with your company name, logo and link to arrange this.
-
-</section> 
-<section> 
 
 ## Hotel
 
 - You can find more information about the conference venue Novotel Bangkok Sukhumvit 20 on the [venue page](https://rubyconfth.com/venue/). Note there are several Bangkok hotels called "Novotel" so be sure you use the exact name!
 - Except for keynote speakers, you should make your own arrangements to book your hotel on their official website or any online travel agent website. 
 -   Of course you do not have to stay at the conference hotel! Bangkok has a huge number of hotels for all budgets, including many options just a few minutes walk from the conference. See more details on the [Practicalities page](https://rubyconfth.com/practicalities/)
-
-</section> 
-<section> 
 
 ## Exclusive Speaker Dinner
 -   When: Thursday evening.
@@ -46,9 +33,6 @@ If your company is paying your expenses to attend, we can display their logo as 
     -   Revel in a sunset cruise, complete with drinks and dinner.
     -   Return via bus to the hotel around 9 pm.
 -   Lanyard Collection: For convenience, you can collect your lanyard on Thursday, thus skipping the Friday morning rush.
-
-</section> 
-<section> 
 
 ## Technical Aspects
 
@@ -63,9 +47,6 @@ If your company is paying your expenses to attend, we can display their logo as 
 -   If you plan any live demos/live coding session, carefully test everything and allow some extra time in case anything goes wrong.
 -   If you want to use a bluetooth "clicker", please bring your own.
 
-</section> 
-<section> 
-
 ## Time Keeping
 
 -   You can check the scheduled time of your talk on the [schedule page](https://rubyconfth.com/schedule/)
@@ -74,38 +55,23 @@ If your company is paying your expenses to attend, we can display their logo as 
 -   Keynote talks are 45 minutes.
 -   Timing Signs: A volunteer standing at the back of the room will alert you with "5 MINUTES LEFT", "2 MINUTES LEFT", and "STOP" signs as your time winds down. Kindly acknowledge the signs with a nod.
 
-</section> 
-<section> 
-
 ## On-stage Protocol
 
 1.  As your session begins, we'll guide you to the stage.
 2.  We'll ensure your laptop is connected and everything's in order.
 3.  The MC will then officially introduce you, and invite the audience to applause, after which you begin your presentation.
 
-</section> 
-<section> 
-
 ## Video Recording
 
 Your presentation, inclusive of both screen content and a video feed of you, will be recorded. This split-screen recording will be uploaded to our Youtube channel a few weeks after the conference: Examples from previous years here: [RubyConfTH](https://youtube.com/@rubyconfth)
-
-</section> 
-<section> 
 
 ## Q&A Policy
 
 -   We don't have live Q&A sessions after talks as they can be unpredictable in terms of timing and challenging with understanding questions and answers especially with non-native English speakers.
 -   Instead, we urge attendees to engage with speakers during coffee breaks, lunch intervals, and other social events.
 
-</section> 
-<section> 
-
 ## Final Thoughts
 
 Thank you for being a part of RubyConf Thailand 2023. We're eagerly looking forward to your presentation. Safe travels, and see you soon!
 
 If you have any more queries or need further assistance, please don't hesitate to reach out to our team: email <rubyconfth@gmail.com> or join our [Slack group](https://join.slack.com/t/rubyconfth/shared_invite/zt-929bw4xs-cpQPPIFeQznm9lMZN1tjlA) where we have a special #speakers-2023 channel for speakers.
-
-
-</section> 

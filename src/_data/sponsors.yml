@@ -18,3 +18,13 @@
   logo_url: /images/sponsors/oivan.svg
   url: "https://oivan.com/"
   level: gold
+- name: The Urban Office
+  about: TODO
+  logo_url: /images/sponsors/urbanoffice.svg
+  url: "https://www.theurbanoffice.com/"
+  level: gold
+- name: Bluethumb
+  about: TODO
+  logo_url: /images/sponsors/bluethumb.svg
+  url: "https://tech.blueth.mb/"
+  level: silver

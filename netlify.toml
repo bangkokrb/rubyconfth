@@ -21,3 +21,7 @@
 [[redirects]]
   from = "/notgoing"
   to = "https://www.eventpop.me/e/15095/rubyconfth-2023#ticket_types_41411"
+
+[[redirects]]
+  from = "/spin"
+  to = "https://rubyconfth-luckydraw.netlify.app/"

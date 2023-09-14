@@ -82,11 +82,11 @@ body.home .sponsors {
     @include media-breakpoint-up('sm') {
       margin-inline: auto;
     }
-  }
 
-  &.list-sponsor--silver {
-    @include media-breakpoint-up('md') {
-      width: 85%
+    &.list-sponsor--silver {
+      @include media-breakpoint-up('md') {
+        width: 85%
+      }
     }
   }
 

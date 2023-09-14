@@ -18,3 +18,13 @@
   logo_url: /images/sponsors/oivan.svg
   url: "https://oivan.com/"
   level: gold
+- name: The Urban Office
+  about: The Urban Office is Thailand’s leading hybrid model coworking space provider, built with a mission to empower startups and SMEs to succeed through different stages of business growth. Our flexible workspace solution includes shared coworking spaces, instant plug & play serviced offices, virtual offices, meeting room facilities, breakout lounges, phone booths, in-house café, outdoor terrace, and more. Our flexible workspace solutions are integrated with business-driven IT network solutions created to meet hybrid work needs and encourage communication, collaboration, creativity, and productivity while offering ultimate flexibility whether a client chooses 1 hot desk seat or enterprise solution for up to 100 pax.
+  logo_url: /images/sponsors/urbanoffice.svg
+  url: "https://www.theurbanoffice.com/"
+  level: gold
+- name: Bluethumb
+  about: We make discovering artists & buying art easy. We represent over 20,000 emerging and established artists from Australia and work with 20 of Australia's most remote Aboriginal Art Centres to give you access to more Australian artists and their art than anywhere else in the world.
+  logo_url: /images/sponsors/bluethumb.svg
+  url: "https://tech.blueth.mb/"
+  level: silver

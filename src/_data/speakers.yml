@@ -127,6 +127,16 @@
   social_type: twitter
   website: https://dugiahuy.com
 
+- id: katrina-owen
+  first_name: Katrina
+  last_name: Owen
+  type: speaker
+  photo_url: /images/speakers/katrina-owen.jpg
+  bio: Katrina has worked as a professional software developer for 18 years. She is the co-author of <a href="https://sandimetz.com/99bottles">99 Bottles of OOP</a>. Katrina is probably most well known for creating <a href="(https://exercism.org/">Exercism</a> - a free, not-for-profit coding education platform powered by a wonderful volunteer community, that serves over 1.5 million users.
+  social_url: https://twitter.com/kytrinyx
+  social_type: twitter
+  website: https://exercism.github.io/kytrinyx/
+
 - id: lachlan-hardy
   first_name: Lachlan
   last_name: Hardy

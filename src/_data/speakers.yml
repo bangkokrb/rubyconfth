@@ -165,15 +165,6 @@
   photo_url: /images/speakers/selena-small.jpg
   type: speaker
   bio: Selena is a full-stack lead engineer at Fresho in Melbourne Australia who is particularly passionate about TDD. As a self-taught coder with a background in management, she is well-equipped to mentor others. In her spare time, she is a nak muay ying, a professional kickboxer.
-- id: steven-r-baker
-  first_name: Steven
-  last_name: Baker
-  type: speaker
-  photo_url: /images/speakers/stevenbaker.jpg
-  bio: Steven has been helping individuals, teams, and organisations develop software with an eye towards quality and maintainability for over 25 years.
-  social_url: https://twitter.com/srbaker
-  website: https://stevenrbaker.com
-  social_type: twitter
 - id: lachlan-hardy
   first_name: Lachlan
   last_name: Hardy

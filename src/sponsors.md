@@ -21,13 +21,13 @@ published: true
   {% render "list_sponsor", sponsors: silver_sponsors, level: 'silver', with_info: true %}
 </section>
 
-<!-- <section class="sponsor-info">
+<section class="sponsor-info">
   <h2 class="sponsor-info__heading">Speaker Sponsors</h2>
 
   {% assign speaker_sponsors = site.data.sponsors | where: "level", "speaker" %}
 
   {% render "list_sponsor", sponsors: speaker_sponsors, level: 'speaker', with_info: true %}
-</section> -->
+</section>
 
 <!-- <section class="sponsor-info">
   <h2 class="sponsor-info__heading">Community Partners</h2>

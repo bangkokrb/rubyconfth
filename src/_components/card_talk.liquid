@@ -20,7 +20,7 @@
     {% if speaker.photo_url %}
     <figure class="card-talk__profile">
       <a href="/speakers#{{ speaker.id }}">
-        <img src="{{ speaker.photo_url }}" {% if speaker.bio %}title="{{ speaker.bio | escape }}"{% endif %} class="card-talk__photo" />
+        <img src="{{ speaker.photo_url }}" {% if speaker.bio %}title="{{ speaker.bio }}"{% endif %} class="card-talk__photo" />
       </a>
     </figure>
     {% endif %}

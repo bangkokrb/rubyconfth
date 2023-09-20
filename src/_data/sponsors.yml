@@ -29,7 +29,12 @@
   url: "https://oivan.com/"
   level: gold
 - name: The Urban Office
-  about: The Urban Office is Thailand’s leading hybrid model coworking space provider, built with a mission to empower startups and SMEs to succeed through different stages of business growth. Our flexible workspace solution includes shared coworking spaces, instant plug & play serviced offices, virtual offices, meeting room facilities, breakout lounges, phone booths, in-house café, outdoor terrace, and more. Our flexible workspace solutions are integrated with business-driven IT network solutions created to meet hybrid work needs and encourage communication, collaboration, creativity, and productivity while offering ultimate flexibility whether a client chooses 1 hot desk seat or enterprise solution for up to 100 pax.
+  about: The Urban Office is Thailand's leading hybrid model coworking space provider, built with a mission to empower startups and SMEs to succeed through different stages of business growth. Our flexible workspace solution includes shared coworking spaces, instant plug & play serviced offices, virtual offices, meeting room facilities, breakout lounges, phone booths, in-house café, outdoor terrace, and more. Our flexible workspace solutions are integrated with business-driven IT network solutions created to meet hybrid work needs and encourage communication, collaboration, creativity, and productivity while offering ultimate flexibility whether a client chooses 1 hot desk seat or enterprise solution for up to 100 pax.
   logo_url: /images/sponsors/urbanoffice.svg
   url: "https://www.theurbanoffice.com/"
   level: gold
+- name: WNB.rb
+  about: A virtual community for women and non-binary Rubyists. Attend the monthly meetup and join our Slack organization to start up a conversation and find your next job opportunity.
+  logo_url: /images/sponsors/wnb-rb.png
+  url: "https://www.wnb-rb.dev/"
+  level: speaker

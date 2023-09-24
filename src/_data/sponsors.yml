@@ -33,6 +33,11 @@
   logo_url: /images/sponsors/urbanoffice.svg
   url: "https://www.theurbanoffice.com/"
   level: gold
+- name: Rakuten Viki
+  about: The heart of Asian entertainment. Watch Korean Dramas, Chinese Dramas and Movies Online.
+  logo_url: /images/sponsors/wnb-rb.png
+  url: "https://viki.com/"
+  level: speaker
 - name: WNB.rb
   about: A virtual community for women and non-binary Rubyists. Attend the monthly meetup and join our Slack organization to start up a conversation and find your next job opportunity.
   logo_url: /images/sponsors/wnb-rb.png

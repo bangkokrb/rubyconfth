@@ -25,3 +25,7 @@
 [[redirects]]
   from = "/spin"
   to = "https://rubyconfth-luckydraw.netlify.app/"
+
+[[redirects]]
+  from = "/students"
+  to = "https://forms.gle/HHCqvi6UGHgFyqyH7"

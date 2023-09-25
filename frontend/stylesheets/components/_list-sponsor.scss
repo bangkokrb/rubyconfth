@@ -5,7 +5,7 @@
 
   &__company {
     @include make-col-ready();
-    @include make-col(4);
+    @include make-col(6);
 
     display: flex;
     align-items: center;
@@ -13,6 +13,10 @@
 
     padding-top: 1rem;
     padding-bottom: 1rem;
+
+    @include media-breakpoint-up('sm') {
+      @include make-col(4);
+    }
   }
 
   &__link {

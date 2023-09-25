@@ -13,6 +13,11 @@
   logo_url: /images/sponsors/datawow.svg
   url: "https://www.datawow.io/"
   level: silver
+- name: devoteam
+  about: Tech for people unlocks the future. At Devoteam, we believe that technology with strong human values can actively drive change for the better. 25+ years of expertise in Digital Business & Products, Data-driven Intelligence, Distributed Cloud, Business Automation, Trust & Cybersecurity, Sustainability enabled by Digital.
+  logo_url: /images/sponsors/devoteam.svg
+  url: "https://www.devoteam.com/"
+  level: silver
 - name: Eventpop
   about: "Eventpop is an end-to-end event solution that enhances the seamless event experience. Eventpop แพลตฟอร์มจำหน่ายบัตรที่ตอบโจทย์ทุกงานอีเวนต์."
   logo_url: /images/sponsors/eventpop.png

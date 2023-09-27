@@ -83,9 +83,13 @@ body.home .sponsors {
       margin-inline: auto;
     }
 
-    &.list-sponsor--silver {
+    &--silver {
       @include media-breakpoint-up('md') {
         width: 75%
+      }
+
+      .list-sponsor__company {
+        @include make-col(4);
       }
     }
   }

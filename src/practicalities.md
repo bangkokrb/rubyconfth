@@ -7,7 +7,7 @@ title: "Practicalities"
 On this page you'll find our __A-Z of Practicalities for RubyConf TH 2023__.
 
 
-<small>Information is updated regularly. So you can expect changes the closer we get to the event.<br/>Last updated on <mark>January 22nd, 2023</mark>.</small>
+<small>Information is updated regularly. So you can expect changes the closer we get to the event.<br/>Last updated on <mark>October 1, 2023</mark>.</small>
 
 {% rendercontent "section_text", title: "Airports" %}
   Bangkok is served by two airports: Suvarnabhumi (pronounced “su-vahn-a-boom”, the final “i” is silent) Airport (__BKK__) and Don Mueang Airport (__DMK__). Suvarnabhumi Airport is the main airport and used by all full-service airlines, but most low cost carriers use Don Mueang Airport. Both airports lie about 30 km (19 mi) out on opposite sides of the city, so be prepared for a long ride to get into the city centre.
@@ -52,7 +52,7 @@ On this page you'll find our __A-Z of Practicalities for RubyConf TH 2023__.
 {% rendercontent "section_text", title: "Code of Conduct" %}
   All attendees, speakers, sponsors and volunteers at our conference are required to agree with the [code of conduct](https://rubyconfth.com/code-of-conduct). Organisers will enforce this code throughout the event. We expect cooperation from all participants to help ensure a safe environment for everybody.
 
-  If you are being harassed, notice that someone else is being harassed, or have any other concerns, please contact a conference staff member immediately. Conference staff can be identified as they'll be wearing branded clothing and/or badges.
+  If you are being harassed, notice that someone else is being harassed, or have any other concerns, please contact a conference staff member immediately. Conference staff can be identified as they'll be wearing red STAFF t-shirts and STAFF lanyards.
 {% endrendercontent %}
 
 {% rendercontent "section_text", title: "COVID restrictions" %}
@@ -99,6 +99,11 @@ On this page you'll find our __A-Z of Practicalities for RubyConf TH 2023__.
   Medical care in Thailand is excellent. It is much cheaper than more developed countries, but a serious incident can incur substantial charges. You should have your own travel/health insurance before visiting Thailand.
 {% endrendercontent %}
 
+
+{% rendercontent "section_text", title: "Meetup" %}
+  On Tuesday 3rd October, before the conference, why not join our free informal meet-up at the Urban Office to meet and mingle with speakers and other attendees - [RSVP here](https://www.meetup.com/bangkok-rb/events/293929593/)!
+{% endrendercontent %}
+
 {% rendercontent "section_text", title: "Money" %}
   Thailand uses the Thai baht as its currency, 38 THB is approximately 1 USD. Credit cards are widely accepted (Visa and Mastercard always work, JCB sometimes, Amex only occasionally). That said, taxis, street vendors, and some shops and restaurants will only accept cash, so we do recommend having some cash on you.
 
@@ -106,7 +111,7 @@ On this page you'll find our __A-Z of Practicalities for RubyConf TH 2023__.
 {% endrendercontent %}
 
 {% rendercontent "section_text", title: "Official Party" %}
-  The official party is held on Friday evening. The venue will be confirmed closer to the conference date. Don't worry about getting lost, we'll provide volunteers to help you make your way to the party from the hotel!
+  The official party is held on Friday evening at [The Deck](https://thedeckbkk.com/), which is 1 minutes walk from the conference venue! We'll provide volunteers to help you make your way to the party from the hotel!
 
   The party is free for all attendees (simply wear your conference lanyard)!
 {% endrendercontent %}
@@ -173,7 +178,7 @@ On this page you'll find our __A-Z of Practicalities for RubyConf TH 2023__.
 {% endrendercontent %}
 
 {% rendercontent "section_text", title: "Weather" %}
-  Bangkok is hot and wet. In October, Bangkok has daily highs of around 32 Celsius (89F) and lows of 24 Celsius (75F), and you can expect sudden downpours of rain, especially in the afternoon. If you get caught in a storm, it's generally best to just wait it out in a mall. It's best to carry a small umbrella or raincoat (which you can also easily get at a convenience store).
+  Bangkok is hot and wet (and the 2023 rainy season is especially wet!). In October, Bangkok has daily highs of around 32 Celsius (89F) and lows of 24 Celsius (75F), and you can expect sudden downpours of rain, especially in the afternoon. If you get caught in a storm, it's generally best to just wait it out in a mall. It's best to carry a small umbrella or raincoat (which you can also easily get at a convenience store).
 
   [14 day forecast from the BBC](https://www.bbc.com/weather/1609350)
 

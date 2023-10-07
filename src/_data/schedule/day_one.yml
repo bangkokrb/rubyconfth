@@ -25,13 +25,13 @@
   speaker_id:
     - elle-meredith
     - lachlan-hardy
-#   slides_url:
+  slides_url: "https://speakerdeck.com/blackmill/learn-to-delegate-like-a-boss"
 #   youtube_id:
 - start_at: "11:25"
   end_at: "11:55"
   title: "Error 418 - I'm a teapot"
   speaker_id: matthew-lindfield-seager
-#   slides_url:
+  slides_url: "https://www.matt17r.com/rubyconfth-slides/"
 #   youtube_id:
 - start_at: "12:00"
   end_at: "12:30"
@@ -46,7 +46,7 @@
   end_at: "14:30"
   title: "BYOJ: Build your own JIT with Ruby"
   speaker_id: faraaz-ahmad
-#   slides_url:
+  slides_url: "https://speakerdeck.com/faraazahmad/byoj-build-your-own-jit-rubyconfth-2023"
 #   youtube_id:
 - start_at: "14:35"
   end_at: "15:05"

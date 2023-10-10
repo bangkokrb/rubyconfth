@@ -14,7 +14,7 @@
   end_at: "10:30"
   title: "Component Driven UI with ViewComponent gem"
   speaker_id: radoslav-stankov
-#   slides_url:
+  slides_url: "https://speakerdeck.com/rstankov/component-driven-ui-with-viewcomponent-gem"
 #   youtube_id:
 - start_at: "10:30"
   end_at: "10:50"

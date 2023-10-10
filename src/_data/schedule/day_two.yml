@@ -23,7 +23,7 @@
   end_at: "11:20"
   title: "Avoiding Disaster: Practical Strategies for Error Handling"
   speaker_id: huy-du
-#   slides_url:
+  slides_url: "https://speakerdeck.com/dugiahuy/avoiding-disaster-practical-strategies-for-error-handling"
 #   youtube_id:
 - start_at: "11:25"
   end_at: "11:55"
@@ -52,7 +52,7 @@
   end_at: "15:05"
   title: "The world of Passkeys 🤝🏽 Ruby"
   speaker_id: helio-cola
-#   slides_url:
+  slides_url: "https://speakerdeck.com/heliocola/the-world-of-passkeys-ruby"
 #   youtube_id:
 - start_at: "15:05"
   end_at: "15:35"

@@ -9,13 +9,13 @@
   title: "Keynote: 30 Years of Ruby"
   speaker_id: matz
 #   slides_url:
-#   youtube_id:
+  youtube_id: v9htIvpqaug
 - start_at: "10:00"
   end_at: "10:30"
   title: "Component Driven UI with ViewComponent gem"
   speaker_id: radoslav-stankov
   slides_url: "https://speakerdeck.com/rstankov/component-driven-ui-with-viewcomponent-gem"
-#   youtube_id:
+  youtube_id: f02fB2gEg6k
 - start_at: "10:30"
   end_at: "10:50"
   title: "Coffee Break"
@@ -26,19 +26,19 @@
     - elle-meredith
     - lachlan-hardy
   slides_url: "https://speakerdeck.com/blackmill/learn-to-delegate-like-a-boss"
-#   youtube_id:
+  youtube_id: RWVe2EXCE9M
 - start_at: "11:25"
   end_at: "11:55"
   title: "Error 418 - I'm a teapot"
   speaker_id: matthew-lindfield-seager
   slides_url: "https://www.matt17r.com/rubyconfth-slides/"
-#   youtube_id:
+  youtube_id: gzww742hcuE
 - start_at: "12:00"
   end_at: "12:30"
   title: "Big Corps, Big Worries. Some points on selling Ruby to Big Corps."
   speaker_id: chakrit-wichian
   slides_url: "https://drive.google.com/file/d/1c7MrY73gQR--LnM4VfIvjICjTsjr-PQ5/view"
-#   youtube_id:
+  youtube_id: nynzHHNQbDA
 - start_at: "12:30"
   end_at: "13:50"
   title: "Buffet Lunch"
@@ -47,13 +47,13 @@
   title: "BYOJ: Build your own JIT with Ruby"
   speaker_id: faraaz-ahmad
   slides_url: "https://speakerdeck.com/faraazahmad/byoj-build-your-own-jit-rubyconfth-2023"
-#   youtube_id:
+  youtube_id: PGElh63JnUA
 - start_at: "14:35"
   end_at: "15:05"
   title: "Cultivating Instinct"
   speaker_id: katrina-owen
   slides_url: "https://speakerdeck.com/kytrinyx/cultivating-instinct"
-#   youtube_id:
+  youtube_id: htGjAZROOUo
 - start_at: "15:05"
   end_at: "15:35"
   title: "Coffee Break"
@@ -62,13 +62,13 @@
   title: "Data indexing with RGB (Ruby, Graphs and Bitmaps)"
   speaker_id: benji-lewis
   slides_url: "https://docs.google.com/presentation/d/1hDWt4JQXVrPcrdmFWSSCVI9LYn-ZdPaS5ZhTVMBFoZI/edit?usp=sharing"
-#   youtube_id:
+  youtube_id: xz9FMFGV2Eo
 - start_at: "16:10"
   end_at: "16:55"
   title: "Keynote: Breaking Barriers — Empowering the Unbanked with Innovative Tech"
   speaker_id: bernard-banta
 #   slides_url:
-#   youtube_id:
+  youtube_id: oRtgSlJeiuw
 - start_at: "17:00"
   end_at: "17:10"
   title: "Closing remarks & announcements"

@@ -14,7 +14,7 @@
   end_at: "10:30"
   title: "A Beginner's Complete Guide to Microcontroller Programming with Ruby"
   speaker_id: hitoshi-hasumi
-#   slides_url:
+  slides_url: "https://slide.rabbit-shocker.org/authors/hasumikin/RubyConfTH2023/"
   youtube_id: GkIRr1Xm8GU
 - start_at: "10:30"
   end_at: "10:50"

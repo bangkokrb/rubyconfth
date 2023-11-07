@@ -35,8 +35,16 @@
   end_at: "12:30"
   title: "The Art of Abstracting: Key Factors for Success in a Core/Platform/BuildingBlocks team"
   speaker_id: omar-sotillo-franco
-#   slides_url:
-#   youtube_id:
+  cancellation_note: "Unfortunately, Omar was unable to present this talk due to ill-health, we look forward to welcoming him to a future RubyConfTH! This session was replaced by a panel discussion, below."
+- start_at: "12:00"
+  end_at: "12:30"
+  title: "Panel Discussion"
+  speaker_id:
+    - jemma-issroff
+    - selena-small
+    - brad-urani
+    - elle-meredith
+  youtube_id: lYO7w-sSLgs
 - start_at: "12:30"
   end_at: "13:50"
   title: "Buffet Lunch"

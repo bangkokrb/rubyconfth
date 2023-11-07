@@ -9,7 +9,7 @@
       font-size: map-get(variables.$font-sizes, 'xl');
     }
 
-    > a:not(:hover) {
+    >a:not(:hover) {
       color: variables.$base-font-color;
       text-decoration: none;
     }
@@ -35,8 +35,13 @@
     border-radius: 50%;
   }
 
-  &__profile + &__info {
+  &__profile+&__info {
     padding-left: 0.5rem;
+  }
+
+  &__cancellation {
+    margin-top: 1rem;
+    font-size: smaller;
   }
 
   &__social {
@@ -54,7 +59,7 @@
   }
 
   // For dual speaker talks
-  & + & {
+  &+& {
     margin-top: 0.5rem;
- }
+  }
 }

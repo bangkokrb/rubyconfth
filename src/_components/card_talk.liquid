@@ -36,6 +36,11 @@
         </a>
       </div>
       {% endif %}
+      {% if event.cancellation_note %}
+      <div class="card-talk__cancellation">
+        <small>{{ event.cancellation_note }}</small>
+      </div>
+    {% endif %}
     </div>
   </div>
 </div>

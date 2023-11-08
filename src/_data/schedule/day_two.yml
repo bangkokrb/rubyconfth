@@ -9,13 +9,13 @@
   title: "Keynote: Popping into Ruby"
   speaker_id: jemma-issroff
 #   slides_url:
-#   youtube_id:
+  youtube_id: vsiFjuBt-v8
 - start_at: "10:00"
   end_at: "10:30"
   title: "A Beginner's Complete Guide to Microcontroller Programming with Ruby"
   speaker_id: hitoshi-hasumi
   slides_url: "https://slide.rabbit-shocker.org/authors/hasumikin/RubyConfTH2023/"
-#   youtube_id:
+  youtube_id: GkIRr1Xm8GU
 - start_at: "10:30"
   end_at: "10:50"
   title: "Coffee Break"
@@ -24,19 +24,27 @@
   title: "Avoiding Disaster: Practical Strategies for Error Handling"
   speaker_id: huy-du
   slides_url: "https://speakerdeck.com/dugiahuy/avoiding-disaster-practical-strategies-for-error-handling"
-#   youtube_id:
+  youtube_id: Ci1f9NKuOyY
 - start_at: "11:25"
   end_at: "11:55"
   title: "Event Streaming Patterns for Ruby Services"
   speaker_id: brad-urani
 #   slides_url:
-#   youtube_id:
+  youtube_id: RBj4S9S-fJI
 - start_at: "12:00"
   end_at: "12:30"
   title: "The Art of Abstracting: Key Factors for Success in a Core/Platform/BuildingBlocks team"
   speaker_id: omar-sotillo-franco
-#   slides_url:
-#   youtube_id:
+  cancellation_note: "Unfortunately, Omar was unable to present this talk due to ill-health, we look forward to welcoming him to a future RubyConfTH! This session was replaced by a panel discussion, below."
+- start_at: "12:00"
+  end_at: "12:30"
+  title: "Panel Discussion"
+  speaker_id:
+    - jemma-issroff
+    - selena-small
+    - brad-urani
+    - elle-meredith
+  youtube_id: lYO7w-sSLgs
 - start_at: "12:30"
   end_at: "13:50"
   title: "Buffet Lunch"
@@ -47,13 +55,13 @@
     - michael-milewski
     - selena-small
 #   slides_url:
-#   youtube_id:
+  youtube_id: JQRT6-Yjumo
 - start_at: "14:35"
   end_at: "15:05"
   title: "The world of Passkeys 🤝🏽 Ruby"
   speaker_id: helio-cola
   slides_url: "https://speakerdeck.com/heliocola/the-world-of-passkeys-ruby"
-#   youtube_id:
+  youtube_id: 3UiVL6TnDr8
 - start_at: "15:05"
   end_at: "15:35"
   title: "Coffee Break"
@@ -62,11 +70,12 @@
   title: "Rails Performance Monitoring 101: A Primer for Developers"
   speaker_id: rishi-jain
 #   slides_url:
-#   youtube_id:
+  youtube_id: 41HtDXJj-fw
 - start_at: "16:10"
   end_at: "16:55"
   title: "Keynote: Thriving in Uncertainty"
   speaker_id: ben-halpern
+  youtube_id: L01VKh78cnQ
 - start_at: "17:00"
   end_at: "17:10"
   title: "Closing remarks & announcements"

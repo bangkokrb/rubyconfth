@@ -38,4 +38,9 @@
       {% endif %}
     </div>
   </div>
+  {% if event.cancellation_note %}
+    <div class="card-talk__cancellation">
+      {{ event.cancellation_note }}
+    </div>
+  {% endif %}
 </div>

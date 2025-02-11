@@ -4,3 +4,6 @@
 [submodule "src/past/2022"]
 	path = src/past/2022
 	url = https://github.com/bangkokrb/rubyconfth-2022.git
+[submodule "src/past/2023"]
+	path = src/past/2023
+	url = https://github.com/bangkokrb/rubyconfth-2023.git

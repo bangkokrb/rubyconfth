@@ -1,72 +1,12 @@
-<p align="center">
-   Website for the <strong>Ruby Conference Thailand</strong>
-</p>
+# Website for <strong>Ruby Conference Thailand</strong>
 
-<p align="center">
-    <a href="https://app.netlify.com/sites/bangkokrb-rubyconfth/deploys"> <img src="https://api.netlify.com/api/v1/badges/3dbba728-8b59-40c4-b84e-66010ec3f0cf/deploy-status" alt="Deployment Status"></a>
-</p>
+Hosted at https://rubyconfth.com/
 
----
+This is a completely static HTML and CSS site, stored in the `public/` subfolder.
 
-## Get Started
+Pushes to the `develop` branch of this repo deploy directly to Cloudflare pages and should go live within a minute.
 
-### Prerequisites
-
-- [GCC](https://gcc.gnu.org/install/)
-- [Make](https://www.gnu.org/software/make/)
-- ![ruby-version-image](https://img.shields.io/badge/ruby-3.1.1-brightgreen.svg) 
-- ![node-version-image](https://img.shields.io/badge/node-16.14.0-brightgreen.svg)
-- [Yarn](https://yarnpkg.com)
-
-### Install
-
-```sh
-bundle install && yarn install
-```
-
-### Development
-
-### Without Docker
-
-To start the site in development mode, run `bin/bridgetown start` and navigate to [localhost:4000](https://localhost:4000/).
-
-Other commands:
-
-```sh
-# build & deploy to production
-bin/bridgetown deploy
-
-# load the site up within a Ruby console (IRB)
-bin/bridgetown console
-```
-
-> Learn more: [Bridgetown CLI Documentation](https://www.bridgetownrb.com/docs/command-line-usage)
-
-### With Docker 🐳
-
-To start then site in development mode, run `bin/docker-start` and navigate to [localhost:4000](https://localhost:4000/).
-
-## Managing Content
-
-All content is written using [kramdown](https://kramdown.gettalong.org/) which is basically Markdown with the ability to use HTML tags. 
-
-### Text Content
-
-- Text content is stored in `src` into sub-directories. 
-- Each file must contain a front-matter block at the beginning of the file with the config params `layout`, `page_class` and `title`:
-
-```yaml
-layout: default
-page_class: home
-title: "Home"
-```
-
-### Assets
-
-- Media used to enrich text content must be stored in `src/images/<media type>/<section-name>`. 
-- In the case of using media other than images, prefer creating a new sub-directory e.g. `/videos/<section-name>`.
-- To embed these media in the content, use the absolute path to each file: `/images/<media type>/<section-name>/<filename.extension>`.
-- SVG icons are combined into a sprite image. Place new icons in `/images/shared/icons` and regenerate the new sprite image with `npm run svg:generate-sprite`.
+Please open pull requests to make changes rather than directly pushing to `develop`.
 
 ### Past Version
 
@@ -75,10 +15,10 @@ Past website versions are kept as Git submodules. So each website lives in its o
 In order to add a new past version, commit a compiled version of the site to a public repository and add a new submodule:
 
 ```
-git submodule add https://github.com/bangkokrb/rubyconfth-2019.git ./src/past/2019
+git submodule add https://github.com/bangkokrb/rubyconfth-2019.git ./public/past/2019
 ```
 
-> Store all past version under the directory `./src/past`
+> Store all past version under the directory `./public/past`
 
 In order to publish all past version, pull all submodules:
 

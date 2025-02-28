@@ -8,6 +8,8 @@ Pushes to the `develop` branch of this repo deploy directly to Cloudflare pages 
 
 Please open pull requests to make changes rather than directly pushing to `develop`.
 
+To build the CSS using Tailwind, run `npm run build`
+
 ### Past Version
 
 Past website versions are kept as Git submodules. So each website lives in its own repository.

@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "@tailwindcss/cli": "^4.0.9"
+  },
+  "scripts": {
+    "build": "npx @tailwindcss/cli -i ./public/styles.css -o ./public/output.css"
+  }
+}

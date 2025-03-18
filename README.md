@@ -1,5 +1,19 @@
 # Website for <strong>Ruby Conference Thailand</strong>
 
+## Getting started
+
+Install dependencies:
+```
+npm install
+```
+
+Run locally:
+```
+npm run dev
+```
+
+---
+
 Hosted at https://rubyconfth.com/
 
 This is a completely static HTML and CSS site, stored in the `public/` subfolder.
@@ -7,6 +21,8 @@ This is a completely static HTML and CSS site, stored in the `public/` subfolder
 Pushes to the `develop` branch of this repo deploy directly to Cloudflare pages and should go live within a minute.
 
 Please open pull requests to make changes rather than directly pushing to `develop`.
+
+To build the CSS using Tailwind, run `npm run build`
 
 ### Past Version
 
@@ -41,4 +57,3 @@ This project is 2018 and onwards bangkok.rb. It is free software, and may be red
 ## About
 
 This project is maintained by bangkok.rb
-

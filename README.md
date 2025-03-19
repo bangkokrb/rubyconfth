@@ -1,5 +1,19 @@
 # Website for <strong>Ruby Conference Thailand</strong>
 
+## Getting started
+
+Install dependencies:
+```
+npm install
+```
+
+Run locally:
+```
+npm run dev
+```
+
+---
+
 Hosted at https://rubyconfth.com/
 
 This is a completely static HTML and CSS site, stored in the `public/` subfolder.
@@ -43,4 +57,3 @@ This project is 2018 and onwards bangkok.rb. It is free software, and may be red
 ## About
 
 This project is maintained by bangkok.rb
-

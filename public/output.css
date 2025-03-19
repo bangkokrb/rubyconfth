@@ -529,6 +529,9 @@
   .text-yellow-600 {
     color: var(--color-yellow-600);
   }
+  .capitalize {
+    text-transform: capitalize;
+  }
   .uppercase {
     text-transform: uppercase;
   }

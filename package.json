@@ -4,7 +4,7 @@
   },
   "scripts": {
     "build": "npx @tailwindcss/cli -i ./public/styles.css -o ./public/output.css",
-    "dev:tailwind": "npx @tailwindcss/cli -i ./public/styles.css -o ./public/output.css",
+    "dev:tailwind": "npx @tailwindcss/cli -i ./public/styles.css -o ./public/output.css  --watch",
     "dev:serve": "serve ./public/",
     "dev": "concurrently npm:dev:*"
   },

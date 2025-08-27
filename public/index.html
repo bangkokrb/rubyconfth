@@ -10,65 +10,8 @@
         href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;600;700;800&family=Noto+Emoji:wght@700&display=swap"
         rel="stylesheet">
     <link href="./output.css" rel="stylesheet">
+    <link href="./sponsors.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-    <style>
-        #sponsors {
-            display: flex;
-            gap: 20px;
-            white-space: nowrap;
-            scroll-behavior: smooth;
-        }
-
-        .sponsor-container {
-            display: flex;
-            overflow: hidden;
-            position: relative;
-            width: 100%;
-        }
-
-        .duplicate {
-            display: none;
-        }
-
-        .scroll-wrapper {
-            display: flex;
-        }
-
-        @media screen and (max-width:768px) {
-            .scroll-wrapper {
-                flex-direction: column;
-                gap: 32px;
-                align-items: center;
-            }
-        }
-
-        @media screen and (min-width:768px) {
-            .scroll-wrapper {
-                flex-direction: row;
-                animation: scroll 20s linear infinite;
-            }
-
-            .duplicate {
-                display: block;
-            }
-        }
-
-        @keyframes scroll {
-            from {
-                transform: translateX(0);
-            }
-
-            to {
-                transform: translateX(-50%);
-            }
-        }
-
-        /* Pause animation on hover */
-        .sponsor-container:hover .scroll-wrapper {
-            animation-play-state: paused;
-        }
-    </style>
-
     <!-- Hotjar Tracking Code for Site 6442394 (name missing) -->
     <script>
         (function (h, o, t, j, a, r) {
@@ -230,24 +173,24 @@
             <div class="sponsor-container">
                 <section id="sponsors"
                     class="flex items-center bg-slate-800 border-slate-700 border rounded-xl p-6 shadow-lg hover:shadow-xl transition-all w-full justify-center">
-                    <div class="scroll-wrapper space-x-4">
-                        <!-- Duplicate images for seamless scrolling -->
-                        <img src="./images/sponsors/Odds.png" class="bg-white rounded-xl max-h-24" alt="appsignal">
-                        <img src="./images/sponsors/typesense_logo.svg" class="bg-white rounded-xl max-h-24"
-                            alt="datawow">
-                        <img src="./images/sponsors/sidekiq-horizontal.svg" class="bg-white rounded-xl max-h-24"
-                            alt="oivan">
-                        <img src="./images/sponsors/eventpop.png" class="bg-white rounded-xl max-h-24" alt="eventpop">
-
-                        <!-- Duplicate images for smooth looping -->
-                        <img src="./images/sponsors/Odds.png" class="bg-white rounded-xl max-h-24 duplicate"
-                            alt="appsignal">
-                        <img src="./images/sponsors/typesense_logo.svg" class="bg-white rounded-xl max-h-24 duplicate"
-                            alt="datawow">
-                        <img src="./images/sponsors/sidekiq-horizontal.svg"
-                            class="bg-white rounded-xl max-h-24 duplicate" alt="oivan">
-                        <img src="./images/sponsors/eventpop.png" class="bg-white rounded-xl max-h-24 duplicate"
-                            alt="eventpop">
+                    <div class="scroll-wrapper space-x-4" id="sponsor-wrapper">
+                        <!-- Original sponsor images -->
+                        <a href="https://odds.team" target="_blank" rel="noopener noreferrer">
+                            <img src="./images/sponsors/Odds.png" class="bg-white rounded-xl" alt="ODDS"
+                                style="aspect-ratio:318/152">
+                        </a>
+                        <a href="https://typesense.org" target="_blank" rel="noopener noreferrer">
+                            <img src="./images/sponsors/typesense_logo.svg" class="bg-white rounded-xl" alt="Typesense"
+                                style="aspect-ratio:326/62">
+                        </a>
+                        <a href="https://sidekiq.org" target="_blank" rel="noopener noreferrer">
+                            <img src="./images/sponsors/sidekiq-horizontal.svg" class="bg-white rounded-xl"
+                                alt="Sidekiq" style="aspect-ratio:950/300">
+                        </a>
+                        <a href="https://www.eventpop.me" target="_blank" rel="noopener noreferrer">
+                            <img src="./images/sponsors/eventpop.png" class="bg-white rounded-xl" alt="Eventpop"
+                                style="aspect-ratio:768/224">
+                        </a>
                     </div>
                 </section>
             </div>
@@ -433,6 +376,23 @@
             </section>
         </main>
     </div>
+
+    <script>
+        function duplicateSponsorImages() {
+            const sponsorWrapper = document.getElementById('sponsor-wrapper');
+            if (!sponsorWrapper) return;
+
+            const originalLinks = sponsorWrapper.querySelectorAll('a:not(.duplicate)');
+
+            originalLinks.forEach(link => {
+                const duplicate = link.cloneNode(true);
+                duplicate.classList.add('duplicate');
+                sponsorWrapper.appendChild(duplicate);
+            });
+        }
+
+        document.addEventListener('DOMContentLoaded', duplicateSponsorImages);
+    </script>
 </body>
 
 </html>

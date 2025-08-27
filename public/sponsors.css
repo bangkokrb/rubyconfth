@@ -1,0 +1,72 @@
+#sponsors {
+    display: flex;
+    gap: 20px;
+    white-space: nowrap;
+    scroll-behavior: smooth;
+}
+
+#sponsors a {
+    display: block;
+    transition: transform 0.2s ease;
+    flex-shrink: 0;
+    flex-grow: 0;
+}
+
+#sponsors a img {
+    height: 96px;
+    object-fit: contain;
+    width: auto;
+}
+
+#sponsors a:hover {
+    transform: scale(1.05);
+}
+
+.sponsor-container {
+    display: flex;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+}
+
+#sponsors a.duplicate {
+    display: none;
+}
+
+.scroll-wrapper {
+    display: flex;
+}
+
+@media screen and (max-width:768px) {
+    .scroll-wrapper {
+        flex-direction: column;
+        gap: 32px;
+        align-items: center;
+    }
+}
+
+@media screen and (min-width:768px) {
+    .scroll-wrapper {
+        flex-direction: row;
+        animation: scroll 20s linear infinite;
+    }
+
+    #sponsors a.duplicate {
+        display: block;
+    }
+}
+
+@keyframes scroll {
+    from {
+        transform: translateX(0);
+    }
+
+    to {
+        transform: translateX(-50%);
+    }
+}
+
+/* Pause animation on hover */
+.sponsor-container:hover .scroll-wrapper {
+    animation-play-state: paused;
+}

@@ -10,6 +10,18 @@
         href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;600;700;800&family=Noto+Emoji:wght@700&display=swap"
         rel="stylesheet">
     <link href="../output.css" rel="stylesheet">
+    <style>
+        .practicalities-content a:not(.practicalities-cta) {
+            color: #f87171;
+            text-decoration: underline;
+            transition: color 150ms ease-in-out;
+        }
+
+        .practicalities-content a:not(.practicalities-cta):hover,
+        .practicalities-content a:not(.practicalities-cta):focus-visible {
+            color: #fca5a5;
+        }
+    </style>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <!-- Hotjar Tracking Code for Site 6442394 (name missing) -->
     <script>
@@ -65,7 +77,7 @@
             </nav>
         </header>
 
-        <main class="flex flex-col gap-8">
+        <main class="flex flex-col gap-8 practicalities-content">
             <section>
                 <article
                     class="relative bg-red-600 rounded-xl p-8 md:p-16 shadow-xl overflow-hidden border border-red-200/20">
@@ -99,7 +111,7 @@
                     <h3 class="text-2xl font-semibold text-yellow-400">From Suvarnabhumi Airport (BKK) by Train</h3>
                     <p>On the basement level of the passenger terminal, the <a
                             href="https://www.bangkok.com/airport-rail-link.htm" target="_blank"
-                            rel="noopener noreferrer" class="text-red-400 hover:text-red-300 underline">Airport Rail
+                            rel="noopener noreferrer">Airport Rail
                             Link</a> offers a speedy train service to downtown. It’s also a way of avoiding Bangkok’s
                         rush-hour traffic, particularly when it’s raining. Trains depart 06:00-midnight every day.</p>
 
@@ -114,14 +126,13 @@
                         for taxis in Thailand; credit cards are not accepted. ATMs and currency exchange booths are
                         available at the airport. <strong>Grab</strong> ride-hailing is possible, but expect longer
                         pickup
-                        times—see <a href="#transportation"
-                            class="text-red-400 hover:text-red-300 underline">Transportation</a>
+                        times—see <a href="#transportation">Transportation</a>
                         for more details.</p>
 
                     <h3 class="text-2xl font-semibold text-yellow-400">From Don Mueang Airport (DMK)</h3>
                     <p>Public transport to and from DMK is efficient thanks to the <a
                             href="https://mrtbangkok.com/dark-red-line-srt/map" target="_blank"
-                            rel="noopener noreferrer" class="text-red-400 hover:text-red-300 underline">SRT Dark Red
+                            rel="noopener noreferrer">SRT Dark Red
                             Line</a>, which connects to
                         the MRT at Bang Sue station. Visa and Mastercard are accepted on both systems. Taxis are also
                         available—follow the signs to the main taxi stand and ignore touts.</p>
@@ -133,10 +144,9 @@
                         money-saving tips:</p>
                     <ul class="list-disc list-inside space-y-2 text-slate-200">
                         <li><strong>Flights:</strong> Use aggregators like <a
-                                href="https://www.google.com/travel/flights" target="_blank" rel="noopener noreferrer"
-                                class="text-red-400 hover:text-red-300 underline">Google Flights</a> or <a
-                                href="https://www.kiwi.com" target="_blank" rel="noopener noreferrer"
-                                class="text-red-400 hover:text-red-300 underline">Kiwi.com</a>. Consider flexible dates
+                                href="https://www.google.com/travel/flights" target="_blank"
+                                rel="noopener noreferrer">Google Flights</a> or <a href="https://www.kiwi.com"
+                                target="_blank" rel="noopener noreferrer">Kiwi.com</a>. Consider flexible dates
                             or
                             a stopover for cheaper fares.</li>
                         <li><strong>Accommodation:</strong> Options range from hostels under 800 THB, quality 2-4 star
@@ -153,7 +163,7 @@
                     id="code-of-conduct">
                     <h2 class="text-3xl font-bold text-red-600">Code of Conduct</h2>
                     <p>All attendees, speakers, sponsors, and volunteers must agree to and abide by our <a
-                            href="../code-of-conduct/" class="text-red-400 hover:text-red-300 underline">Code of
+                            href="../code-of-conduct/">Code of
                             Conduct</a>. Organisers will enforce this code throughout the event.</p>
                     <p>If you are being harassed, notice someone else being harassed, or have other concerns, contact a
                         conference staff member immediately. Staff members wear red <strong>STAFF</strong> T-shirts and
@@ -174,23 +184,18 @@
                     <h2 class="text-3xl font-bold text-red-600">Entry Requirements</h2>
 
                     <h3 class="text-2xl font-semibold text-yellow-400">Visas</h3>
-                    <p>Many nationalities, including the US, most EU countries, and the UK, can enter Thailand visa-free
+                    <p>Many nationalities, including the US, most EU countries, and the UK, China, and India, can enter
+                        Thailand visa-free
                         for up to 60 days. Check the official list of <a
-                            href="https://www.thaiembassy.com/thailand-visa/thailand-visa-exempt-countries"
-                            target="_blank" rel="noopener noreferrer"
-                            class="text-red-400 hover:text-red-300 underline">visa-exempt
+                            href="https://thaiconsulatela.thaiembassy.org/en/publicservice/visa-exemption-and-visa-on-arrival-to-thailand"
+                            target="_blank" rel="noopener noreferrer">visa-exempt
                             countries</a>.</p>
-                    <p>Some nationalities (e.g. Indian and Chinese) qualify for a <a
-                            href="https://www.thaiembassy.com/thailand-visa/thailand-visa-on-arrival" target="_blank"
-                            rel="noopener noreferrer" class="text-red-400 hover:text-red-300 underline">visa on
-                            arrival</a>.</p>
                     <p>Always consult your own government’s travel guidance, such as the <a
-                            href="https://www.travel.state.gov" target="_blank" rel="noopener noreferrer"
-                            class="text-red-400 hover:text-red-300 underline">US</a>, <a
+                            href="https://www.travel.state.gov" target="_blank" rel="noopener noreferrer">US</a>, <a
                             href="https://www.gov.uk/foreign-travel-advice/thailand" target="_blank"
-                            rel="noopener noreferrer" class="text-red-400 hover:text-red-300 underline">UK</a>, or <a
+                            rel="noopener noreferrer">UK</a>, or <a
                             href="https://www.smartraveller.gov.au/destinations/asia/thailand" target="_blank"
-                            rel="noopener noreferrer" class="text-red-400 hover:text-red-300 underline">Australian</a>
+                            rel="noopener noreferrer">Australian</a>
                         advice.</p>
 
                     <h3 class="text-2xl font-semibold text-yellow-400">Travel Medical Insurance</h3>
@@ -209,7 +214,7 @@
                     <p>Consult your doctor to determine if you need any vaccinations before travelling. Some vaccines
                         require multiple doses, so start early. The <a
                             href="https://wwwnc.cdc.gov/travel/destinations/traveler/none/thailand" target="_blank"
-                            rel="noopener noreferrer" class="text-red-400 hover:text-red-300 underline">CDC Travel
+                            rel="noopener noreferrer">CDC Travel
                             Health
                             site</a> is a useful resource.</p>
                     <p>For emergency medical assistance in Thailand, dial <strong>1669</strong> (may not connect from
@@ -230,8 +235,8 @@
                     <p>ATM withdrawals incur a fixed fee of about 250 THB, so it’s better to withdraw larger amounts
                         (5,000
                         or 10,000 THB). US residents can consider an ATM-fee-free account like <a
-                            href="https://www.schwab.com/checking" target="_blank" rel="noopener noreferrer"
-                            class="text-red-400 hover:text-red-300 underline">Charles Schwab</a>.</p>
+                            href="https://www.schwab.com/checking" target="_blank" rel="noopener noreferrer">Charles
+                            Schwab</a>.</p>
                 </div>
 
                 <div class="bg-slate-800 border border-slate-700 rounded-xl p-8 shadow-lg space-y-4">
@@ -290,22 +295,23 @@
                     id="transportation">
                     <h2 class="text-3xl font-bold text-red-600">Transportation</h2>
                     <p>The <a href="https://www.bangkok.com/airport-rail-link.htm" target="_blank"
-                            rel="noopener noreferrer" class="text-red-400 hover:text-red-300 underline">Airport Rail
+                            rel="noopener noreferrer">Airport Rail
                             Link</a> connects Suvarnabhumi Airport to downtown. Tickets must be paid in cash.</p>
-                    <p>The <a href="https://www.bts.co.th/eng/main.html" target="_blank" rel="noopener noreferrer"
-                            class="text-red-400 hover:text-red-300 underline">BTS Skytrain</a> has two lines (Sukhumvit
+                    <p>The <a href="https://www.bts.co.th" target="_blank" rel="noopener noreferrer">BTS Skytrain</a>
+                        has two lines (Sukhumvit
                         and
                         Silom) that interchange at Siam. Buy single-journey tickets with cash or get a <a
-                            href="https://www.rabbit.co.th/en/rabbit-card" target="_blank" rel="noopener noreferrer"
-                            class="text-red-400 hover:text-red-300 underline">Rabbit card</a> (passport required).</p>
-                    <p>The <a href="https://metro.bemplc.co.th/en" target="_blank" rel="noopener noreferrer"
-                            class="text-red-400 hover:text-red-300 underline">MRT</a> underground serves the city with
+                            href="https://rabbit.co.th/card" target="_blank" rel="noopener noreferrer">Rabbit card</a>
+                        (passport required).</p>
+                    <p>The <a href="https://metro.bemplc.co.th/en" target="_blank" rel="noopener noreferrer">MRT</a>
+                        underground serves the city with
                         Blue
                         and Purple lines. Use cash or tap Visa/Mastercard directly—the queues are shorter.</p>
-                    <p>Download the offline <a href="https://apps.apple.com/app/explore-bangkok-metro-map/id669365207"
-                            target="_blank" rel="noopener noreferrer"
-                            class="text-red-400 hover:text-red-300 underline">Explore
-                            Bangkok</a> metro map app (iOS &amp; Android) for easy route planning.</p>
+                    <p>Download the offline Explore
+                        Bangkok metro map app (<a
+                            href="https://apps.apple.com/us/app/explore-bangkok/id1076159526">iOS</a> &amp; <a
+                            href="https://play.google.com/store/apps/details?id=com.exploremetro.bk&hl=en">Android</a>)
+                        for easy route planning.</p>
                     <p>Public buses can be confusing for newcomers—consider other options first.</p>
                     <p><strong>Taxis</strong> are plentiful and cheap, but drivers may decline certain destinations.
                         Always insist
@@ -318,9 +324,8 @@
                         offer free
                         tuktuk shuttles for guests.</p>
                     <p>Ride-hailing apps like <a href="https://www.grab.com/th/en/" target="_blank"
-                            rel="noopener noreferrer" class="text-red-400 hover:text-red-300 underline">Grab</a> and <a
-                            href="https://bolt.eu/en-th/" target="_blank" rel="noopener noreferrer"
-                            class="text-red-400 hover:text-red-300 underline">Bolt</a> work well in Bangkok. Grab is
+                            rel="noopener noreferrer">Grab</a> and <a href="https://bolt.eu/en-th/" target="_blank"
+                            rel="noopener noreferrer">Bolt</a> work well in Bangkok. Grab is
                         more
                         widely available, while Bolt is often cheaper but has fewer cars. Expect slightly longer wait
                         times
@@ -342,7 +347,7 @@
                         (89°F) and lows around 21°C (70°F). Rain is less frequent but sudden showers can happen—carry a
                         compact umbrella or raincoat (easy to find at convenience stores).</p>
                     <p>For forecasts, check the <a href="https://www.bbc.com/weather/1609350" target="_blank"
-                            rel="noopener noreferrer" class="text-red-400 hover:text-red-300 underline">BBC’s
+                            rel="noopener noreferrer">BBC’s
                             14-day outlook for Bangkok</a>.</p>
                 </div>
             </section>
@@ -351,7 +356,7 @@
 
             <div class="flex justify-center">
                 <a href="https://www.eventpop.me/s/rubyconf-th-2026"
-                    class="self-center capitalize bg-yellow-400 text-slate-900 px-8 py-3 rounded-xl font-bold transition-all shadow-lg hover:bg-yellow-300 hover:shadow-xl border border-yellow-300 hover:border-yellow-200">
+                    class="practicalities-cta self-center capitalize bg-yellow-400 text-slate-900 px-8 py-3 rounded-xl font-bold transition-all shadow-lg hover:bg-yellow-300 hover:shadow-xl border border-yellow-300 hover:border-yellow-200">
                     Buy Tickets
                 </a>
             </div>

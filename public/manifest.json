@@ -1,8 +1,7 @@
 {
-  "name": "Ruby Conference Thailand 2019",
+  "name": "Ruby Conference Thailand",
   "short_name": "RubyConfTH",
-  "icons": [
-    {
+  "icons": [{
       "src": "/public/images/favicon/android-icon-36x36.png",
       "sizes": "36x36",
       "type": "image/png",

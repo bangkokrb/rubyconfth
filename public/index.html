@@ -43,94 +43,74 @@
     </script>
 </head>
 
-<body class="bg-slate-900 text-white text-lg pb-48">
-    <div class="max-w-[1440px] mx-auto px-8">
-        <header>
-            <nav class="py-8 flex flex-col items-center gap-6 md:flex-row md:justify-between md:items-center">
-                <img src="./images/2026/logo-white.svg" alt="RubyConf TH" class="h-8 drop-shadow">
-                <div class="flex flex-col items-center gap-4 md:flex-row md:items-center md:gap-8">
-                    <ul class="flex gap-8 uppercase">
-                        <li><a href="./practicalities/"
-                                class="hover:text-red-600 font-bold transition-colors">Practicalities</a>
-                        </li>
-                        <li><a href="./code-of-conduct/" class="hover:text-red-600 font-bold transition-colors">Code of
-                                Conduct</a></li>
-                        <li><a href="./schedule/" class="hover:text-red-600 font-bold transition-colors">Schedule</a>
-                        </li>
-                    </ul>
+<body class="text-lg pb-48">
+    <!-- Hero First Fold -->
+    <section class="relative bg-red-600 text-white overflow-hidden">
+        <div class="absolute inset-0">
+            <img src="./images/2026/cityscape.jpg" class="w-full h-full object-cover object-center opacity-50 mix-blend-multiply" />
+        </div>
+        <div class="relative z-10 max-w-[1440px] mx-auto px-8">
+            <!-- Header Bar -->
+            <header>
+                <nav class="py-6 flex flex-col items-center gap-4 md:flex-row md:justify-between md:items-center">
+                    <span class="font-bold text-sm md:text-base uppercase tracking-wide">Bangkok, TH &nbsp; JAN 31-FEBRUARY 2026</span>
+                    <div class="flex items-center gap-8">
+                        <a href="./schedule/" class="font-bold uppercase hover:text-yellow-400 transition-colors">Schedule</a>
+                        <a href="https://www.eventpop.me/s/rubyconf-th-2026" class="font-bold uppercase hover:text-yellow-400 transition-colors">Buy Tickets</a>
+                    </div>
+                </nav>
+            </header>
+
+            <!-- Hero Content -->
+            <div class="py-12 md:py-16 text-center">
+                <h1 class="text-3xl md:text-5xl lg:text-6xl font-bold mb-6">Master Ruby from Asia's Top Developers</h1>
+
+                <p class="text-lg md:text-xl font-bold uppercase tracking-wide mb-4">
+                    <span class="bg-yellow-400 text-slate-900 px-2">CODE SMARTER.</span>
+                    <span class="bg-yellow-400 text-slate-900 px-2">EXPAND YOUR NETWORK.</span>
+                    <span class="bg-yellow-400 text-slate-900 px-2">10X YOUR RUBY SKILLS</span>
+                </p>
+
+                <p class="text-lg md:text-xl mb-12">Join 250+ Ruby Developers Building The Most-Used Rails Applications</p>
+
+                <!-- CTA Section -->
+                <div class="flex flex-col items-center gap-4">
+                    <h2 class="text-xl md:text-2xl font-bold uppercase">BUY TICKETS- LAST FEW!</h2>
                     <a href="https://www.eventpop.me/s/rubyconf-th-2026"
-                        class="capitalize bg-yellow-400 text-slate-900 px-8 py-3 rounded-xl font-bold transition-all shadow-lg hover:bg-yellow-300 hover:shadow-xl border border-yellow-300 hover:border-yellow-200">
-                        Buy Tickets
+                        class="inline-block bg-yellow-400 text-slate-900 text-xl md:text-2xl font-bold px-10 md:px-20 py-5 md:py-7 rounded-xl shadow-2xl hover:bg-yellow-300 hover:scale-105 transition-all border-2 border-yellow-300">
+                        GET YOUR TICKET - LAST FEW!→
                     </a>
                 </div>
-            </nav>
-        </header>
 
-        <main class="flex flex-col gap-8">
-            <section>
-                <article
-                    class="relative bg-red-600 rounded-xl p-8 md:p-16 shadow-xl overflow-hidden border border-red-200/20">
-                    <div class="absolute inset-0">
-                        <img src="./images/2026/cityscape.jpg"
-                            class="w-full h-full object-cover object-center opacity-50 mix-blend-multiply" />
-                    </div>
-                    <div class="relative z-10 flex flex-col lg:flex-row items-center justify-between">
-                        <div>
-                            <h2 class="uppercase text-2xl md:text-4xl font-bold">JAN 31-FEB 1, 2026</h2>
-                            <h1 class="uppercase text-4xl md:text-6xl font-extrabold mt-6">
-                                <span>LET'S PAINT BANGKOK RUBY!</span>
-                                <span class="gap-4 items-center hidden lg:flex">
-                                    <span>Tickets Now on Sale</span>
-                                </span>
-                                <span class="text-xl md:text-2xl ml-2 font-medium">Novotel Sukhumvit
-                                    20, Bangkok, Thailand</span>
-                            </h1>
-                            <ul class="flex justify-start gap-6 mt-6 mb-12">
-                                <li>
-                                    <a href="https://x.com/rubyconfth/" target="_blank"
-                                        class="text-white/50 hover:text-white transition-colors">
-                                        <i class="fab fa-twitter text-2xl md:text-4xl"></i>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="https://facebook.com/rubyconfth" target="_blank"
-                                        class="text-white/50 hover:text-white transition-colors">
-                                        <i class="fab fa-facebook-f text-2xl md:text-4xl"></i>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="https://www.instagram.com/rubyconfth/" target="_blank"
-                                        class="text-white/50 hover:text-white transition-colors">
-                                        <i class="fab fa-instagram text-2xl md:text-4xl"></i>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="https://www.youtube.com/@rubyconfth" target="_blank"
-                                        class="text-white/50 hover:text-white transition-colors">
-                                        <i class="fab fa-youtube text-2xl md:text-4xl"></i>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="https://github.com/bangkokrb/rubyconfth" target="_blank"
-                                        class="text-white/50 hover:text-white transition-colors">
-                                        <i class="fab fa-github text-2xl md:text-4xl"></i>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="https://ruby.social/@rubyconfth" target="_blank"
-                                        class="text-white/50 hover:text-white transition-colors">
-                                        <i class="fab fa-mastodon text-2xl md:text-4xl"></i>
-                                    </a>
-                                </li>
-                            </ul>
-                            <a href="https://www.eventpop.me/s/rubyconf-th-2026"
-                                class="capitalize bg-yellow-400 text-slate-900 px-8 py-3 rounded-xl font-bold transition-all shadow-lg hover:bg-yellow-300 hover:shadow-xl border border-yellow-300 hover:border-yellow-200">
-                                Buy Tickets
-                            </a>
+                <!-- Timer Countdown -->
+                <div class="mt-12">
+                    <div id="countdown" class="flex justify-center gap-4 md:gap-8">
+                        <div class="text-center">
+                            <span id="days" class="text-3xl md:text-5xl font-bold text-yellow-400">--</span>
+                            <p class="text-sm md:text-base font-bold uppercase text-white/80">Days</p>
+                        </div>
+                        <div class="text-center">
+                            <span id="hours" class="text-3xl md:text-5xl font-bold text-yellow-400">--</span>
+                            <p class="text-sm md:text-base font-bold uppercase text-white/80">Hours</p>
+                        </div>
+                        <div class="text-center">
+                            <span id="minutes" class="text-3xl md:text-5xl font-bold text-yellow-400">--</span>
+                            <p class="text-sm md:text-base font-bold uppercase text-white/80">Minutes</p>
+                        </div>
+                        <div class="text-center">
+                            <span id="seconds" class="text-3xl md:text-5xl font-bold text-yellow-400">--</span>
+                            <p class="text-sm md:text-base font-bold uppercase text-white/80">Seconds</p>
                         </div>
                     </div>
-                </article>
-            </section>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Rest of Page -->
+    <div class="bg-slate-900 text-white">
+    <div class="max-w-[1440px] mx-auto px-8">
+        <main class="flex flex-col gap-8 pt-8">
             <hr class="text-slate-800">
             <div class="max-w-6xl mx-auto p-6">
                 <h1 class="text-2xl md:text-4xl font-extrabold text-center">Keynote Speakers</h1>
@@ -201,32 +181,21 @@
                 </section>
             </div>
             <section>
-                <ul class="grid grid-cols-2 md:grid-cols-5 gap-6">
+                <ul class="grid grid-cols-1 md:grid-cols-3 gap-6">
                     <li
                         class="bg-slate-800 border-slate-700 border rounded-xl p-6 text-center shadow-lg hover:shadow-xl transition-all">
                         <span class="text-slate-100 text-5xl md:text-6xl font-bold">250+</span>
                         <span class="text-slate-400 text-sm block mt-2">attendees</span>
                     </li>
                     <li
-                        class="bg-slate-800 border-slate-700 border rounded-2xl p-6 text-center shadow-lg hover:shadow-xl transition-all">
+                        class="bg-slate-800 border-slate-700 border rounded-xl p-6 text-center shadow-lg hover:shadow-xl transition-all">
                         <span class="text-slate-100 text-5xl md:text-6xl font-bold">16</span>
                         <span class="text-slate-400 text-sm block mt-2">speakers</span>
                     </li>
                     <li
-                        class="bg-slate-800 border-slate-700 border rounded-2xl p-6 text-center shadow-lg hover:shadow-xl transition-all">
+                        class="bg-slate-800 border-slate-700 border rounded-xl p-6 text-center shadow-lg hover:shadow-xl transition-all">
                         <span class="text-slate-100 text-5xl md:text-6xl font-bold">2</span>
                         <span class="text-slate-400 text-sm block mt-2">days</span>
-                    </li>
-
-                    <li
-                        class="hidden md:block bg-slate-800 border-slate-700 border rounded-2xl p-6 text-center shadow-lg hover:shadow-xl transition-all">
-                        <span class="text-slate-100 text-5xl md:text-6xl font-bold">4</span>
-                        <span class="text-slate-400 text-sm block mt-2">keynotes</span>
-                    </li>
-                    <li
-                        class="bg-slate-800 border-slate-700 border rounded-2xl p-6 text-center shadow-lg hover:shadow-xl transition-all">
-                        <span class="text-slate-100 text-5xl md:text-6xl font-bold">4th</span>
-                        <span class="text-slate-400 text-sm block mt-2">edition</span>
                     </li>
                 </ul>
             </section>
@@ -362,6 +331,7 @@
             </section>
         </main>
     </div>
+    </div>
 
     <script>
         function duplicateSponsorImages() {
@@ -378,6 +348,33 @@
         }
 
         document.addEventListener('DOMContentLoaded', duplicateSponsorImages);
+
+        // Countdown Timer
+        function updateCountdown() {
+            const targetDate = new Date('January 31, 2026 09:00:00').getTime();
+            const now = new Date().getTime();
+            const diff = targetDate - now;
+
+            if (diff > 0) {
+                const days = Math.floor(diff / (1000 * 60 * 60 * 24));
+                const hours = Math.floor((diff % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+                const minutes = Math.floor((diff % (1000 * 60 * 60)) / (1000 * 60));
+                const seconds = Math.floor((diff % (1000 * 60)) / 1000);
+
+                document.getElementById('days').textContent = days;
+                document.getElementById('hours').textContent = hours.toString().padStart(2, '0');
+                document.getElementById('minutes').textContent = minutes.toString().padStart(2, '0');
+                document.getElementById('seconds').textContent = seconds.toString().padStart(2, '0');
+            } else {
+                document.getElementById('days').textContent = '0';
+                document.getElementById('hours').textContent = '00';
+                document.getElementById('minutes').textContent = '00';
+                document.getElementById('seconds').textContent = '00';
+            }
+        }
+
+        updateCountdown();
+        setInterval(updateCountdown, 1000);
     </script>
 </body>
 

@@ -57,3 +57,4 @@ This project is 2018 and onwards bangkok.rb. It is free software, and may be red
 ## About
 
 This project is maintained by bangkok.rb
+

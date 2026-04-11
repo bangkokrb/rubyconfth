@@ -1,6 +1,6 @@
 {
   "dependencies": {
-    "@tailwindcss/cli": "^4.0.9"
+    "@tailwindcss/cli": "^4.2.2"
   },
   "scripts": {
     "build": "npx @tailwindcss/cli -i ./public/styles.css -o ./public/output.css",
@@ -9,7 +9,7 @@
     "dev": "concurrently npm:dev:*"
   },
   "devDependencies": {
-    "concurrently": "^9.1.2",
-    "serve": "^14.2.4"
+    "concurrently": "^9.2.1",
+    "serve": "^14.2.6"
   }
 }

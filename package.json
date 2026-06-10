@@ -9,7 +9,7 @@
     "dev": "concurrently npm:dev:*"
   },
   "devDependencies": {
-    "concurrently": "^9.2.1",
+    "concurrently": "^10.0.3",
     "serve": "^14.2.6"
   }
 }
